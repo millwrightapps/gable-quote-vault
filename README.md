@@ -46,3 +46,21 @@ The importer selects up to ten short weather-related excerpts per transcript. It
 The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads at most two previously unprocessed transcript pages per run, with a pause between requests, and collects at most **one short excerpt (25 words maximum) per episode**. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
 
 Podscripts provides approximate **audio segment times**, not verified YouTube timestamps or speaker identities. These are stored separately in `source.audioSegmentTimestamp`; playback timestamps, links, and speakers remain unset. Human review is mandatory. Keyword filtering can still select an ad or an uninteresting/incomplete passage; reject those drafts. No automatic publication or paid transcription occurs. Regulation Search remains an alternative for manual cross-checking, not an integrated source.
+
+## Review dashboard (on your Mac)
+
+Run this from your local vault folder:
+
+```sh
+python3 scripts/review_server.py
+```
+
+Then open **http://127.0.0.1:8765**. Keep that process running while reviewing. This is a local dashboard, not a publicly hosted admin page; GitHub credentials stay in your local `gh` login. No API keys or paid speech service are used.
+
+Select a candidate → play its 35-second preview → correct words, speaker(s), episode and YouTube start time → confirm the recording and attribution policy → **Approve & publish**. Approval atomically moves the draft to `quotes/`, increments the revision and publishes the app feed on GitHub. A changed draft or concurrent GitHub update blocks publication rather than overwriting it. You need your existing `gh` login with repository write permission. Approvals are public Git commits. Keep unreviewed or unsuitable entries unapproved; “Review next” just skips them.
+
+**Speaker suggestions:** the local version only suggests a speaker when the exact quote and episode match an already human-reviewed entry with consistent credits. Its percentage measures text agreement, not voice confidence. Otherwise it shows Unknown / confidence unavailable. Imported Gemini speaker names are displayed only as unverified draft credits. Voice recognition is not configured. This avoids inventing confidence values before any confirmed voice samples exist.
+
+**Playback:** existing video IDs preview YouTube at the editable start time. Candidates without a video use the official feed's audio when the episode title matches; the player stops after 35 seconds. Feed ads may shift audio timing. The original transcript link remains available if audio or YouTube embedding fails. Approval requires a reviewed YouTube recording and timing.
+
+Each approval records the suggestion shown at review time and whether the reviewer agreed. This creates evaluation data for a future speaker model; no automatic-approval threshold is enabled.
