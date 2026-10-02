@@ -1,0 +1,29 @@
+{
+  "id": "reg_002",
+  "quote": "If you swear at the beginning, it hurts us algorithmically, and I need you to know that it hurts us algorithmically.",
+  "speaker": "ERIC_BAUDOUR",
+  "episode": 1,
+  "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+  "timestamp": "00:16",
+  "timestampSeconds": 16,
+  "youtubeVideoId": "U2EKjj8P9UM",
+  "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=16s",
+  "weatherTags": [
+    "monday",
+    "chaos",
+    "tired"
+  ],
+  "tags": [
+    "producer",
+    "rules",
+    "algorithm"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

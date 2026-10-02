@@ -1,0 +1,28 @@
+{
+  "id": "reg_044",
+  "quote": "I have three fans pointed directly at my face and a space heater pointed at my feet. It creates a microclimate.",
+  "speaker": "ANDREW_PANTON",
+  "show": "RP",
+  "episode": 8,
+  "episodeTitle": "The Fan Dilemma // Room Temperature Control [8]",
+  "timestamp": "21:40",
+  "timestampSeconds": 1300,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+8",
+  "weatherTags": [
+    "cold",
+    "hot",
+    "confusion"
+  ],
+  "tags": [
+    "microclimate",
+    "temperature",
+    "bedroom"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

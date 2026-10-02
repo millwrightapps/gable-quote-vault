@@ -1,0 +1,28 @@
+{
+  "id": "reg_043",
+  "quote": "It is 104 degrees outside. My tires were practically adhering to the asphalt. Why do I do this to myself?",
+  "speaker": "GEOFF_RAMSEY",
+  "show": "RP",
+  "episode": 5,
+  "episodeTitle": "Summer Cycling Hell // The Sweat Towel [5]",
+  "timestamp": "05:10",
+  "timestampSeconds": 310,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+5",
+  "weatherTags": [
+    "hot",
+    "suffering",
+    "sunny"
+  ],
+  "tags": [
+    "heat",
+    "cycling",
+    "summer"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

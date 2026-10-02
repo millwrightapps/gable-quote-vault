@@ -1,0 +1,29 @@
+{
+  "id": "reg_023",
+  "quote": "This is insane. What are we doing? Why are we discussing this?",
+  "speaker": "ERIC_BAUDOUR",
+  "episode": 95,
+  "episodeTitle": "The Sanity Check",
+  "timestamp": "15:22",
+  "timestampSeconds": 922,
+  "youtubeVideoId": null,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+95",
+  "weatherTags": [
+    "cloudy",
+    "confusion",
+    "monday"
+  ],
+  "tags": [
+    "producer",
+    "frustration",
+    "order"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

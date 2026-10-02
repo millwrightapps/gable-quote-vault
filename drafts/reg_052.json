@@ -1,0 +1,28 @@
+{
+  "id": "reg_052",
+  "quote": "I love a good Texas thunderstorm. Nothing beats the smell of ozone right before the sky unleashes utter chaos.",
+  "speaker": "GEOFF_RAMSEY",
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Thunderstorm Warnings // Big Dog Protocol [60]",
+  "timestamp": "12:05",
+  "timestampSeconds": 725,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+60",
+  "weatherTags": [
+    "storm",
+    "rain",
+    "outdoors"
+  ],
+  "tags": [
+    "texas",
+    "thunderstorm",
+    "rain"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "reg_027",
+  "quote": "The wind took my favorite hat and I decided not to fight it.",
+  "speaker": "NICK_SCHWARTZ",
+  "episode": 64,
+  "episodeTitle": "Lost Hat",
+  "timestamp": "11:50",
+  "timestampSeconds": 710,
+  "youtubeVideoId": null,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+64",
+  "weatherTags": [
+    "wind",
+    "cloudy"
+  ],
+  "tags": [
+    "hat",
+    "acceptance",
+    "wind"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

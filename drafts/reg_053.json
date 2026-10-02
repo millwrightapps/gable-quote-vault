@@ -1,0 +1,28 @@
+{
+  "id": "reg_053",
+  "quote": "It is minus four degrees. I put my coat on inside my house. That is an unacceptable indoor living situation.",
+  "speaker": "ANDREW_PANTON",
+  "show": "RP",
+  "episode": 75,
+  "episodeTitle": "The Freezing Point // Nanaimo Winter Report [75]",
+  "timestamp": "09:30",
+  "timestampSeconds": 570,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+75",
+  "weatherTags": [
+    "snow",
+    "cold",
+    "suffering"
+  ],
+  "tags": [
+    "winter",
+    "coat",
+    "indoor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "reg_024",
+  "quote": "It's raining sideways. Go inside. Nobody needs to be a hero out there.",
+  "speaker": "ERIC_BAUDOUR",
+  "episode": 50,
+  "episodeTitle": "Sideways Rain",
+  "timestamp": "38:40",
+  "timestampSeconds": 2320,
+  "youtubeVideoId": null,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+50",
+  "weatherTags": [
+    "rain",
+    "wind",
+    "storm"
+  ],
+  "tags": [
+    "practical",
+    "weather advice",
+    "rain"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

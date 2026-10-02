@@ -1,0 +1,28 @@
+{
+  "id": "reg_050",
+  "quote": "The wind caught my napkin, and I just watched it fly into the stratosphere without even trying to grab it.",
+  "speaker": "NICK_SCHWARTZ",
+  "show": "RP",
+  "episode": 40,
+  "episodeTitle": "Windy Day Observation // Hat Lost to History [40]",
+  "timestamp": "27:14",
+  "timestampSeconds": 1634,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+40",
+  "weatherTags": [
+    "wind",
+    "chaos",
+    "random"
+  ],
+  "tags": [
+    "wind",
+    "acceptance",
+    "napkin"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

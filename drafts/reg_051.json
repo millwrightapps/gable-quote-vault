@@ -1,0 +1,28 @@
+{
+  "id": "reg_051",
+  "quote": "My phone just buzzed with four different severe thunderstorm alerts. That means turn off your stream and stay inside.",
+  "speaker": "ERIC_BAUDOUR",
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Thunderstorm Warnings // Big Dog Protocol [60]",
+  "timestamp": "11:20",
+  "timestampSeconds": 680,
+  "listenUrl": "https://www.youtube.com/results?search_query=The+Regulation+Podcast+Episode+60",
+  "weatherTags": [
+    "storm",
+    "rain",
+    "chaos"
+  ],
+  "tags": [
+    "alerts",
+    "nws",
+    "storm"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

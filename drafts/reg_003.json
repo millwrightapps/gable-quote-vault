@@ -1,0 +1,29 @@
+{
+  "id": "reg_003",
+  "quote": "We did 205 episodes of a previous podcast... and then we all lost our jobs, so now we're doing it again with a different name.",
+  "speaker": "GEOFF_RAMSEY",
+  "episode": 1,
+  "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+  "timestamp": "03:03",
+  "timestampSeconds": 183,
+  "youtubeVideoId": "U2EKjj8P9UM",
+  "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=183s",
+  "weatherTags": [
+    "cloudy",
+    "monday",
+    "mundane"
+  ],
+  "tags": [
+    "history",
+    "origin",
+    "jobs"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}

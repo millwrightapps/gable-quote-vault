@@ -1,0 +1,30 @@
+{
+  "id": "reg_010",
+  "quote": "Gavin: ‘Health is like an iPhone that’s a couple years old where it gets to like 9% and then just turns off.’\nGeoff: ‘Yeah, when you get below 20%, you have no idea.’",
+  "speaker": "GAVIN_FREE",
+  "episode": 17,
+  "episodeTitle": "Olympics Over/Under Results // Dog Days of Summer [17]",
+  "timestamp": "17:45",
+  "timestampSeconds": 1065,
+  "youtubeVideoId": "8nq5DyRPHN0",
+  "listenUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=1065s",
+  "weatherTags": [
+    "hot",
+    "suffering",
+    "tired"
+  ],
+  "tags": [
+    "health",
+    "battery",
+    "technology"
+  ],
+  "show": "RP",
+  "secondarySpeaker": "GEOFF_RAMSEY",
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+  }
+}
