@@ -1,0 +1,28 @@
+{
+  "id": "podscripts_615830cf5c08549e2146",
+  "quote": "Get groceries delivered to your door from No Frills with PC Express.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 61,
+  "episodeTitle": "Regulation Podcast - Geoff's Kerfuffle & A Half // Engaging in the Doggery [61]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/geoffs-kerfuffle-a-half-engaging-in-the-doggery-61",
+    "audioSegmentTimestamp": "00:00:00"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/geoffs-kerfuffle-a-half-engaging-in-the-doggery-61",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
