@@ -94,42 +94,45 @@ def fetch(url):
     return page
 
 
-def collect(root=ROOT):
+def collect(root=ROOT, target=10, max_episodes=20):
     state_path = root / 'inbox/podscripts_processed.json'
     state = json.loads(state_path.read_text()) if state_path.exists() else []
     processed = set(state if isinstance(state, list) else state['processed'])
     page_number = 1 if isinstance(state, list) else state.get('nextPage', 1)
-    urls = []
-    # Always check the latest episodes, then continue through older index pages.
-    latest = fetch(INDEX)
-    urls = [u for u in latest.links if u not in processed]
-    if not urls:
-        for _ in range(3):
-            page_number = max(2, page_number)
-            page = fetch(INDEX.rstrip('/') + f'?page={page_number}')
-            urls = [u for u in page.links if u not in processed]
-            if urls:
+    added = checked = index_pages = 0
+    deadline = time.monotonic() + 120
+    # Fill a batch across index pages, rather than stopping at the first two episodes.
+    urls = fetch(INDEX).links
+    while time.monotonic() < deadline:
+        for url in urls:
+            if url in processed:
+                continue
+            if added >= target or checked >= max_episodes or time.monotonic() >= deadline:
                 break
-            if not page.links:
-                page_number = 1
-                break
-            page_number += 1
-    added = 0
-    checked = 0
-    for url in urls[:2]:
-        time.sleep(2)
-        page = fetch(url)
-        if not page.segments:
-            raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
-        q = candidate(page, url)
-        if q:
-            target = root / 'drafts' / (q['id'] + '.json')
-            approved = root / 'quotes' / target.name
-            if not target.exists() and not approved.exists():
-                target.write_text(json.dumps(q, indent=2, ensure_ascii=False) + '\n')
-                added += 1
-        processed.add(url)
-        checked += 1
+            time.sleep(2)
+            page = fetch(url)
+            if not page.segments:
+                raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
+            q = candidate(page, url)
+            if q:
+                target_path = root / 'drafts' / (q['id'] + '.json')
+                approved = root / 'quotes' / target_path.name
+                if not target_path.exists() and not approved.exists():
+                    target_path.write_text(json.dumps(q, indent=2, ensure_ascii=False) + '\n')
+                    added += 1
+            processed.add(url)
+            checked += 1
+        if added >= target or checked >= max_episodes or time.monotonic() >= deadline:
+            break
+        if index_pages >= 4:
+            break
+        # Revisit the saved page until exhausted, so partially read pages lose no episodes.
+        page_number = max(2, page_number) if index_pages == 0 else page_number + 1
+        urls = fetch(INDEX.rstrip('/') + f'?page={page_number}').links
+        index_pages += 1
+        if not urls:
+            page_number = 1
+            break
     state_path.write_text(json.dumps(dict(processed=sorted(processed), nextPage=page_number), indent=2) + '\n')
     return dict(added=added, checked=checked)
 

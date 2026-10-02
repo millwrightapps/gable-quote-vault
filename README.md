@@ -43,7 +43,7 @@ The importer selects up to ten short excerpts on any topic per transcript. It us
 
 ### Podscripts collection is enabled
 
-The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads at most two previously unprocessed transcript pages per run, with a pause between requests, and collects at most **one short excerpt (25 words maximum) per episode**. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
+The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads up to 20 previously unprocessed transcript pages per run, aiming for 10 new candidates, with a pause between requests, and collects at most **one short excerpt (25 words maximum) per episode**. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
 
 Podscripts provides approximate **audio segment times**, not verified YouTube timestamps or speaker identities. These are stored separately in `source.audioSegmentTimestamp`; playback timestamps, links, and speakers remain unset. Human review is mandatory. Keyword filtering can still select an ad or an uninteresting/incomplete passage; reject those drafts. No automatic publication or paid transcription occurs. Regulation Search remains an alternative for manual cross-checking, not an integrated source.
 
@@ -65,8 +65,10 @@ Select a candidate → play its 35-second preview → correct words, speaker(s),
 
 Each approval records the suggestion shown at review time and whether the reviewer agreed. This creates evaluation data for a future speaker model; no automatic-approval threshold is enabled.
 
-**Refresh queue** collects more candidates on demand, saves them to GitHub, and reloads the review list. Each click checks up to two transcript pages; after recent episodes are exhausted it walks older index pages. It reports how many candidates were found and never publishes them as approved. Local uncommitted vault edits block collection to avoid mixing your work with imported drafts.
+**Refresh queue** collects more candidates on demand, saves them to GitHub, and reloads the review list. Each click aims for 10 candidates, checking up to 20 transcript pages; after recent episodes are exhausted it walks older index pages. It reports how many candidates were found and never publishes them as approved. Local uncommitted vault edits block collection to avoid mixing your work with imported drafts.
 
 **Add quote** opens a manual-entry form. Enter the quote, show, episode number/title, and an optional source link. **Save draft** writes only your entry to GitHub and selects it for review. It does not fetch transcripts or approve the quote. Speakers and playback timing are checked separately before publication.
 
 Collection includes general podcast moments, jokes, stories, and lore—not only weather. New candidates receive the `random` tag so they fit the app’s general quote pool; reviewers can replace it with more specific weather or mood tags. Existing drafts and review decisions are preserved.
+
+Batch collection stops after 10 new candidates, 20 episodes, four older index pages, or about two minutes (an in-flight request may finish afterward). It keeps looking past supplemental episodes and unsuitable excerpts. One short excerpt per source is retained.

@@ -50,9 +50,37 @@ class CollectionTests(unittest.TestCase):
             older = TranscriptParser(); older.links=[new]
             transcript = PodscriptsTests().page()
             with patch('collect_podscripts.fetch', side_effect=[latest,older,transcript]), patch('collect_podscripts.time.sleep'):
-                result = collect(root)
+                result = collect(root, target=1)
             self.assertEqual({'added':1,'checked':1},result)
             state=json.loads((root/'inbox/podscripts_processed.json').read_text())
             self.assertEqual(2,state['nextPage'])
             self.assertEqual({old,new},set(state['processed']))
             self.assertEqual(1,len(list((root/'drafts').glob('*.json'))))
+
+    def test_batch_keeps_looking_after_unsuitable_episode(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from collect_podscripts import collect, INDEX
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for folder in ('drafts', 'quotes', 'inbox'): (root/folder).mkdir()
+            index = TranscriptParser(); index.links=[INDEX+str(i) for i in range(12)]
+            unsuitable = PodscriptsTests().page('Supplemental')
+            suitable = PodscriptsTests().page()
+            with patch('collect_podscripts.fetch', side_effect=[index, unsuitable]+[suitable]*10), patch('collect_podscripts.time.sleep'):
+                result=collect(root)
+            self.assertEqual({'added':10,'checked':11},result)
+            self.assertEqual(10,len(list((root/'drafts').glob('*.json'))))
+
+    def test_episode_cap_stops_batch_without_candidates(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from collect_podscripts import collect, INDEX
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for folder in ('drafts', 'quotes', 'inbox'): (root/folder).mkdir()
+            index=TranscriptParser(); index.links=[INDEX+str(i) for i in range(30)]
+            with patch('collect_podscripts.fetch', side_effect=[index]+[PodscriptsTests().page('Supplemental')]*20), patch('collect_podscripts.time.sleep'):
+                self.assertEqual({'added':0,'checked':20},collect(root))

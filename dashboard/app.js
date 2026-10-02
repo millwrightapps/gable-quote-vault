@@ -16,7 +16,7 @@ async function load(){try{const r=await fetch('/api/queue');if(!r.ok)throw Error
 $('reload').onclick=async()=>{
  if(busy)return;
  if(current&&dirty&&!confirm('Collect more quotes and leave this unsaved review?'))return;
- busy=true;$('reload').disabled=true;$('reload').textContent='Finding more…';message('Checking new and older episodes for more candidates…');
+ busy=true;$('reload').disabled=true;$('reload').textContent='Finding more…';message('Finding up to 10 new candidates. This can take about two minutes…');
  try{const response=await fetch('/api/refresh',{method:'POST',headers:{'X-Review-Token':token}});const result=await response.json();if(!response.ok)throw Error(result.error);$('search').value='';await load();message(result.message);}
  catch(error){message(error.message);}
  finally{busy=false;$('reload').disabled=false;$('reload').textContent='Refresh queue';}
