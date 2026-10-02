@@ -103,6 +103,7 @@ def collect(root=ROOT, target=10, max_episodes=20):
     cooldown = 0 if isinstance(state, list) else state.get('cooldownUntil', 0)
     if cooldown > time.time():
         return dict(added=0, checked=0, retryAfter=int(cooldown-time.time())+1)
+    cooldown = 0
     def source_page(url):
         nonlocal cooldown
         try:
