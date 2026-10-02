@@ -8,7 +8,6 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-WORDS = re.compile(r'\b(rain|snow|wind|sun|cold|hot|heat|storm|cloud|fog|weather|temperature|freezing)\b', re.I)
 
 
 def candidates(transcript):
@@ -23,7 +22,7 @@ def candidates(transcript):
         start = segment['start']
         if not isinstance(start, (int, float)) or not math.isfinite(start) or start < 0:
             raise ValueError('Invalid segment time')
-        if not 30 <= len(text) <= 240 or not WORDS.search(text):
+        if not 30 <= len(text) <= 240:
             continue
         seconds = int(start)
         key = 'candidate_' + hashlib.sha256(f'{video}:{seconds}:{text}'.encode()).hexdigest()[:20]
@@ -31,7 +30,7 @@ def candidates(transcript):
         results[key] = dict(id=key, quote=text, speaker=None, show=transcript['show'],
             episode=transcript['episode'], episodeTitle=transcript['episodeTitle'],
             timestamp=f'{seconds // 60:02d}:{seconds % 60:02d}', timestampSeconds=seconds,
-            youtubeVideoId=video, listenUrl=url, weatherTags=[], tags=[],
+            youtubeVideoId=video, listenUrl=url, weatherTags=["random"], tags=[],
             review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
                         notes='Transcript candidate. Listen to identify every speaker and verify exact wording and timing.'))
         if len(results) >= 10:

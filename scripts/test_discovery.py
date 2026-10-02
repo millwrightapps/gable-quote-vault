@@ -24,6 +24,12 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual('draft', result[0]['review']['status'])
         self.assertEqual(62, result[0]['timestampSeconds'])
         self.assertEqual(result, candidates(transcript))
+    def test_general_transcript_moments_are_collected(self):
+        result = candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=62, text='Nobody expected the pencil argument to become an entire episode.')]))
+        self.assertEqual(1, len(result))
+        self.assertEqual(['random'], result[0]['weatherTags'])
+        self.assertIsNone(result[0]['speaker'])
+
     def test_reject_negative_time(self):
         with self.assertRaises(ValueError):
             candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=-1, text='The weather is cold in this synthetic test fixture.')]))

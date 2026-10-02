@@ -8,7 +8,6 @@ import re
 import time
 import urllib.request
 from urllib.parse import urljoin, urlparse
-from import_transcript import WORDS
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = 'https://podscripts.co/podcasts/regulation-podcast/'
@@ -63,7 +62,7 @@ def candidate(page, url):
         for sentence in re.split(r'(?<=[.!?])\s+', block):
             words = sentence.split()
             # One brief excerpt per source; omit ads and incomplete fragments.
-            if not (8 <= len(words) <= 25 and WORDS.search(sentence)):
+            if not (8 <= len(words) <= 25):
                 continue
             if re.search(r'\b(sponsor|promo|discount|advertis|offer|insurance|visit|\.com)\b', sentence, re.I):
                 continue
@@ -72,7 +71,7 @@ def candidate(page, url):
             key = 'podscripts_' + hashlib.sha256(url.encode()).hexdigest()[:20]
             return dict(id=key, quote=sentence, speaker=None, show='RP', episode=int(episode.group(1)),
                 episodeTitle=page.title, timestamp=None, timestampSeconds=None, youtubeVideoId=None,
-                listenUrl=None, weatherTags=[], tags=[],
+                listenUrl=None, weatherTags=["random"], tags=[],
                 source=dict(provider='Podscripts', url=url, audioSegmentTimestamp=stamp),
                 review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
                     notes='Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.'))

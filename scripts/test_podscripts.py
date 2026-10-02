@@ -14,6 +14,19 @@ class PodscriptsTests(unittest.TestCase):
         self.assertEqual('00:03:20', q['source']['audioSegmentTimestamp'])
         self.assertLessEqual(len(q['quote'].split()), 25)
         self.assertEqual('draft', q['review']['status'])
+    def test_general_lore_is_collected_without_weather_words(self):
+        page = self.page()
+        page.segments = [('00:10:00', 'Nobody expected the pencil argument to become an entire episode.')]
+        q = candidate(page, 'https://podscripts.co/podcasts/regulation-podcast/test')
+        self.assertIsNotNone(q)
+        self.assertEqual(['random'], q['weatherTags'])
+        self.assertIsNone(q['speaker'])
+
+    def test_promotional_passages_still_excluded(self):
+        page = self.page()
+        page.segments = [('00:10:00', 'Our sponsor has an incredible offer for every listener today.')]
+        self.assertIsNone(candidate(page, 'https://podscripts.co/podcasts/regulation-podcast/test'))
+
     def test_supplemental_not_assigned_episode(self):
         self.assertIsNone(candidate(self.page('Special'), 'https://example.com'))
     def test_repeated_index_links_deduplicate(self):
