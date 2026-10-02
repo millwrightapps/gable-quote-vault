@@ -1,0 +1,26 @@
+{
+  "id": "podscripts_7180c092070d272d51c8",
+  "quote": "Well, it's a hot plate, so it would heat the powder.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 120,
+  "episodeTitle": "Regulation Podcast - Zen Mode // Andrew vs Polls [120]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/zen-mode-andrew-vs-polls-120",
+    "audioSegmentTimestamp": "00:16:11"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/zen-mode-andrew-vs-polls-120",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
