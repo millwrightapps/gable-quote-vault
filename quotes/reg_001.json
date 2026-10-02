@@ -1,0 +1,41 @@
+{
+  "id": "reg_001",
+  "quote": "Gavin: 'There was a day where that horse was born...'\nGeoff: 'It had a lot of hopes and dreams... parents thought it could someday be horse president.'",
+  "speaker": "GAVIN_FREE",
+  "episode": 1,
+  "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+  "timestamp": "28:45",
+  "timestampSeconds": 1725,
+  "youtubeVideoId": "U2EKjj8P9UM",
+  "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=1725s",
+  "weatherTags": [
+    "random",
+    "cloudy",
+    "confusion"
+  ],
+  "tags": [
+    "animals",
+    "existential",
+    "horse"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-02",
+    "sourceUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=1725s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "secondarySpeaker": "GEOFF_RAMSEY"
+}
