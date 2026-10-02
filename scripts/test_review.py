@@ -36,3 +36,16 @@ class ReviewTests(unittest.TestCase):
         gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'tree'}},{'tree':[]}]
         with self.assertRaises(ValueError): publish(self.draft(), self.edits())
         self.assertTrue(all(call.kwargs.get('method','GET')=='GET' for call in gh.call_args_list))
+
+class ManualDraftTests(unittest.TestCase):
+    def test_manual_entry_is_unverified_and_deduplicated(self):
+        from review_server import manual_draft
+        body=dict(quote='A synthetic example.',show='RP',episode=1,episodeTitle='Test',sourceUrl='https://example.com')
+        a=manual_draft(body)
+        self.assertEqual(a['id'],manual_draft(body)['id'])
+        self.assertIsNone(a['speaker'])
+        self.assertEqual('draft',a['review']['status'])
+    def test_bad_source_rejected(self):
+        from review_server import manual_draft
+        with self.assertRaises(ValueError):
+            manual_draft(dict(quote='Example',show='RP',episode=1,episodeTitle='Test',sourceUrl='javascript:alert(1)'))

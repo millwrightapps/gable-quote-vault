@@ -24,3 +24,15 @@ $('reload').onclick=async()=>{
 $('form').addEventListener('input',e=>{dirty=true;if(e.target.id!=='confirmed')$('confirmed').checked=false;});
 $('form').onsubmit=async e=>{e.preventDefault();if(busy||!current)return;busy=true;$('approve').disabled=true;$('approve').textContent='Publishing…';const q=current;const edits={quote:$('quote').value.trim(),speaker:$('speaker').value,secondarySpeaker:$('secondary').value,show:$('show').value,episode:Number($('number').value),episodeTitle:$('title').value.trim(),youtubeVideoId:$('videoid').value.trim(),timestampSeconds:Number($('seconds').value),weatherTags:$('tags').value.split(',').map(x=>x.trim()).filter(Boolean),confirmed:$('confirmed').checked};try{const r=await fetch('/api/approve',{method:'POST',headers:{'Content-Type':'application/json','X-Review-Token':token},body:JSON.stringify({id:q.quote.id,fingerprint:q.fingerprint,edits})});const data=await r.json();if(!r.ok)throw Error(data.error);message(data.message);await load();}catch(e){message(e.message);}finally{busy=false;$('approve').disabled=false;$('approve').textContent='Approve & publish';}};
 load();
+
+$('add').onclick=()=>{if(!busy){$('add-form').reset();$('add-error').textContent='';$('add-dialog').showModal();}};
+$('cancel-add').onclick=()=>{if(!busy)$('add-dialog').close();};
+$('add-dialog').addEventListener('cancel',e=>{if(busy)e.preventDefault();});
+$('add-form').onsubmit=async e=>{
+ e.preventDefault();if(busy)return;
+ if(dirty&&!confirm('Save this new draft and leave the unsaved review?'))return;
+ busy=true;$('save-draft').disabled=true;$('save-draft').textContent='Saving…';$('add-error').textContent='';
+ try{const response=await fetch('/api/drafts',{method:'POST',headers:{'Content-Type':'application/json','X-Review-Token':token},body:JSON.stringify({quote:$('new-quote').value,show:$('new-show').value,episode:Number($('new-episode').value),episodeTitle:$('new-title').value,sourceUrl:$('new-source').value})});const data=await response.json();if(!response.ok)throw Error(data.error);$('add-dialog').close();$('search').value='';await load();const added=rows.find(r=>r.quote.id===data.id);if(added)select(added);message(data.message);}
+ catch(error){$('add-error').textContent=error.message;}
+ finally{busy=false;$('save-draft').disabled=false;$('save-draft').textContent='Save draft';}
+};

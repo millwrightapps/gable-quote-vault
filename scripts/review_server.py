@@ -163,6 +163,43 @@ def refresh_queue():
         REFRESH_LOCK.release()
 
 
+def manual_draft(body):
+    text = str(body.get('quote', '')).strip()
+    title = str(body.get('episodeTitle', '')).strip()
+    show, episode = body.get('show'), body.get('episode')
+    if not 1 <= len(text) <= 2000 or not title or len(title) > 300:
+        raise ValueError('Enter the quote and episode title.')
+    if show not in ('RP', 'FF') or type(episode) is not int or episode < 1:
+        raise ValueError('Choose the show and a valid episode number.')
+    source = str(body.get('sourceUrl', '')).strip()
+    if source and not source.startswith('https://'):
+        raise ValueError('Source links must start with https://.')
+    # Same text in the same episode receives the same ID, preventing double-click duplicates.
+    key = hashlib.sha256(f'{show}:{episode}:{normalize(text)}'.encode()).hexdigest()[:20]
+    return dict(id='manual_'+key, quote=text, speaker=None, show=show, episode=episode,
+        episodeTitle=title, timestamp=None, timestampSeconds=None, youtubeVideoId=None,
+        listenUrl=None, weatherTags=[], tags=[], source=dict(provider='Manual entry', url=source),
+        review=dict(status='draft', reviewer='', sourceUrl=source, checkedAt='',
+                    notes='Manually added. Verify recording, speaker credits, and timing before approval.'))
+
+
+def add_draft(body):
+    q = manual_draft(body)
+    head = gh('git/ref/heads/main')['object']['sha']
+    base = gh('git/commits/' + head)['tree']['sha']
+    entries = gh('git/trees/' + base + '?recursive=1')
+    if entries.get('truncated'):
+        raise ValueError('Vault is too large for this operation.')
+    if any(e['path'] in ('drafts/'+q['id']+'.json', 'quotes/'+q['id']+'.json') for e in entries['tree']):
+        raise ValueError('This manual quote is already in the vault.')
+    tree = gh('git/trees', dict(base_tree=base, tree=[dict(path='drafts/'+q['id']+'.json', mode='100644',
+        type='blob', content=json.dumps(q, indent=2, ensure_ascii=False)+'\n')]), 'POST')['sha']
+    commit = gh('git/commits', dict(message='Add manually entered quote for review', tree=tree, parents=[head]), 'POST')['sha']
+    gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
+    subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
+    return dict(id=q['id'], message='Quote saved to drafts. No transcripts were pulled and nothing was published to the app.')
+
+
 class Handler(BaseHTTPRequestHandler):
     def setup(self):
         super().setup()
@@ -204,13 +241,15 @@ class Handler(BaseHTTPRequestHandler):
                 return self.reply(200, refresh_queue())
             except Exception as error:
                 return self.reply(400, {'error':str(error) or 'Could not collect quotes. Your queue is unchanged; try again.'})
-        if self.path != '/api/approve':
+        if self.path not in ('/api/approve', '/api/drafts'):
             return self.reply(404, {'error':'Not found'})
         try:
             size = int(self.headers.get('Content-Length', '0'))
             if not 0 < size < 32768:
                 raise ValueError('Invalid request size')
             body = json.loads(self.rfile.read(size))
+            if self.path == '/api/drafts':
+                return self.reply(200, add_draft(body))
             if not re.fullmatch('[a-z0-9_]+', body['id']):
                 raise ValueError('Invalid quote')
             path = ROOT/'drafts'/(body['id']+'.json')
