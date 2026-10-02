@@ -84,3 +84,22 @@ class CollectionTests(unittest.TestCase):
             index=TranscriptParser(); index.links=[INDEX+str(i) for i in range(30)]
             with patch('collect_podscripts.fetch', side_effect=[index]+[PodscriptsTests().page('Supplemental')]*20), patch('collect_podscripts.time.sleep'):
                 self.assertEqual({'added':0,'checked':20},collect(root))
+
+    def test_rate_limit_preserves_partial_batch_and_cooldown_blocks_network(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from urllib.error import HTTPError
+        from collect_podscripts import collect, INDEX
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            for folder in ('drafts','quotes','inbox'): (root/folder).mkdir()
+            index=TranscriptParser();index.links=[INDEX+'a',INDEX+'b']
+            with patch('collect_podscripts.fetch', side_effect=[index,PodscriptsTests().page(),HTTPError(INDEX,429,'Limited',{},None)]), patch('collect_podscripts.time.sleep'):
+                result=collect(root)
+            self.assertEqual(1,result['added'])
+            self.assertGreater(result['retryAfter'],0)
+            with patch('collect_podscripts.fetch') as fetch:
+                result=collect(root)
+                fetch.assert_not_called()
+                self.assertGreater(result['retryAfter'],0)

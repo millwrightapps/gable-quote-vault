@@ -157,6 +157,9 @@ def refresh_queue():
                 gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
                 subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
         load_media()
+        if result.get('retryAfter'):
+            minutes = (result['retryAfter'] + 59) // 60
+            return dict(**result, message=f"Added {result['added']} candidate(s). Podscripts is limiting requests; try again in {minutes} minute(s). Your existing queue is ready to review.")
         return dict(**result, message=(f"Added {result['added']} new candidate(s) from {result['checked']} episode(s)."
                     if result['added'] else f"Checked {result['checked']} episode(s); no suitable new quotes this time. Try again to continue through older episodes."))
     finally:

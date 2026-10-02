@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 import time
 import urllib.request
+import urllib.error
 from urllib.parse import urljoin, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -99,18 +100,42 @@ def collect(root=ROOT, target=10, max_episodes=20):
     state = json.loads(state_path.read_text()) if state_path.exists() else []
     processed = set(state if isinstance(state, list) else state['processed'])
     page_number = 1 if isinstance(state, list) else state.get('nextPage', 1)
+    cooldown = 0 if isinstance(state, list) else state.get('cooldownUntil', 0)
+    if cooldown > time.time():
+        return dict(added=0, checked=0, retryAfter=int(cooldown-time.time())+1)
+    def source_page(url):
+        nonlocal cooldown
+        try:
+            return fetch(url)
+        except urllib.error.HTTPError as error:
+            if error.code != 429:
+                raise
+            retry = error.headers.get('Retry-After', '300') if error.headers else '300'
+            try:
+                delay = max(300, int(retry))
+            except ValueError:
+                from email.utils import parsedate_to_datetime
+                try:
+                    delay = max(300, int(parsedate_to_datetime(retry).timestamp()-time.time()))
+                except (TypeError, ValueError):
+                    delay = 300
+            cooldown = time.time() + delay
+            return None
     added = checked = index_pages = 0
     deadline = time.monotonic() + 120
     # Fill a batch across index pages, rather than stopping at the first two episodes.
-    urls = fetch(INDEX).links
-    while time.monotonic() < deadline:
+    latest = source_page(INDEX)
+    urls = latest.links if latest else []
+    while not cooldown and time.monotonic() < deadline:
         for url in urls:
             if url in processed:
                 continue
-            if added >= target or checked >= max_episodes or time.monotonic() >= deadline:
+            if cooldown or added >= target or checked >= max_episodes or time.monotonic() >= deadline:
                 break
-            time.sleep(2)
-            page = fetch(url)
+            time.sleep(5)
+            page = source_page(url)
+            if page is None:
+                break
             if not page.segments:
                 raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
             q = candidate(page, url)
@@ -122,19 +147,25 @@ def collect(root=ROOT, target=10, max_episodes=20):
                     added += 1
             processed.add(url)
             checked += 1
-        if added >= target or checked >= max_episodes or time.monotonic() >= deadline:
+        if cooldown or added >= target or checked >= max_episodes or time.monotonic() >= deadline:
             break
         if index_pages >= 4:
             break
         # Revisit the saved page until exhausted, so partially read pages lose no episodes.
         page_number = max(2, page_number) if index_pages == 0 else page_number + 1
-        urls = fetch(INDEX.rstrip('/') + f'?page={page_number}').links
+        older = source_page(INDEX.rstrip('/') + f'?page={page_number}')
+        if older is None:
+            break
+        urls = older.links
         index_pages += 1
         if not urls:
             page_number = 1
             break
-    state_path.write_text(json.dumps(dict(processed=sorted(processed), nextPage=page_number), indent=2) + '\n')
-    return dict(added=added, checked=checked)
+    state_path.write_text(json.dumps(dict(processed=sorted(processed), nextPage=page_number, cooldownUntil=cooldown), indent=2) + '\n')
+    result = dict(added=added, checked=checked)
+    if cooldown:
+        result["retryAfter"] = max(1, int(cooldown-time.time())+1)
+    return result
 
 
 def main():
