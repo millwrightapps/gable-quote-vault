@@ -1,0 +1,26 @@
+{
+  "id": "podscripts_0dc31ba4b822c97f6d97",
+  "quote": "It's been about the same temperature every night.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 121,
+  "episodeTitle": "Regulation Podcast - Bermuda Triangle of Bike Problems // Generational Lab Work [121]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/bermuda-triangle-of-bike-problems-generational-lab-work-121",
+    "audioSegmentTimestamp": "00:12:38"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/bermuda-triangle-of-bike-problems-generational-lab-work-121",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
