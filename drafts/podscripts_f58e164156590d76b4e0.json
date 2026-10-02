@@ -1,0 +1,28 @@
+{
+  "id": "podscripts_f58e164156590d76b4e0",
+  "quote": "This is number 57 and going by our 2025 nicknames, I am Baby Pepsi with me as always.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 57,
+  "episodeTitle": "Regulation Podcast - Back on the Pap // Low Stakes Blame [57]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/back-on-the-pap-low-stakes-blame-57",
+    "audioSegmentTimestamp": "00:00:00"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/back-on-the-pap-low-stakes-blame-57",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
