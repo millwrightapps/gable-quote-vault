@@ -13,7 +13,7 @@ The imported 54 entries are **unverified drafts**, not confirmed quotations. The
 3. For dialogue, credit both speakers with `speaker` and `secondarySpeaker`; retain speaker labels in the text. Split passages with more than two speakers into separate quotes.
 4. Set `review.status` to `verified`, `review.reviewer` to your name, `review.checkedAt` to `YYYY-MM-DD`, and `review.sourceUrl` to the exact timestamped `listenUrl`. Set `wordingChecked`, `speakersChecked`, `episodeChecked`, `timestampChecked`, and `attributionPolicyChecked` to `true` only after reviewing them.
 5. Move the reviewed file to `quotes/`. Increase `revision` in `catalog.json` for every published change, including corrections and removals.
-6. Run `python3 scripts/build_catalog.py`, then `python3 -m unittest discover -s scripts -p 'test_*.py'`. Commit the quote, manifest, and generated `published/catalog.json` together. A validation workflow is provided in `workflow-examples/validate.yml`. To enable GitHub checks, copy it to `.github/workflows/validate.yml` using a GitHub login with workflow permission. The current publishing login cannot install workflows. Until enabled, run the local checks before each publication.
+6. Run `python3 scripts/build_catalog.py`, then `python3 -m unittest discover -s scripts -p 'test_*.py'`. Commit the quote, manifest, and generated `published/catalog.json` together. GitHub Actions runs catalog validation and regression tests on every push and pull request. Checks report failures; branch protection is not configured, so they do not prevent a direct push to main.
 
 The Android app reads `published/catalog.json`. A newer revision replaces the old catalog even if it has fewer quotes. Empty feeds keep the bundled catalog available; retired IDs are still removed. A device needs the updated app once to use this feed, then future catalog changes require no app release.
 
@@ -26,3 +26,17 @@ No new permission or endorsement is implied by this repository. Preserve the app
 ## Offline and practical limits
 
 The app keeps a last-known catalog and bundled fallback. Remote payloads are capped at 5 MB to protect phones; split into a future paged feed before reaching that size. This is a growing vault, not literally infinite storage. No API keys or private app code belong here.
+
+## Automatic discovery and transcript candidates
+
+A GitHub Action checks the official public podcast feed daily at 13:20 UTC and can also run manually from Actions → Discover episodes → Run workflow. It updates `inbox/episodes.json`, deduplicated by the feed's stable episode GUID. The initial queue has 426 episode/supplemental entries. Feed titles and descriptions are not treated as spoken quotes. GitHub scheduled runs may be delayed and can be disabled after prolonged repository inactivity.
+
+**The official feed currently contains no transcripts. Automatic episode discovery is live; automatic extraction from new episodes needs a transcript source.** No transcription service, paid API, or speaker recognition is configured.
+
+To extract candidates from a transcript you have, save a JSON file with `youtubeVideoId`, `show` (`RP` or `FF`), `episode`, `episodeTitle`, and `segments` (each with numeric `start` seconds and `text`). Then run:
+
+```sh
+python3 scripts/import_transcript.py /path/to/transcript.json
+```
+
+The importer selects up to ten short weather-related excerpts per transcript. It uses stable IDs, does not overwrite review work, and always leaves `speaker` unset and status `draft`. A caption segment may be incomplete or contain multiple voices; verify the recording before using it. This creates candidates only, never live app quotes. Keep transcripts out of the repository; commit only reviewed short excerpts or candidates that you intend to share.
