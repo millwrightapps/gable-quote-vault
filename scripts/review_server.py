@@ -12,6 +12,8 @@ import subprocess
 import urllib.request
 import xml.etree.ElementTree as ET
 import sys
+import time
+import ipaddress
 import tempfile
 import shutil
 import threading
@@ -24,6 +26,9 @@ from build_catalog import ROOT, SPEAKERS, validate
 REPO = 'millwrightapps/gable-quote-vault'
 TOKEN = secrets.token_urlsafe(32)
 MEDIA = {}
+PAIR_CODE = secrets.token_hex(6)
+PAIR_ATTEMPTS = []
+PAIR_LOCK = threading.Lock()
 
 
 def normalize(text):
@@ -218,11 +223,32 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(payload)
     def allowed(self):
-        return self.headers.get('Host') == f'127.0.0.1:{self.server.server_port}'
+        return self.headers.get('Host') in {f'{host}:{self.server.server_port}' for host in self.server.allowed_hosts}
+    def authenticated(self):
+        return self.client_address[0] == '127.0.0.1' or secrets.compare_digest(self.headers.get('X-Pair-Token', ''), TOKEN)
+    def pair(self):
+        with PAIR_LOCK:
+            now = time.monotonic()
+            PAIR_ATTEMPTS[:] = [stamp for stamp in PAIR_ATTEMPTS if now-stamp < 300]
+            if len(PAIR_ATTEMPTS) >= 10:
+                return self.reply(429, {'error':'Too many pairing attempts. Wait five minutes.'})
+            PAIR_ATTEMPTS.append(now)
+        try:
+            size = int(self.headers.get('Content-Length', '0'))
+            if not 0 < size < 1024:
+                raise ValueError()
+            code = json.loads(self.rfile.read(size)).get('code','')
+            if not isinstance(code, str) or not secrets.compare_digest(code.strip().lower(), PAIR_CODE):
+                return self.reply(401, {'error':'Pairing code does not match. Check the code shown on your Mac.'})
+            return self.reply(200, {'token':TOKEN})
+        except (ValueError, TypeError):
+            return self.reply(400, {'error':'Enter the pairing code shown on your Mac.'})
     def do_GET(self):
         if not self.allowed():
             return self.reply(403, {'error':'Use the local dashboard address.'})
         if self.path == '/api/queue':
+            if not self.authenticated():
+                return self.reply(401, {'error':'Pair this phone with the code shown on your Mac.'})
             approved = [json.loads(p.read_text()) for p in (ROOT/'quotes').glob('*.json')]
             rows = []
             for p in sorted((ROOT/'drafts').glob('*.json')):
@@ -236,8 +262,12 @@ class Handler(BaseHTTPRequestHandler):
         name = files[self.path]
         return self.reply(200, (ROOT/'dashboard'/name).read_bytes(), {'html':'text/html; charset=utf-8','js':'text/javascript','css':'text/css'}[name.split('.')[-1]])
     def do_POST(self):
-        origin = f'http://127.0.0.1:{self.server.server_port}'
-        if not self.allowed() or self.headers.get('Origin') != origin or not secrets.compare_digest(self.headers.get('X-Review-Token',''), TOKEN):
+        origin = f"http://{self.headers.get('Host')}"
+        if self.path == '/api/pair':
+            if not self.allowed() or self.headers.get('Origin') != origin:
+                return self.reply(403, {'error':'Use the dashboard address shown on your Mac.'})
+            return self.pair()
+        if not self.allowed() or not self.authenticated() or self.headers.get('Origin') != origin or not secrets.compare_digest(self.headers.get('X-Review-Token',''), TOKEN):
             return self.reply(403, {'error':'Refresh the local dashboard and try again.'})
         if self.path == '/api/refresh':
             try:
@@ -271,8 +301,16 @@ class Handler(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--port', type=int, default=8765)
+    parser.add_argument('--lan-ip', help='Private IPv4 address of this Mac for phone access')
     args = parser.parse_args()
+    if args.lan_ip:
+        address = ipaddress.ip_address(args.lan_ip)
+        if address.version != 4 or not address.is_private or address.is_loopback:
+            parser.error('--lan-ip must be your private LAN IPv4 address')
     load_media()
-    server = ThreadingHTTPServer(('127.0.0.1', args.port), Handler)
+    server = ThreadingHTTPServer(('0.0.0.0' if args.lan_ip else '127.0.0.1', args.port), Handler)
+    server.allowed_hosts = {'127.0.0.1'} | ({args.lan_ip} if args.lan_ip else set())
+    if args.lan_ip:
+        print(f'Phone: http://{args.lan_ip}:{args.port}  Pairing code: {PAIR_CODE}', flush=True)
     print(f'Review dashboard: http://127.0.0.1:{args.port}', flush=True)
     server.serve_forever()

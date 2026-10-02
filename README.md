@@ -72,3 +72,9 @@ Each approval records the suggestion shown at review time and whether the review
 Collection includes general podcast moments, jokes, stories, and lore—not only weather. New candidates receive the `random` tag so they fit the app’s general quote pool; reviewers can replace it with more specific weather or mood tags. Existing drafts and review decisions are preserved.
 
 Batch collection stops after 10 new candidates, 20 episodes, four older index pages, or about two minutes (an in-flight request may finish afterward). It keeps looking past supplemental episodes and unsuitable excerpts. One short excerpt per source is retained.
+
+## Review from your phone on the same Wi-Fi
+
+Double-click **Open Phone Quote Review.command** on the Mac. It prints a phone URL and a fresh pairing code. Connect the phone to the same trusted Wi-Fi, open that URL, and enter the code. Keep the Mac awake and the dashboard running. If another dashboard is already running, stop that process first to free port 8765.
+
+LAN mode requires pairing before reading drafts or making changes, keeps GitHub credentials on the Mac, checks the request host/origin, and limits pairing attempts. Pairing expires when the server restarts. This uses HTTP on your local network, so use trusted Wi-Fi only; no router port forwarding or public hosting is configured. The normal launcher remains local-only.
