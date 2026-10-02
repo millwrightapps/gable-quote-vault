@@ -1,0 +1,40 @@
+{
+  "id": "reg_013",
+  "quote": "There shouldn't be any fabric anywhere near a toilet, it's absolutely repulsive.",
+  "speaker": "GAVIN_FREE",
+  "episode": 84,
+  "episodeTitle": "The Coin Ordered the Coins // Gavin Free Drives with Me [84]",
+  "timestamp": "27:17",
+  "timestampSeconds": 1637,
+  "youtubeVideoId": "FO7BZ3oJnyc",
+  "listenUrl": "https://www.youtube.com/watch?v=FO7BZ3oJnyc&t=1637s",
+  "weatherTags": [
+    "cloudy",
+    "mundane",
+    "toilet"
+  ],
+  "tags": [
+    "toilets",
+    "hygiene",
+    "repulsion"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-02",
+    "sourceUrl": "https://www.youtube.com/watch?v=FO7BZ3oJnyc&t=1637s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  }
+}
