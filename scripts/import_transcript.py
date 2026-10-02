@@ -10,6 +10,15 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def is_intro(text):
+    """Reject routine show greetings and introductions, not ordinary dialogue."""
+    return bool(re.search(
+        r"\bwelcome(?:\s+back)?\b.{0,100}\b(?:regulation|podcast|episode|f\W*ckface)\b"
+        r"|\b(?:my name is|i(?:'|’)?m your host|your hosts? (?:are|is)|joining me today)\b",
+        text, re.I,
+    ))
+
+
 def candidates(transcript):
     video = transcript['youtubeVideoId']
     if not re.fullmatch(r'[A-Za-z0-9_-]{11}', video):
@@ -22,7 +31,7 @@ def candidates(transcript):
         start = segment['start']
         if not isinstance(start, (int, float)) or not math.isfinite(start) or start < 0:
             raise ValueError('Invalid segment time')
-        if not 30 <= len(text) <= 240:
+        if not 30 <= len(text) <= 240 or is_intro(text):
             continue
         seconds = int(start)
         key = 'candidate_' + hashlib.sha256(f'{video}:{seconds}:{text}'.encode()).hexdigest()[:20]

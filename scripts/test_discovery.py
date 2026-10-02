@@ -30,6 +30,10 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(['random'], result[0]['weatherTags'])
         self.assertIsNone(result[0]['speaker'])
 
+    def test_host_introductions_are_not_candidates(self):
+        result = candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=0, text='Hello and welcome to another episode of the Regulation Podcast.')]))
+        self.assertEqual([], result)
+
     def test_reject_negative_time(self):
         with self.assertRaises(ValueError):
             candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=-1, text='The weather is cold in this synthetic test fixture.')]))

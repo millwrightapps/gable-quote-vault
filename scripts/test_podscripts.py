@@ -27,6 +27,13 @@ class PodscriptsTests(unittest.TestCase):
         page.segments = [('00:10:00', 'Our sponsor has an incredible offer for every listener today.')]
         self.assertIsNone(candidate(page, 'https://podscripts.co/podcasts/regulation-podcast/test'))
 
+    def test_routine_show_introduction_is_skipped(self):
+        page = self.page()
+        page.segments = [('00:00:00', 'Hello and welcome to another episode of the Regulation Podcast.'),
+                         ('00:02:00', 'Nobody expected the pencil argument to become an entire episode.')]
+        q = candidate(page, 'https://podscripts.co/podcasts/regulation-podcast/test')
+        self.assertIn('pencil argument', q['quote'])
+
     def test_supplemental_not_assigned_episode(self):
         self.assertIsNone(candidate(self.page('Special'), 'https://example.com'))
     def test_repeated_index_links_deduplicate(self):

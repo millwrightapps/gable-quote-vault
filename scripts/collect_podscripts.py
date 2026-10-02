@@ -9,6 +9,7 @@ import time
 import urllib.request
 import urllib.error
 from urllib.parse import urljoin, urlparse
+from import_transcript import is_intro
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = 'https://podscripts.co/podcasts/regulation-podcast/'
@@ -63,7 +64,7 @@ def candidate(page, url):
         for sentence in re.split(r'(?<=[.!?])\s+', block):
             words = sentence.split()
             # One brief excerpt per source; omit ads and incomplete fragments.
-            if not (8 <= len(words) <= 25):
+            if not (8 <= len(words) <= 25) or is_intro(sentence):
                 continue
             if re.search(r'\b(sponsor|promo|discount|advertis|offer|insurance|visit|\.com)\b', sentence, re.I):
                 continue
