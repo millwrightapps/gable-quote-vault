@@ -19,10 +19,21 @@
   ],
   "show": "RP",
   "review": {
-    "status": "draft",
-    "reviewer": "",
-    "sourceUrl": "",
-    "checkedAt": "",
-    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-02",
+    "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=1742s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
   }
 }

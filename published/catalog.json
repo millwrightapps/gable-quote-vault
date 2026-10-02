@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
+  "revision": 3,
   "retiredIds": [
     "reg_047"
   ],
@@ -45,6 +45,45 @@
         "suggestionMatchedReview": null
       },
       "secondarySpeaker": "GEOFF_RAMSEY"
+    },
+    {
+      "id": "reg_007",
+      "quote": "You brush your lower teeth, then you flip the toothbrush to brush your upper teeth. You're doing the work twice! Why don't we invent a double-edged toothbrush, like a greatsword for toothbrushes?",
+      "speaker": "GEOFF_RAMSEY",
+      "episode": 2,
+      "episodeTitle": "Out Voted to Sit in Gavin's Chair // Strong Arm Democracy [2]",
+      "timestamp": "29:02",
+      "timestampSeconds": 1742,
+      "youtubeVideoId": "8iFnXevLs0c",
+      "listenUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=1742s",
+      "weatherTags": [
+        "random",
+        "sunny"
+      ],
+      "tags": [
+        "inventions",
+        "efficiency",
+        "teeth"
+      ],
+      "show": "RP",
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=1742s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      }
     }
   ]
 }
