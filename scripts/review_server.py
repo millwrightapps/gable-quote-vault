@@ -12,6 +12,12 @@ import subprocess
 import urllib.request
 import xml.etree.ElementTree as ET
 import sys
+import tempfile
+import shutil
+import threading
+from collect_podscripts import collect
+
+REFRESH_LOCK = threading.Lock()
 
 from build_catalog import ROOT, SPEAKERS, validate
 
@@ -125,6 +131,38 @@ def publish(draft, edits):
     return dict(message='Approved and published. Gable will load the new revision on its next sync.', url=f'https://github.com/{REPO}/commit/{new_commit}')
 
 
+def refresh_queue():
+    if not REFRESH_LOCK.acquire(blocking=False):
+        raise ValueError('A refresh is already running. Please wait.')
+    try:
+        # Use an isolated copy so a network failure never leaves half-imported local drafts.
+        status = subprocess.run(['git', 'status', '--porcelain'], cwd=ROOT, capture_output=True, text=True, check=True)
+        if status.stdout.strip():
+            raise ValueError('The vault has local edits. Save or commit them before collecting more quotes.')
+        subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, text=True, timeout=45, check=True)
+        head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
+        base = gh('git/commits/' + head)['tree']['sha']
+        with tempfile.TemporaryDirectory() as directory:
+            temp = Path(directory)
+            for folder in ('drafts', 'quotes', 'inbox'):
+                shutil.copytree(ROOT / folder, temp / folder)
+            result = collect(temp)
+            paths = [p for p in (temp/'drafts').glob('*.json') if not (ROOT/'drafts'/p.name).exists()]
+            paths.append(temp/'inbox/podscripts_processed.json')
+            changes = [dict(path=str(p.relative_to(temp)), mode='100644', type='blob', content=p.read_text())
+                       for p in paths if not (ROOT/p.relative_to(temp)).exists() or p.read_bytes() != (ROOT/p.relative_to(temp)).read_bytes()]
+            if changes:
+                tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
+                commit = gh('git/commits', dict(message='Collect more quote candidates from review dashboard', tree=tree, parents=[head]), 'POST')['sha']
+                gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
+                subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
+        load_media()
+        return dict(**result, message=(f"Added {result['added']} new candidate(s) from {result['checked']} episode(s)."
+                    if result['added'] else f"Checked {result['checked']} episode(s); no suitable new quotes this time. Try again to continue through older episodes."))
+    finally:
+        REFRESH_LOCK.release()
+
+
 class Handler(BaseHTTPRequestHandler):
     def setup(self):
         super().setup()
@@ -161,6 +199,11 @@ class Handler(BaseHTTPRequestHandler):
         origin = f'http://127.0.0.1:{self.server.server_port}'
         if not self.allowed() or self.headers.get('Origin') != origin or not secrets.compare_digest(self.headers.get('X-Review-Token',''), TOKEN):
             return self.reply(403, {'error':'Refresh the local dashboard and try again.'})
+        if self.path == '/api/refresh':
+            try:
+                return self.reply(200, refresh_queue())
+            except Exception as error:
+                return self.reply(400, {'error':str(error) or 'Could not collect quotes. Your queue is unchanged; try again.'})
         if self.path != '/api/approve':
             return self.reply(404, {'error':'Not found'})
         try:

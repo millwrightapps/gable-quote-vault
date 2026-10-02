@@ -81,7 +81,7 @@ def candidate(page, url):
 
 def fetch(url):
     parsed = urlparse(url)
-    if parsed.scheme != 'https' or parsed.netloc != 'podscripts.co' or not parsed.path.startswith('/podcasts/regulation-podcast/'):
+    if parsed.scheme != 'https' or parsed.netloc != 'podscripts.co' or not (parsed.path == '/podcasts/regulation-podcast' or parsed.path.startswith('/podcasts/regulation-podcast/')):
         raise ValueError('Unexpected source URL')
     request = urllib.request.Request(url, headers={'User-Agent': 'GableQuoteVault/1.0 (+https://github.com/millwrightapps/gable-quote-vault)'})
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -95,25 +95,49 @@ def fetch(url):
     return page
 
 
-def main():
-    state_path = ROOT / 'inbox/podscripts_processed.json'
-    processed = set(json.loads(state_path.read_text())) if state_path.exists() else set()
+def collect(root=ROOT):
+    state_path = root / 'inbox/podscripts_processed.json'
+    state = json.loads(state_path.read_text()) if state_path.exists() else []
+    processed = set(state if isinstance(state, list) else state['processed'])
+    page_number = 1 if isinstance(state, list) else state.get('nextPage', 1)
+    urls = []
+    # Always check the latest episodes, then continue through older index pages.
+    latest = fetch(INDEX)
+    urls = [u for u in latest.links if u not in processed]
+    if not urls:
+        for _ in range(3):
+            page_number = max(2, page_number)
+            page = fetch(INDEX.rstrip('/') + f'?page={page_number}')
+            urls = [u for u in page.links if u not in processed]
+            if urls:
+                break
+            if not page.links:
+                page_number = 1
+                break
+            page_number += 1
     added = 0
-    for url in [u for u in fetch(INDEX).links if u not in processed][:2]:
+    checked = 0
+    for url in urls[:2]:
         time.sleep(2)
         page = fetch(url)
         if not page.segments:
             raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
         q = candidate(page, url)
         if q:
-            target = ROOT / 'drafts' / (q['id'] + '.json')
-            approved = ROOT / 'quotes' / target.name
+            target = root / 'drafts' / (q['id'] + '.json')
+            approved = root / 'quotes' / target.name
             if not target.exists() and not approved.exists():
                 target.write_text(json.dumps(q, indent=2, ensure_ascii=False) + '\n')
                 added += 1
         processed.add(url)
-    state_path.write_text(json.dumps(sorted(processed), indent=2) + '\n')
-    print(f'Added {added} short Podscripts candidates for attribution review. Published none.')
+        checked += 1
+    state_path.write_text(json.dumps(dict(processed=sorted(processed), nextPage=page_number), indent=2) + '\n')
+    return dict(added=added, checked=checked)
+
+
+def main():
+    result = collect()
+    print(f"Added {result['added']} short Podscripts candidates for attribution review. Published none.")
 
 
 if __name__ == '__main__':

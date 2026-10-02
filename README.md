@@ -64,3 +64,5 @@ Select a candidate → play its 35-second preview → correct words, speaker(s),
 **Playback:** existing video IDs preview YouTube at the editable start time. Candidates without a video use the official feed's audio when the episode title matches; the player stops after 35 seconds. Feed ads may shift audio timing. The original transcript link remains available if audio or YouTube embedding fails. Approval requires a reviewed YouTube recording and timing.
 
 Each approval records the suggestion shown at review time and whether the reviewer agreed. This creates evaluation data for a future speaker model; no automatic-approval threshold is enabled.
+
+**Refresh queue** collects more candidates on demand, saves them to GitHub, and reloads the review list. Each click checks up to two transcript pages; after recent episodes are exhausted it walks older index pages. It reports how many candidates were found and never publishes them as approved. Local uncommitted vault edits block collection to avoid mixing your work with imported drafts.

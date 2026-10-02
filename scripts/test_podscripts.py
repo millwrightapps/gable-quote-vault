@@ -20,3 +20,26 @@ class PodscriptsTests(unittest.TestCase):
         p = TranscriptParser()
         p.feed('<a href="/podcasts/regulation-podcast/test">x</a>' * 3)
         self.assertEqual(1, len(p.links))
+
+class CollectionTests(unittest.TestCase):
+    def test_refresh_continues_to_older_pages_without_duplicates(self):
+        import tempfile
+        import json
+        from pathlib import Path
+        from unittest.mock import patch
+        from collect_podscripts import collect, INDEX
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            for name in ('drafts','quotes','inbox'): (root/name).mkdir()
+            old = INDEX+'old'; new = INDEX+'older'
+            (root/'inbox/podscripts_processed.json').write_text(json.dumps([old]))
+            latest = TranscriptParser(); latest.links=[old]
+            older = TranscriptParser(); older.links=[new]
+            transcript = PodscriptsTests().page()
+            with patch('collect_podscripts.fetch', side_effect=[latest,older,transcript]), patch('collect_podscripts.time.sleep'):
+                result = collect(root)
+            self.assertEqual({'added':1,'checked':1},result)
+            state=json.loads((root/'inbox/podscripts_processed.json').read_text())
+            self.assertEqual(2,state['nextPage'])
+            self.assertEqual({old,new},set(state['processed']))
+            self.assertEqual(1,len(list((root/'drafts').glob('*.json'))))
