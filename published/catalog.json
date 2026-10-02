@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 6,
   "retiredIds": [
     "reg_047"
   ],
@@ -152,6 +152,45 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-02",
         "sourceUrl": "https://www.youtube.com/watch?v=FO7BZ3oJnyc&t=1637s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      }
+    },
+    {
+      "id": "reg_018",
+      "quote": "I'd put my Gavin up against their Coffee News any day of the week.",
+      "speaker": "GEOFF_RAMSEY",
+      "episode": 112,
+      "episodeTitle": "I'll Have What He's Gonna Have // TPG's Clogtube Accessories [112]",
+      "timestamp": "26:25",
+      "timestampSeconds": 1585,
+      "youtubeVideoId": "4pLyL28jLsw",
+      "listenUrl": "https://www.youtube.com/watch?v=4pLyL28jLsw&t=1585s",
+      "weatherTags": [
+        "celebration",
+        "friday"
+      ],
+      "tags": [
+        "loyalty",
+        "coffee news",
+        "gavin"
+      ],
+      "show": "RP",
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=4pLyL28jLsw&t=1585s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
