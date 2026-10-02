@@ -1,0 +1,120 @@
+#!/usr/bin/env python3
+"""Collect one short, unattributed candidate per transcript; never auto-publish."""
+import hashlib
+from html.parser import HTMLParser
+import json
+from pathlib import Path
+import re
+import time
+import urllib.request
+from urllib.parse import urljoin, urlparse
+from import_transcript import WORDS
+
+ROOT = Path(__file__).resolve().parents[1]
+INDEX = 'https://podscripts.co/podcasts/regulation-podcast/'
+
+
+class TranscriptParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.links = []
+        self.title = ''
+        self.time = None
+        self.segments = []
+        self.capture = None
+        self.text = []
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        href = attrs.get('href', '')
+        if tag == 'a' and href.startswith('/podcasts/regulation-podcast/'):
+            url = urljoin(INDEX, href)
+            if url.rstrip('/') != INDEX.rstrip('/') and url not in self.links:
+                self.links.append(url)
+        classes = attrs.get('class', '').split()
+        if tag == 'h1':
+            self.capture, self.text = 'title', []
+        elif tag == 'span' and 'pod_timestamp_indicator' in classes:
+            self.capture, self.text = 'time', []
+        elif tag == 'span' and 'transcript-text' in classes:
+            self.capture, self.text = 'segment', []
+    def handle_data(self, data):
+        if self.capture:
+            self.text.append(data)
+    def handle_endtag(self, tag):
+        if (self.capture == 'title' and tag == 'h1') or (self.capture in ('time', 'segment') and tag == 'span'):
+            text = ' '.join(''.join(self.text).split())
+            if self.capture == 'title':
+                self.title = text
+            elif self.capture == 'time':
+                match = re.search(r'(\d{2}:\d{2}:\d{2})', text)
+                self.time = match.group(1) if match else None
+            elif self.time:
+                self.segments.append((self.time, text))
+            self.capture = None
+
+
+def candidate(page, url):
+    episode = re.search(r'\[(\d+)\]', page.title)
+    if not episode:
+        return None  # Supplemental/ambiguous show numbering needs manual review.
+    for stamp, block in page.segments:
+        if re.search(r'(sponsor|promo|discount|advertis|savings|insurance|cash back|\.com|terms apply|sign up)', block, re.I):
+            continue
+        for sentence in re.split(r'(?<=[.!?])\s+', block):
+            words = sentence.split()
+            # One brief excerpt per source; omit ads and incomplete fragments.
+            if not (8 <= len(words) <= 25 and WORDS.search(sentence)):
+                continue
+            if re.search(r'\b(sponsor|promo|discount|advertis|offer|insurance|visit|\.com)\b', sentence, re.I):
+                continue
+            if sentence[-1:] not in '.!?':
+                continue
+            key = 'podscripts_' + hashlib.sha256(url.encode()).hexdigest()[:20]
+            return dict(id=key, quote=sentence, speaker=None, show='RP', episode=int(episode.group(1)),
+                episodeTitle=page.title, timestamp=None, timestampSeconds=None, youtubeVideoId=None,
+                listenUrl=None, weatherTags=[], tags=[],
+                source=dict(provider='Podscripts', url=url, audioSegmentTimestamp=stamp),
+                review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
+                    notes='Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.'))
+    return None
+
+
+def fetch(url):
+    parsed = urlparse(url)
+    if parsed.scheme != 'https' or parsed.netloc != 'podscripts.co' or not parsed.path.startswith('/podcasts/regulation-podcast/'):
+        raise ValueError('Unexpected source URL')
+    request = urllib.request.Request(url, headers={'User-Agent': 'GableQuoteVault/1.0 (+https://github.com/millwrightapps/gable-quote-vault)'})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        if urlparse(response.url).netloc != 'podscripts.co':
+            raise ValueError('Unexpected redirect')
+        data = response.read(5 * 1024 * 1024 + 1)
+    if len(data) > 5 * 1024 * 1024:
+        raise ValueError('Source too large')
+    page = TranscriptParser()
+    page.feed(data.decode('utf-8'))
+    return page
+
+
+def main():
+    state_path = ROOT / 'inbox/podscripts_processed.json'
+    processed = set(json.loads(state_path.read_text())) if state_path.exists() else set()
+    added = 0
+    for url in [u for u in fetch(INDEX).links if u not in processed][:2]:
+        time.sleep(2)
+        page = fetch(url)
+        if not page.segments:
+            raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
+        q = candidate(page, url)
+        if q:
+            target = ROOT / 'drafts' / (q['id'] + '.json')
+            approved = ROOT / 'quotes' / target.name
+            if not target.exists() and not approved.exists():
+                target.write_text(json.dumps(q, indent=2, ensure_ascii=False) + '\n')
+                added += 1
+        processed.add(url)
+    state_path.write_text(json.dumps(sorted(processed), indent=2) + '\n')
+    print(f'Added {added} short Podscripts candidates for attribution review. Published none.')
+
+
+if __name__ == '__main__':
+    main()
