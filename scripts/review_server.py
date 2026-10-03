@@ -149,8 +149,9 @@ def refresh_queue():
         base = gh('git/commits/' + head)['tree']['sha']
         with tempfile.TemporaryDirectory() as directory:
             temp = Path(directory)
-            for folder in ('drafts', 'quotes', 'inbox'):
-                shutil.copytree(ROOT / folder, temp / folder)
+            for folder in ('drafts', 'quotes', 'inbox', 'quarantine'):
+                if (ROOT/folder).exists():
+                    shutil.copytree(ROOT / folder, temp / folder)
             result = collect(temp)
             paths = [p for p in (temp/'drafts').glob('*.json') if not (ROOT/'drafts'/p.name).exists()]
             result['addedIds'] = [json.loads(p.read_text())['id'] for p in paths]

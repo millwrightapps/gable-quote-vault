@@ -11,6 +11,7 @@ import urllib.error
 from urllib.parse import urljoin, urlparse
 from import_transcript import is_intro
 from quote_filters import blocked_segments, is_ad, seconds
+from quote_duplicates import existing_wording, is_repeat
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = 'https://podscripts.co/podcasts/regulation-podcast/'
@@ -55,7 +56,7 @@ class TranscriptParser(HTMLParser):
             self.capture = None
 
 
-def candidate(page, url):
+def candidate(page, url, known=()):
     episode = re.search(r'\[(\d+)\]', page.title)
     if not episode:
         return None  # Supplemental/ambiguous show numbering needs manual review.
@@ -71,6 +72,8 @@ def candidate(page, url):
             if not (8 <= len(words) <= 25) or is_intro(sentence) or is_ad(sentence):
                 continue
             if re.search(r'\b(sponsor|promo|discount|advertis|offer|insurance|visit|\.com)\b', sentence, re.I):
+                continue
+            if is_repeat(sentence, known):
                 continue
             if sentence[-1:] not in '.!?':
                 continue
@@ -101,6 +104,7 @@ def fetch(url):
 
 
 def collect(root=ROOT, target=10, max_episodes=20):
+    known = existing_wording(root)
     state_path = root / 'inbox/podscripts_processed.json'
     state = json.loads(state_path.read_text()) if state_path.exists() else []
     processed = set(state if isinstance(state, list) else state['processed'])
@@ -144,12 +148,13 @@ def collect(root=ROOT, target=10, max_episodes=20):
                 break
             if not page.segments:
                 raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
-            q = candidate(page, url)
+            q = candidate(page, url, known)
             if q:
                 target_path = root / 'drafts' / (q['id'] + '.json')
                 approved = root / 'quotes' / target_path.name
                 if not target_path.exists() and not approved.exists():
                     target_path.write_text(json.dumps(q, indent=2, ensure_ascii=False) + '\n')
+                    known.append(q["quote"])
                     added += 1
             processed.add(url)
             checked += 1

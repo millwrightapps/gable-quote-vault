@@ -7,6 +7,7 @@ import math
 from pathlib import Path
 import re
 from quote_filters import is_ad
+from quote_duplicates import existing_wording, is_repeat
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -20,12 +21,13 @@ def is_intro(text):
     ))
 
 
-def candidates(transcript):
+def candidates(transcript, known=()):
     video = transcript['youtubeVideoId']
     if not re.fullmatch(r'[A-Za-z0-9_-]{11}', video):
         raise ValueError('A specific YouTube recording is required')
     if transcript['show'] not in ('RP', 'FF') or type(transcript['episode']) is not int or transcript['episode'] <= 0:
         raise ValueError('Explicit show and episode required')
+    known = list(known)
     results = {}
     for segment in transcript['segments']:
         text = segment['text'].strip()
@@ -34,6 +36,9 @@ def candidates(transcript):
             raise ValueError('Invalid segment time')
         if not 30 <= len(text) <= 240 or is_intro(text) or is_ad(text):
             continue
+        if is_repeat(text, known):
+            continue
+        known.append(text)
         seconds = int(start)
         key = 'candidate_' + hashlib.sha256(f'{video}:{seconds}:{text}'.encode()).hexdigest()[:20]
         url = f'https://www.youtube.com/watch?v={video}&t={seconds}s'
@@ -54,7 +59,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     target = ROOT / 'drafts'
     added = 0
-    for quote in candidates(json.loads(args.transcript.read_text())):
+    for quote in candidates(json.loads(args.transcript.read_text()), existing_wording(ROOT)):
         path = target / (quote['id'] + '.json')
         if not path.exists() and not (ROOT / 'quotes' / path.name).exists():
             path.write_text(json.dumps(quote, indent=2, ensure_ascii=False) + '\n')

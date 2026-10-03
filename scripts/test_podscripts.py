@@ -74,8 +74,10 @@ class CollectionTests(unittest.TestCase):
             for folder in ('drafts', 'quotes', 'inbox'): (root/folder).mkdir()
             index = TranscriptParser(); index.links=[INDEX+str(i) for i in range(12)]
             unsuitable = PodscriptsTests().page('Supplemental')
-            suitable = PodscriptsTests().page()
-            with patch('collect_podscripts.fetch', side_effect=[index, unsuitable]+[suitable]*10), patch('collect_podscripts.time.sleep'):
+            suitable = [PodscriptsTests().page() for _ in range(10)]
+            for i, page in enumerate(suitable):
+                page.segments = [('00:03:20', f'Unique{i} alpha{i} beta{i} gamma{i} delta{i} epsilon{i} zeta{i} eta{i}.')]
+            with patch('collect_podscripts.fetch', side_effect=[index, unsuitable]+suitable), patch('collect_podscripts.time.sleep'):
                 result=collect(root)
             self.assertEqual({'added':10,'checked':11},result)
             self.assertEqual(10,len(list((root/'drafts').glob('*.json'))))
