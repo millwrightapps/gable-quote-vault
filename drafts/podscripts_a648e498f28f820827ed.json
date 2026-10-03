@@ -1,0 +1,42 @@
+{
+  "id": "podscripts_a648e498f28f820827ed",
+  "quote": "my errol's car okay i would say i i get out out of the Reliant Robin and Errol gets into the Rugged Robin.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Dictionary lore: Reliant Robin, Rugged Robin"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [
+      "Reliant Robin",
+      "Rugged Robin"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 154,
+  "episodeTitle": "Regulation Podcast - What is Weather? // There's Money in the Leaf Game [154]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/what-is-weather-theres-money-in-the-leaf-game-154",
+    "audioSegmentTimestamp": "00:02:02"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/what-is-weather-theres-money-in-the-leaf-game-154",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

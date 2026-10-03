@@ -1,0 +1,39 @@
+{
+  "id": "podscripts_f0ecd5675122898bb9bb",
+  "quote": "I'm against it because I had no rights.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 156,
+  "episodeTitle": "Regulation Podcast - GoochPooch & Regulation Guy // The Extra Medium of the 70s [156]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/goochpooch-regulation-guy-the-extra-medium-of-the-70s-156",
+    "audioSegmentTimestamp": "00:04:14"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/goochpooch-regulation-guy-the-extra-medium-of-the-70s-156",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
