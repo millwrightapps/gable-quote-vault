@@ -210,6 +210,27 @@ def add_draft(body):
     return dict(id=q['id'], message='Quote saved to drafts. No transcripts were pulled and nothing was published to the app.')
 
 
+def remove_draft(draft):
+    head = gh('git/ref/heads/main')['object']['sha']
+    base = gh('git/commits/' + head)['tree']['sha']
+    entries = gh('git/trees/' + base + '?recursive=1')
+    if entries.get('truncated'):
+        raise ValueError('Vault is too large for this operation.')
+    path = 'drafts/' + draft['id'] + '.json'
+    if json_blob(entries['tree'], path) != draft:
+        raise ValueError('This draft changed on GitHub. Reload it before removing.')
+    removed = {**draft, 'review': {**draft.get('review', {}), 'status':'quarantined',
+        'quarantineReason':'Removed by reviewer', 'removedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}}
+    changes = [dict(path='quarantine/'+draft['id']+'.json', mode='100644', type='blob',
+                    content=json.dumps(removed, indent=2, ensure_ascii=False)+'\n'),
+               dict(path=path, mode='100644', type='blob', sha=None)]
+    tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
+    commit = gh('git/commits', dict(message='Remove rejected quote from review queue', tree=tree, parents=[head]), 'POST')['sha']
+    gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
+    subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
+    return dict(message='Quote removed. Its wording is blocked from automatic collection; a copy is kept in quarantine on GitHub.')
+
+
 class Handler(BaseHTTPRequestHandler):
     def setup(self):
         super().setup()
@@ -276,7 +297,7 @@ class Handler(BaseHTTPRequestHandler):
                 return self.reply(200, refresh_queue())
             except Exception as error:
                 return self.reply(400, {'error':str(error) or 'Could not collect quotes. Your queue is unchanged; try again.'})
-        if self.path not in ('/api/approve', '/api/drafts'):
+        if self.path not in ('/api/approve', '/api/drafts', '/api/remove'):
             return self.reply(404, {'error':'Not found'})
         try:
             size = int(self.headers.get('Content-Length', '0'))
@@ -291,6 +312,8 @@ class Handler(BaseHTTPRequestHandler):
             if hashlib.sha256(path.read_bytes()).hexdigest() != body['fingerprint']:
                 raise ValueError('Draft changed; refresh the queue.')
             draft = json.loads(path.read_text())
+            if self.path == '/api/remove':
+                return self.reply(200, remove_draft(draft))
             # Fail locally before any GitHub writes.
             validate(prepare(draft, body['edits'], 'pending'), json.loads((ROOT/'catalog.json').read_text())['retiredIds'])
             return self.reply(200, publish(draft, body['edits']))

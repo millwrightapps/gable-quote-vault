@@ -37,3 +37,12 @@ $('add-form').onsubmit=async e=>{
  catch(error){$('add-error').textContent=error.message;}
  finally{busy=false;$('save-draft').disabled=false;$('save-draft').textContent='Save draft';}
 };
+
+$('remove').onclick=async()=>{
+ if(busy||!current)return;
+ const removed=current, next=rows[rows.indexOf(current)+1]||rows[0];
+ busy=true;$('remove').disabled=true;$('remove').textContent='Removing…';
+ try{const response=await apiFetch('/api/remove',{method:'POST',headers:{'Content-Type':'application/json','X-Review-Token':token},body:JSON.stringify({id:removed.quote.id,fingerprint:removed.fingerprint})});const result=await response.json();if(!response.ok)throw Error(result.error);await load();const nextRow=rows.find(r=>r.quote.id===next?.quote.id);if(nextRow)select(nextRow);message(result.message);}
+ catch(error){message(error.message);}
+ finally{busy=false;$('remove').disabled=false;$('remove').textContent='Remove quote';}
+};

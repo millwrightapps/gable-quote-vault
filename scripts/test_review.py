@@ -49,3 +49,27 @@ class ManualDraftTests(unittest.TestCase):
         from review_server import manual_draft
         with self.assertRaises(ValueError):
             manual_draft(dict(quote='Example',show='RP',episode=1,episodeTitle='Test',sourceUrl='javascript:alert(1)'))
+
+class RemoveTests(unittest.TestCase):
+    @patch('review_server.subprocess.run')
+    @patch('review_server.json_blob')
+    @patch('review_server.gh')
+    def test_remove_atomically_quarantines_without_changing_published_catalog(self, gh, blob, run):
+        import json
+        from review_server import remove_draft
+        draft=dict(id='test_remove',quote='Synthetic test only.',review={'status':'draft'})
+        blob.return_value=draft
+        gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'base'}},{'tree':[]},{'sha':'tree'},{'sha':'commit'},{}]
+        remove_draft(draft)
+        changes=gh.call_args_list[3].args[1]['tree']
+        self.assertEqual({'drafts/test_remove.json','quarantine/test_remove.json'},{c['path'] for c in changes})
+        self.assertIsNone(changes[1]['sha'])
+        self.assertEqual('quarantined',json.loads(changes[0]['content'])['review']['status'])
+        self.assertFalse(gh.call_args_list[-1].args[1]['force'])
+    @patch('review_server.json_blob',return_value={'id':'changed'})
+    @patch('review_server.gh')
+    def test_changed_remote_draft_is_not_removed(self, gh, blob):
+        from review_server import remove_draft
+        gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'base'}},{'tree':[]}]
+        with self.assertRaises(ValueError): remove_draft({'id':'test_remove'})
+        self.assertEqual(3,gh.call_count)
