@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "revision": 7,
+  "revision": 8,
   "retiredIds": [
     "reg_047"
   ],
   "quotes": [
+    {
+      "id": "manual_35e543d57b4245a70bdc",
+      "quote": "Wow, I guess that picture I just showed was the same week as Extra Life, because I just found a picture of my bruised legs, but it really looks like I have a vagina.",
+      "speaker": "GAVIN_FREE",
+      "show": "FF",
+      "episode": 206,
+      "episodeTitle": "The Last Episode of F**kface // Firing Squad [206]",
+      "timestamp": "13:54",
+      "timestampSeconds": 834,
+      "youtubeVideoId": "ccBukHBOrb0",
+      "listenUrl": "https://www.youtube.com/watch?v=ccBukHBOrb0&t=834s",
+      "weatherTags": [
+        "chaos"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Manual entry",
+        "url": "https://www.youtube.com/watch?v=ccBukHBOrb0"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=ccBukHBOrb0&t=834s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      }
+    },
     {
       "id": "reg_001",
       "quote": "Gavin: 'There was a day where that horse was born...'\nGeoff: 'It had a lot of hopes and dreams... parents thought it could someday be horse president.'",
