@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_93f29cdb5839daca76de",
+  "quote": "The car rides are the best because that's when we tell you the the parts that we couldn't tell in the podcast or reframe it.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 144,
+  "episodeTitle": "Regulation Podcast - High Stakes for Gavin // Who's Asking Who What? [144]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/high-stakes-for-gavin-whos-asking-who-what-144",
+    "audioSegmentTimestamp": "00:08:21"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/high-stakes-for-gavin-whos-asking-who-what-144",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

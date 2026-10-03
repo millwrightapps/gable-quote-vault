@@ -1,0 +1,41 @@
+{
+  "id": "podscripts_23f4ca639ddeb6d9cd2f",
+  "quote": "I think of anything now we should definitely be up 10 years in the making but't think you need to apologize for that.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 150,
+  "episodeTitle": "Regulation Podcast - Off Guard Best Man // Being Decided Via Ladder [150]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/off-guard-best-man-being-decided-via-ladder-150",
+    "audioSegmentTimestamp": "00:10:41"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/off-guard-best-man-being-decided-via-ladder-150",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

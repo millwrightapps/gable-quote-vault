@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_5803efdafa694466b2b0",
+  "quote": "I think it should be a main dish because we're a little light on main dishes.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 145,
+  "episodeTitle": "Regulation Podcast - Smallest Item at a Grocery Store // Sneaking Feet Talk [145]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/smallest-item-at-a-grocery-store-sneaking-feet-talk-145",
+    "audioSegmentTimestamp": "01:04:12"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/smallest-item-at-a-grocery-store-sneaking-feet-talk-145",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
