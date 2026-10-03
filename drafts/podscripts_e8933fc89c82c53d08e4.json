@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_e8933fc89c82c53d08e4",
+  "quote": "The way when I was watching you guys do it, it looked like a shoeie, but that you'd wear on your head.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 181,
+  "episodeTitle": "Regulation Podcast - Life Changing Sandwiches // Jack Hammering [181]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/life-changing-sandwiches-jack-hammering-181",
+    "audioSegmentTimestamp": "00:51:34"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/life-changing-sandwiches-jack-hammering-181",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

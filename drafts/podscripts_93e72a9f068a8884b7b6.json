@@ -1,0 +1,37 @@
+{
+  "id": "podscripts_93e72a9f068a8884b7b6",
+  "quote": "low for my flash so i don't have the best photos right now.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 182,
+  "episodeTitle": "Regulation Podcast - Professional Sitting // The Hot Dog Podcast [182]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/professional-sitting-the-hot-dog-podcast-182",
+    "audioSegmentTimestamp": "00:06:44"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/professional-sitting-the-hot-dog-podcast-182",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

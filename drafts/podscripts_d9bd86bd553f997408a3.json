@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_d9bd86bd553f997408a3",
+  "quote": "I've never slept better than when I got sober.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 187,
+  "episodeTitle": "Regulation Podcast - Getting Our Dicks Wet In The New Year // Signs from Howard Stern [187]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/getting-our-dicks-wet-in-the-new-year-signs-from-howard-stern-187",
+    "audioSegmentTimestamp": "01:01:44"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/getting-our-dicks-wet-in-the-new-year-signs-from-howard-stern-187",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
