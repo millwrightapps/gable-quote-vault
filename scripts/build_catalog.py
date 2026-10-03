@@ -21,13 +21,19 @@ def validate(q, retired):
     assert q['show'] in {'RP', 'FF'}, 'Unknown show'
     assert type(q['episode']) is int and q['episode'] > 0
     assert q['episodeTitle'].strip() and q['quote'].strip()
-    assert re.fullmatch(r'[A-Za-z0-9_-]{11}', q['youtubeVideoId']), 'Direct recording required'
     assert re.fullmatch(r'\d+:[0-5]\d(?::[0-5]\d)?', q['timestamp']), 'Invalid timestamp'
     seconds = 0
     for part in q['timestamp'].split(':'):
         seconds = seconds * 60 + int(part)
     assert q['timestampSeconds'] == seconds, 'Timestamp fields disagree'
-    url = f"https://www.youtube.com/watch?v={q['youtubeVideoId']}&t={seconds}s"
+    if q.get('playbackProvider') == 'rtarchive':
+        recordings = json.loads((ROOT / 'inbox/rtarchive_episodes.json').read_text())
+        recording = next((r for r in recordings if r['id'] == q.get('archiveVideoId') and r['episode'] == q['episode']), None)
+        assert q['show'] == 'FF' and recording, 'Archive recording must match the F**kFace episode'
+        url = recording['url'] + f'?t={seconds}'
+    else:
+        assert re.fullmatch(r'[A-Za-z0-9_-]{11}', q['youtubeVideoId']), 'Direct recording required'
+        url = f"https://www.youtube.com/watch?v={q['youtubeVideoId']}&t={seconds}s"
     assert q['listenUrl'] == url, 'Playback URL must match recording and timestamp'
     review = q['review']
     assert review['status'] == 'verified' and review['reviewer'].strip(), 'Human review required'

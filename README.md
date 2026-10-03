@@ -57,11 +57,11 @@ python3 scripts/review_server.py
 
 Then open **http://127.0.0.1:8765**. Keep that process running while reviewing. This is a local dashboard, not a publicly hosted admin page; GitHub credentials stay in your local `gh` login. No API keys or paid speech service are used.
 
-Select a candidate → play its 35-second preview → correct words, speaker(s), episode and YouTube start time → confirm the recording and attribution policy → **Approve & publish**. Approval atomically moves the draft to `quotes/`, increments the revision and publishes the app feed on GitHub. A changed draft or concurrent GitHub update blocks publication rather than overwriting it. You need your existing `gh` login with repository write permission. Approvals are public Git commits. Keep unreviewed or unsuitable entries unapproved; “Review next” just skips them.
+Select a candidate → play its 35-second preview → correct words, speaker(s), episode and recording start time → confirm the recording and attribution policy → **Approve & publish**. Approval atomically moves the draft to `quotes/`, increments the revision and publishes the app feed on GitHub. A changed draft or concurrent GitHub update blocks publication rather than overwriting it. You need your existing `gh` login with repository write permission. Approvals are public Git commits. Keep unreviewed or unsuitable entries unapproved; “Review next” just skips them.
 
 **Speaker suggestions:** the local version only suggests a speaker when the exact quote and episode match an already human-reviewed entry with consistent credits. Its percentage measures text agreement, not voice confidence. Otherwise it shows Unknown / confidence unavailable. Imported Gemini speaker names are displayed only as unverified draft credits. Voice recognition is not configured. This avoids inventing confidence values before any confirmed voice samples exist.
 
-**Playback:** existing video IDs preview YouTube at the editable start time. Candidates without a video use the official feed's audio when the episode title matches; the player stops after 35 seconds. Feed ads may shift audio timing. The original transcript link remains available if audio or YouTube embedding fails. Approval requires a reviewed YouTube recording and timing.
+**Playback:** existing video IDs preview YouTube at the editable start time. Candidates without a video use the official feed's audio when the episode title matches; the player stops after 35 seconds. Feed ads may shift audio timing. The original transcript link remains available if audio or YouTube embedding fails. Approval requires a reviewed recording and timing, from YouTube or a supported RT Archive episode.
 
 Each approval records the suggestion shown at review time and whether the reviewer agreed. This creates evaluation data for a future speaker model; no automatic-approval threshold is enabled.
 
@@ -92,3 +92,9 @@ Automatic collection deduplicates wording across approved quotes, drafts, and qu
 The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible, and Podscripts contributes only the highest-scoring eligible excerpt per episode. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
 
 Automatic drafts display an **Editorial score** with reasons. This is a heuristic, not a probability of humor, accuracy, or speaker identity. Existing manually entered drafts and approved quotes are unchanged. Weak automatic drafts remain recoverable in `quarantine/`.
+
+### RT Archive recordings
+
+The review dashboard supports **F\*\*kFace episodes 1–56** from [RT Archive](https://rtarchive.org/). Use **Add quote**, choose FF and the episode, then select **RT Archive** as the recording source during review. Choose the matching episode, enter the start time in seconds, and use the 35-second preview to check the words and speakers. Approved entries link to that archive recording at the reviewed time. YouTube remains available.
+
+The recording index is `inbox/rtarchive_episodes.json`. As checked on October 2, 2026, none of these 56 recordings were marked as having transcripts. Connecting them enables manual review and playback; **Refresh queue does not transcribe or extract quotes from these recordings**. The archive is not a complete transcript source for all episodes. Availability and player loading depend on RT Archive and Internet Archive.

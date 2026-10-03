@@ -73,3 +73,36 @@ class RemoveTests(unittest.TestCase):
         gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'base'}},{'tree':[]}]
         with self.assertRaises(ValueError): remove_draft({'id':'test_remove'})
         self.assertEqual(3,gh.call_count)
+
+class ArchiveReviewTests(unittest.TestCase):
+    draft = ReviewTests.draft
+    edits = ReviewTests.edits
+    def archive_edits(self):
+        e=self.edits()
+        e.update(show='FF',episode=1,playbackProvider='rtarchive',archiveVideoId='f-kface-2020-6-3')
+        return e
+    def test_archive_link_matches_review_and_omits_youtube(self):
+        q=prepare(self.draft(),self.archive_edits(),'tester')
+        self.assertEqual('https://rtarchive.org/watch/f-kface-2020-6-3?t=123',q['listenUrl'])
+        self.assertNotIn('youtubeVideoId',q)
+        self.assertEqual(q['listenUrl'],q['review']['sourceUrl'])
+        validate(q,[])
+    def test_archive_wrong_episode_or_show_rejected(self):
+        for changes in ({'episode':2},{'show':'RP'},{'archiveVideoId':'unknown'}):
+            e=self.archive_edits();e.update(changes)
+            with self.assertRaises(ValueError): prepare(self.draft(),e,'tester')
+    def test_archive_requires_confirmation_and_valid_time(self):
+        for changes in ({'confirmed':False},{'timestampSeconds':-1},{'timestampSeconds':1.5}):
+            e=self.archive_edits();e.update(changes)
+            with self.assertRaises(ValueError): prepare(self.draft(),e,'tester')
+    def test_archive_catalog_rejects_changed_recording(self):
+        q=prepare(self.draft(),self.archive_edits(),'tester')
+        q['episode']=2
+        with self.assertRaises(AssertionError): validate(q,[])
+    def test_archive_index_covers_early_episodes_without_claiming_transcripts(self):
+        import json
+        from build_catalog import ROOT
+        records=json.loads((ROOT/'inbox/rtarchive_episodes.json').read_text())
+        self.assertEqual(list(range(1,57)),sorted(r['episode'] for r in records))
+        self.assertEqual(56,len({r['id'] for r in records}))
+        self.assertTrue(all(not r['hasTranscript'] and r['url'].startswith('https://rtarchive.org/watch/') and r['mediaUrl'].startswith('https://archive.org/download/') for r in records))

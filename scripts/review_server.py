@@ -80,16 +80,24 @@ def json_blob(tree, path):
 
 def prepare(draft, edits, reviewer):
     q = dict(draft)
-    for field in ('quote', 'speaker', 'secondarySpeaker', 'show', 'episode', 'episodeTitle', 'youtubeVideoId', 'weatherTags'):
+    for field in ('quote', 'speaker', 'secondarySpeaker', 'show', 'episode', 'episodeTitle', 'youtubeVideoId', 'weatherTags', 'playbackProvider', 'archiveVideoId'):
         q[field] = edits.get(field)
     if not q.get('secondarySpeaker'):
         q.pop('secondarySpeaker', None)
     seconds = edits.get('timestampSeconds')
     if type(seconds) is not int or not 0 <= seconds <= 86400:
-        raise ValueError('Enter a valid YouTube start time in seconds.')
+        raise ValueError('Enter a valid recording start time in seconds.')
     q['timestampSeconds'] = seconds
     q['timestamp'] = f'{seconds // 60:02d}:{seconds % 60:02d}'
-    q['listenUrl'] = f"https://www.youtube.com/watch?v={q['youtubeVideoId']}&t={seconds}s"
+    if q.get('playbackProvider') == 'rtarchive':
+        recordings = json.loads((ROOT/'inbox/rtarchive_episodes.json').read_text())
+        recording = next((r for r in recordings if r['id'] == q.get('archiveVideoId') and r['episode'] == q['episode']), None)
+        if q['show'] != 'FF' or recording is None:
+            raise ValueError('Choose the matching F**kFace archive recording.')
+        q.pop('youtubeVideoId', None)
+        q['listenUrl'] = recording['url'] + f'?t={seconds}'
+    else:
+        q['listenUrl'] = f"https://www.youtube.com/watch?v={q['youtubeVideoId']}&t={seconds}s"
     if edits.get('confirmed') is not True:
         raise ValueError('Confirm that you checked the recording and all speaker credits.')
     q['review'] = dict(status='verified', reviewer=reviewer, checkedAt=datetime.date.today().isoformat(),
@@ -278,7 +286,7 @@ class Handler(BaseHTTPRequestHandler):
                 q = json.loads(p.read_text())
                 rows.append(dict(quote=q, fingerprint=hashlib.sha256(p.read_bytes()).hexdigest(),
                     suggestion=suggestion(q, approved), audioUrl=MEDIA.get(normalize(q['episodeTitle']))))
-            return self.reply(200, dict(rows=rows, token=TOKEN, approved=len(approved)))
+            return self.reply(200, dict(rows=rows, token=TOKEN, approved=len(approved), archiveEpisodes=json.loads((ROOT/'inbox/rtarchive_episodes.json').read_text())))
         files = {'/':'index.html', '/app.js':'app.js', '/style.css':'style.css'}
         if self.path not in files:
             return self.reply(404, {'error':'Not found'})
