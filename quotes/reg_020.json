@@ -1,0 +1,42 @@
+{
+  "id": "reg_020",
+  "quote": "I had a leftover burger that I had in the fridge. I was hungry, and I grabbed it and I ate it.",
+  "speaker": "ANDREW_PANTON",
+  "episode": 115,
+  "episodeTitle": "Blockbuster Veteran // Morning Burger [115]",
+  "timestamp": "45:38",
+  "timestampSeconds": 2738,
+  "youtubeVideoId": "G7N2gCRDIHU",
+  "listenUrl": "https://www.youtube.com/watch?v=G7N2gCRDIHU&t=2738s",
+  "weatherTags": [
+    "monday",
+    "tired",
+    "morning burger"
+  ],
+  "tags": [
+    "morning burger",
+    "food",
+    "andrew"
+  ],
+  "show": "RP",
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-02",
+    "sourceUrl": "https://www.youtube.com/watch?v=G7N2gCRDIHU&t=2738s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
+}
