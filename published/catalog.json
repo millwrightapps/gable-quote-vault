@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 16,
+  "revision": 17,
   "retiredIds": [
     "reg_047"
   ],
@@ -176,6 +176,48 @@
         "suggestionMatchedReview": null
       },
       "secondarySpeaker": "GEOFF_RAMSEY"
+    },
+    {
+      "id": "reg_004",
+      "quote": "I would have gladly murdered this thing, but I'm not a goo guy. I can't deal with it.",
+      "speaker": "ANDREW_PANTON",
+      "episode": 1,
+      "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+      "timestamp": "27:13",
+      "timestampSeconds": 1633,
+      "youtubeVideoId": "U2EKjj8P9UM",
+      "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=1633s",
+      "weatherTags": [
+        "random",
+        "confusion",
+        "I'm not a _ guy"
+      ],
+      "tags": [
+        "goo",
+        "animals",
+        "logic"
+      ],
+      "show": "RP",
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=1633s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
     },
     {
       "id": "reg_005",
