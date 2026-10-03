@@ -1,0 +1,28 @@
+{
+  "id": "podscripts_547c276c01e6eed26079",
+  "quote": "yeah first person yeah yeah you're right i just am not as much of a book guy.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 7,
+  "episodeTitle": "Regulation Podcast - Quiddlers // Steven Seagal Runs Weird [7]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/quiddlers-steven-seagal-runs-weird-7",
+    "audioSegmentTimestamp": "00:00:48"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/quiddlers-steven-seagal-runs-weird-7",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
