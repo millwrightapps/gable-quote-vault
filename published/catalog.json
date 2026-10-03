@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 9,
+  "revision": 10,
   "retiredIds": [
     "reg_047"
   ],
@@ -42,6 +42,47 @@
         },
         "suggestionMatchedReview": null
       }
+    },
+    {
+      "id": "manual_a720b34b8340744e1e8b",
+      "quote": "I would say piss is the thing that changes the most with age.",
+      "speaker": "GEOFF_RAMSEY",
+      "show": "RP",
+      "episode": 40,
+      "episodeTitle": "Gurpler This Friday // Who Onion'd? [40]",
+      "timestamp": "47:31",
+      "timestampSeconds": 2851,
+      "youtubeVideoId": "CUi3NAgH-TU",
+      "listenUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=2851s",
+      "weatherTags": [
+        "piss",
+        "age"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Manual entry",
+        "url": "https://www.youtube.com/watch?v=CUi3NAgH-TU"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=2851s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
     },
     {
       "id": "reg_001",
