@@ -18,10 +18,12 @@
     "protocols"
   ],
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "",
     "checkedAt": "",
-    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording."
+    "notes": "Verify exact wording, all speakers, episode, and timestamp against the linked recording.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-03T03:08:55.948022+00:00"
   }
 }
