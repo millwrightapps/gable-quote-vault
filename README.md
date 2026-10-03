@@ -43,7 +43,7 @@ The importer selects up to ten short excerpts on any topic per transcript. It us
 
 ### Podscripts collection is enabled
 
-The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads up to 20 previously unprocessed transcript pages per run, aiming for 10 new candidates, with a pause between requests, and collects at most **one short excerpt (25 words maximum) per episode**. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
+The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads up to 20 previously unprocessed transcript pages per run, aiming for 10 new candidates, with a pause between requests, and collects up to **three distinct short candidates per episode**, within a combined 25-word excerpt budget per source page. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
 
 Podscripts provides approximate **audio segment times**, not verified YouTube timestamps or speaker identities. These are stored separately in `source.audioSegmentTimestamp`; playback timestamps, links, and speakers remain unset. Human review is mandatory. Keyword filtering can still select an ad or an uninteresting/incomplete passage; reject those drafts. No automatic publication or paid transcription occurs. Regulation Search remains an alternative for manual cross-checking, not an integrated source.
 
@@ -71,7 +71,7 @@ Each approval records the suggestion shown at review time and whether the review
 
 Collection includes general podcast moments, jokes, stories, and lore—not only weather. New candidates receive the `random` tag so they fit the app’s general quote pool; reviewers can replace it with more specific weather or mood tags. Existing drafts and review decisions are preserved.
 
-Batch collection stops after 10 new candidates, 20 episodes, four older index pages, or about two minutes (an in-flight request may finish afterward). It keeps looking past supplemental episodes and unsuitable excerpts. One short excerpt per source is retained.
+Batch collection stops after 10 new candidates, 20 episodes, four older index pages, or about two minutes (an in-flight request may finish afterward). It keeps looking past supplemental episodes and unsuitable excerpts. The source-page excerpt budget includes existing drafts, approved entries and quarantined entries.
 
 ## Review from your phone on the same Wi-Fi
 
@@ -89,7 +89,7 @@ Automatic collection deduplicates wording across approved quotes, drafts, and qu
 
 ### Editorial quality screening
 
-The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible, and Podscripts contributes only the highest-scoring eligible excerpt per episode. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
+The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible, and Podscripts selects the highest-scoring distinct excerpts that fit the source-page budget. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
 
 Automatic drafts display an **Editorial score** with reasons. This is a heuristic, not a probability of humor, accuracy, or speaker identity. Existing manually entered drafts and approved quotes are unchanged. Weak automatic drafts remain recoverable in `quarantine/`.
 
@@ -98,3 +98,9 @@ Automatic drafts display an **Editorial score** with reasons. This is a heuristi
 The review dashboard supports **F\*\*kFace episodes 1–56** from [RT Archive](https://rtarchive.org/). Use **Add quote**, choose FF and the episode, then select **RT Archive** as the recording source during review. Choose the matching episode, enter the start time in seconds, and use the 35-second preview to check the words and speakers. Approved entries link to that archive recording at the reviewed time. YouTube remains available.
 
 The recording index is `inbox/rtarchive_episodes.json`. As checked on October 2, 2026, none of these 56 recordings were marked as having transcripts. Connecting them enables manual review and playback; **Refresh queue does not transcribe or extract quotes from these recordings**. The archive is not a complete transcript source for all episodes. Availability and player loading depend on RT Archive and Internet Archive.
+
+### Lore-aware selection
+
+Candidate scoring uses an editable list of topic labels from the [Regulation Lore dictionary](https://www.regulationlore.com.au/dictionary), stored in `inbox/lore_terms.json`. Definitions and example sentences are not imported as quotes. Exact normalized phrase matches add a relevance boost and appear in the candidate’s score explanation. Generic single-word entries are omitted to reduce random matches. Matches cannot bypass fragment, ad, intro, duplicate, or human attribution checks; dictionary mentions do not identify a speaker.
+
+Newly processed episodes can contribute multiple distinct candidates. Previously processed pages are not automatically re-crawled, and rate-limit backoff still applies. Supplied transcript imports can contribute up to ten ranked candidates. Manual entry remains available without collection.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect one short, unattributed candidate per transcript; never auto-publish."""
+"""Collect ranked, short, unattributed candidates per transcript; never auto-publish."""
 import hashlib
 from html.parser import HTMLParser
 import json
@@ -57,10 +57,10 @@ class TranscriptParser(HTMLParser):
             self.capture = None
 
 
-def candidate(page, url, known=()):
+def candidates(page, url, known=(), word_budget=25, limit=3):
     episode = re.search(r'\[(\d+)\]', page.title)
     if not episode:
-        return None  # Supplemental/ambiguous show numbering needs manual review.
+        return []  # Supplemental/ambiguous show numbering needs manual review.
     ranked = []
     blocked = blocked_segments(page.segments)
     for index, (stamp, block) in enumerate(page.segments):
@@ -70,7 +70,7 @@ def candidate(page, url, known=()):
             continue
         for sentence in re.split(r'(?<=[.!?])\s+', block):
             words = sentence.split()
-            # One brief excerpt per source; omit ads and incomplete fragments.
+            # Keep each excerpt compact; omit ads and incomplete fragments.
             if not (8 <= len(words) <= 25) or is_intro(sentence) or is_ad(sentence):
                 continue
             if re.search(r'\b(sponsor|promo|discount|advertis|offer|insurance|visit|\.com)\b', sentence, re.I):
@@ -83,14 +83,41 @@ def candidate(page, url, known=()):
             quality = assess(sentence, context)
             if not quality['accepted']:
                 continue
-            key = 'podscripts_' + hashlib.sha256(url.encode()).hexdigest()[:20]
+            key = 'podscripts_' + hashlib.sha256(f'{url}:{stamp}:{sentence}'.encode()).hexdigest()[:20]
             ranked.append(dict(id=key, quote=sentence, quality=quality, speaker=None, show='RP', episode=int(episode.group(1)),
                 episodeTitle=page.title, timestamp=None, timestampSeconds=None, youtubeVideoId=None,
                 listenUrl=None, weatherTags=["random"], tags=[],
                 source=dict(provider='Podscripts', url=url, audioSegmentTimestamp=stamp),
                 review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
                     notes='Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.')))
-    return max(ranked, key=lambda q:q['quality']['score']) if ranked else None
+    selected = []
+    wording = list(known)
+    for q in sorted(ranked, key=lambda q:q['quality']['score'], reverse=True):
+        count = len(q['quote'].split())
+        if count > word_budget or is_repeat(q['quote'], wording):
+            continue
+        selected.append(q)
+        wording.append(q['quote'])
+        word_budget -= count
+        if len(selected) >= limit:
+            break
+    return selected
+
+
+def candidate(page, url, known=()):
+    results = candidates(page, url, known, limit=1)
+    return results[0] if results else None
+
+
+def source_word_counts(root):
+    counts = {}
+    for folder in ('drafts', 'quotes', 'quarantine'):
+        for path in (root/folder).glob('*.json'):
+            q = json.loads(path.read_text())
+            url = q.get('source', {}).get('url')
+            if url:
+                counts[url] = counts.get(url, 0) + len(q.get('quote', '').split())
+    return counts
 
 
 def fetch(url):
@@ -111,6 +138,7 @@ def fetch(url):
 
 def collect(root=ROOT, target=10, max_episodes=20):
     known = existing_wording(root)
+    used_words = source_word_counts(root)
     state_path = root / 'inbox/podscripts_processed.json'
     state = json.loads(state_path.read_text()) if state_path.exists() else []
     processed = set(state if isinstance(state, list) else state['processed'])
@@ -154,13 +182,13 @@ def collect(root=ROOT, target=10, max_episodes=20):
                 break
             if not page.segments:
                 raise ValueError('Transcript missing or markup changed; leaving source unprocessed')
-            q = candidate(page, url, known)
-            if q:
+            for q in candidates(page, url, known, word_budget=max(0,25-used_words.get(url,0)), limit=min(3,target-added)):
                 target_path = root / 'drafts' / (q['id'] + '.json')
                 approved = root / 'quotes' / target_path.name
                 if not target_path.exists() and not approved.exists():
                     target_path.write_text(json.dumps(q, indent=2, ensure_ascii=False) + '\n')
-                    known.append(q["quote"])
+                    known.append(q['quote'])
+                    used_words[url] = used_words.get(url, 0) + len(q['quote'].split())
                     added += 1
             processed.add(url)
             checked += 1
