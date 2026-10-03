@@ -153,6 +153,7 @@ def refresh_queue():
                 shutil.copytree(ROOT / folder, temp / folder)
             result = collect(temp)
             paths = [p for p in (temp/'drafts').glob('*.json') if not (ROOT/'drafts'/p.name).exists()]
+            result['addedIds'] = [json.loads(p.read_text())['id'] for p in paths]
             paths.append(temp/'inbox/podscripts_processed.json')
             changes = [dict(path=str(p.relative_to(temp)), mode='100644', type='blob', content=p.read_text())
                        for p in paths if not (ROOT/p.relative_to(temp)).exists() or p.read_bytes() != (ROOT/p.relative_to(temp)).read_bytes()]
