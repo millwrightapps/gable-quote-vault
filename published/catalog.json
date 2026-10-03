@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 10,
+  "revision": 11,
   "retiredIds": [
     "reg_047"
   ],
@@ -283,6 +283,48 @@
         },
         "suggestionMatchedReview": null
       }
+    },
+    {
+      "id": "reg_028",
+      "quote": "I have a very long back.",
+      "speaker": "ANDREW_PANTON",
+      "episode": 27,
+      "episodeTitle": "S1:E27 - In the Ham Zone // Confidence of a Much Dumber Man [27]",
+      "timestamp": "31:32",
+      "timestampSeconds": 1892,
+      "listenUrl": "https://rtarchive.org/watch/f-kface-2020-12-2?t=1892",
+      "weatherTags": [
+        "long back",
+        "random",
+        "lore"
+      ],
+      "tags": [
+        "nose",
+        "unbreakable",
+        "bat fiasco",
+        "cartilage"
+      ],
+      "show": "FF",
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://rtarchive.org/watch/f-kface-2020-12-2?t=1892",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "rtarchive",
+      "archiveVideoId": "f-kface-2020-12-2"
     },
     {
       "id": "reg_030",
