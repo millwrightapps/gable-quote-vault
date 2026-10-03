@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 15,
+  "revision": 16,
   "retiredIds": [
     "reg_047"
   ],
@@ -176,6 +176,48 @@
         "suggestionMatchedReview": null
       },
       "secondarySpeaker": "GEOFF_RAMSEY"
+    },
+    {
+      "id": "reg_005",
+      "quote": "You as a community have given my very heart the biggest throbbing boner a heart has ever had.",
+      "speaker": "GEOFF_RAMSEY",
+      "episode": 2,
+      "episodeTitle": "Out Voted to Sit in Gavin's Chair // Strong Arm Democracy [2]",
+      "timestamp": "03:18",
+      "timestampSeconds": 198,
+      "youtubeVideoId": "8iFnXevLs0c",
+      "listenUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=198s",
+      "weatherTags": [
+        "celebration",
+        "sunny",
+        "friday"
+      ],
+      "tags": [
+        "community",
+        "heart",
+        "love"
+      ],
+      "show": "RP",
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=198s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
     },
     {
       "id": "reg_007",
