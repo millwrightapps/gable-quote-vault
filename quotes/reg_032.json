@@ -1,0 +1,41 @@
+{
+  "id": "reg_032",
+  "quote": "Geoff: ‘Andrew thinks he can click continuously 50,000 times without a second in between.’\nAndrew: ‘Easily.’",
+  "speaker": "GEOFF_RAMSEY",
+  "secondarySpeaker": "ANDREW_PANTON",
+  "show": "RP",
+  "episode": 30,
+  "episodeTitle": "$50,000 or Click a Mouse // Eating this Drink Wrong [30]",
+  "timestamp": "00:36",
+  "timestampSeconds": 36,
+  "youtubeVideoId": "7V5fI67V_g4",
+  "listenUrl": "https://www.youtube.com/watch?v=7V5fI67V_g4&t=36s",
+  "weatherTags": [
+    "monday",
+    "chaos",
+    "burger confidence"
+  ],
+  "tags": [
+    "dialogue",
+    "mouse",
+    "50k"
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-02",
+    "sourceUrl": "https://www.youtube.com/watch?v=7V5fI67V_g4&t=36s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  }
+}
