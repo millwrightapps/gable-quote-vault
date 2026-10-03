@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_0bb914533d7f14a36a87",
+  "quote": "I always feel old when like people I grew up watching or listening to are like married to people younger than me.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 163,
+  "episodeTitle": "Regulation Podcast - Kick Taste // Devaluing the Sauce Stash [163]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/kick-taste-devaluing-the-sauce-stash-163",
+    "audioSegmentTimestamp": "00:58:35"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/kick-taste-devaluing-the-sauce-stash-163",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

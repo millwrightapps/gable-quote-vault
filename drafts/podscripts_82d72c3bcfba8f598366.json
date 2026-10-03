@@ -1,0 +1,37 @@
+{
+  "id": "podscripts_82d72c3bcfba8f598366",
+  "quote": "Oh, we have to because I want to talk about blinds.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 159,
+  "episodeTitle": "Regulation Podcast - We Are Not in a Paranoid Era // Bean Hole Days? [159]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/we-are-not-in-a-paranoid-era-bean-hole-days-159",
+    "audioSegmentTimestamp": "00:02:42"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/we-are-not-in-a-paranoid-era-bean-hole-days-159",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

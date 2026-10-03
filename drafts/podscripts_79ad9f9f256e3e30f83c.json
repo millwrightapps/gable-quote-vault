@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_79ad9f9f256e3e30f83c",
+  "quote": "you go back and watch it now but one of the best movies ever, let alone one of the best Die Hards.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 162,
+  "episodeTitle": "Regulation Podcast - Tomato Tomato // Geoff's Gems of War Achievement [162]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/tomato-tomato-geoffs-gems-of-war-achievement-162",
+    "audioSegmentTimestamp": "00:09:10"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/tomato-tomato-geoffs-gems-of-war-achievement-162",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

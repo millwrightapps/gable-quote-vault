@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_68c6df96fc81990cbd32",
+  "quote": "Imagine all of like the logic and reasoning for why they can't leave the island, but applied to a small American town with vampires.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 161,
+  "episodeTitle": "Regulation Podcast - T-bone steak meat ham // Geoff’s back on the streets [161]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/t-bone-steak-meat-ham-geoffs-back-on-the-streets-161",
+    "audioSegmentTimestamp": "01:09:31"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/t-bone-steak-meat-ham-geoffs-back-on-the-streets-161",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

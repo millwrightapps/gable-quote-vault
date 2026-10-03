@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_9252d821e178ba56981e",
+  "quote": "Running the 40, if you're like a prospect, a second could be big.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 164,
+  "episodeTitle": "Regulation Podcast - One Second Early // Geoff at Sloppy Joe's [164]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/one-second-early-geoff-at-sloppy-joes-164",
+    "audioSegmentTimestamp": "00:02:55"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/one-second-early-geoff-at-sloppy-joes-164",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
