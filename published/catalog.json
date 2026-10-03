@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 17,
+  "revision": 18,
   "retiredIds": [
     "reg_047"
   ],
@@ -120,6 +120,59 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-02",
         "sourceUrl": "https://www.youtube.com/watch?v=ooiOQSANTOU&t=178s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "podscripts_873aa78f0bb185c303f9",
+      "quote": "I think you just don't want to let me in because I got Gurpler hair and I look like a maniac and I'm shivering.",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise"
+        ],
+        "version": 1,
+        "accepted": true
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 180,
+      "episodeTitle": "Regulation Podcast - Regulation Pubes // Long Hat Mode [180]",
+      "timestamp": "15:25",
+      "timestampSeconds": 925,
+      "youtubeVideoId": "xVVRxqQ7tZI",
+      "listenUrl": "https://www.youtube.com/watch?v=xVVRxqQ7tZI&t=925s",
+      "weatherTags": [
+        "random",
+        "cold",
+        "Gurpler"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Podscripts",
+        "url": "https://podscripts.co/podcasts/regulation-podcast/regulation-pubes-long-hat-mode-180",
+        "audioSegmentTimestamp": "00:15:30"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://www.youtube.com/watch?v=xVVRxqQ7tZI&t=925s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
