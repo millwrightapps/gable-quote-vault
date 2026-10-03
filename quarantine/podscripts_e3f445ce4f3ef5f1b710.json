@@ -19,10 +19,19 @@
     "audioSegmentTimestamp": "00:02:12"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/ass-hair-toupee-the-year-of-plaques-188",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Below editorial quality threshold: Compact complete sentence"
+  },
+  "quality": {
+    "score": 50,
+    "reasons": [
+      "Compact complete sentence"
+    ],
+    "version": 1,
+    "accepted": false
   }
 }

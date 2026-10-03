@@ -17,10 +17,19 @@
     "audioSegmentTimestamp": "00:03:31"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/traumatizing-history-of-birds-things-to-hate-about-europe-122",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Below editorial quality threshold: Incomplete thought"
+  },
+  "quality": {
+    "score": 0,
+    "reasons": [
+      "Incomplete thought"
+    ],
+    "version": 1,
+    "accepted": false
   }
 }

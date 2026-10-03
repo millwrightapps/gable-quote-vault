@@ -17,7 +17,7 @@ class DiscoveryTests(unittest.TestCase):
     def test_wrong_show_rejected(self):
         with self.assertRaises(ValueError): parse_feed(FEED.replace(b'Regulation Podcast', b'Other'))
     def test_no_speaker_guesses(self):
-        transcript = dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=62.8, text='The weather is cold in this synthetic test fixture.')])
+        transcript = dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=62.8, text='I refuse to trust a thermometer that needs its own weather forecast.')])
         result = candidates(transcript)
         self.assertEqual(1, len(result))
         self.assertIsNone(result[0]['speaker'])
@@ -36,4 +36,4 @@ class DiscoveryTests(unittest.TestCase):
 
     def test_reject_negative_time(self):
         with self.assertRaises(ValueError):
-            candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=-1, text='The weather is cold in this synthetic test fixture.')]))
+            candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=-1, text='I refuse to trust a thermometer that needs its own weather forecast.')]))

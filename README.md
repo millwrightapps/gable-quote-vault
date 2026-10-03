@@ -86,3 +86,9 @@ Automatic Podscripts collection skips the opening two minutes and screens nearby
 Automatic collection deduplicates wording across approved quotes, drafts, and quarantined excerpts, including capitalization, punctuation, and very small wording differences in longer sentences. It looks for another passage when a source repeats existing wording. Existing duplicate drafts are preserved under `quarantine/`; approved quotes are retained.
 
 **Remove quote** removes the selected draft from the review queue and moves it to `quarantine/` in one GitHub commit. Removed wording is excluded from automatic imports. The copy remains recoverable on GitHub. This action does not delete or change approved quotes.
+
+### Editorial quality screening
+
+The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible, and Podscripts contributes only the highest-scoring eligible excerpt per episode. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
+
+Automatic drafts display an **Editorial score** with reasons. This is a heuristic, not a probability of humor, accuracy, or speaker identity. Existing manually entered drafts and approved quotes are unchanged. Weak automatic drafts remain recoverable in `quarantine/`.

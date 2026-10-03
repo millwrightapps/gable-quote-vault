@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 from quote_filters import is_ad
 from quote_duplicates import existing_wording, is_repeat
+from quote_quality import assess
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -36,21 +37,22 @@ def candidates(transcript, known=()):
             raise ValueError('Invalid segment time')
         if not 30 <= len(text) <= 240 or is_intro(text) or is_ad(text):
             continue
+        quality = assess(text)
+        if not quality['accepted']:
+            continue
         if is_repeat(text, known):
             continue
         known.append(text)
         seconds = int(start)
         key = 'candidate_' + hashlib.sha256(f'{video}:{seconds}:{text}'.encode()).hexdigest()[:20]
         url = f'https://www.youtube.com/watch?v={video}&t={seconds}s'
-        results[key] = dict(id=key, quote=text, speaker=None, show=transcript['show'],
+        results[key] = dict(id=key, quote=text, quality=quality, speaker=None, show=transcript['show'],
             episode=transcript['episode'], episodeTitle=transcript['episodeTitle'],
             timestamp=f'{seconds // 60:02d}:{seconds % 60:02d}', timestampSeconds=seconds,
             youtubeVideoId=video, listenUrl=url, weatherTags=["random"], tags=[],
             review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
                         notes='Transcript candidate. Listen to identify every speaker and verify exact wording and timing.'))
-        if len(results) >= 10:
-            break
-    return list(results.values())
+    return sorted(results.values(), key=lambda q:q["quality"]["score"], reverse=True)[:10]
 
 
 if __name__ == '__main__':

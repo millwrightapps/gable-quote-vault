@@ -11,7 +11,7 @@ class DuplicateTests(unittest.TestCase):
     def test_different_moments_not_collapsed(self):
         self.assertFalse(is_repeat('Nobody expected the pencil argument to become an entire episode.', ['Nobody expected the next discussion to last for three hours.']))
     def test_collector_looks_past_repeat(self):
-        p=TranscriptParser();p.title='Fixture [10]';p.segments=[('00:05:00','Nobody expected the pencil argument to become an entire episode. Another totally different conversation began about the mysterious missing sandwich.')]
+        p=TranscriptParser();p.title='Fixture [10]';p.segments=[('00:05:00','Nobody expected the pencil argument to become an entire episode. I refuse to accept responsibility for the mysterious missing sandwich.')]
         q=candidate(p,'https://podscripts.co/podcasts/regulation-podcast/test',['Nobody expected the pencil argument to become an entire episode.'])
         self.assertIn('sandwich',q['quote'])
     def test_import_deduplicates_within_transcript_and_against_catalog(self):

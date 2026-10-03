@@ -24,5 +24,14 @@
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/fidget-guns-and-monster-trucks-death-of-umidigi-197",
     "checkedAt": "",
     "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  },
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 1,
+    "accepted": true
   }
 }

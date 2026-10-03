@@ -17,10 +17,20 @@
     "audioSegmentTimestamp": "00:12:38"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/bermuda-triangle-of-bike-problems-generational-lab-work-121",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Below editorial quality threshold: Compact complete sentence; Unclear subject outside the conversation"
+  },
+  "quality": {
+    "score": 30,
+    "reasons": [
+      "Compact complete sentence",
+      "Unclear subject outside the conversation"
+    ],
+    "version": 1,
+    "accepted": false
   }
 }

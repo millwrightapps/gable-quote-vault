@@ -4,7 +4,7 @@ from collect_podscripts import TranscriptParser, candidate
 class PodscriptsTests(unittest.TestCase):
     def page(self, title='Fixture [12]'):
         page = TranscriptParser()
-        page.feed(f'<h1>{title}</h1><span class="pod_timestamp_indicator">Starting point is 00:03:20</span><span class="transcript-text">This weather is much colder than the synthetic test expected.</span>')
+        page.feed(f'<h1>{title}</h1><span class="pod_timestamp_indicator">Starting point is 00:03:20</span><span class="transcript-text">I refuse to trust a thermometer that needs its own weather forecast.</span>')
         return page
     def test_audio_time_is_not_youtube_time(self):
         q = candidate(self.page(), 'https://podscripts.co/podcasts/regulation-podcast/test')
@@ -76,7 +76,7 @@ class CollectionTests(unittest.TestCase):
             unsuitable = PodscriptsTests().page('Supplemental')
             suitable = [PodscriptsTests().page() for _ in range(10)]
             for i, page in enumerate(suitable):
-                page.segments = [('00:03:20', f'Unique{i} alpha{i} beta{i} gamma{i} delta{i} epsilon{i} zeta{i} eta{i}.')]
+                page.segments = [('00:03:20', f'I refuse unique{i} alpha{i} beta{i} gamma{i} delta{i} epsilon{i} zeta{i} eta{i}.')]
             with patch('collect_podscripts.fetch', side_effect=[index, unsuitable]+suitable), patch('collect_podscripts.time.sleep'):
                 result=collect(root)
             self.assertEqual({'added':10,'checked':11},result)

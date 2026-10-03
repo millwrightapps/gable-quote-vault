@@ -12,6 +12,7 @@ from urllib.parse import urljoin, urlparse
 from import_transcript import is_intro
 from quote_filters import blocked_segments, is_ad, seconds
 from quote_duplicates import existing_wording, is_repeat
+from quote_quality import assess
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = 'https://podscripts.co/podcasts/regulation-podcast/'
@@ -60,6 +61,7 @@ def candidate(page, url, known=()):
     episode = re.search(r'\[(\d+)\]', page.title)
     if not episode:
         return None  # Supplemental/ambiguous show numbering needs manual review.
+    ranked = []
     blocked = blocked_segments(page.segments)
     for index, (stamp, block) in enumerate(page.segments):
         if index in blocked or seconds(stamp) < 120:
@@ -77,14 +79,18 @@ def candidate(page, url, known=()):
                 continue
             if sentence[-1:] not in '.!?':
                 continue
+            context = ' '.join(text for _, text in page.segments[max(0,index-1):index+2])
+            quality = assess(sentence, context)
+            if not quality['accepted']:
+                continue
             key = 'podscripts_' + hashlib.sha256(url.encode()).hexdigest()[:20]
-            return dict(id=key, quote=sentence, speaker=None, show='RP', episode=int(episode.group(1)),
+            ranked.append(dict(id=key, quote=sentence, quality=quality, speaker=None, show='RP', episode=int(episode.group(1)),
                 episodeTitle=page.title, timestamp=None, timestampSeconds=None, youtubeVideoId=None,
                 listenUrl=None, weatherTags=["random"], tags=[],
                 source=dict(provider='Podscripts', url=url, audioSegmentTimestamp=stamp),
                 review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
-                    notes='Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.'))
-    return None
+                    notes='Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.')))
+    return max(ranked, key=lambda q:q['quality']['score']) if ranked else None
 
 
 def fetch(url):
