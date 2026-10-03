@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_7a2778d14fa78ec67bd0",
+  "quote": "Four days later, I was at Best Buy buying the same printer over and over because I immediately needed another printer.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 170,
+  "episodeTitle": "Regulation Podcast - Potato Talk // Bald Concert Goers [170]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/potato-talk-bald-concert-goers-170",
+    "audioSegmentTimestamp": "00:38:43"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/potato-talk-bald-concert-goers-170",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

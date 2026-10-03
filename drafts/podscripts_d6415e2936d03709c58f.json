@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_d6415e2936d03709c58f",
+  "quote": "I think dog shit is the worst because.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 176,
+  "episodeTitle": "Regulation Podcast - Tomorrow Is Chores // Naughty Naked Video Games [176]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/tomorrow-is-chores-naughty-naked-video-games-176",
+    "audioSegmentTimestamp": "00:10:23"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/tomorrow-is-chores-naughty-naked-video-games-176",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

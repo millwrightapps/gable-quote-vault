@@ -1,0 +1,38 @@
+{
+  "id": "podscripts_be74ed2610498284d0f3",
+  "quote": "I don't think about it like I never really noticed, but I definitely put on a voice when I'm on the phone.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 1,
+    "accepted": true
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 174,
+  "episodeTitle": "Regulation Podcast - Caviar Phones // Internal Monologues [174]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/caviar-phones-internal-monologues-174",
+    "audioSegmentTimestamp": "00:15:30"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/caviar-phones-internal-monologues-174",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
