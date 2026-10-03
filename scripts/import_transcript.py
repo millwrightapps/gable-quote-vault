@@ -6,6 +6,7 @@ import json
 import math
 from pathlib import Path
 import re
+from quote_filters import is_ad
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -31,7 +32,7 @@ def candidates(transcript):
         start = segment['start']
         if not isinstance(start, (int, float)) or not math.isfinite(start) or start < 0:
             raise ValueError('Invalid segment time')
-        if not 30 <= len(text) <= 240 or is_intro(text):
+        if not 30 <= len(text) <= 240 or is_intro(text) or is_ad(text):
             continue
         seconds = int(start)
         key = 'candidate_' + hashlib.sha256(f'{video}:{seconds}:{text}'.encode()).hexdigest()[:20]

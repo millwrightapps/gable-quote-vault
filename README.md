@@ -78,3 +78,7 @@ Batch collection stops after 10 new candidates, 20 episodes, four older index pa
 Double-click **Open Phone Quote Review.command** on the Mac. It prints a phone URL and a fresh pairing code. Connect the phone to the same trusted Wi-Fi, open that URL, and enter the code. Keep the Mac awake and the dashboard running. If another dashboard is already running, stop that process first to free port 8765.
 
 LAN mode requires pairing before reading drafts or making changes, keeps GitHub credentials on the Mac, checks the request host/origin, and limits pairing attempts. Pairing expires when the server restarts. This uses HTTP on your local network, so use trusted Wi-Fi only; no router port forwarding or public hosting is configured. The normal launcher remains local-only.
+
+### Ad screening
+
+Automatic Podscripts collection skips the opening two minutes and screens nearby transcript blocks around advertising signals (including a brand reveal after a generic promotional line). Both importers reject common promotions. Suspect existing automatic drafts are retained in `quarantine/`, outside the dashboard queue and published feed. This is conservative screening, not a guarantee: reviewers should still reject ads or questionable context. Approved entries are not changed by this cleanup.

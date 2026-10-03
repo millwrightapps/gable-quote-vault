@@ -1,0 +1,29 @@
+{
+  "id": "podscripts_3b6fc070868879401bf9",
+  "quote": "The Hulu original series Furious is coming to Disney Plus, starring Emmy Rossum.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 115,
+  "episodeTitle": "Regulation Podcast - Blockbuster Veteran // Morning Burger [115]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/blockbuster-veteran-morning-burger-115",
+    "audioSegmentTimestamp": "00:00:00"
+  },
+  "review": {
+    "status": "quarantined",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/blockbuster-veteran-morning-burger-115",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Promotional text or routine introduction"
+  }
+}

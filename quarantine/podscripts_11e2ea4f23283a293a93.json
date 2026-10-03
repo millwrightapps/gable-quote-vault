@@ -1,0 +1,29 @@
+{
+  "id": "podscripts_11e2ea4f23283a293a93",
+  "quote": "What do you mean you're the first one?",
+  "speaker": null,
+  "show": "RP",
+  "episode": 202,
+  "episodeTitle": "Regulation Podcast - The British Jackal // Beard Faucet [202]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/the-british-jackal-beard-faucet-202",
+    "audioSegmentTimestamp": "00:00:00"
+  },
+  "review": {
+    "status": "quarantined",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/the-british-jackal-beard-faucet-202",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Opening segment; possible pre-roll advertising"
+  }
+}

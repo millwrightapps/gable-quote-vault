@@ -10,6 +10,7 @@ import urllib.request
 import urllib.error
 from urllib.parse import urljoin, urlparse
 from import_transcript import is_intro
+from quote_filters import blocked_segments, is_ad, seconds
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = 'https://podscripts.co/podcasts/regulation-podcast/'
@@ -58,13 +59,16 @@ def candidate(page, url):
     episode = re.search(r'\[(\d+)\]', page.title)
     if not episode:
         return None  # Supplemental/ambiguous show numbering needs manual review.
-    for stamp, block in page.segments:
+    blocked = blocked_segments(page.segments)
+    for index, (stamp, block) in enumerate(page.segments):
+        if index in blocked or seconds(stamp) < 120:
+            continue
         if re.search(r'(sponsor|promo|discount|advertis|savings|insurance|cash back|\.com|terms apply|sign up)', block, re.I):
             continue
         for sentence in re.split(r'(?<=[.!?])\s+', block):
             words = sentence.split()
             # One brief excerpt per source; omit ads and incomplete fragments.
-            if not (8 <= len(words) <= 25) or is_intro(sentence):
+            if not (8 <= len(words) <= 25) or is_intro(sentence) or is_ad(sentence):
                 continue
             if re.search(r'\b(sponsor|promo|discount|advertis|offer|insurance|visit|\.com)\b', sentence, re.I):
                 continue

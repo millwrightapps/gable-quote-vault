@@ -1,0 +1,29 @@
+{
+  "id": "podscripts_c446080bd4b65b887ea9",
+  "quote": "Hello and welcome to another episode of the Regulation Podcast.",
+  "speaker": null,
+  "show": "RP",
+  "episode": 113,
+  "episodeTitle": "Regulation Podcast - Geoff Got the House // Defeated by the Subdog [113]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/geoff-got-the-house-defeated-by-the-subdog-113",
+    "audioSegmentTimestamp": "00:00:00"
+  },
+  "review": {
+    "status": "quarantined",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/geoff-got-the-house-defeated-by-the-subdog-113",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Promotional text or routine introduction"
+  }
+}
