@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_940dfa9ec3fd64937bd9",
+  "quote": "I said you could stay if you wanted to, but he said, I have a dog.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 137,
+  "episodeTitle": "Regulation Podcast - Fireplace Video Problems // Wrapping Up the Cucumber Saga [137]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/fireplace-video-problems-wrapping-up-the-cucumber-saga-137",
+    "audioSegmentTimestamp": "00:31:51"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/fireplace-video-problems-wrapping-up-the-cucumber-saga-137",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

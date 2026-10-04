@@ -1,0 +1,42 @@
+{
+  "id": "podscripts_df2922afec52a6aaefe4",
+  "quote": "Maybe we should show them to you on Office Day or something.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: Office day"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [
+      "Office day"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 142,
+  "episodeTitle": "Regulation Podcast - Gavin Loves Skype // Andrew Stole Chips Maybe? [142]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/gavin-loves-skype-andrew-stole-chips-maybe-142",
+    "audioSegmentTimestamp": "00:25:02"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/gavin-loves-skype-andrew-stole-chips-maybe-142",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
