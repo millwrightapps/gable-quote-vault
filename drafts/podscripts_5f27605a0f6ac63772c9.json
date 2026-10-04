@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_5f27605a0f6ac63772c9",
+  "quote": "doubles i like them because you never know what you're going to get in the second episode.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 136,
+  "episodeTitle": "Regulation Podcast - Andrew is On Your Side // Geoff's year old Cosmic Crisp [136]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/andrew-is-on-your-side-geoffs-year-old-cosmic-crisp-136",
+    "audioSegmentTimestamp": "00:59:02"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/andrew-is-on-your-side-geoffs-year-old-cosmic-crisp-136",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

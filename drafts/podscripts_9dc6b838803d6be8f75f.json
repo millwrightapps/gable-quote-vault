@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_9dc6b838803d6be8f75f",
+  "quote": "we should try to make the worst smelling piss.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 135,
+  "episodeTitle": "Regulation Podcast - Gavin Was Early // Geoff's Dead Dogs and Duck Dicks [135]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/gavin-was-early-geoffs-dead-dogs-and-duck-dicks-135",
+    "audioSegmentTimestamp": "00:49:21"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/gavin-was-early-geoffs-dead-dogs-and-duck-dicks-135",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
