@@ -15,7 +15,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import yt_dlp
-from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
+import youtube_transcript_api
+from youtube_transcript_api import YouTubeTranscriptApi
 
 # Import lore dictionary matching function
 from lore_terms import matches
@@ -109,19 +110,41 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
 
 
 def fetch_raw_transcript(video_id: str) -> list[dict] | None:
-    """Retrieve raw transcript chunks with start offsets and text."""
+    """Retrieve raw transcript chunks across multiple versions of youtube-transcript-api."""
+    # Method 1: New instance API (v1.x+)
     try:
-        return YouTubeTranscriptApi.get_transcript(video_id, languages=["en", "en-US"])
-    except (TranscriptsDisabled, NoTranscriptFound):
-        try:
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-            transcript = transcript_list.find_generated_transcript(["en", "en-US"])
-            return transcript.fetch()
-        except Exception:
-            return None
+        api = YouTubeTranscriptApi()
+        if hasattr(api, "fetch"):
+            fetched = api.fetch(video_id, languages=["en", "en-US"])
+            raw = fetched.to_raw_data() if hasattr(fetched, "to_raw_data") else fetched
+            data = []
+            for item in raw:
+                data.append({
+                    "text": getattr(item, "text", item.get("text", "")),
+                    "start": getattr(item, "start", item.get("start", 0.0)),
+                    "duration": getattr(item, "duration", item.get("duration", 0.0)),
+                })
+            return data
+    except Exception:
+        pass
+
+    # Method 2: Legacy classmethod API (<1.0)
+    try:
+        if hasattr(YouTubeTranscriptApi, "get_transcript"):
+            return YouTubeTranscriptApi.get_transcript(video_id, languages=["en", "en-US"])
+    except Exception:
+        pass
+
+    # Method 3: List and fetch auto-generated captions fallback
+    try:
+        if hasattr(YouTubeTranscriptApi, "list_transcripts"):
+            t_list = YouTubeTranscriptApi.list_transcripts(video_id)
+            generated = t_list.find_generated_transcript(["en", "en-US"])
+            return generated.fetch()
     except Exception as e:
-        print(f"[!] Transcript fetch error for {video_id}: {e}", file=sys.stderr)
-        return None
+        print(f"[!] Transcript fallback failed for {video_id}: {e}", file=sys.stderr)
+
+    return None
 
 
 def extract_lore_candidates(transcript_items: list[dict], window: int = 2) -> list[dict]:
@@ -141,7 +164,6 @@ def extract_lore_candidates(transcript_items: list[dict], window: int = 2) -> li
 
         matched_terms = matches(text)
         if matched_terms and idx not in seen_indices:
-            # Capture context lines around the hit
             start_idx = max(0, idx - window)
             end_idx = min(len(transcript_items), idx + window + 1)
 
