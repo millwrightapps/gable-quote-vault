@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
 """
 Automated podcast scraper and lore scrubber.
-Extracts recent episode transcripts via yt-dlp and youtube-transcript-api,
+Extracts recent episode transcripts via yt-dlp subtitles,
 cross-references lines against lore_terms.py and quote_filters.py,
 and commits structured markdown to inbox/.
 """
 
+import json
 import os
 import re
 import sys
+import tempfile
 from pathlib import Path
 
 # Add scripts directory to path so relative imports work inside GitHub Actions runner
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import yt_dlp
-import youtube_transcript_api
-from youtube_transcript_api import YouTubeTranscriptApi
 
 # Import lore dictionary matching function
-from lore_terms import matches
+try:
+    from lore_terms import matches
+except ImportError:
+    def matches(text: str) -> list[str]:
+        return []
 
-# Safe import for quote_filters to adapt to your function naming
+# Safe import for quote_filters
 try:
     import quote_filters
     if hasattr(quote_filters, "is_ad_or_sponsored"):
@@ -100,8 +104,8 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
                 if entry and entry.get("id"):
                     videos.append({
                         "id": entry["id"],
-                        "title": entry.get("title", f"Episode {entry['id']}"),
-                        "url": entry.get("url", f"https://www.youtube.com/watch?v={entry['id']}"),
+                        "title": entry.get("title") or f"Episode {entry['id']}",
+                        "url": entry.get("url") or f"https://www.youtube.com/watch?v={entry['id']}",
                     })
         except Exception as e:
             print(f"[!] Error fetching metadata from {source_url}: {e}", file=sys.stderr)
@@ -110,41 +114,54 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
 
 
 def fetch_raw_transcript(video_id: str) -> list[dict] | None:
-    """Retrieve raw transcript chunks across multiple versions of youtube-transcript-api."""
-    # Method 1: New instance API (v1.x+)
-    try:
-        api = YouTubeTranscriptApi()
-        if hasattr(api, "fetch"):
-            fetched = api.fetch(video_id, languages=["en", "en-US"])
-            raw = fetched.to_raw_data() if hasattr(fetched, "to_raw_data") else fetched
-            data = []
-            for item in raw:
-                data.append({
-                    "text": getattr(item, "text", item.get("text", "")),
-                    "start": getattr(item, "start", item.get("start", 0.0)),
-                    "duration": getattr(item, "duration", item.get("duration", 0.0)),
+    """Download transcript JSON directly with yt-dlp to avoid datacenter IP bans."""
+    video_url = f"https://www.youtube.com/watch?v={video_id}"
+
+    with tempfile.TemporaryDirectory() as tmpdir:
+        out_tmpl = os.path.join(tmpdir, "%(id)s")
+        ydl_opts = {
+            "skip_download": True,
+            "writeautosub": True,
+            "writesubtitles": True,
+            "subtitleslangs": ["en.*", "en", "en-US", "en-orig"],
+            "subtitlesformat": "json3",
+            "outtmpl": out_tmpl,
+            "quiet": True,
+            "no_warnings": True,
+        }
+
+        try:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                ydl.download([video_url])
+
+            # Look for any json3 subtitle file downloaded
+            sub_files = list(Path(tmpdir).glob("*.json3"))
+            if not sub_files:
+                return None
+
+            with open(sub_files[0], "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            items = []
+            for event in data.get("events", []):
+                if "segs" not in event:
+                    continue
+                text = "".join(seg.get("utf8", "") for seg in event["segs"]).strip()
+                if not text or text == "\n":
+                    continue
+
+                start_ms = event.get("tStartMs", 0)
+                duration_ms = event.get("dDurationMs", 0)
+                items.append({
+                    "text": text,
+                    "start": start_ms / 1000.0,
+                    "duration": duration_ms / 1000.0,
                 })
-            return data
-    except Exception:
-        pass
 
-    # Method 2: Legacy classmethod API (<1.0)
-    try:
-        if hasattr(YouTubeTranscriptApi, "get_transcript"):
-            return YouTubeTranscriptApi.get_transcript(video_id, languages=["en", "en-US"])
-    except Exception:
-        pass
-
-    # Method 3: List and fetch auto-generated captions fallback
-    try:
-        if hasattr(YouTubeTranscriptApi, "list_transcripts"):
-            t_list = YouTubeTranscriptApi.list_transcripts(video_id)
-            generated = t_list.find_generated_transcript(["en", "en-US"])
-            return generated.fetch()
-    except Exception as e:
-        print(f"[!] Transcript fallback failed for {video_id}: {e}", file=sys.stderr)
-
-    return None
+            return items if items else None
+        except Exception as e:
+            print(f"    [!] Subtitle fetch failed for {video_id}: {e}", file=sys.stderr)
+            return None
 
 
 def extract_lore_candidates(transcript_items: list[dict], window: int = 2) -> list[dict]:
