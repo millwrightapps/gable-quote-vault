@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Scraper Script
         # Point to the renamed script
-        run: python scripts/discover_podcasts.py
+        run: python scripts/discover_podscripts.py
 
       - name: Commit and Push Changes
         run: |
