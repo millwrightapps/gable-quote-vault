@@ -2,23 +2,20 @@
 """
 Automated podcast scraper and lore scrubber.
 Extracts recent episode transcripts via yt-dlp flat playlist discovery
-and direct timedtext retrieval, cross-references against lore_terms.py
+and youtube-transcript-api, cross-references against lore_terms.py
 and quote_filters.py, and commits structured markdown to inbox/.
 """
 
-import json
 import os
 import re
 import sys
-import urllib.parse
-import urllib.request
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 # Add scripts directory to path so relative imports work inside GitHub Actions runner
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import yt_dlp
+from youtube_transcript_api import YouTubeTranscriptApi
 
 # Import lore dictionary matching function
 try:
@@ -124,117 +121,46 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
 
 
 def fetch_raw_transcript(video_id: str) -> list[dict] | None:
-    """Directly query YouTube's Innertube API and timedtext caption servers."""
-    user_agent = "com.google.android.youtube/19.29.35 (Linux; U; Android 14) gzip"
-    
-    # 1. Fetch caption tracks metadata from Innertube API endpoint
-    api_url = "https://www.youtube.com/youtubei/v1/player"
-    payload = {
-        "context": {
-            "client": {
-                "clientName": "ANDROID",
-                "clientVersion": "19.29.35",
-                "hl": "en",
-                "gl": "US",
-                "androidSdkVersion": 34,
-            }
-        },
-        "videoId": video_id,
-    }
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": user_agent,
-    }
-
+    """Query captions using youtube-transcript-api with automatic English fallback."""
     try:
-        req = urllib.request.Request(
-            api_url,
-            data=json.dumps(payload).encode("utf-8"),
-            headers=headers
-        )
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode("utf-8"))
-
-        captions_obj = data.get("captions", {}).get("playerCaptionsTracklistRenderer", {})
-        tracks = captions_obj.get("captionTracks", [])
-        if not tracks:
-            return None
-
-        # Prioritize English tracks
-        selected_track = None
-        for track in tracks:
-            lang = track.get("languageCode", "")
-            if lang.startswith("en"):
-                selected_track = track
-                break
-        if not selected_track:
-            selected_track = tracks[0]
-
-        base_url = selected_track.get("baseUrl")
-        if not base_url:
-            return None
-
-        # Ensure we request standard XML timedtext format
-        if "fmt=" not in base_url:
-            base_url += "&fmt=srv3"
-
-        # 2. Use the same Android User-Agent to avoid client mismatch 400 Bad Request
-        sub_headers = {
-            "User-Agent": user_agent,
-            "Accept-Language": "en-US,en;q=0.9",
-        }
-        sub_req = urllib.request.Request(base_url, headers=sub_headers)
-        with urllib.request.urlopen(sub_req, timeout=10) as sub_res:
-            xml_data = sub_res.read().decode("utf-8")
-
-        # Parse caption nodes (supports both standard <text> and srv3 <p> formats)
-        root = ET.fromstring(xml_data)
-        items = []
+        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
         
-        # Check for standard <text> elements
-        text_elements = root.findall(".//text")
-        if text_elements:
-            for elem in text_elements:
-                text = elem.text or ""
-                text = (
-                    text.replace("&#39;", "'")
-                    .replace("&amp;", "&")
-                    .replace("&quot;", '"')
-                    .replace("\n", " ")
-                    .strip()
-                )
-                if not text:
-                    continue
-                start = float(elem.attrib.get("start", 0.0))
-                duration = float(elem.attrib.get("dur", 0.0))
-                items.append({"text": text, "start": start, "duration": duration})
-        else:
-            # Check for srv3 <p> elements
-            for elem in root.findall(".//p"):
-                # Join all text inside the element (including nested spans)
-                text = "".join(elem.itertext()).strip()
-                text = (
-                    text.replace("&#39;", "'")
-                    .replace("&amp;", "&")
-                    .replace("&quot;", '"')
-                    .replace("\n", " ")
-                    .strip()
-                )
-                if not text:
-                    continue
-                # Time is in milliseconds for srv3
-                start_ms = float(elem.attrib.get("t", 0.0))
-                dur_ms = float(elem.attrib.get("d", 0.0))
-                items.append({
-                    "text": text,
-                    "start": start_ms / 1000.0,
-                    "duration": dur_ms / 1000.0,
-                })
+        # Look for English (manual or auto-generated)
+        transcript = None
+        try:
+            transcript = transcript_list.find_transcript(["en", "en-US", "en-GB"])
+        except Exception:
+            # Fall back to finding any generated transcript if manual was not found
+            for t in transcript_list:
+                if t.language_code.startswith("en"):
+                    transcript = t
+                    break
 
+        if not transcript:
+            return None
+
+        raw_data = transcript.fetch()
+        items = []
+        for line in raw_data:
+            text = (
+                line.get("text", "")
+                .replace("&#39;", "'")
+                .replace("&amp;", "&")
+                .replace("&quot;", '"')
+                .replace("\n", " ")
+                .strip()
+            )
+            if not text:
+                continue
+            items.append({
+                "text": text,
+                "start": float(line.get("start", 0.0)),
+                "duration": float(line.get("duration", 0.0)),
+            })
         return items if items else None
 
     except Exception as e:
-        print(f"    [!] Timedtext fetch error for {video_id}: {e}", file=sys.stderr)
+        print(f"    [!] Transcript fetch error for {video_id}: {e}", file=sys.stderr)
         return None
 
 
