@@ -10,12 +10,33 @@ import os
 import re
 import sys
 from pathlib import Path
+
+# Add scripts directory to path so relative imports work inside GitHub Actions runner
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 import yt_dlp
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 
-# Import internal repository scrubbers and filters
+# Import lore dictionary matching function
 from lore_terms import matches
-from quote_filters import is_ad_or_sponsored
+
+# Safe import for quote_filters to adapt to your function naming
+try:
+    import quote_filters
+    if hasattr(quote_filters, "is_ad_or_sponsored"):
+        is_ad_or_sponsored = quote_filters.is_ad_or_sponsored
+    elif hasattr(quote_filters, "is_ad"):
+        is_ad_or_sponsored = quote_filters.is_ad
+    elif hasattr(quote_filters, "is_sponsored"):
+        is_ad_or_sponsored = quote_filters.is_sponsored
+    elif hasattr(quote_filters, "filter_ads"):
+        is_ad_or_sponsored = quote_filters.filter_ads
+    else:
+        def is_ad_or_sponsored(text: str) -> bool:
+            return False
+except ImportError:
+    def is_ad_or_sponsored(text: str) -> bool:
+        return False
 
 # Target playlist URL (Regulation Podcast official playlist)
 DEFAULT_PLAYLIST = "https://www.youtube.com/playlist?list=PL0YaZqNO5Z3ds7_sVSEP-FTjvvfWWWY8O"
