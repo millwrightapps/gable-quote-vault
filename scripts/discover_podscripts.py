@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
 Automated podcast scraper and lore scrubber.
-Extracts recent episode transcripts via yt-dlp subtitles,
-cross-references lines against lore_terms.py and quote_filters.py,
-and commits structured markdown to inbox/.
+Extracts recent episode transcripts via yt-dlp flat playlist discovery
+and direct timedtext retrieval, cross-references against lore_terms.py
+and quote_filters.py, and commits structured markdown to inbox/.
 """
 
 import json
 import os
 import re
 import sys
-import tempfile
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 # Add scripts directory to path so relative imports work inside GitHub Actions runner
@@ -102,9 +104,14 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
             entries = info.get("entries") or []
             for entry in entries:
                 if entry and entry.get("id"):
+                    title = entry.get("title") or f"Episode {entry['id']}"
+                    # Skip deleted or unavailable placeholder entries
+                    if title in ["[Deleted video]", "[Private video]"] or "Episode " in title and len(title) == 19:
+                        if not entry.get("title"):
+                            continue
                     videos.append({
                         "id": entry["id"],
-                        "title": entry.get("title") or f"Episode {entry['id']}",
+                        "title": title,
                         "url": entry.get("url") or f"https://www.youtube.com/watch?v={entry['id']}",
                     })
         except Exception as e:
@@ -114,54 +121,82 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
 
 
 def fetch_raw_transcript(video_id: str) -> list[dict] | None:
-    """Download transcript JSON directly with yt-dlp to avoid datacenter IP bans."""
-    video_url = f"https://www.youtube.com/watch?v={video_id}"
+    """
+    Directly query YouTube's Innertube API and timedtext caption servers.
+    Bypasses yt-dlp web player bot-check walls on cloud runners.
+    """
+    # 1. Fetch caption tracks metadata from Innertube API endpoint
+    api_url = "https://www.youtube.com/youtubei/v1/player"
+    payload = {
+        "context": {
+            "client": {
+                "clientName": "WEB",
+                "clientVersion": "2.20240410.01.00",
+                "hl": "en",
+                "gl": "US"
+            }
+        },
+        "videoId": video_id
+    }
 
-    with tempfile.TemporaryDirectory() as tmpdir:
-        out_tmpl = os.path.join(tmpdir, "%(id)s")
-        ydl_opts = {
-            "skip_download": True,
-            "writeautosub": True,
-            "writesubtitles": True,
-            "subtitleslangs": ["en.*", "en", "en-US", "en-orig"],
-            "subtitlesformat": "json3",
-            "outtmpl": out_tmpl,
-            "quiet": True,
-            "no_warnings": True,
-        }
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+    }
 
-        try:
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                ydl.download([video_url])
+    try:
+        req = urllib.request.Request(api_url, data=json.dumps(payload).encode("utf-8"), headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode("utf-8"))
 
-            # Look for any json3 subtitle file downloaded
-            sub_files = list(Path(tmpdir).glob("*.json3"))
-            if not sub_files:
-                return None
+        captions_obj = data.get("captions", {}).get("playerCaptionsTracklistRenderer", {})
+        tracks = captions_obj.get("captionTracks", [])
 
-            with open(sub_files[0], "r", encoding="utf-8") as f:
-                data = json.load(f)
-
-            items = []
-            for event in data.get("events", []):
-                if "segs" not in event:
-                    continue
-                text = "".join(seg.get("utf8", "") for seg in event["segs"]).strip()
-                if not text or text == "\n":
-                    continue
-
-                start_ms = event.get("tStartMs", 0)
-                duration_ms = event.get("dDurationMs", 0)
-                items.append({
-                    "text": text,
-                    "start": start_ms / 1000.0,
-                    "duration": duration_ms / 1000.0,
-                })
-
-            return items if items else None
-        except Exception as e:
-            print(f"    [!] Subtitle fetch failed for {video_id}: {e}", file=sys.stderr)
+        if not tracks:
             return None
+
+        # Prioritize English tracks
+        selected_track = None
+        for track in tracks:
+            lang = track.get("languageCode", "")
+            if lang.startswith("en"):
+                selected_track = track
+                break
+
+        if not selected_track:
+            selected_track = tracks[0]
+
+        base_url = selected_track.get("baseUrl")
+        if not base_url:
+            return None
+
+        # Request standard XML timedtext
+        sub_req = urllib.request.Request(base_url, headers=headers)
+        with urllib.request.urlopen(sub_req, timeout=10) as sub_res:
+            xml_data = sub_res.read().decode("utf-8")
+
+        # Parse caption nodes
+        root = ET.fromstring(xml_data)
+        items = []
+        for elem in root.findall(".//text"):
+            text = elem.text or ""
+            text = text.replace("&#39;", "'").replace("&amp;", "&").replace("&quot;", '"').replace("\n", " ").strip()
+            if not text:
+                continue
+
+            start = float(elem.attrib.get("start", 0.0))
+            duration = float(elem.attrib.get("dur", 0.0))
+            items.append({
+                "text": text,
+                "start": start,
+                "duration": duration
+            })
+
+        return items if items else None
+
+    except Exception as e:
+        print(f"    [!] Timedtext fetch error for {video_id}: {e}", file=sys.stderr)
+        return None
 
 
 def extract_lore_candidates(transcript_items: list[dict], window: int = 2) -> list[dict]:
