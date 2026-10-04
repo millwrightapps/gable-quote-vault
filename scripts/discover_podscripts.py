@@ -121,9 +121,11 @@ def fetch_recent_videos(source_url: str, limit: int = 10) -> list[dict]:
 
 
 def fetch_raw_transcript(video_id: str) -> list[dict] | None:
-    """Query captions using youtube-transcript-api with automatic English fallback."""
+    """Fetch transcript using the modern v1.2+ youtube-transcript-api."""
     try:
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        # In version 1.x+, the API must be instantiated first.
+        api = YouTubeTranscriptApi()
+        transcript_list = api.list(video_id)
         
         # Look for English (manual or auto-generated)
         transcript = None
@@ -139,7 +141,9 @@ def fetch_raw_transcript(video_id: str) -> list[dict] | None:
         if not transcript:
             return None
 
+        # Fetch returns the actual list of dictionaries containing text/start/duration
         raw_data = transcript.fetch()
+        
         items = []
         for line in raw_data:
             text = (
@@ -157,6 +161,7 @@ def fetch_raw_transcript(video_id: str) -> list[dict] | None:
                 "start": float(line.get("start", 0.0)),
                 "duration": float(line.get("duration", 0.0)),
             })
+            
         return items if items else None
 
     except Exception as e:
