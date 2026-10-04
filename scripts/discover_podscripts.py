@@ -14,7 +14,7 @@ from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, No
 
 # Configure the target source: can be a channel URL, playlist URL, or channel handles
 # Example: "https://www.youtube.com/@RegulationPodcast/videos"
-SOURCE_URL = os.environ.get("PODCAST_SOURCE_URL", "https://www.youtube.com/@RegulationPodcast/videos")
+SOURCE_URL = os.environ.get("PODCAST_SOURCE_URL", "https://www.youtube.com/playlist?list=PL0YaZqNO5Z3ds7_sVSEP-FTjvvfWWWY8O")
 
 # Maximum number of recent episodes to inspect per run
 MAX_EPISODES = int(os.environ.get("MAX_EPISODES", "10"))
