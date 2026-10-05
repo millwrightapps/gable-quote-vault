@@ -1,0 +1,58 @@
+{
+  "id": "podscripts_0ad24fb32dcda5b72016",
+  "quote": "Gavin: 'Maybe we should make an accurate bag of goo to simulate a pterodactyl shit based on what we learned about their stomach size and intestines.'\nAndrew: 'I hate everything you said.'",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Office day"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [
+      "Office day"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": "GAVIN_FREE",
+  "show": "RP",
+  "episode": 125,
+  "episodeTitle": "DBLCT // \"No problem!\" [125]",
+  "timestamp": "15:47",
+  "timestampSeconds": 947,
+  "youtubeVideoId": "_Xm5r-ZyU4I",
+  "listenUrl": "https://www.youtube.com/watch?v=_Xm5r-ZyU4I&t=947s",
+  "weatherTags": [
+    "random",
+    "goo",
+    "rainy"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/geoffs-new-lifehack-asparagus-piss-ko-132",
+    "audioSegmentTimestamp": "00:41:30"
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-05",
+    "sourceUrl": "https://www.youtube.com/watch?v=_Xm5r-ZyU4I&t=947s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "secondarySpeaker": "ANDREW_PANTON",
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
+}
