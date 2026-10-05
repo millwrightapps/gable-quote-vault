@@ -31,7 +31,7 @@ The app keeps a last-known catalog and bundled fallback. Remote payloads are cap
 
 A GitHub Action checks the official public podcast feed daily at 13:20 UTC and can also run manually from Actions → Discover episodes → Run workflow. It updates `inbox/episodes.json`, deduplicated by the feed's stable episode GUID. The initial queue has 426 episode/supplemental entries. Feed titles and descriptions are not treated as spoken quotes. GitHub scheduled runs may be delayed and can be disabled after prolonged repository inactivity.
 
-**The official feed currently contains no transcripts. Automatic episode discovery is live; automatic extraction from new episodes needs a transcript source.** No transcription service, paid API, or speaker recognition is configured.
+**The official feed currently contains no transcripts.** GitHub Actions only refreshes the episode list; it does not fetch transcripts. The review dashboard pulls English captions directly from the official Regulation Podcast YouTube playlist when you press **Refresh queue**. The pull runs on your Mac, not on a GitHub cloud runner, because YouTube blocks many cloud IP addresses. No paid transcription service, cookie, proxy, or speaker recognition is used.
 
 To extract candidates from a transcript you have, save a JSON file with `youtubeVideoId`, `show` (`RP` or `FF`), `episode`, `episodeTitle`, and `segments` (each with numeric `start` seconds and `text`). Then run:
 
@@ -41,21 +41,15 @@ python3 scripts/import_transcript.py /path/to/transcript.json
 
 The importer selects up to ten short excerpts on any topic per transcript. It uses stable IDs, does not overwrite review work, and always leaves `speaker` unset and status `draft`. A caption segment may be incomplete or contain multiple voices; verify the recording before using it. This creates candidates only, never live app quotes. Keep transcripts out of the repository; commit only reviewed short excerpts or candidates that you intend to share.
 
-### Podscripts collection is enabled
-
-The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads up to 20 previously unprocessed transcript pages per run, aiming for 10 new candidates, with a pause between requests, and collects up to **three distinct short candidates per episode**, within a combined 25-word excerpt budget per source page. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
-
-Podscripts provides approximate **audio segment times**, not verified YouTube timestamps or speaker identities. These are stored separately in `source.audioSegmentTimestamp`; playback timestamps, links, and speakers remain unset. Human review is mandatory. Keyword filtering can still select an ad or an uninteresting/incomplete passage; reject those drafts. No automatic publication or paid transcription occurs. Regulation Search remains an alternative for manual cross-checking, not an integrated source.
-
 ## Review dashboard (on your Mac)
 
-Run this from your local vault folder:
+Double-click **Open Quote Review.command** from the vault folder. The first launch creates a private Python environment and installs the pinned, free YouTube tools. Or start the dashboard from a terminal:
 
 ```sh
-python3 scripts/review_server.py
+./Open\ Quote\ Review.command
 ```
 
-Then open **http://127.0.0.1:8765**. Keep that process running while reviewing. This is a local dashboard, not a publicly hosted admin page; GitHub credentials stay in your local `gh` login. No API keys or paid speech service are used.
+Then open **http://127.0.0.1:8765**. Keep that process running while reviewing. Refresh queue reads the official YouTube playlist and captions from this Mac; GitHub Actions does not make transcript requests. This is a local dashboard, not a publicly hosted admin page; GitHub credentials stay in your local `gh` login. No API keys or paid speech service are used.
 
 Select a candidate → play its 35-second preview → correct words, speaker(s), episode and recording start time → confirm the recording and attribution policy → **Approve & publish**. Approval atomically moves the draft to `quotes/`, increments the revision and publishes the app feed on GitHub. A changed draft or concurrent GitHub update blocks publication rather than overwriting it. You need your existing `gh` login with repository write permission. Approvals are public Git commits. Keep unreviewed or unsuitable entries unapproved; “Review next” just skips them.
 
@@ -65,13 +59,13 @@ Select a candidate → play its 35-second preview → correct words, speaker(s),
 
 Each approval records the suggestion shown at review time and whether the reviewer agreed. This creates evaluation data for a future speaker model; no automatic-approval threshold is enabled.
 
-**Refresh queue** collects more candidates on demand, saves them to GitHub, and reloads the review list. Each click aims for 10 candidates, checking up to 20 transcript pages; after recent episodes are exhausted it walks older index pages. It reports how many candidates were found and never publishes them as approved. Local uncommitted vault edits block collection to avoid mixing your work with imported drafts.
+**Refresh queue** collects more candidates on demand from the official Regulation Podcast YouTube playlist, saves drafts and progress to GitHub, and reloads the review list. Each click aims for 10 candidates and checks up to 20 unprocessed numbered episodes, with a five-second pause between transcript requests. It reports how many candidates were found and never publishes them as approved. Local uncommitted vault edits block collection to avoid mixing your work with imported drafts. If YouTube blocks requests from your connection, the dashboard pauses pulls for 30 minutes and leaves the video available to retry later.
 
 **Add quote** opens a manual-entry form. Enter the quote, show, episode number/title, and an optional source link. **Save draft** writes only your entry to GitHub and selects it for review. It does not fetch transcripts or approve the quote. Speakers and playback timing are checked separately before publication.
 
 Collection includes general podcast moments, jokes, stories, and lore—not only weather. New candidates receive the `random` tag so they fit the app’s general quote pool; reviewers can replace it with more specific weather or mood tags. Existing drafts and review decisions are preserved.
 
-Batch collection stops after 10 new candidates, 20 episodes, four older index pages, or about two minutes (an in-flight request may finish afterward). It keeps looking past supplemental episodes and unsuitable excerpts. The source-page excerpt budget includes existing drafts, approved entries and quarantined entries.
+Batch collection stops after 10 new candidates or 20 numbered videos. It keeps looking past supplemental videos and unsuitable excerpts. Previously processed videos are skipped; temporary fetch failures can be retried later. Older imported drafts are left untouched.
 
 ## Review from your phone on the same Wi-Fi
 
@@ -81,7 +75,7 @@ LAN mode requires pairing before reading drafts or making changes, keeps GitHub 
 
 ### Ad screening
 
-Automatic Podscripts collection skips the opening two minutes and screens nearby transcript blocks around advertising signals (including a brand reveal after a generic promotional line). Both importers reject common promotions. Suspect existing automatic drafts are retained in `quarantine/`, outside the dashboard queue and published feed. This is conservative screening, not a guarantee: reviewers should still reject ads or questionable context. Approved entries are not changed by this cleanup.
+The transcript importer skips the opening two minutes and screens nearby blocks around advertising signals (including a brand reveal after a generic promotional line). It also rejects common promotions. This is conservative screening, not a guarantee: reviewers should still reject ads or questionable context. Approved entries are not changed by this screening.
 
 Automatic collection deduplicates wording across approved quotes, drafts, and quarantined excerpts, including capitalization, punctuation, and very small wording differences in longer sentences. It looks for another passage when a source repeats existing wording. Existing duplicate drafts are preserved under `quarantine/`; approved quotes are retained.
 
@@ -89,7 +83,7 @@ Automatic collection deduplicates wording across approved quotes, drafts, and qu
 
 ### Editorial quality screening
 
-The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible, and Podscripts selects the highest-scoring distinct excerpts that fit the source-page budget. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
+The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
 
 Automatic drafts display an **Editorial score** with reasons. This is a heuristic, not a probability of humor, accuracy, or speaker identity. Existing manually entered drafts and approved quotes are unchanged. Weak automatic drafts remain recoverable in `quarantine/`.
 
@@ -103,4 +97,4 @@ The recording index is `inbox/rtarchive_episodes.json`. As checked on October 2,
 
 Candidate scoring uses an editable list of topic labels from the [Regulation Lore dictionary](https://www.regulationlore.com.au/dictionary), stored in `inbox/lore_terms.json`. Definitions and example sentences are not imported as quotes. Exact normalized phrase matches add a relevance boost and appear in the candidate’s score explanation. Generic single-word entries are omitted to reduce random matches. Matches cannot bypass fragment, ad, intro, duplicate, or human attribution checks; dictionary mentions do not identify a speaker.
 
-Newly processed episodes can contribute multiple distinct candidates. Previously processed pages are not automatically re-crawled, and rate-limit backoff still applies. Supplied transcript imports can contribute up to ten ranked candidates. Manual entry remains available without collection.
+Each newly processed video can contribute multiple distinct candidates. Previously processed videos are not automatically re-fetched, and YouTube rate-limit backoff still applies. Supplied transcript imports can contribute up to ten ranked candidates. Manual entry remains available without collection.
