@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 19,
+  "revision": 20,
   "retiredIds": [
     "reg_047"
   ],
@@ -173,6 +173,61 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-02",
         "sourceUrl": "https://www.youtube.com/watch?v=xVVRxqQ7tZI&t=925s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "podscripts_cab6811e7972c27b5e10",
+      "quote": "You got Trojan horsed with a cucumber! You fool. You fool, Gavin.",
+      "quality": {
+        "score": 90,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Dictionary lore: The Cucumbers"
+        ],
+        "version": 2,
+        "accepted": true,
+        "loreTerms": [
+          "The Cucumbers"
+        ],
+        "loreSource": "https://www.regulationlore.com.au/dictionary"
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 134,
+      "episodeTitle": "Regulation Podcast - Bovril Chug // The Trojan Horse [134]",
+      "timestamp": "11:04",
+      "timestampSeconds": 664,
+      "youtubeVideoId": "TeLwNtjYJUs",
+      "listenUrl": "https://www.youtube.com/watch?v=TeLwNtjYJUs&t=664s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Podscripts",
+        "url": "https://podscripts.co/podcasts/regulation-podcast/bovril-chug-the-trojan-horse-134",
+        "audioSegmentTimestamp": "00:17:27"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-04",
+        "sourceUrl": "https://www.youtube.com/watch?v=TeLwNtjYJUs&t=664s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
