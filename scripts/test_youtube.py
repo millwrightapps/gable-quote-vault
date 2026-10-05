@@ -78,6 +78,17 @@ class YouTubeCollectionTests(unittest.TestCase):
             self.assertEqual([], state["processed"])
             self.assertEqual(1000 + COOLDOWN_SECONDS, state["cooldownUntil"])
 
+    def test_playlist_rate_limit_sets_cooldown(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = self.root(directory)
+            def limited():
+                raise RuntimeError("YouTube playlist request failed with HTTP 429")
+            result = collect(root, fetch_videos_fn=limited, delay_seconds=0, now_fn=lambda: 1000)
+            self.assertEqual({"added": 0, "checked": 0, "retryAfter": COOLDOWN_SECONDS}, result)
+            state = json.loads((root / "inbox/youtube_processed.json").read_text())
+            self.assertEqual([], state["processed"])
+            self.assertEqual(1000 + COOLDOWN_SECONDS, state["cooldownUntil"])
+
     def test_cooldown_avoids_repeat_requests(self):
         with tempfile.TemporaryDirectory() as directory:
             root = self.root(directory)
