@@ -144,14 +144,21 @@ def publish(draft, edits):
     return dict(message='Approved and published. Gable will load the new revision on its next sync.', url=f'https://github.com/{REPO}/commit/{new_commit}')
 
 
+def require_clean_quote_data():
+    # Code, docs, and local settings do not risk being overwritten by queue collection.
+    paths = ['drafts', 'quotes', 'inbox', 'quarantine', 'catalog.json', 'published/catalog.json']
+    status = subprocess.run(['git', 'status', '--porcelain', '--', *paths],
+                            cwd=ROOT, capture_output=True, text=True, check=True)
+    if status.stdout.strip():
+        raise ValueError('The vault has unsaved quote or queue edits. Save or commit those before collecting more quotes.')
+
+
 def refresh_queue():
     if not REFRESH_LOCK.acquire(blocking=False):
         raise ValueError('A refresh is already running. Please wait.')
     try:
         # Use an isolated copy so a network failure never leaves half-imported local drafts.
-        status = subprocess.run(['git', 'status', '--porcelain'], cwd=ROOT, capture_output=True, text=True, check=True)
-        if status.stdout.strip():
-            raise ValueError('The vault has local edits. Save or commit them before collecting more quotes.')
+        require_clean_quote_data()
         subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, text=True, timeout=45, check=True)
         head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
         base = gh('git/commits/' + head)['tree']['sha']
