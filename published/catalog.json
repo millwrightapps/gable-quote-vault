@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 21,
+  "revision": 22,
   "retiredIds": [
     "reg_047"
   ],
@@ -120,6 +120,57 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-04",
         "sourceUrl": "https://www.youtube.com/watch?v=WSpz5Lpp-BA&t=1435s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "podscripts_0984cfef99128c7f6716",
+      "quote": "No, extra medium could not be more medium.",
+      "quality": {
+        "score": 90,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 1,
+        "accepted": true
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "FF",
+      "episode": 117,
+      "episodeTitle": "Wopped By Fester // Gavin's Broken Hand & Ass [117]",
+      "timestamp": "27:45",
+      "timestampSeconds": 1665,
+      "youtubeVideoId": "px8Ju-cEEcc",
+      "listenUrl": "https://www.youtube.com/watch?v=px8Ju-cEEcc&t=1665s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Podscripts",
+        "url": "https://podscripts.co/podcasts/regulation-podcast/why-andrew-deserves-a-cock-dog-handles-171",
+        "audioSegmentTimestamp": "01:04:42"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-04",
+        "sourceUrl": "https://www.youtube.com/watch?v=px8Ju-cEEcc&t=1665s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
