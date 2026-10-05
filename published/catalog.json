@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 24,
+  "revision": 25,
   "retiredIds": [
     "reg_047"
   ],
@@ -293,6 +293,59 @@
         },
         "suggestionMatchedReview": null
       },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "podscripts_0cb1fec8db05b6f0e4e4",
+      "quote": "Andrew: 'You think Smé could be a virtual weapon now that he's been electrocuted by a PC while peeing in it?'\nGavin: 'You think it's like Tron, like it sucked him dick first into the computer?'",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim"
+        ],
+        "version": 2,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 89,
+      "episodeTitle": "Gavin's Oxygen Levels Update // Out of Context Art Prompts [89]",
+      "timestamp": "12:54",
+      "timestampSeconds": 774,
+      "youtubeVideoId": "LDGrdIHCl20",
+      "listenUrl": "https://www.youtube.com/watch?v=LDGrdIHCl20&t=774s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Podscripts",
+        "url": "https://podscripts.co/podcasts/regulation-podcast/we-icy-hot-our-balls-nny-keyboard-is-working-again-but-i-dont-have-an-nn-key-128",
+        "audioSegmentTimestamp": "00:02:39"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-05",
+        "sourceUrl": "https://www.youtube.com/watch?v=LDGrdIHCl20&t=774s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "secondarySpeaker": "GAVIN_FREE",
       "playbackProvider": "youtube",
       "archiveVideoId": "f-kface-2020-6-3"
     },
