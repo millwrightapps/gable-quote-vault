@@ -1,0 +1,52 @@
+{
+  "id": "podscripts_05190cada4f715db7422",
+  "quote": "Future us is probably as lazy as current we.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": "GEOFF_RAMSEY",
+  "show": "FF",
+  "episode": 107,
+  "episodeTitle": "Season 4, Year 3, Volume 1, Episode 107 // Future Us is as Lazy as Current We",
+  "timestamp": "23:55",
+  "timestampSeconds": 1435,
+  "youtubeVideoId": "WSpz5Lpp-BA",
+  "listenUrl": "https://www.youtube.com/watch?v=WSpz5Lpp-BA&t=1435s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/burp-taste-vs-piss-smell-is-gavin-the-weird-one-now-143",
+    "audioSegmentTimestamp": "00:05:40"
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-04",
+    "sourceUrl": "https://www.youtube.com/watch?v=WSpz5Lpp-BA&t=1435s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
+}
