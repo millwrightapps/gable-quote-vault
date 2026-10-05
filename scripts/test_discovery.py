@@ -30,6 +30,32 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(['random'], result[0]['weatherTags'])
         self.assertIsNone(result[0]['speaker'])
 
+    def test_caption_fragments_join_until_a_real_sentence_ending(self):
+        transcript = dict(
+            youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture',
+            segments=[
+                dict(start=62, duration=2, text='I would set my alarm for 5:00 a.m.'),
+                dict(start=64, duration=2, text='because the show started before sunrise.'),
+            ],
+        )
+        result = candidates(transcript)
+        self.assertEqual(1, len(result))
+        self.assertEqual(
+            'I would set my alarm for 5:00 a.m. because the show started before sunrise.',
+            result[0]['quote'],
+        )
+        self.assertEqual(62, result[0]['timestampSeconds'])
+
+    def test_time_abbreviations_do_not_turn_fragments_into_quotes(self):
+        transcript = dict(
+            youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture',
+            segments=[
+                dict(start=62, duration=2, text='months but I would wake up at 5:00 a.m.'),
+                dict(start=65, duration=2, text='always you guys 10: a.m. show up 8: a.m.'),
+            ],
+        )
+        self.assertEqual([], candidates(transcript))
+
     def test_host_introductions_are_not_candidates(self):
         result = candidates(dict(youtubeVideoId='abcdefghijk', show='RP', episode=1, episodeTitle='Fixture', segments=[dict(start=0, text='Hello and welcome to another episode of the Regulation Podcast.')]))
         self.assertEqual([], result)
