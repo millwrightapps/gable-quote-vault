@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_48775645acd133d3ed39",
+  "quote": "I'm convinced that it's going to be a disaster because I've never cooked in a pizzastay.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 128,
+  "episodeTitle": "Regulation Podcast - We Icy Hot Our Balls // nny keyboard is working again but i don't have an nn key [128]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/we-icy-hot-our-balls-nny-keyboard-is-working-again-but-i-dont-have-an-nn-key-128",
+    "audioSegmentTimestamp": "00:46:02"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/we-icy-hot-our-balls-nny-keyboard-is-working-again-but-i-dont-have-an-nn-key-128",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
