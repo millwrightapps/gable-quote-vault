@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e3c772e9c9de5c6feb52",
+  "quote": "always you guys 10: a.m. show up 8: a.m.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 10,
+  "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+  "timestamp": "32:20",
+  "timestampSeconds": 1940,
+  "youtubeVideoId": "YoW_DpjzJhk",
+  "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=1940s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=1940s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

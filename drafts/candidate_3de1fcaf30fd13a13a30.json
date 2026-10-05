@@ -1,0 +1,35 @@
+{
+  "id": "candidate_3de1fcaf30fd13a13a30",
+  "quote": "months but I would wake up at 5:00 a.m.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 12,
+  "episodeTitle": "Better Than the Quiz with Balls // Annihilated by Falcons [12]",
+  "timestamp": "51:06",
+  "timestampSeconds": 3066,
+  "youtubeVideoId": "t_vgjbCsZBc",
+  "listenUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=3066s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=3066s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
