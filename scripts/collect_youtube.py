@@ -83,7 +83,7 @@ def _is_youtube_block(error):
     text = str(error).lower()
     return name in {"requestblocked", "ipblocked"} or "ipblocked" in name or (
         "blocked" in text and ("youtube" in text or "ip" in text)
-    )
+    ) or "too many requests" in text or "rate limit" in text or "429" in text
 
 
 def _has_no_transcript(error):
@@ -105,7 +105,15 @@ def collect(root=ROOT, target=10, max_videos=20, fetch_videos_fn=None,
 
     fetch_videos_fn = fetch_videos_fn or fetch_videos
     fetch_transcript_fn = fetch_transcript_fn or fetch_transcript
-    videos = fetch_videos_fn()
+    try:
+        videos = fetch_videos_fn()
+    except Exception as error:
+        if not _is_youtube_block(error):
+            raise
+        cooldown_until = now_fn() + COOLDOWN_SECONDS
+        state_path.write_text(json.dumps({"processed": sorted(processed),
+                                          "cooldownUntil": cooldown_until}, indent=2) + "\n")
+        return {"added": 0, "checked": 0, "retryAfter": COOLDOWN_SECONDS}
     known = existing_wording(root)
     added = checked = 0
     cooldown_until = 0
