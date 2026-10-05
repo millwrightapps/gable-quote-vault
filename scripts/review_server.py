@@ -17,7 +17,7 @@ import ipaddress
 import tempfile
 import shutil
 import threading
-from collect_podscripts import collect
+from collect_youtube import collect
 
 REFRESH_LOCK = threading.Lock()
 
@@ -163,20 +163,20 @@ def refresh_queue():
             result = collect(temp)
             paths = [p for p in (temp/'drafts').glob('*.json') if not (ROOT/'drafts'/p.name).exists()]
             result['addedIds'] = [json.loads(p.read_text())['id'] for p in paths]
-            paths.append(temp/'inbox/podscripts_processed.json')
+            paths.append(temp/'inbox/youtube_processed.json')
             changes = [dict(path=str(p.relative_to(temp)), mode='100644', type='blob', content=p.read_text())
                        for p in paths if not (ROOT/p.relative_to(temp)).exists() or p.read_bytes() != (ROOT/p.relative_to(temp)).read_bytes()]
             if changes:
                 tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
-                commit = gh('git/commits', dict(message='Collect more quote candidates from review dashboard', tree=tree, parents=[head]), 'POST')['sha']
+                commit = gh('git/commits', dict(message='Collect YouTube transcript candidates from review dashboard', tree=tree, parents=[head]), 'POST')['sha']
                 gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
                 subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
         load_media()
         if result.get('retryAfter'):
             minutes = (result['retryAfter'] + 59) // 60
-            return dict(**result, message=f"Added {result['added']} candidate(s). Podscripts is limiting requests; try again in {minutes} minute(s). Your existing queue is ready to review.")
+            return dict(**result, message=f"Added {result['added']} candidate(s). YouTube temporarily blocked transcript requests from this Mac, so local pulls are paused for {minutes} minutes. Try again later; nothing is approved automatically.")
         return dict(**result, message=(f"Added {result['added']} new candidate(s) from {result['checked']} episode(s)."
-                    if result['added'] else f"Checked {result['checked']} episode(s); no suitable new quotes this time. Try again to continue through older episodes."))
+                    if result['added'] else f"Checked {result['checked']} YouTube video(s); no new transcript candidates passed the filters. Refresh again to continue through the playlist."))
     finally:
         REFRESH_LOCK.release()
 
