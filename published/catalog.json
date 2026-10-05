@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 25,
+  "revision": 26,
   "retiredIds": [
     "reg_047"
   ],
@@ -346,6 +346,58 @@
         "suggestionMatchedReview": null
       },
       "secondarySpeaker": "GAVIN_FREE",
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "podscripts_0ccf05257afbc5cd8a4a",
+      "quote": "I have salad cream running through my veins.",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim"
+        ],
+        "version": 2,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "FF",
+      "episode": 118,
+      "episodeTitle": "67 Photos from Andrew's Mom // Drawing Like an Innocent Child [118]",
+      "timestamp": "15:03",
+      "timestampSeconds": 903,
+      "youtubeVideoId": "whnad6wyB4c",
+      "listenUrl": "https://www.youtube.com/watch?v=whnad6wyB4c&t=903s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "source": {
+        "provider": "Podscripts",
+        "url": "https://podscripts.co/podcasts/regulation-podcast/crisis-averted-sloppy-joes-bingo-146",
+        "audioSegmentTimestamp": "00:26:20"
+      },
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-05",
+        "sourceUrl": "https://www.youtube.com/watch?v=whnad6wyB4c&t=903s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
       "playbackProvider": "youtube",
       "archiveVideoId": "f-kface-2020-6-3"
     },
