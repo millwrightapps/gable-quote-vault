@@ -1,0 +1,42 @@
+{
+  "id": "podscripts_37a47a3906e02e75fe64",
+  "quote": "maybe three different variants of that but But that's not extra medium.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Extra medium"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [
+      "Extra medium"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 119,
+  "episodeTitle": "Regulation Podcast - Gavin No Shows Geoff // F**kface Guilt Basket [119]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/gavin-no-shows-geoff-fkface-guilt-basket-119",
+    "audioSegmentTimestamp": "00:49:39"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/gavin-no-shows-geoff-fkface-guilt-basket-119",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

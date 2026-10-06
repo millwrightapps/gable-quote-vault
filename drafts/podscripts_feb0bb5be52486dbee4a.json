@@ -1,0 +1,41 @@
+{
+  "id": "podscripts_feb0bb5be52486dbee4a",
+  "quote": "probably like an inch wider than it was it's not the best bat in the world to hit the balls with anymore.",
+  "quality": {
+    "score": 100,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 121,
+  "episodeTitle": "Regulation Podcast - Baseballs Round 2 // Alphabet Food Bet Beginnings [121]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/baseballs-round-2-alphabet-food-bet-beginnings-121",
+    "audioSegmentTimestamp": "00:02:56"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/baseballs-round-2-alphabet-food-bet-beginnings-121",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
