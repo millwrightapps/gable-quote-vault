@@ -1,0 +1,39 @@
+{
+  "id": "podscripts_ed08ed9607b6ab0f62a8",
+  "quote": "I can't go to the store to confirm that that's true, but I'll show you.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 118,
+  "episodeTitle": "Regulation Podcast - 67 Photos from Andrew's Mom // Drawing Like an Innocent Child [118]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/67-photos-from-andrews-mom-drawing-like-an-innocent-child-118",
+    "audioSegmentTimestamp": "00:07:11"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/67-photos-from-andrews-mom-drawing-like-an-innocent-child-118",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

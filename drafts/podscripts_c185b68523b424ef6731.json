@@ -1,0 +1,42 @@
+{
+  "id": "podscripts_c185b68523b424ef6731",
+  "quote": "I've never met a person who doesn't love a Choco Taco.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Dictionary lore: Choco taco"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [
+      "Choco taco"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 115,
+  "episodeTitle": "Regulation Podcast - Different Countries, Different Decades // Geoff Still Can't Take Photos [115]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/different-countries-different-decades-geoff-still-cant-take-photos-115",
+    "audioSegmentTimestamp": "00:18:52"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/different-countries-different-decades-geoff-still-cant-take-photos-115",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
