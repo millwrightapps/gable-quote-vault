@@ -17,7 +17,7 @@ import ipaddress
 import tempfile
 import shutil
 import threading
-from collect_podscripts import collect
+from collect_youtube import collect
 
 REFRESH_LOCK = threading.Lock()
 
@@ -144,14 +144,21 @@ def publish(draft, edits):
     return dict(message='Approved and published. Gable will load the new revision on its next sync.', url=f'https://github.com/{REPO}/commit/{new_commit}')
 
 
+def require_clean_quote_data():
+    # Code, docs, and local settings do not risk being overwritten by queue collection.
+    paths = ['drafts', 'quotes', 'inbox', 'quarantine', 'catalog.json', 'published/catalog.json']
+    status = subprocess.run(['git', 'status', '--porcelain', '--', *paths],
+                            cwd=ROOT, capture_output=True, text=True, check=True)
+    if status.stdout.strip():
+        raise ValueError('The vault has unsaved quote or queue edits. Save or commit those before collecting more quotes.')
+
+
 def refresh_queue():
     if not REFRESH_LOCK.acquire(blocking=False):
         raise ValueError('A refresh is already running. Please wait.')
     try:
         # Use an isolated copy so a network failure never leaves half-imported local drafts.
-        status = subprocess.run(['git', 'status', '--porcelain'], cwd=ROOT, capture_output=True, text=True, check=True)
-        if status.stdout.strip():
-            raise ValueError('The vault has local edits. Save or commit them before collecting more quotes.')
+        require_clean_quote_data()
         subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, text=True, timeout=45, check=True)
         head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
         base = gh('git/commits/' + head)['tree']['sha']
@@ -163,20 +170,20 @@ def refresh_queue():
             result = collect(temp)
             paths = [p for p in (temp/'drafts').glob('*.json') if not (ROOT/'drafts'/p.name).exists()]
             result['addedIds'] = [json.loads(p.read_text())['id'] for p in paths]
-            paths.append(temp/'inbox/podscripts_processed.json')
+            paths.append(temp/'inbox/youtube_processed.json')
             changes = [dict(path=str(p.relative_to(temp)), mode='100644', type='blob', content=p.read_text())
                        for p in paths if not (ROOT/p.relative_to(temp)).exists() or p.read_bytes() != (ROOT/p.relative_to(temp)).read_bytes()]
             if changes:
                 tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
-                commit = gh('git/commits', dict(message='Collect more quote candidates from review dashboard', tree=tree, parents=[head]), 'POST')['sha']
+                commit = gh('git/commits', dict(message='Collect YouTube transcript candidates from review dashboard', tree=tree, parents=[head]), 'POST')['sha']
                 gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
                 subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
         load_media()
         if result.get('retryAfter'):
             minutes = (result['retryAfter'] + 59) // 60
-            return dict(**result, message=f"Added {result['added']} candidate(s). Podscripts is limiting requests; try again in {minutes} minute(s). Your existing queue is ready to review.")
+            return dict(**result, message=f"Added {result['added']} candidate(s). YouTube temporarily blocked transcript requests from this Mac, so local pulls are paused for {minutes} minutes. Try again later; nothing is approved automatically.")
         return dict(**result, message=(f"Added {result['added']} new candidate(s) from {result['checked']} episode(s)."
-                    if result['added'] else f"Checked {result['checked']} episode(s); no suitable new quotes this time. Try again to continue through older episodes."))
+                    if result['added'] else f"Checked {result['checked']} YouTube video(s); no new transcript candidates passed the filters. Refresh again to continue through the playlist."))
     finally:
         REFRESH_LOCK.release()
 

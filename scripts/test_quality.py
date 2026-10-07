@@ -9,6 +9,8 @@ class QualityTests(unittest.TestCase):
                      'The temperature has been about the same every night.',
                      'I was going to get a jacket or something...']:
             self.assertFalse(assess(text)['accepted'], text)
+    def test_clock_abbreviation_is_not_sentence_punctuation(self):
+        self.assertFalse(assess('Months but I would wake up at 5:00 a.m.')['accepted'])
     def test_concrete_opinion_passes(self):
         self.assertTrue(assess('I refuse to trust a thermometer that needs its own weather forecast.')['accepted'])
     def test_uncertain_context_reduces_score(self):
