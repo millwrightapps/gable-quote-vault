@@ -1,0 +1,35 @@
+{
+  "id": "candidate_16a7e77f7169d8533816",
+  "quote": "You should remove that image so I don't accidentally post it because I'll forget.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 18,
+  "episodeTitle": "Celestial Glorbosis: Of Peace and Poimals // Mashed Potatoast [18]",
+  "timestamp": "60:00",
+  "timestampSeconds": 3600,
+  "youtubeVideoId": "TqgwSlZq1mo",
+  "listenUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=3600s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=3600s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

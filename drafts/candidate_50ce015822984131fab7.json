@@ -1,0 +1,37 @@
+{
+  "id": "candidate_50ce015822984131fab7",
+  "quote": "I think it's an extra medium or a bog standard draft.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Dictionary lore: Bog standard, Extra medium"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bog standard",
+      "Extra medium"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 18,
+  "episodeTitle": "Celestial Glorbosis: Of Peace and Poimals // Mashed Potatoast [18]",
+  "timestamp": "05:22",
+  "timestampSeconds": 322,
+  "youtubeVideoId": "TqgwSlZq1mo",
+  "listenUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=322s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=322s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

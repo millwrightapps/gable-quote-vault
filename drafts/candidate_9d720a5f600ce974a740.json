@@ -1,0 +1,34 @@
+{
+  "id": "candidate_9d720a5f600ce974a740",
+  "quote": "We decided to keep that because we like it.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 18,
+  "episodeTitle": "Celestial Glorbosis: Of Peace and Poimals // Mashed Potatoast [18]",
+  "timestamp": "10:51",
+  "timestampSeconds": 651,
+  "youtubeVideoId": "TqgwSlZq1mo",
+  "listenUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=651s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=651s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "candidate_52b0673b4b3c4cdb2b0a",
+  "quote": "We debuted it on the Clutch My Pearls podcast and it got more views than our own podcast.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Clutch my pearls podcast"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Clutch my pearls podcast"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 18,
+  "episodeTitle": "Celestial Glorbosis: Of Peace and Poimals // Mashed Potatoast [18]",
+  "timestamp": "09:21",
+  "timestampSeconds": 561,
+  "youtubeVideoId": "TqgwSlZq1mo",
+  "listenUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=561s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=561s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

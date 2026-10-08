@@ -1,0 +1,34 @@
+{
+  "id": "candidate_f5bf1901136ea866a8d5",
+  "quote": "I nailed it every other point, but I did screw up that first one.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 18,
+  "episodeTitle": "Celestial Glorbosis: Of Peace and Poimals // Mashed Potatoast [18]",
+  "timestamp": "04:28",
+  "timestampSeconds": 268,
+  "youtubeVideoId": "TqgwSlZq1mo",
+  "listenUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=268s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=TqgwSlZq1mo&t=268s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
