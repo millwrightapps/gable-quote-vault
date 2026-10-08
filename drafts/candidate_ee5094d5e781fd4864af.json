@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ee5094d5e781fd4864af",
+  "quote": "I mean, as someone whose printer never freaking works, maybe they should keep innovating.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 17,
+  "episodeTitle": "Olympics Over/Under Results // Dog Days of Summer [17]",
+  "timestamp": "47:51",
+  "timestampSeconds": 2871,
+  "youtubeVideoId": "8nq5DyRPHN0",
+  "listenUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=2871s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=2871s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

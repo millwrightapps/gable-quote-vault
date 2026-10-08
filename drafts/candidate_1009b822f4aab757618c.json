@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1009b822f4aab757618c",
+  "quote": "I think Beverly Hills Cop 3 is the best action scenes in that entire series.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 17,
+  "episodeTitle": "Olympics Over/Under Results // Dog Days of Summer [17]",
+  "timestamp": "39:38",
+  "timestampSeconds": 2378,
+  "youtubeVideoId": "8nq5DyRPHN0",
+  "listenUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=2378s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=2378s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

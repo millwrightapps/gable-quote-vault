@@ -1,0 +1,35 @@
+{
+  "id": "candidate_850a17ce292737859d53",
+  "quote": "Even though, like, you could fall under the category of, yeah, you could be arrested for both.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 17,
+  "episodeTitle": "Olympics Over/Under Results // Dog Days of Summer [17]",
+  "timestamp": "36:42",
+  "timestampSeconds": 2202,
+  "youtubeVideoId": "8nq5DyRPHN0",
+  "listenUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=2202s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=2202s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
