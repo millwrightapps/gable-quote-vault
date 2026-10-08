@@ -1,0 +1,35 @@
+{
+  "id": "candidate_30aae174e5972e255224",
+  "quote": "What if there was some like guy, he lives in Latvia, you've never met him, you never will, he vanished?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 54,
+  "episodeTitle": "Behind the Mask // Gumpler [54]",
+  "timestamp": "58:14",
+  "timestampSeconds": 3494,
+  "youtubeVideoId": "2V4mps8z1H4",
+  "listenUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=3494s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=3494s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

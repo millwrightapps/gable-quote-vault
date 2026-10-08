@@ -1,0 +1,35 @@
+{
+  "id": "candidate_3b0c7c4fd21555c4cc25",
+  "quote": "I made it about 14 minutes in and I had to turn it off because I was offended by all of the comical sexual assault.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 54,
+  "episodeTitle": "Behind the Mask // Gumpler [54]",
+  "timestamp": "16:40",
+  "timestampSeconds": 1000,
+  "youtubeVideoId": "2V4mps8z1H4",
+  "listenUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=1000s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=1000s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

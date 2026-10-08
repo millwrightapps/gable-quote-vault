@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f13fa7b099e706d985e8",
+  "quote": "I think as a kid, you're often impressed by stuff that's shit, but it's just the first time you've seen it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 54,
+  "episodeTitle": "Behind the Mask // Gumpler [54]",
+  "timestamp": "51:08",
+  "timestampSeconds": 3068,
+  "youtubeVideoId": "2V4mps8z1H4",
+  "listenUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=3068s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=3068s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

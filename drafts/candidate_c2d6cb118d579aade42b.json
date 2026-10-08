@@ -1,0 +1,34 @@
+{
+  "id": "candidate_c2d6cb118d579aade42b",
+  "quote": "I haven't watched this week's episode, but thank you for letting me know he's still in.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 54,
+  "episodeTitle": "Behind the Mask // Gumpler [54]",
+  "timestamp": "07:12",
+  "timestampSeconds": 432,
+  "youtubeVideoId": "2V4mps8z1H4",
+  "listenUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=432s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=432s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
