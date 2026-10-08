@@ -1,0 +1,34 @@
+{
+  "id": "candidate_29ae06a872bd50300a4d",
+  "quote": "Geoff knew that there were five people in Worms because he's been in a five-player Worms.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 46,
+  "episodeTitle": "No Longer an Andrew Sympathizer // The Nick & Cranny meets Nick's Knacks [46]",
+  "timestamp": "08:41",
+  "timestampSeconds": 521,
+  "youtubeVideoId": "nBiyCTCjxIc",
+  "listenUrl": "https://www.youtube.com/watch?v=nBiyCTCjxIc&t=521s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nBiyCTCjxIc&t=521s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

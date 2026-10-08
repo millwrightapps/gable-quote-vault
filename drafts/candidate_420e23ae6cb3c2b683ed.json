@@ -1,0 +1,35 @@
+{
+  "id": "candidate_420e23ae6cb3c2b683ed",
+  "quote": "I've never used it for anything other than setting a timer so maybe I'm not the best use case for AI.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 46,
+  "episodeTitle": "No Longer an Andrew Sympathizer // The Nick & Cranny meets Nick's Knacks [46]",
+  "timestamp": "25:26",
+  "timestampSeconds": 1526,
+  "youtubeVideoId": "nBiyCTCjxIc",
+  "listenUrl": "https://www.youtube.com/watch?v=nBiyCTCjxIc&t=1526s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nBiyCTCjxIc&t=1526s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e77637b445a861b7f05c",
+  "quote": "Apparently in my 40, almost 50 years of life, there was about a 27 minute window where I was aware of this too.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 46,
+  "episodeTitle": "No Longer an Andrew Sympathizer // The Nick & Cranny meets Nick's Knacks [46]",
+  "timestamp": "17:17",
+  "timestampSeconds": 1037,
+  "youtubeVideoId": "nBiyCTCjxIc",
+  "listenUrl": "https://www.youtube.com/watch?v=nBiyCTCjxIc&t=1037s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nBiyCTCjxIc&t=1037s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
