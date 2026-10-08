@@ -13,7 +13,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "GEOFF_RAMSEY",
   "show": "RP",
   "episode": 10,
   "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
@@ -22,14 +22,28 @@
   "youtubeVideoId": "YoW_DpjzJhk",
   "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=1100s",
   "weatherTags": [
-    "random"
+    "random",
+    "shit"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-08",
     "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=1100s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }

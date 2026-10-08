@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 43,
+  "revision": 44,
   "retiredIds": [
     "reg_047"
   ],
@@ -810,6 +810,55 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=2117s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_e47f4ff5c6487dcff570",
+      "quote": "I was like a turtle on its back trying not to shit, but I was a Geoff on my face trying not to shit.",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GEOFF_RAMSEY",
+      "show": "RP",
+      "episode": 10,
+      "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+      "timestamp": "18:20",
+      "timestampSeconds": 1100,
+      "youtubeVideoId": "YoW_DpjzJhk",
+      "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=1100s",
+      "weatherTags": [
+        "random",
+        "shit"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=1100s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
