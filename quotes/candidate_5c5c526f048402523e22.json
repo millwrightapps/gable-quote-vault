@@ -15,7 +15,7 @@
     ],
     "loreSource": "https://www.regulationlore.com.au/dictionary"
   },
-  "speaker": null,
+  "speaker": "GAVIN_FREE",
   "show": "RP",
   "episode": 19,
   "episodeTitle": "Resolution of a Cliffbanger // Smee uses Gavin's Office [19]",
@@ -24,14 +24,27 @@
   "youtubeVideoId": "tFpSAp6zles",
   "listenUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=2706s",
   "weatherTags": [
-    "random"
+    "tuxedo"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-08",
     "sourceUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=2706s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }
