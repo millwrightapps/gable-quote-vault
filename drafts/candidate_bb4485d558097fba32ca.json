@@ -1,0 +1,37 @@
+{
+  "id": "candidate_bb4485d558097fba32ca",
+  "quote": "I am so on the fence about sharing because I owe you know, I got to do it for content reasons.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: On the fence!"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "On the fence!"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 49,
+  "episodeTitle": "Small Park Bites // Mario Party Confession [49]",
+  "timestamp": "33:29",
+  "timestampSeconds": 2009,
+  "youtubeVideoId": "ZHN8vMPG4Q0",
+  "listenUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=2009s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=2009s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

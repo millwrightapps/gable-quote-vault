@@ -1,0 +1,35 @@
+{
+  "id": "candidate_42c4e4a2c5b70c1281c5",
+  "quote": "We're talking about booking in-network appointments with more than 100,000 doctors across every specialty.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 49,
+  "episodeTitle": "Small Park Bites // Mario Party Confession [49]",
+  "timestamp": "22:31",
+  "timestampSeconds": 1351,
+  "youtubeVideoId": "ZHN8vMPG4Q0",
+  "listenUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=1351s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=1351s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

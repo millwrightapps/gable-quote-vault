@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f9dc73d0586ef3ee0887",
+  "quote": "What's a film that you've watched as a child that you think would be fun to watch again, but much later?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 49,
+  "episodeTitle": "Small Park Bites // Mario Party Confession [49]",
+  "timestamp": "55:41",
+  "timestampSeconds": 3341,
+  "youtubeVideoId": "ZHN8vMPG4Q0",
+  "listenUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=3341s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=3341s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

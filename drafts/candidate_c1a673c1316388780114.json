@@ -1,0 +1,37 @@
+{
+  "id": "candidate_c1a673c1316388780114",
+  "quote": "I like that you had full hate nap on something that was completely outside of your life and beyond your control.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Dictionary lore: Hate nap"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Hate nap"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 49,
+  "episodeTitle": "Small Park Bites // Mario Party Confession [49]",
+  "timestamp": "32:35",
+  "timestampSeconds": 1955,
+  "youtubeVideoId": "ZHN8vMPG4Q0",
+  "listenUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=1955s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=1955s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

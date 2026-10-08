@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2f21d9ec6a04bf312b79",
+  "quote": "What if we get one, but that's the only place we could record the podcast?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 49,
+  "episodeTitle": "Small Park Bites // Mario Party Confession [49]",
+  "timestamp": "18:37",
+  "timestampSeconds": 1117,
+  "youtubeVideoId": "ZHN8vMPG4Q0",
+  "listenUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=1117s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ZHN8vMPG4Q0&t=1117s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
