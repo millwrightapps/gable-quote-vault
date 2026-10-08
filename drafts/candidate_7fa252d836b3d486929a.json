@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7fa252d836b3d486929a",
+  "quote": "Maybe because it's in half, you could hang it in two different spots.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 11,
+  "episodeTitle": "This is What This Means // Deceptive Short or Sneaky Tall [11]",
+  "timestamp": "37:20",
+  "timestampSeconds": 2240,
+  "youtubeVideoId": "ngq_qEJCOwc",
+  "listenUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=2240s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=2240s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

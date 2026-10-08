@@ -1,0 +1,35 @@
+{
+  "id": "candidate_56d3cf11fdfc6c0daded",
+  "quote": "Not even necessarily saying that they're bad songs, but they're songs we hate.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 11,
+  "episodeTitle": "This is What This Means // Deceptive Short or Sneaky Tall [11]",
+  "timestamp": "64:26",
+  "timestampSeconds": 3866,
+  "youtubeVideoId": "ngq_qEJCOwc",
+  "listenUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=3866s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=3866s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

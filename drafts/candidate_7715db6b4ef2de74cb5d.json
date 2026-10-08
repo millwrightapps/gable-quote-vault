@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7715db6b4ef2de74cb5d",
+  "quote": "I wish I could somehow like have a specific driver take the order.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 11,
+  "episodeTitle": "This is What This Means // Deceptive Short or Sneaky Tall [11]",
+  "timestamp": "12:46",
+  "timestampSeconds": 766,
+  "youtubeVideoId": "ngq_qEJCOwc",
+  "listenUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=766s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=766s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
