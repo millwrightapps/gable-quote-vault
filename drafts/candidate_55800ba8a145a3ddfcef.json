@@ -1,0 +1,35 @@
+{
+  "id": "candidate_55800ba8a145a3ddfcef",
+  "quote": "I should have, but I should have let you in the point.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 31,
+  "episodeTitle": "Geoff's Thanksgiving Troubles // WOW Items [31]",
+  "timestamp": "44:17",
+  "timestampSeconds": 2657,
+  "youtubeVideoId": "16O6cVeWjbU",
+  "listenUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=2657s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=2657s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

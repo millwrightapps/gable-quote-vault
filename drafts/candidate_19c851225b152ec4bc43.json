@@ -1,0 +1,35 @@
+{
+  "id": "candidate_19c851225b152ec4bc43",
+  "quote": "I don't think I'll be the best, but I don't think I'll be the worst.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 31,
+  "episodeTitle": "Geoff's Thanksgiving Troubles // WOW Items [31]",
+  "timestamp": "34:29",
+  "timestampSeconds": 2069,
+  "youtubeVideoId": "16O6cVeWjbU",
+  "listenUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=2069s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=2069s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

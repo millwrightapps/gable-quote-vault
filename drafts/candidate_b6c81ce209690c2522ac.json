@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b6c81ce209690c2522ac",
+  "quote": "I'm emailing back because Natalie got back to me before I could email her because we were right from our meeting into this.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 31,
+  "episodeTitle": "Geoff's Thanksgiving Troubles // WOW Items [31]",
+  "timestamp": "69:17",
+  "timestampSeconds": 4157,
+  "youtubeVideoId": "16O6cVeWjbU",
+  "listenUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=4157s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=4157s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

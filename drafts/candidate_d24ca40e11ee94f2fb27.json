@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d24ca40e11ee94f2fb27",
+  "quote": "Uh, yes, we probably should have expected it more than we did.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 31,
+  "episodeTitle": "Geoff's Thanksgiving Troubles // WOW Items [31]",
+  "timestamp": "52:21",
+  "timestampSeconds": 3141,
+  "youtubeVideoId": "16O6cVeWjbU",
+  "listenUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=3141s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=3141s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

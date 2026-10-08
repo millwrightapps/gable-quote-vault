@@ -1,0 +1,35 @@
+{
+  "id": "candidate_50a99cf84bb787a76a5e",
+  "quote": "There shouldn't be a rhyme or reason to where they should be, but this is just a reminder.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 31,
+  "episodeTitle": "Geoff's Thanksgiving Troubles // WOW Items [31]",
+  "timestamp": "22:19",
+  "timestampSeconds": 1339,
+  "youtubeVideoId": "16O6cVeWjbU",
+  "listenUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=1339s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=16O6cVeWjbU&t=1339s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
