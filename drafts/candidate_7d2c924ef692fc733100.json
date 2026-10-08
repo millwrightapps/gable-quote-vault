@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7d2c924ef692fc733100",
+  "quote": "Even if you could throw a grape as hard as you possibly could into my mouth, way less damage than a kiwi.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 21,
+  "episodeTitle": "Why We Sync // Fastball vs Linebacker [21]",
+  "timestamp": "27:17",
+  "timestampSeconds": 1637,
+  "youtubeVideoId": "OQNwRjcs0Yk",
+  "listenUrl": "https://www.youtube.com/watch?v=OQNwRjcs0Yk&t=1637s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=OQNwRjcs0Yk&t=1637s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

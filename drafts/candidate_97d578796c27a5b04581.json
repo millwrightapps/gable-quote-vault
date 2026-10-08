@@ -1,0 +1,35 @@
+{
+  "id": "candidate_97d578796c27a5b04581",
+  "quote": "I didn't say you, but it could be Gavin.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 21,
+  "episodeTitle": "Why We Sync // Fastball vs Linebacker [21]",
+  "timestamp": "44:11",
+  "timestampSeconds": 2651,
+  "youtubeVideoId": "OQNwRjcs0Yk",
+  "listenUrl": "https://www.youtube.com/watch?v=OQNwRjcs0Yk&t=2651s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=OQNwRjcs0Yk&t=2651s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

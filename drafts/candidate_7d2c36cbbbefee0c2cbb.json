@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7d2c36cbbbefee0c2cbb",
+  "quote": "Then they completely redesigned him into sort of what you know today in 1936, but he was all about corn then.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 21,
+  "episodeTitle": "Why We Sync // Fastball vs Linebacker [21]",
+  "timestamp": "10:20",
+  "timestampSeconds": 620,
+  "youtubeVideoId": "OQNwRjcs0Yk",
+  "listenUrl": "https://www.youtube.com/watch?v=OQNwRjcs0Yk&t=620s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=OQNwRjcs0Yk&t=620s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
