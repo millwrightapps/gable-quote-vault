@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 33,
+  "revision": 34,
   "retiredIds": [
     "reg_047"
   ],
@@ -87,6 +87,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=3818s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_0445cfa5ebc2912467fa",
+      "quote": "I guess, but then what am I going to do with two cans of these fucking beans?",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 22,
+      "episodeTitle": "Married with Nic Cage // Reverse Engineered Stupidity [22]",
+      "timestamp": "06:08",
+      "timestampSeconds": 368,
+      "youtubeVideoId": "vrRPV1RESxg",
+      "listenUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=368s",
+      "weatherTags": [
+        "random",
+        "beans"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=368s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
