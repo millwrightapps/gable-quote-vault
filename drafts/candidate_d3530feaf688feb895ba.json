@@ -1,0 +1,34 @@
+{
+  "id": "candidate_d3530feaf688feb895ba",
+  "quote": "We're never going to see this fucking cliff.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 8,
+  "episodeTitle": "Fear Diagram // Andrew Playing Elden Ring Wrong [8]",
+  "timestamp": "12:08",
+  "timestampSeconds": 728,
+  "youtubeVideoId": "6lLW8DtSdqo",
+  "listenUrl": "https://www.youtube.com/watch?v=6lLW8DtSdqo&t=728s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=6lLW8DtSdqo&t=728s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

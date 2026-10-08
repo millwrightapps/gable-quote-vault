@@ -1,0 +1,35 @@
+{
+  "id": "candidate_46735aba09f13516489d",
+  "quote": "The last time I think I went there I rode down because it's like a little bit of a river sort of.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 8,
+  "episodeTitle": "Fear Diagram // Andrew Playing Elden Ring Wrong [8]",
+  "timestamp": "16:24",
+  "timestampSeconds": 984,
+  "youtubeVideoId": "6lLW8DtSdqo",
+  "listenUrl": "https://www.youtube.com/watch?v=6lLW8DtSdqo&t=984s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=6lLW8DtSdqo&t=984s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
