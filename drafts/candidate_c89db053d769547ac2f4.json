@@ -1,0 +1,34 @@
+{
+  "id": "candidate_c89db053d769547ac2f4",
+  "quote": "I want to shout out, I screenshot it and put it in the chat, but chasing the improbable.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 51,
+  "episodeTitle": "Gavin on TV // The Rules of Time Machine Baseball [51]",
+  "timestamp": "17:51",
+  "timestampSeconds": 1071,
+  "youtubeVideoId": "WKQT1yQCTLY",
+  "listenUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=1071s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=1071s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "candidate_e353514fe5664bd180ed",
+  "quote": "I'm taking on board all of these notes because chances are seven to eight years from now I might get wheeled out again on telly.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 51,
+  "episodeTitle": "Gavin on TV // The Rules of Time Machine Baseball [51]",
+  "timestamp": "14:02",
+  "timestampSeconds": 842,
+  "youtubeVideoId": "WKQT1yQCTLY",
+  "listenUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=842s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=842s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

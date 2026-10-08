@@ -1,0 +1,35 @@
+{
+  "id": "candidate_828cc39151fab46ede87",
+  "quote": "More Gavin is always good, but it's just a weird ask now to be, hey, can you come on our news station?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 51,
+  "episodeTitle": "Gavin on TV // The Rules of Time Machine Baseball [51]",
+  "timestamp": "04:54",
+  "timestampSeconds": 294,
+  "youtubeVideoId": "WKQT1yQCTLY",
+  "listenUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=294s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=294s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

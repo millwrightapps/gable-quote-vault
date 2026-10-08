@@ -1,0 +1,36 @@
+{
+  "id": "candidate_f79b28eff22a32bc89c4",
+  "quote": "One of them is like oh, I've got a fire extinguisher here in case of a fire.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Dictionary lore: Fire extinguisher"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Fire extinguisher"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 51,
+  "episodeTitle": "Gavin on TV // The Rules of Time Machine Baseball [51]",
+  "timestamp": "08:46",
+  "timestampSeconds": 526,
+  "youtubeVideoId": "WKQT1yQCTLY",
+  "listenUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=526s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=WKQT1yQCTLY&t=526s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
