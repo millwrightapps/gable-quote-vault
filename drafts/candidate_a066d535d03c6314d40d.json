@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a066d535d03c6314d40d",
+  "quote": "I was just curious if you had specific like, because I've never considered like what is or isn't mainline canon for this podcast.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 42,
+  "episodeTitle": "CUMBCAR // Mystery Blood [42]",
+  "timestamp": "17:23",
+  "timestampSeconds": 1043,
+  "youtubeVideoId": "DiRjJZRQqhM",
+  "listenUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=1043s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=1043s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

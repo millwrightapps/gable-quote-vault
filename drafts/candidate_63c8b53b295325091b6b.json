@@ -1,0 +1,35 @@
+{
+  "id": "candidate_63c8b53b295325091b6b",
+  "quote": "We should wrap up because you have to go.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 42,
+  "episodeTitle": "CUMBCAR // Mystery Blood [42]",
+  "timestamp": "68:29",
+  "timestampSeconds": 4109,
+  "youtubeVideoId": "DiRjJZRQqhM",
+  "listenUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=4109s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=4109s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

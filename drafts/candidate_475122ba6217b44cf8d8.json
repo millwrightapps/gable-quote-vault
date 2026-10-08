@@ -1,0 +1,35 @@
+{
+  "id": "candidate_475122ba6217b44cf8d8",
+  "quote": "I would love a Gerplid because I have a problem with my desk where I have wires everywhere just crossing and whatnot.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 42,
+  "episodeTitle": "CUMBCAR // Mystery Blood [42]",
+  "timestamp": "30:58",
+  "timestampSeconds": 1858,
+  "youtubeVideoId": "DiRjJZRQqhM",
+  "listenUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=1858s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=1858s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

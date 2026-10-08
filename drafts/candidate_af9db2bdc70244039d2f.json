@@ -1,0 +1,35 @@
+{
+  "id": "candidate_af9db2bdc70244039d2f",
+  "quote": "Maybe I should only be able to drink in the shower because then there's like an intention behind it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 42,
+  "episodeTitle": "CUMBCAR // Mystery Blood [42]",
+  "timestamp": "33:38",
+  "timestampSeconds": 2018,
+  "youtubeVideoId": "DiRjJZRQqhM",
+  "listenUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=2018s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=2018s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

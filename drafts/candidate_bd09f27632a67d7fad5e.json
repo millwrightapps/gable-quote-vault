@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bd09f27632a67d7fad5e",
+  "quote": "I think I could do that, but the other chairs are like just completely broken.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 42,
+  "episodeTitle": "CUMBCAR // Mystery Blood [42]",
+  "timestamp": "56:43",
+  "timestampSeconds": 3403,
+  "youtubeVideoId": "DiRjJZRQqhM",
+  "listenUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=3403s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=DiRjJZRQqhM&t=3403s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
