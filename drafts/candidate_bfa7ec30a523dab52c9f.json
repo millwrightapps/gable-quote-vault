@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bfa7ec30a523dab52c9f",
+  "quote": "I feel like the first 10 minutes is a little wonky, but after that, they settle into that character.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 14,
+  "episodeTitle": "What 3 Words Locations // The Most Boring 90 Minutes [14]",
+  "timestamp": "60:31",
+  "timestampSeconds": 3631,
+  "youtubeVideoId": "z8Jz6e1Raqs",
+  "listenUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=3631s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=3631s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

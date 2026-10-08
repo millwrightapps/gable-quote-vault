@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ceddff62b9640b3a773d",
+  "quote": "You think that the moon is probably less than 5,000 pounds?",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 14,
+  "episodeTitle": "What 3 Words Locations // The Most Boring 90 Minutes [14]",
+  "timestamp": "44:03",
+  "timestampSeconds": 2643,
+  "youtubeVideoId": "z8Jz6e1Raqs",
+  "listenUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2643s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2643s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

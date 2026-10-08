@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9d8847147f36a209bdeb",
+  "quote": "I mean, Terminator 2 was partially famous because it had a kill count that was, like, 70 or something, which is nothing.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 14,
+  "episodeTitle": "What 3 Words Locations // The Most Boring 90 Minutes [14]",
+  "timestamp": "39:45",
+  "timestampSeconds": 2385,
+  "youtubeVideoId": "z8Jz6e1Raqs",
+  "listenUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2385s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2385s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

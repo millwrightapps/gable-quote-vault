@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4118f8c3e5f991d5adcc",
+  "quote": "I think about them more than a person should think about hot dogs, and I don't think I eat the average.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 14,
+  "episodeTitle": "What 3 Words Locations // The Most Boring 90 Minutes [14]",
+  "timestamp": "41:31",
+  "timestampSeconds": 2491,
+  "youtubeVideoId": "z8Jz6e1Raqs",
+  "listenUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2491s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2491s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

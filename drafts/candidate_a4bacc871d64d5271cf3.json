@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a4bacc871d64d5271cf3",
+  "quote": "I hate that kind of limbo living where to save 200 bucks or whatever, you just put yourself through months of inconvenience.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 14,
+  "episodeTitle": "What 3 Words Locations // The Most Boring 90 Minutes [14]",
+  "timestamp": "31:22",
+  "timestampSeconds": 1882,
+  "youtubeVideoId": "z8Jz6e1Raqs",
+  "listenUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=1882s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=1882s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
