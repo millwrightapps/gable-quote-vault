@@ -1,0 +1,35 @@
+{
+  "id": "candidate_20500a35aa72b19caa35",
+  "quote": "Even though this is before, like, I hate it.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 36,
+  "episodeTitle": "Defend Myself Again // GTA Series Mondays? [36]",
+  "timestamp": "66:41",
+  "timestampSeconds": 4001,
+  "youtubeVideoId": "11p5lhhfQCc",
+  "listenUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=4001s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=4001s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

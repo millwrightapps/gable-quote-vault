@@ -1,0 +1,36 @@
+{
+  "id": "candidate_c01a3f0b80726d1b28f5",
+  "quote": "I've never seen him from like a 80s movie.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 36,
+  "episodeTitle": "Defend Myself Again // GTA Series Mondays? [36]",
+  "timestamp": "60:15",
+  "timestampSeconds": 3615,
+  "youtubeVideoId": "11p5lhhfQCc",
+  "listenUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=3615s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=3615s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

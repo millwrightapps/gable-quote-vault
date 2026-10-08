@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a3725035c3ee1e085fc8",
+  "quote": "I have never felt more seen in my entire life than right now by Andrew.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 36,
+  "episodeTitle": "Defend Myself Again // GTA Series Mondays? [36]",
+  "timestamp": "30:18",
+  "timestampSeconds": 1818,
+  "youtubeVideoId": "11p5lhhfQCc",
+  "listenUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=1818s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=1818s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

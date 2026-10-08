@@ -1,0 +1,35 @@
+{
+  "id": "candidate_0cdcb094f82a2164cca3",
+  "quote": "I'm looking at it more from a, as a company, we're in danger of recording way more than we'll ever be able to release.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 36,
+  "episodeTitle": "Defend Myself Again // GTA Series Mondays? [36]",
+  "timestamp": "22:31",
+  "timestampSeconds": 1351,
+  "youtubeVideoId": "11p5lhhfQCc",
+  "listenUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=1351s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=1351s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

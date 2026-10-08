@@ -1,0 +1,35 @@
+{
+  "id": "candidate_5c3fa173479844f1d030",
+  "quote": "The best part about this is Gavin can't retaliate by taking my name because I tried.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 36,
+  "episodeTitle": "Defend Myself Again // GTA Series Mondays? [36]",
+  "timestamp": "10:58",
+  "timestampSeconds": 658,
+  "youtubeVideoId": "11p5lhhfQCc",
+  "listenUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=658s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=11p5lhhfQCc&t=658s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
