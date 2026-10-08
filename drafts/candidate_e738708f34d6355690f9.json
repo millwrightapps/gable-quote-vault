@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e738708f34d6355690f9",
+  "quote": "I'm the most comfortable around you because of that, and I just feel like our friendship would have the best chance of survival after.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 4,
+  "episodeTitle": "The Cheese was My Enemy // We Haven't Lost it [4]",
+  "timestamp": "21:05",
+  "timestampSeconds": 1265,
+  "youtubeVideoId": "Th9azmLS8v4",
+  "listenUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=1265s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=1265s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

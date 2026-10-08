@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b226ae52fd9270e370e6",
+  "quote": "You know, I can't eat or bathe longer than like 30 seconds.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 4,
+  "episodeTitle": "The Cheese was My Enemy // We Haven't Lost it [4]",
+  "timestamp": "22:11",
+  "timestampSeconds": 1331,
+  "youtubeVideoId": "Th9azmLS8v4",
+  "listenUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=1331s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=1331s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

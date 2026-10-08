@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b78ced5aa694c41e4afe",
+  "quote": "As like a closer, but I've, I'm not done talking.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 4,
+  "episodeTitle": "The Cheese was My Enemy // We Haven't Lost it [4]",
+  "timestamp": "69:02",
+  "timestampSeconds": 4142,
+  "youtubeVideoId": "Th9azmLS8v4",
+  "listenUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=4142s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=4142s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_295dd35fb07974c45796",
+  "quote": "I haven't had a dimmer in a long time, but I have installed them in the past, and they've always worked.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 4,
+  "episodeTitle": "The Cheese was My Enemy // We Haven't Lost it [4]",
+  "timestamp": "36:37",
+  "timestampSeconds": 2197,
+  "youtubeVideoId": "Th9azmLS8v4",
+  "listenUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=2197s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=2197s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

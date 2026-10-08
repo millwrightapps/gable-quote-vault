@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c94e70ecd938373bb421",
+  "quote": "I'm very thankful it was like a lemonade boba type thing, because it covered up.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 4,
+  "episodeTitle": "The Cheese was My Enemy // We Haven't Lost it [4]",
+  "timestamp": "14:55",
+  "timestampSeconds": 895,
+  "youtubeVideoId": "Th9azmLS8v4",
+  "listenUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=895s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Th9azmLS8v4&t=895s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
