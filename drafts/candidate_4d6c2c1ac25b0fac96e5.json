@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4d6c2c1ac25b0fac96e5",
+  "quote": "lacrosse team back and forth and I've never seen people with a bigger chip on their shoulder in life than lacrosse players.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 9,
+  "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
+  "timestamp": "47:18",
+  "timestampSeconds": 2838,
+  "youtubeVideoId": "ugbiPjP1KaU",
+  "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=2838s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=2838s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

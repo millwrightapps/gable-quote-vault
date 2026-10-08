@@ -1,0 +1,35 @@
+{
+  "id": "candidate_cd8de1f56b9450f8a5c2",
+  "quote": "What if I just have one of those, but it's just a tube to the outside?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 9,
+  "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
+  "timestamp": "06:22",
+  "timestampSeconds": 382,
+  "youtubeVideoId": "ugbiPjP1KaU",
+  "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=382s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=382s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

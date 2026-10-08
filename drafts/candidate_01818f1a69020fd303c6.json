@@ -1,0 +1,35 @@
+{
+  "id": "candidate_01818f1a69020fd303c6",
+  "quote": "What if you just have a regular-ass mirror outside, but you install windshield wipers on it?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 9,
+  "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
+  "timestamp": "05:14",
+  "timestampSeconds": 314,
+  "youtubeVideoId": "ugbiPjP1KaU",
+  "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=314s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=314s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

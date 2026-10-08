@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f76f73016b36520ff94c",
+  "quote": "I mean, I think it could be, but it's, but, but does a cabbage patch kid have real human hair on it?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 9,
+  "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
+  "timestamp": "11:09",
+  "timestampSeconds": 669,
+  "youtubeVideoId": "ugbiPjP1KaU",
+  "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=669s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=669s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_6611951a306c08913433",
+  "quote": "Probably, you could probably buy a doll that has human hair because people donate hair all the time.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 9,
+  "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
+  "timestamp": "11:24",
+  "timestampSeconds": 684,
+  "youtubeVideoId": "ugbiPjP1KaU",
+  "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=684s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=684s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

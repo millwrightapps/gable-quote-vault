@@ -1,0 +1,38 @@
+{
+  "id": "candidate_e6c6c9b3d119cab8ee78",
+  "quote": "I know there's like a sloppy joes bingo in there for some reason.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: Sloppy Joes, Sloppy Joes Bingo"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Sloppy Joes",
+      "Sloppy Joes Bingo"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 9,
+  "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
+  "timestamp": "22:09",
+  "timestampSeconds": 1329,
+  "youtubeVideoId": "ugbiPjP1KaU",
+  "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=1329s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=1329s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
