@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f8c6495430fc1be4c902",
+  "quote": "I hated it so much that I just didn't use it for like a year, but I should have.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 44,
+  "episodeTitle": "A Retraction // Andrew Transformers Panton [44]",
+  "timestamp": "65:33",
+  "timestampSeconds": 3933,
+  "youtubeVideoId": "y4ehxfmYkZQ",
+  "listenUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=3933s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=3933s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

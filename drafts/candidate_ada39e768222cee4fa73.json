@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ada39e768222cee4fa73",
+  "quote": "I will say I haven't run into trouble with this yet, so I could feel good about that.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 44,
+  "episodeTitle": "A Retraction // Andrew Transformers Panton [44]",
+  "timestamp": "26:50",
+  "timestampSeconds": 1610,
+  "youtubeVideoId": "y4ehxfmYkZQ",
+  "listenUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=1610s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=1610s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

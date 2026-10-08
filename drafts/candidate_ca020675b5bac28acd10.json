@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ca020675b5bac28acd10",
+  "quote": "Nothing but great things I could say about Shopify.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 44,
+  "episodeTitle": "A Retraction // Andrew Transformers Panton [44]",
+  "timestamp": "21:11",
+  "timestampSeconds": 1271,
+  "youtubeVideoId": "y4ehxfmYkZQ",
+  "listenUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=1271s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=1271s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

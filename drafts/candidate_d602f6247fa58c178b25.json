@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d602f6247fa58c178b25",
+  "quote": "Should we go through video games and find the best video game beans?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 44,
+  "episodeTitle": "A Retraction // Andrew Transformers Panton [44]",
+  "timestamp": "16:43",
+  "timestampSeconds": 1003,
+  "youtubeVideoId": "y4ehxfmYkZQ",
+  "listenUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=1003s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=y4ehxfmYkZQ&t=1003s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
