@@ -31,10 +31,12 @@
     "audioSegmentTimestamp": "00:07:47"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/did-we-get-the-tuxedo-from-the-tuxedo-the-first-freeze-frame-moment-of-my-life-111",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-08T19:27:37.623440+00:00"
   }
 }
