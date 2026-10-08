@@ -29,10 +29,12 @@
     "audioSegmentTimestamp": "00:06:54"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/baby-alien-schlongs-sleep-hacks-175",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-08T19:29:30.418466+00:00"
   }
 }
