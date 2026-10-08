@@ -1,0 +1,35 @@
+{
+  "id": "candidate_fb610bc075609a65c912",
+  "quote": "I think one could be bigger than the other.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 37,
+  "episodeTitle": "A Bog Standard Skwinkle // Secrecy to a Hole [37]",
+  "timestamp": "05:08",
+  "timestampSeconds": 308,
+  "youtubeVideoId": "D2Zh2cyOYo4",
+  "listenUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=308s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=308s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

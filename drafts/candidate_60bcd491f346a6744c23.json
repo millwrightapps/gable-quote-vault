@@ -1,0 +1,35 @@
+{
+  "id": "candidate_60bcd491f346a6744c23",
+  "quote": "I was worried briefly that I was born the same year as Nick, but apparently Nick's in 87.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 37,
+  "episodeTitle": "A Bog Standard Skwinkle // Secrecy to a Hole [37]",
+  "timestamp": "43:00",
+  "timestampSeconds": 2580,
+  "youtubeVideoId": "D2Zh2cyOYo4",
+  "listenUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=2580s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=2580s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

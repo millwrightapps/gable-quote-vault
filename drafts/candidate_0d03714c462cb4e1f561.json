@@ -1,0 +1,35 @@
+{
+  "id": "candidate_0d03714c462cb4e1f561",
+  "quote": "I think the first one was you get $50,000, but your belly button is seasonal.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 37,
+  "episodeTitle": "A Bog Standard Skwinkle // Secrecy to a Hole [37]",
+  "timestamp": "52:25",
+  "timestampSeconds": 3145,
+  "youtubeVideoId": "D2Zh2cyOYo4",
+  "listenUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=3145s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=3145s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

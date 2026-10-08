@@ -1,0 +1,35 @@
+{
+  "id": "candidate_307c7437fd665c91e31e",
+  "quote": "I thought they were just having like a three month kip, but apparently that they're like awake and stuff.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 37,
+  "episodeTitle": "A Bog Standard Skwinkle // Secrecy to a Hole [37]",
+  "timestamp": "49:14",
+  "timestampSeconds": 2954,
+  "youtubeVideoId": "D2Zh2cyOYo4",
+  "listenUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=2954s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=2954s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

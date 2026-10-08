@@ -1,0 +1,37 @@
+{
+  "id": "candidate_a041520c58e194bb0ec9",
+  "quote": "They, wait, but they grow in like a 30 pack.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail",
+      "Unclear subject outside the conversation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 37,
+  "episodeTitle": "A Bog Standard Skwinkle // Secrecy to a Hole [37]",
+  "timestamp": "04:29",
+  "timestampSeconds": 269,
+  "youtubeVideoId": "D2Zh2cyOYo4",
+  "listenUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=269s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=269s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
