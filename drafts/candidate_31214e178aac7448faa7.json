@@ -1,0 +1,35 @@
+{
+  "id": "candidate_31214e178aac7448faa7",
+  "quote": "I never want to eat McDonald's more than when I'm walking through a fucking Walmart and it just smells.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 29,
+  "episodeTitle": "Shallow Conversation Pool // Advent Calendar Videos [29]",
+  "timestamp": "24:01",
+  "timestampSeconds": 1441,
+  "youtubeVideoId": "9neCnqrU-lw",
+  "listenUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=1441s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=1441s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

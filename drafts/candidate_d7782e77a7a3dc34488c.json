@@ -1,0 +1,36 @@
+{
+  "id": "candidate_d7782e77a7a3dc34488c",
+  "quote": "We don't want to get too sidetracked, but we should do a least impressive to most impressive item of 5,000.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 29,
+  "episodeTitle": "Shallow Conversation Pool // Advent Calendar Videos [29]",
+  "timestamp": "51:57",
+  "timestampSeconds": 3117,
+  "youtubeVideoId": "9neCnqrU-lw",
+  "listenUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=3117s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=3117s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

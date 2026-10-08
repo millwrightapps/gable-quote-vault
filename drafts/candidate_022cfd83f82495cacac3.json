@@ -1,0 +1,38 @@
+{
+  "id": "candidate_022cfd83f82495cacac3",
+  "quote": "Maybe we'll have 2000 on the shelves, but we don't want to have 12,000 Gerplers on the shelves.",
+  "quality": {
+    "score": 95,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail",
+      "Dictionary lore: The shelves"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "The shelves"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 29,
+  "episodeTitle": "Shallow Conversation Pool // Advent Calendar Videos [29]",
+  "timestamp": "27:53",
+  "timestampSeconds": 1673,
+  "youtubeVideoId": "9neCnqrU-lw",
+  "listenUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=1673s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=1673s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

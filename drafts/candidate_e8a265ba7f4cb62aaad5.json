@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e8a265ba7f4cb62aaad5",
+  "quote": "We've never sold more than two thousand at once before.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 29,
+  "episodeTitle": "Shallow Conversation Pool // Advent Calendar Videos [29]",
+  "timestamp": "32:39",
+  "timestampSeconds": 1959,
+  "youtubeVideoId": "9neCnqrU-lw",
+  "listenUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=1959s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=9neCnqrU-lw&t=1959s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
