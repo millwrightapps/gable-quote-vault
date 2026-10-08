@@ -1,0 +1,38 @@
+{
+  "id": "candidate_b72bcf823b9b043d565e",
+  "quote": "Do you think if you filled a cabinet with bog roll folders, you could only pull from the cabinet for a year?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: Bog roll, Bog roll folders"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bog roll",
+      "Bog roll folders"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 38,
+  "episodeTitle": "xXxPissxXxRatxXx // Gurpl-tines Day [38]",
+  "timestamp": "40:15",
+  "timestampSeconds": 2415,
+  "youtubeVideoId": "MNx4Z9vsuPA",
+  "listenUrl": "https://www.youtube.com/watch?v=MNx4Z9vsuPA&t=2415s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=MNx4Z9vsuPA&t=2415s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

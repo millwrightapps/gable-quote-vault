@@ -1,0 +1,37 @@
+{
+  "id": "candidate_44fa859351a4d7948864",
+  "quote": "Once again, H-E-B is the best.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Dictionary lore: H-E-B"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "H-E-B"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 38,
+  "episodeTitle": "xXxPissxXxRatxXx // Gurpl-tines Day [38]",
+  "timestamp": "56:07",
+  "timestampSeconds": 3367,
+  "youtubeVideoId": "MNx4Z9vsuPA",
+  "listenUrl": "https://www.youtube.com/watch?v=MNx4Z9vsuPA&t=3367s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=MNx4Z9vsuPA&t=3367s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
