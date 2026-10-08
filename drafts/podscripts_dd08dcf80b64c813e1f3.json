@@ -1,0 +1,41 @@
+{
+  "id": "podscripts_dd08dcf80b64c813e1f3",
+  "quote": "I also love this idea because I really need things for my 20,000 item list and this sounds and rotating in.",
+  "quality": {
+    "score": 95,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 113,
+  "episodeTitle": "Regulation Podcast - Dick Got Shot By a Laser // Will Andrew Betray Gavin? [113]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/dick-got-shot-by-a-laser-will-andrew-betray-gavin-113",
+    "audioSegmentTimestamp": "00:45:30"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/dick-got-shot-by-a-laser-will-andrew-betray-gavin-113",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

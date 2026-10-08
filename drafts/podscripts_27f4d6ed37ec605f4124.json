@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_27f4d6ed37ec605f4124",
+  "quote": "I wanted to read on that because I was told I could spend to the cap.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 111,
+  "episodeTitle": "Regulation Podcast - Did we get The Tuxedo from the Tuxedo? // The first freeze frame moment of my life [111]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/did-we-get-the-tuxedo-from-the-tuxedo-the-first-freeze-frame-moment-of-my-life-111",
+    "audioSegmentTimestamp": "00:07:47"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/did-we-get-the-tuxedo-from-the-tuxedo-the-first-freeze-frame-moment-of-my-life-111",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

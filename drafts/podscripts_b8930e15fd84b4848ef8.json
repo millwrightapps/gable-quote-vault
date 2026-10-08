@@ -1,0 +1,39 @@
+{
+  "id": "podscripts_b8930e15fd84b4848ef8",
+  "quote": "You would never just never associated with an edge.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 109,
+  "episodeTitle": "Regulation Podcast - Please Don't Snipe Us // F**kface: Believe It Cause Why Not? [109]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/please-dont-snipe-us-fkface-believe-it-cause-why-not-109",
+    "audioSegmentTimestamp": "00:07:11"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/please-dont-snipe-us-fkface-believe-it-cause-why-not-109",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}

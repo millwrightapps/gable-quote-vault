@@ -1,0 +1,40 @@
+{
+  "id": "podscripts_93c4fe8c43fcff257eeb",
+  "quote": "I know, but a dunk is always exciting to me.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 2,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 110,
+  "episodeTitle": "Regulation Podcast - Gavin Tries the Breadclip // Opening the F**kface Vault [110]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Podscripts",
+    "url": "https://podscripts.co/podcasts/regulation-podcast/gavin-tries-the-breadclip-opening-the-fkface-vault-110",
+    "audioSegmentTimestamp": "00:50:03"
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/gavin-tries-the-breadclip-opening-the-fkface-vault-110",
+    "checkedAt": "",
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+  }
+}
