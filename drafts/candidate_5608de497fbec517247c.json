@@ -1,0 +1,37 @@
+{
+  "id": "candidate_5608de497fbec517247c",
+  "quote": "Oh, before we move off of our little sausage talk, you may note of it, Eric, but we're doing Tony stuff with the merch Alphimosa.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Sausage talk"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Sausage talk"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 23,
+  "episodeTitle": "A Sog Pod // Andrew's Chair & Email Problems [23]",
+  "timestamp": "21:34",
+  "timestampSeconds": 1294,
+  "youtubeVideoId": "LWcklVaalxY",
+  "listenUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=1294s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=1294s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

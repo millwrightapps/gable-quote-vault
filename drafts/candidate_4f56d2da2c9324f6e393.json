@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4f56d2da2c9324f6e393",
+  "quote": "I will die in the hill that Beverly Hills Cop 3 is the best action.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 23,
+  "episodeTitle": "A Sog Pod // Andrew's Chair & Email Problems [23]",
+  "timestamp": "47:11",
+  "timestampSeconds": 2831,
+  "youtubeVideoId": "LWcklVaalxY",
+  "listenUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=2831s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=2831s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

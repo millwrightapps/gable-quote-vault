@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e8e576c1250ba43c2be0",
+  "quote": "I would love to sleep in a race car bed for the rest of my life if I could do it in that bedroom.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 23,
+  "episodeTitle": "A Sog Pod // Andrew's Chair & Email Problems [23]",
+  "timestamp": "50:30",
+  "timestampSeconds": 3030,
+  "youtubeVideoId": "LWcklVaalxY",
+  "listenUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=3030s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=3030s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

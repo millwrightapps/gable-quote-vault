@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f86b012401c243927af2",
+  "quote": "We have like a lot of ideas, but we finally got this stuff.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 23,
+  "episodeTitle": "A Sog Pod // Andrew's Chair & Email Problems [23]",
+  "timestamp": "14:36",
+  "timestampSeconds": 876,
+  "youtubeVideoId": "LWcklVaalxY",
+  "listenUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=876s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=876s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

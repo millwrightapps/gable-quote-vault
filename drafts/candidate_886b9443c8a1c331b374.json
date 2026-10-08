@@ -1,0 +1,35 @@
+{
+  "id": "candidate_886b9443c8a1c331b374",
+  "quote": "You know, I would love to buy all the toys I couldn't afford as a kid.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 23,
+  "episodeTitle": "A Sog Pod // Andrew's Chair & Email Problems [23]",
+  "timestamp": "49:44",
+  "timestampSeconds": 2984,
+  "youtubeVideoId": "LWcklVaalxY",
+  "listenUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=2984s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=2984s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
