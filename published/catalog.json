@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 32,
+  "revision": 33,
   "retiredIds": [
     "reg_047"
   ],
@@ -38,6 +38,55 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2364s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_02b6d28aa3345369a221",
+      "quote": "I think the toilet is dangerous, though, because I wouldn't want something that I could accidentally shit in if I wasn't paying attention.",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "RP",
+      "episode": 23,
+      "episodeTitle": "A Sog Pod // Andrew's Chair & Email Problems [23]",
+      "timestamp": "63:38",
+      "timestampSeconds": 3818,
+      "youtubeVideoId": "LWcklVaalxY",
+      "listenUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=3818s",
+      "weatherTags": [
+        "random",
+        "toilet"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=LWcklVaalxY&t=3818s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
