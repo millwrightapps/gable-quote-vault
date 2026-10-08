@@ -170,8 +170,6 @@ def collect_one(videos):
     # Use an isolated copy so a failure never leaves half-imported local drafts.
     require_clean_quote_data()
     subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, text=True, timeout=45, check=True)
-    head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True, check=True).stdout.strip()
-    base = gh('git/commits/' + head)['tree']['sha']
     titles = {v['id']: v['title'] for v in videos}
 
     def whisper(video_id):
@@ -190,11 +188,26 @@ def collect_one(videos):
         changes = [dict(path=str(p.relative_to(temp)), mode='100644', type='blob', content=p.read_text())
                    for p in paths if not (ROOT/p.relative_to(temp)).exists() or p.read_bytes() != (ROOT/p.relative_to(temp)).read_bytes()]
         if changes:
-            tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
-            commit = gh('git/commits', dict(message='Add Whisper transcript candidates from review dashboard', tree=tree, parents=[head]), 'POST')['sha']
-            gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
-            subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
+            commit_on_latest(changes, 'Add Whisper transcript candidates from review dashboard')
     return result
+
+
+def commit_on_latest(changes, message, attempts=3):
+    """Commit on top of whatever main is now. A transcription takes minutes, and approvals made meanwhile move main,
+    so build on the latest commit at save time and retry if another save lands in between."""
+    for attempt in range(attempts):
+        head = gh('git/ref/heads/main')['object']['sha']
+        base = gh('git/commits/' + head)['tree']['sha']
+        tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
+        commit = gh('git/commits', dict(message=message, tree=tree, parents=[head]), 'POST')['sha']
+        try:
+            gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
+            break
+        except ValueError:
+            if attempt == attempts - 1:
+                raise
+            time.sleep(2)
+    subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
 
 
 def run_whisper(count):

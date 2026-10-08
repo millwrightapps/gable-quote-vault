@@ -48,6 +48,26 @@ class ReviewTests(unittest.TestCase):
         with self.assertRaises(ValueError): publish(self.draft(), self.edits())
         self.assertTrue(all(call.kwargs.get('method','GET')=='GET' for call in gh.call_args_list))
 
+class CommitTests(unittest.TestCase):
+    @patch('review_server.subprocess.run')
+    @patch('review_server.time.sleep')
+    @patch('review_server.gh')
+    def test_save_rebuilds_on_latest_main_after_a_concurrent_approval(self, gh, sleep, run):
+        from review_server import commit_on_latest
+        heads = iter(['moved', 'latest'])
+        def api(path, payload=None, method='GET'):
+            if path == 'git/ref/heads/main': return {'object': {'sha': next(heads)}}
+            if path.startswith('git/commits/'): return {'tree': {'sha': 'tree-' + path.split('/')[-1]}}
+            if path == 'git/trees': return {'sha': 'newtree'}
+            if path == 'git/commits': return {'sha': 'commit-on-' + payload['parents'][0]}
+            if method == 'PATCH' and payload['sha'] == 'commit-on-moved': raise ValueError('not a fast-forward')
+            return {}
+        gh.side_effect = api
+        commit_on_latest([{'path': 'drafts/x.json'}], 'msg')
+        patches = [c.args[1]['sha'] for c in gh.call_args_list if c.args[0] == 'git/refs/heads/main']
+        self.assertEqual(['commit-on-moved', 'commit-on-latest'], patches)
+
+
 class ManualDraftTests(unittest.TestCase):
     def test_manual_entry_is_unverified_and_deduplicated(self):
         from review_server import manual_draft
