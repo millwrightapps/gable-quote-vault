@@ -1,0 +1,35 @@
+{
+  "id": "candidate_062a18f20f954af3b740",
+  "quote": "I, that feels like a thing that should be part of that, but it's not.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 24,
+  "episodeTitle": "Self Crapulance // Andrew Sleeps With His Eyes Open? [24]",
+  "timestamp": "30:57",
+  "timestampSeconds": 1857,
+  "youtubeVideoId": "u16Z3vHN0xI",
+  "listenUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1857s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1857s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e8102b84cd7eca81fc7d",
+  "quote": "I want to be- Okay, so, so, so, barely than never, not a part of your motto, Eric?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 24,
+  "episodeTitle": "Self Crapulance // Andrew Sleeps With His Eyes Open? [24]",
+  "timestamp": "67:50",
+  "timestampSeconds": 4070,
+  "youtubeVideoId": "u16Z3vHN0xI",
+  "listenUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=4070s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=4070s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

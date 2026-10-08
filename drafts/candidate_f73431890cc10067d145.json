@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f73431890cc10067d145",
+  "quote": "The spy James Bond wrapped in Dr. Doolittle, which is a combo I'd never considered, but I really like.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 24,
+  "episodeTitle": "Self Crapulance // Andrew Sleeps With His Eyes Open? [24]",
+  "timestamp": "23:37",
+  "timestampSeconds": 1417,
+  "youtubeVideoId": "u16Z3vHN0xI",
+  "listenUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1417s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1417s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

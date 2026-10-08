@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c6a4e688820192330fc5",
+  "quote": "Now imagine the equivalency of that, but for your business.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 24,
+  "episodeTitle": "Self Crapulance // Andrew Sleeps With His Eyes Open? [24]",
+  "timestamp": "26:29",
+  "timestampSeconds": 1589,
+  "youtubeVideoId": "u16Z3vHN0xI",
+  "listenUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1589s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1589s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

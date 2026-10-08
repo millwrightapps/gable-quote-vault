@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9648147e0baeee305f55",
+  "quote": "I would, uh, really like for Gavin to measure when it is no longer better late than never.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 24,
+  "episodeTitle": "Self Crapulance // Andrew Sleeps With His Eyes Open? [24]",
+  "timestamp": "68:24",
+  "timestampSeconds": 4104,
+  "youtubeVideoId": "u16Z3vHN0xI",
+  "listenUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=4104s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=4104s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
