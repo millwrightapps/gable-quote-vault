@@ -1,0 +1,35 @@
+{
+  "id": "candidate_8e82ac7f929c14abd754",
+  "quote": "I'd love it because because I've heard about it a lot, but never.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 7,
+  "episodeTitle": "Quiddlers // Steven Seagal Runs Weird [7]",
+  "timestamp": "07:03",
+  "timestampSeconds": 423,
+  "youtubeVideoId": "T-SrkAhWA5E",
+  "listenUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=423s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=423s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

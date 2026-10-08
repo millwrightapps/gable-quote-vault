@@ -1,0 +1,35 @@
+{
+  "id": "candidate_8b9ecd869f8d4385aa4b",
+  "quote": "The audience will come up with something better than we could.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 7,
+  "episodeTitle": "Quiddlers // Steven Seagal Runs Weird [7]",
+  "timestamp": "70:36",
+  "timestampSeconds": 4236,
+  "youtubeVideoId": "T-SrkAhWA5E",
+  "listenUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=4236s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=4236s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

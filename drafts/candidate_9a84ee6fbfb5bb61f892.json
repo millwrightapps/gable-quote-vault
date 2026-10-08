@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9a84ee6fbfb5bb61f892",
+  "quote": "I think 13th has one, but it's small.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 7,
+  "episodeTitle": "Quiddlers // Steven Seagal Runs Weird [7]",
+  "timestamp": "27:29",
+  "timestampSeconds": 1649,
+  "youtubeVideoId": "T-SrkAhWA5E",
+  "listenUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=1649s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=1649s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

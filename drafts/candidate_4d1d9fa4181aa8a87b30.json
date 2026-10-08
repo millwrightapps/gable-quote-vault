@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4d1d9fa4181aa8a87b30",
+  "quote": "What if you only here was a because we were talking about this last night, like, is there a game?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 7,
+  "episodeTitle": "Quiddlers // Steven Seagal Runs Weird [7]",
+  "timestamp": "24:08",
+  "timestampSeconds": 1448,
+  "youtubeVideoId": "T-SrkAhWA5E",
+  "listenUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=1448s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=1448s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

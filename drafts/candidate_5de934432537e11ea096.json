@@ -1,0 +1,35 @@
+{
+  "id": "candidate_5de934432537e11ea096",
+  "quote": "Geoff spent 22 points on it, but that's okay.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 7,
+  "episodeTitle": "Quiddlers // Steven Seagal Runs Weird [7]",
+  "timestamp": "46:00",
+  "timestampSeconds": 2760,
+  "youtubeVideoId": "T-SrkAhWA5E",
+  "listenUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=2760s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=T-SrkAhWA5E&t=2760s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
