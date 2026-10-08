@@ -1,0 +1,35 @@
+{
+  "id": "candidate_72479990727666bb409a",
+  "quote": "My toenails too big, but that must've never happened because my toenail didn't need to be cut.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 12,
+  "episodeTitle": "Better Than the Quiz with Balls // Annihilated by Falcons [12]",
+  "timestamp": "46:26",
+  "timestampSeconds": 2786,
+  "youtubeVideoId": "t_vgjbCsZBc",
+  "listenUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=2786s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=2786s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

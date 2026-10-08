@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bc0e37f1bd0fb36d4416",
+  "quote": "Now, see how this is like a great cutout of him, but it also makes him look like a superhero?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 12,
+  "episodeTitle": "Better Than the Quiz with Balls // Annihilated by Falcons [12]",
+  "timestamp": "11:16",
+  "timestampSeconds": 676,
+  "youtubeVideoId": "t_vgjbCsZBc",
+  "listenUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=676s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=676s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

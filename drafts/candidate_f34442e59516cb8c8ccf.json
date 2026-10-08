@@ -1,0 +1,36 @@
+{
+  "id": "candidate_f34442e59516cb8c8ccf",
+  "quote": "In my head, it's always on news stations but yeah, what if we just did a flub draft?",
+  "quality": {
+    "score": 100,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 12,
+  "episodeTitle": "Better Than the Quiz with Balls // Annihilated by Falcons [12]",
+  "timestamp": "65:16",
+  "timestampSeconds": 3916,
+  "youtubeVideoId": "t_vgjbCsZBc",
+  "listenUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=3916s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=t_vgjbCsZBc&t=3916s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
