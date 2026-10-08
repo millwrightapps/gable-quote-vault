@@ -12,7 +12,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "GAVIN_FREE",
   "show": "RP",
   "episode": 22,
   "episodeTitle": "Married with Nic Cage // Reverse Engineered Stupidity [22]",
@@ -21,14 +21,27 @@
   "youtubeVideoId": "vrRPV1RESxg",
   "listenUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=282s",
   "weatherTags": [
-    "random"
+    "not a ___ guy"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-08",
     "sourceUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=282s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }
