@@ -1,0 +1,35 @@
+{
+  "id": "candidate_15cf38c1e758dbcd9ad4",
+  "quote": "I hate that you've done this because you've been wrong every time.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 52,
+  "episodeTitle": "Season Finale // Hey Man [52]",
+  "timestamp": "58:29",
+  "timestampSeconds": 3509,
+  "youtubeVideoId": "PzVWNcKj954",
+  "listenUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=3509s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=3509s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

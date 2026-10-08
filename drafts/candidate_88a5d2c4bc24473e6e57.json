@@ -1,0 +1,35 @@
+{
+  "id": "candidate_88a5d2c4bc24473e6e57",
+  "quote": "I'm just stating that like everything, I've heard grape nuts before, so I've always just had to imagine everything relating to it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 52,
+  "episodeTitle": "Season Finale // Hey Man [52]",
+  "timestamp": "49:13",
+  "timestampSeconds": 2953,
+  "youtubeVideoId": "PzVWNcKj954",
+  "listenUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=2953s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=2953s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

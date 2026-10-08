@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a54d40872ffddf2a146e",
+  "quote": "There's weird connections to have like I'd never seen Rain Man and Rain Man and Mission Impossible 2 both open with the same song.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 52,
+  "episodeTitle": "Season Finale // Hey Man [52]",
+  "timestamp": "44:31",
+  "timestampSeconds": 2671,
+  "youtubeVideoId": "PzVWNcKj954",
+  "listenUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=2671s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=2671s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

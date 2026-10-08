@@ -1,0 +1,34 @@
+{
+  "id": "candidate_c23c0113b5d84dda037c",
+  "quote": "Nobody else is aware, but you bring it.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 52,
+  "episodeTitle": "Season Finale // Hey Man [52]",
+  "timestamp": "04:54",
+  "timestampSeconds": 294,
+  "youtubeVideoId": "PzVWNcKj954",
+  "listenUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=294s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=294s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

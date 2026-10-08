@@ -1,0 +1,35 @@
+{
+  "id": "candidate_98e58017865731e0371d",
+  "quote": "I would never be first for seconds because I hadn't done a head count and I didn't know how many people had already had one.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 52,
+  "episodeTitle": "Season Finale // Hey Man [52]",
+  "timestamp": "09:55",
+  "timestampSeconds": 595,
+  "youtubeVideoId": "PzVWNcKj954",
+  "listenUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=595s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PzVWNcKj954&t=595s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
