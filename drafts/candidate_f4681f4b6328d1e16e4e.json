@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f4681f4b6328d1e16e4e",
+  "quote": "I love those videos, but I've never been in the possession of one.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 19,
+  "episodeTitle": "Resolution of a Cliffbanger // Smee uses Gavin's Office [19]",
+  "timestamp": "52:29",
+  "timestampSeconds": 3149,
+  "youtubeVideoId": "tFpSAp6zles",
+  "listenUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=3149s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=3149s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

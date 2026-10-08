@@ -1,0 +1,35 @@
+{
+  "id": "candidate_47b6e0c0dd39f4d7299e",
+  "quote": "Is it still 31 flavors or are they more than that now?",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 19,
+  "episodeTitle": "Resolution of a Cliffbanger // Smee uses Gavin's Office [19]",
+  "timestamp": "14:29",
+  "timestampSeconds": 869,
+  "youtubeVideoId": "tFpSAp6zles",
+  "listenUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=869s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=869s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

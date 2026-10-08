@@ -1,0 +1,36 @@
+{
+  "id": "candidate_12f7ccde0f99d8fbbd29",
+  "quote": "I hate when there's like a bathroom spray to cover a shit smell, but it's with food.",
+  "quality": {
+    "score": 100,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 19,
+  "episodeTitle": "Resolution of a Cliffbanger // Smee uses Gavin's Office [19]",
+  "timestamp": "29:04",
+  "timestampSeconds": 1744,
+  "youtubeVideoId": "tFpSAp6zles",
+  "listenUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=1744s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=1744s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

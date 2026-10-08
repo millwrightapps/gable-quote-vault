@@ -1,0 +1,35 @@
+{
+  "id": "candidate_89cc3f3c658b60488cf3",
+  "quote": "Eric and Spummer were both smashed to shit and neither of them could kill each other because they were so damaged.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 19,
+  "episodeTitle": "Resolution of a Cliffbanger // Smee uses Gavin's Office [19]",
+  "timestamp": "58:30",
+  "timestampSeconds": 3510,
+  "youtubeVideoId": "tFpSAp6zles",
+  "listenUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=3510s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=3510s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
