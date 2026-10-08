@@ -12,7 +12,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "GAVIN_FREE",
   "show": "RP",
   "episode": 9,
   "episodeTitle": "How Gavin Shaves // Regulation Throatler [9]",
@@ -21,14 +21,27 @@
   "youtubeVideoId": "ugbiPjP1KaU",
   "listenUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=181s",
   "weatherTags": [
-    "random"
+    "mirror"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-08",
     "sourceUrl": "https://www.youtube.com/watch?v=ugbiPjP1KaU&t=181s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }
