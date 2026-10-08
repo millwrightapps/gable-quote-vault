@@ -1,0 +1,35 @@
+{
+  "id": "candidate_37ba1e540225b8c5d7c5",
+  "quote": "Should I just try and- Or just like, just I'll leave it to the public, but just as like a sleep, official regulation sleep aid.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 6,
+  "episodeTitle": "The Long Back Boy of Opera // Meet 'n Sleep [6]",
+  "timestamp": "50:23",
+  "timestampSeconds": 3023,
+  "youtubeVideoId": "s8KIo_DJsE8",
+  "listenUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=3023s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=3023s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

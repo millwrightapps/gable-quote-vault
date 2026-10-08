@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4130cc7050f8d3340f98",
+  "quote": "I guess we could ask the audience if they bought out if you bought an apple pie because of the show recently in the comments.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 6,
+  "episodeTitle": "The Long Back Boy of Opera // Meet 'n Sleep [6]",
+  "timestamp": "32:13",
+  "timestampSeconds": 1933,
+  "youtubeVideoId": "s8KIo_DJsE8",
+  "listenUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=1933s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=1933s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

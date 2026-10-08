@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1306ef4089fbbdbad7fc",
+  "quote": "I didn't know that this is an actual thing, but you could get yourself one of these.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 6,
+  "episodeTitle": "The Long Back Boy of Opera // Meet 'n Sleep [6]",
+  "timestamp": "22:42",
+  "timestampSeconds": 1362,
+  "youtubeVideoId": "s8KIo_DJsE8",
+  "listenUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=1362s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=1362s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

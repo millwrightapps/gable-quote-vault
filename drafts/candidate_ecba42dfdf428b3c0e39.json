@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ecba42dfdf428b3c0e39",
+  "quote": "I was thinking like a tuba wouldn't work because it goes down and up.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 6,
+  "episodeTitle": "The Long Back Boy of Opera // Meet 'n Sleep [6]",
+  "timestamp": "13:12",
+  "timestampSeconds": 792,
+  "youtubeVideoId": "s8KIo_DJsE8",
+  "listenUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=792s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=792s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b67eacc364467e951b33",
+  "quote": "I want to try to make a recipe, an ingredient list of a great cup of hot chocolate for you because you hate hot chocolate.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 6,
+  "episodeTitle": "The Long Back Boy of Opera // Meet 'n Sleep [6]",
+  "timestamp": "50:56",
+  "timestampSeconds": 3056,
+  "youtubeVideoId": "s8KIo_DJsE8",
+  "listenUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=3056s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s8KIo_DJsE8&t=3056s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
