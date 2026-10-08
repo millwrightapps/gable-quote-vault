@@ -1,0 +1,35 @@
+{
+  "id": "candidate_365a3dd119f0118cedb6",
+  "quote": "I was like 10 inches from some other guy's shit, but yeah, I couldn't do that.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 50,
+  "episodeTitle": "Geoff vs The Universe // Getting Delicate [50]",
+  "timestamp": "28:52",
+  "timestampSeconds": 1732,
+  "youtubeVideoId": "awktVsiYcxM",
+  "listenUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=1732s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=1732s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

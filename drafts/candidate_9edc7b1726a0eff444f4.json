@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9edc7b1726a0eff444f4",
+  "quote": "In this situation, you threw up 15 times and it did not, but I, and I, and I get that.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 50,
+  "episodeTitle": "Geoff vs The Universe // Getting Delicate [50]",
+  "timestamp": "29:43",
+  "timestampSeconds": 1783,
+  "youtubeVideoId": "awktVsiYcxM",
+  "listenUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=1783s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=1783s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

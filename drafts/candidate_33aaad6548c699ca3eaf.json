@@ -1,0 +1,35 @@
+{
+  "id": "candidate_33aaad6548c699ca3eaf",
+  "quote": "Could you imagine if you were visiting your loved one and you couldn't go because there was a house on them?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 50,
+  "episodeTitle": "Geoff vs The Universe // Getting Delicate [50]",
+  "timestamp": "63:58",
+  "timestampSeconds": 3838,
+  "youtubeVideoId": "awktVsiYcxM",
+  "listenUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=3838s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=3838s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

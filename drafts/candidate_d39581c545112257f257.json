@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d39581c545112257f257",
+  "quote": "Man, can I tell you, I've never hated anybody in my life more than that lump of shit sitting next to me.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 50,
+  "episodeTitle": "Geoff vs The Universe // Getting Delicate [50]",
+  "timestamp": "33:52",
+  "timestampSeconds": 2032,
+  "youtubeVideoId": "awktVsiYcxM",
+  "listenUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=2032s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=2032s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

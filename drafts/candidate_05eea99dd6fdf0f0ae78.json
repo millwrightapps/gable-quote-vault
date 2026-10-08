@@ -1,0 +1,35 @@
+{
+  "id": "candidate_05eea99dd6fdf0f0ae78",
+  "quote": "I, uh, I sent a clip to Eric recently of the 1999 MTV Movie Awards Best Picture.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 50,
+  "episodeTitle": "Geoff vs The Universe // Getting Delicate [50]",
+  "timestamp": "57:06",
+  "timestampSeconds": 3426,
+  "youtubeVideoId": "awktVsiYcxM",
+  "listenUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=3426s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=awktVsiYcxM&t=3426s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
