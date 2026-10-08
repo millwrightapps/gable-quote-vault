@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2b45ebe91b3abd8b66fa",
+  "quote": "Instead of doing because we have always done where we swap out and Nick only has to wear the mask once.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 34,
+  "episodeTitle": "Geoff's Series of Unfortunate Events // What is a Bagel? [34]",
+  "timestamp": "34:48",
+  "timestampSeconds": 2088,
+  "youtubeVideoId": "ivkhoRUF51s",
+  "listenUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=2088s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=2088s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "candidate_0812b4e4d7125748d1ae",
+  "quote": "If he wants to do the double or double, he could maybe put on the Andrew Balaclava and the monkey mask.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: The monkey mask"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "The monkey mask"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 34,
+  "episodeTitle": "Geoff's Series of Unfortunate Events // What is a Bagel? [34]",
+  "timestamp": "37:03",
+  "timestampSeconds": 2223,
+  "youtubeVideoId": "ivkhoRUF51s",
+  "listenUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=2223s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=2223s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

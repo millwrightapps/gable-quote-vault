@@ -1,0 +1,35 @@
+{
+  "id": "candidate_441aa4233bc97e533074",
+  "quote": "I think it was, I don't want to put a price tag on it, but let's say $100 for each package right across the board.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 34,
+  "episodeTitle": "Geoff's Series of Unfortunate Events // What is a Bagel? [34]",
+  "timestamp": "15:58",
+  "timestampSeconds": 958,
+  "youtubeVideoId": "ivkhoRUF51s",
+  "listenUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=958s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=958s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

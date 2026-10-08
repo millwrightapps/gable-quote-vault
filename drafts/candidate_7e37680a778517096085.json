@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7e37680a778517096085",
+  "quote": "I know it was 1058 because I saw Gavin in there and I went, what the fuck?",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 34,
+  "episodeTitle": "Geoff's Series of Unfortunate Events // What is a Bagel? [34]",
+  "timestamp": "18:38",
+  "timestampSeconds": 1118,
+  "youtubeVideoId": "ivkhoRUF51s",
+  "listenUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=1118s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=1118s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b74e50dfd2d9e0ef4116",
+  "quote": "Let's fucking hammer this out because we talked about it in Slack, but I never got confirmation that this is how it was.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 34,
+  "episodeTitle": "Geoff's Series of Unfortunate Events // What is a Bagel? [34]",
+  "timestamp": "56:11",
+  "timestampSeconds": 3371,
+  "youtubeVideoId": "ivkhoRUF51s",
+  "listenUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=3371s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=3371s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
