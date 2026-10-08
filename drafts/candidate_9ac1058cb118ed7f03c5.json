@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9ac1058cb118ed7f03c5",
+  "quote": "I started looking up how like a tandem bike could become a unicycle and I found instead I found That's a tandem unicycle.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 47,
+  "episodeTitle": "Do Woman Really Have One Less Rib // Coziest Body Part [47]",
+  "timestamp": "59:47",
+  "timestampSeconds": 3587,
+  "youtubeVideoId": "QvF_EtamNKE",
+  "listenUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=3587s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=3587s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

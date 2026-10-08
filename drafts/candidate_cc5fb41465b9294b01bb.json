@@ -1,0 +1,35 @@
+{
+  "id": "candidate_cc5fb41465b9294b01bb",
+  "quote": "I just thought maybe, because Eric, you're kind of like an oily mechanical guy to look at.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 47,
+  "episodeTitle": "Do Woman Really Have One Less Rib // Coziest Body Part [47]",
+  "timestamp": "61:18",
+  "timestampSeconds": 3678,
+  "youtubeVideoId": "QvF_EtamNKE",
+  "listenUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=3678s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=3678s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

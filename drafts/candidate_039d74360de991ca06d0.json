@@ -1,0 +1,35 @@
+{
+  "id": "candidate_039d74360de991ca06d0",
+  "quote": "If you say the outside of a Snickers bar is not the chocolate, you're ridiculous, but there are different layers.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 47,
+  "episodeTitle": "Do Woman Really Have One Less Rib // Coziest Body Part [47]",
+  "timestamp": "13:32",
+  "timestampSeconds": 812,
+  "youtubeVideoId": "QvF_EtamNKE",
+  "listenUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=812s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=812s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

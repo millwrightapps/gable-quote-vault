@@ -1,0 +1,37 @@
+{
+  "id": "candidate_95a2d54df85f3888608b",
+  "quote": "It could be anything, because there's almost always a lead into however you die.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Unclear subject outside the conversation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 47,
+  "episodeTitle": "Do Woman Really Have One Less Rib // Coziest Body Part [47]",
+  "timestamp": "31:10",
+  "timestampSeconds": 1870,
+  "youtubeVideoId": "QvF_EtamNKE",
+  "listenUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=1870s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=QvF_EtamNKE&t=1870s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
