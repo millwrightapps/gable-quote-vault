@@ -1,0 +1,36 @@
+{
+  "id": "candidate_99f5f8b9b678c1ebeed5",
+  "quote": "We should do Halo 2 because that's the hardest.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 35,
+  "episodeTitle": "Living in a World of Of Course // Geoff's Hardwire Setup [35]",
+  "timestamp": "30:59",
+  "timestampSeconds": 1859,
+  "youtubeVideoId": "5g0eN-hpjMg",
+  "listenUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=1859s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=1859s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

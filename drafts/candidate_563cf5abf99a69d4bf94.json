@@ -1,0 +1,35 @@
+{
+  "id": "candidate_563cf5abf99a69d4bf94",
+  "quote": "Uh, they could hear, but like not great.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 35,
+  "episodeTitle": "Living in a World of Of Course // Geoff's Hardwire Setup [35]",
+  "timestamp": "45:07",
+  "timestampSeconds": 2707,
+  "youtubeVideoId": "5g0eN-hpjMg",
+  "listenUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=2707s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=2707s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

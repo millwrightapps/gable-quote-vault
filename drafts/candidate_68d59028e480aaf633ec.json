@@ -1,0 +1,35 @@
+{
+  "id": "candidate_68d59028e480aaf633ec",
+  "quote": "Do you think we should do a Let's Play series where we play a video game, but do one level every year?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 35,
+  "episodeTitle": "Living in a World of Of Course // Geoff's Hardwire Setup [35]",
+  "timestamp": "30:06",
+  "timestampSeconds": 1806,
+  "youtubeVideoId": "5g0eN-hpjMg",
+  "listenUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=1806s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=1806s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

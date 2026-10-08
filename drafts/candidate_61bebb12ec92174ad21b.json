@@ -1,0 +1,35 @@
+{
+  "id": "candidate_61bebb12ec92174ad21b",
+  "quote": "I always think about that when I find old film or like a really old picture of one of my great grandparents or a grandparent.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 35,
+  "episodeTitle": "Living in a World of Of Course // Geoff's Hardwire Setup [35]",
+  "timestamp": "25:52",
+  "timestampSeconds": 1552,
+  "youtubeVideoId": "5g0eN-hpjMg",
+  "listenUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=1552s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=1552s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

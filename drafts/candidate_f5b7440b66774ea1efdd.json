@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f5b7440b66774ea1efdd",
+  "quote": "I'm certainly willing to try the apparatus, but that sounds like a tall order to figure out.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 35,
+  "episodeTitle": "Living in a World of Of Course // Geoff's Hardwire Setup [35]",
+  "timestamp": "67:54",
+  "timestampSeconds": 4074,
+  "youtubeVideoId": "5g0eN-hpjMg",
+  "listenUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=4074s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5g0eN-hpjMg&t=4074s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
