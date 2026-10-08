@@ -1,0 +1,37 @@
+{
+  "id": "candidate_3ec8ca5ee2d58a99d6ea",
+  "quote": "You like that more than the Snake Eyes?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Snake eyes"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Snake eyes"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 55,
+  "episodeTitle": "American Gavin // Andrew's Official Tom Cruise Ranking [55]",
+  "timestamp": "22:36",
+  "timestampSeconds": 1356,
+  "youtubeVideoId": "LNdhlHZgMW4",
+  "listenUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=1356s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=1356s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

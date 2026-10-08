@@ -1,0 +1,34 @@
+{
+  "id": "candidate_df76727d6739a58764f7",
+  "quote": "I was going to, I need to know what's going on with this condiment situation because it is.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 55,
+  "episodeTitle": "American Gavin // Andrew's Official Tom Cruise Ranking [55]",
+  "timestamp": "06:11",
+  "timestampSeconds": 371,
+  "youtubeVideoId": "LNdhlHZgMW4",
+  "listenUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=371s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=371s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

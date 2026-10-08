@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9beffdba0771289ae1a3",
+  "quote": "I know that's like kind of like a lot of steps, but I'm sure there's a way that we can do that.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 55,
+  "episodeTitle": "American Gavin // Andrew's Official Tom Cruise Ranking [55]",
+  "timestamp": "44:48",
+  "timestampSeconds": 2688,
+  "youtubeVideoId": "LNdhlHZgMW4",
+  "listenUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=2688s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=2688s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

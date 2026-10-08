@@ -1,0 +1,34 @@
+{
+  "id": "candidate_e6f7d823a655e6270b6b",
+  "quote": "Apparently, you buy lots of roses, they said.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 55,
+  "episodeTitle": "American Gavin // Andrew's Official Tom Cruise Ranking [55]",
+  "timestamp": "11:58",
+  "timestampSeconds": 718,
+  "youtubeVideoId": "LNdhlHZgMW4",
+  "listenUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=718s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=718s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

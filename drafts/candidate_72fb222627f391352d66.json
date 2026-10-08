@@ -1,0 +1,35 @@
+{
+  "id": "candidate_72fb222627f391352d66",
+  "quote": "I don't love the second one as much, but one in three, I think are great.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 55,
+  "episodeTitle": "American Gavin // Andrew's Official Tom Cruise Ranking [55]",
+  "timestamp": "26:40",
+  "timestampSeconds": 1600,
+  "youtubeVideoId": "LNdhlHZgMW4",
+  "listenUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=1600s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=LNdhlHZgMW4&t=1600s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
