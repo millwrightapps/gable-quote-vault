@@ -1,0 +1,35 @@
+{
+  "id": "candidate_06ee6212bfd374028d53",
+  "quote": "I don't think it would have been in the 60s or the 70s because there weren't pay disparities like there are now.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 40,
+  "episodeTitle": "Gurpler This Friday // Who Onion'd? [40]",
+  "timestamp": "49:49",
+  "timestampSeconds": 2989,
+  "youtubeVideoId": "CUi3NAgH-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=2989s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=2989s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

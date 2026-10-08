@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ad04640f4ba7f30b1af6",
+  "quote": "I mean, I could have stopped editing pineapple donut and got squinks, but guess what?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 40,
+  "episodeTitle": "Gurpler This Friday // Who Onion'd? [40]",
+  "timestamp": "58:26",
+  "timestampSeconds": 3506,
+  "youtubeVideoId": "CUi3NAgH-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=3506s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=3506s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

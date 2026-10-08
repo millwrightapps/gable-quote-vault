@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9a3ce4a66e4e3c751c68",
+  "quote": "I never would have done this in a million years, but now it's like people being trolls on the internet.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 40,
+  "episodeTitle": "Gurpler This Friday // Who Onion'd? [40]",
+  "timestamp": "44:55",
+  "timestampSeconds": 2695,
+  "youtubeVideoId": "CUi3NAgH-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=2695s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=2695s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

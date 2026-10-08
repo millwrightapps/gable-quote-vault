@@ -1,0 +1,35 @@
+{
+  "id": "candidate_eb467117ef58ba1a3eef",
+  "quote": "A pet peeve, pet aversion, or pet hate is a minor annoyance that an individual finds particularly irritating to a greater degree than the norm.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 40,
+  "episodeTitle": "Gurpler This Friday // Who Onion'd? [40]",
+  "timestamp": "17:28",
+  "timestampSeconds": 1048,
+  "youtubeVideoId": "CUi3NAgH-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=1048s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=1048s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

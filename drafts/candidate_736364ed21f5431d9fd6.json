@@ -1,0 +1,35 @@
+{
+  "id": "candidate_736364ed21f5431d9fd6",
+  "quote": "I would also point you to 22 years worth of content if you're looking for any because we made a shitload of it.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 40,
+  "episodeTitle": "Gurpler This Friday // Who Onion'd? [40]",
+  "timestamp": "24:32",
+  "timestampSeconds": 1472,
+  "youtubeVideoId": "CUi3NAgH-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=1472s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=CUi3NAgH-TU&t=1472s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
