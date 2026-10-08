@@ -1,0 +1,37 @@
+{
+  "id": "candidate_8d5b7a08c96447a2924d",
+  "quote": "I just go to the guy behind the H-E-B, but he's got to have science from somewhere, right?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: H-E-B"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "H-E-B"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 33,
+  "episodeTitle": "Fastest Tube Crawler // Public Coke Freestyle Machine [33]",
+  "timestamp": "10:11",
+  "timestampSeconds": 611,
+  "youtubeVideoId": "nRCQErjK-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=611s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=611s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_73c21841c8c0c0bf5085",
+  "quote": "Where Bruce Wayne strikes me as a man that is into bats, but has nothing to do with them, but is very into them.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 33,
+  "episodeTitle": "Fastest Tube Crawler // Public Coke Freestyle Machine [33]",
+  "timestamp": "52:55",
+  "timestampSeconds": 3175,
+  "youtubeVideoId": "nRCQErjK-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=3175s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=3175s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

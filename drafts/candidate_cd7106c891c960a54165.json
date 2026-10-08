@@ -1,0 +1,35 @@
+{
+  "id": "candidate_cd7106c891c960a54165",
+  "quote": "I yeah, I finished it, unfortunately, but I would love to see one of you guys.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 33,
+  "episodeTitle": "Fastest Tube Crawler // Public Coke Freestyle Machine [33]",
+  "timestamp": "19:34",
+  "timestampSeconds": 1174,
+  "youtubeVideoId": "nRCQErjK-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=1174s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=1174s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

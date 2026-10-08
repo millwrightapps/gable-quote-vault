@@ -1,0 +1,35 @@
+{
+  "id": "candidate_06e84d7c61b028dfda86",
+  "quote": "I should have clipped it, but I was just so it was so unexpected to punch a dude so hard.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 33,
+  "episodeTitle": "Fastest Tube Crawler // Public Coke Freestyle Machine [33]",
+  "timestamp": "19:19",
+  "timestampSeconds": 1159,
+  "youtubeVideoId": "nRCQErjK-TU",
+  "listenUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=1159s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nRCQErjK-TU&t=1159s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
