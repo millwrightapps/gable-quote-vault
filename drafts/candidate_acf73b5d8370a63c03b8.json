@@ -1,0 +1,35 @@
+{
+  "id": "candidate_acf73b5d8370a63c03b8",
+  "quote": "Zero, but I'd buy them all if I could.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 56,
+  "episodeTitle": "Childhood Bedroom Mall // The Lyrics of Panama [56]",
+  "timestamp": "56:32",
+  "timestampSeconds": 3392,
+  "youtubeVideoId": "8-xhFSOOnXg",
+  "listenUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=3392s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=3392s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

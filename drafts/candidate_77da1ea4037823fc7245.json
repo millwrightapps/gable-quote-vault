@@ -1,0 +1,35 @@
+{
+  "id": "candidate_77da1ea4037823fc7245",
+  "quote": "Oh, I feel like a bulldog is such a great drinking dog, but maybe I'm influenced by barks.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 56,
+  "episodeTitle": "Childhood Bedroom Mall // The Lyrics of Panama [56]",
+  "timestamp": "16:00",
+  "timestampSeconds": 960,
+  "youtubeVideoId": "8-xhFSOOnXg",
+  "listenUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=960s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=960s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

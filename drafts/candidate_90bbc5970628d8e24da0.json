@@ -1,0 +1,37 @@
+{
+  "id": "candidate_90bbc5970628d8e24da0",
+  "quote": "It could be a lot because there was a bunch of movies I'd never heard of on there.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Unclear subject outside the conversation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 56,
+  "episodeTitle": "Childhood Bedroom Mall // The Lyrics of Panama [56]",
+  "timestamp": "42:26",
+  "timestampSeconds": 2546,
+  "youtubeVideoId": "8-xhFSOOnXg",
+  "listenUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=2546s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=2546s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

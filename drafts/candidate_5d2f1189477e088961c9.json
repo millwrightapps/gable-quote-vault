@@ -1,0 +1,35 @@
+{
+  "id": "candidate_5d2f1189477e088961c9",
+  "quote": "The trophy of our movie league is none other than a rare, collectible, sealed copy of VHS Mouse Hunt, 9.4 graded, A++ seal quality.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 56,
+  "episodeTitle": "Childhood Bedroom Mall // The Lyrics of Panama [56]",
+  "timestamp": "39:08",
+  "timestampSeconds": 2348,
+  "youtubeVideoId": "8-xhFSOOnXg",
+  "listenUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=2348s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=2348s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
