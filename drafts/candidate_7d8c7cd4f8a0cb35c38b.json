@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7d8c7cd4f8a0cb35c38b",
+  "quote": "Plus, Shopify can help you turn browsers into buyers with the internet's best converting checkout up to 36% better compared to other leading commerce platforms.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 20,
+  "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
+  "timestamp": "20:04",
+  "timestampSeconds": 1204,
+  "youtubeVideoId": "zEckOsCT8mo",
+  "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=1204s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=1204s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

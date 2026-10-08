@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4c557c397a2dc4c78a24",
+  "quote": "I just think it's a great idea, because then you get $50,000 and a night light.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 20,
+  "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
+  "timestamp": "16:17",
+  "timestampSeconds": 977,
+  "youtubeVideoId": "zEckOsCT8mo",
+  "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=977s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=977s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

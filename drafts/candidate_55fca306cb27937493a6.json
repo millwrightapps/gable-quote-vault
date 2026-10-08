@@ -1,0 +1,36 @@
+{
+  "id": "candidate_55fca306cb27937493a6",
+  "quote": "I could make more than 50 grand just flogging sunscreen.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 20,
+  "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
+  "timestamp": "12:00",
+  "timestampSeconds": 720,
+  "youtubeVideoId": "zEckOsCT8mo",
+  "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=720s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=720s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

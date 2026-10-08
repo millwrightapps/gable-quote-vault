@@ -1,0 +1,35 @@
+{
+  "id": "candidate_74665327a90876ec8222",
+  "quote": "Um, you don't have to do it, but if the tooth cracks in a certain way and splits, it could be really painful and dangerous.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 20,
+  "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
+  "timestamp": "42:08",
+  "timestampSeconds": 2528,
+  "youtubeVideoId": "zEckOsCT8mo",
+  "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=2528s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=2528s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

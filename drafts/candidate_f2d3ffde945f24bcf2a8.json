@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f2d3ffde945f24bcf2a8",
+  "quote": "Not sure where all that's coming from, but we'll take out $50,000.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 20,
+  "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
+  "timestamp": "04:04",
+  "timestampSeconds": 244,
+  "youtubeVideoId": "zEckOsCT8mo",
+  "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=244s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=244s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
