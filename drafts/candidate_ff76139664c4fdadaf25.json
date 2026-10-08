@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ff76139664c4fdadaf25",
+  "quote": "You think it could just reach up, but I guess not.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 48,
+  "episodeTitle": "End of Our Mental Rope // Knife Drone Fight [48]",
+  "timestamp": "34:43",
+  "timestampSeconds": 2083,
+  "youtubeVideoId": "5JcomPDrshM",
+  "listenUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=2083s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=2083s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

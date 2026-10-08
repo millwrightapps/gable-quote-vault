@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ad9fed990028996b818b",
+  "quote": "I think it could either be incredibly small and ridiculous.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 48,
+  "episodeTitle": "End of Our Mental Rope // Knife Drone Fight [48]",
+  "timestamp": "45:55",
+  "timestampSeconds": 2755,
+  "youtubeVideoId": "5JcomPDrshM",
+  "listenUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=2755s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=2755s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

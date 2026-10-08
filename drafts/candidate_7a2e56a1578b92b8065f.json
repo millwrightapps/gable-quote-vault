@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7a2e56a1578b92b8065f",
+  "quote": "I'm curious when you are okay with a back tail sink occurring as a group, but what's my threshold?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 48,
+  "episodeTitle": "End of Our Mental Rope // Knife Drone Fight [48]",
+  "timestamp": "20:47",
+  "timestampSeconds": 1247,
+  "youtubeVideoId": "5JcomPDrshM",
+  "listenUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=1247s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=1247s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

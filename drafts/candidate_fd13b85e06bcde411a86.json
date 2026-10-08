@@ -1,0 +1,35 @@
+{
+  "id": "candidate_fd13b85e06bcde411a86",
+  "quote": "Um, but that ended up being like 23 minutes because of my mistake.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 48,
+  "episodeTitle": "End of Our Mental Rope // Knife Drone Fight [48]",
+  "timestamp": "20:04",
+  "timestampSeconds": 1204,
+  "youtubeVideoId": "5JcomPDrshM",
+  "listenUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=1204s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=1204s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

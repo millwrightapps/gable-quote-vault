@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bc76bae8d1c4dc141e41",
+  "quote": "I mean, I've never noticed that he perceivable drift like under 40 minutes.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 48,
+  "episodeTitle": "End of Our Mental Rope // Knife Drone Fight [48]",
+  "timestamp": "21:54",
+  "timestampSeconds": 1314,
+  "youtubeVideoId": "5JcomPDrshM",
+  "listenUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=1314s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=5JcomPDrshM&t=1314s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
