@@ -1,0 +1,35 @@
+{
+  "id": "candidate_8b83081821fba6df49b6",
+  "quote": "I'm not going to be the one to initiate the conversation because then I got to thinking, what if he doesn't remember me?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 30,
+  "episodeTitle": "$50,000 or Click a Mouse // Eating this Drink Wrong [30]",
+  "timestamp": "39:59",
+  "timestampSeconds": 2399,
+  "youtubeVideoId": "bNX9DjFyZKU",
+  "listenUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=2399s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=2399s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

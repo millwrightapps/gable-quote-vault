@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e0969407a05ec986eccb",
+  "quote": "Yet here we are 20 plus years later and it has become the backbone of my career and that backbone runs on Shopify.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 30,
+  "episodeTitle": "$50,000 or Click a Mouse // Eating this Drink Wrong [30]",
+  "timestamp": "21:44",
+  "timestampSeconds": 1304,
+  "youtubeVideoId": "bNX9DjFyZKU",
+  "listenUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=1304s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=1304s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

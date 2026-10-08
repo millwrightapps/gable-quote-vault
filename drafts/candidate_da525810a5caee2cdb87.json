@@ -1,0 +1,35 @@
+{
+  "id": "candidate_da525810a5caee2cdb87",
+  "quote": "I wonder if you could have those twice-baked potatoes, if you could just recombine the halves and make the best single potato.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 30,
+  "episodeTitle": "$50,000 or Click a Mouse // Eating this Drink Wrong [30]",
+  "timestamp": "48:50",
+  "timestampSeconds": 2930,
+  "youtubeVideoId": "bNX9DjFyZKU",
+  "listenUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=2930s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=2930s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

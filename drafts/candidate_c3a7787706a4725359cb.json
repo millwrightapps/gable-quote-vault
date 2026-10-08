@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c3a7787706a4725359cb",
+  "quote": "Dude, you should get the salted caramel cold brew too, but that's just.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 30,
+  "episodeTitle": "$50,000 or Click a Mouse // Eating this Drink Wrong [30]",
+  "timestamp": "32:34",
+  "timestampSeconds": 1954,
+  "youtubeVideoId": "bNX9DjFyZKU",
+  "listenUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=1954s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=1954s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

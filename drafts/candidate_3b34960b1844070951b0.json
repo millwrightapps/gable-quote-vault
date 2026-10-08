@@ -1,0 +1,35 @@
+{
+  "id": "candidate_3b34960b1844070951b0",
+  "quote": "I think Love Island should just put a hatch in the ground of the next season and see if anyone notices it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 30,
+  "episodeTitle": "$50,000 or Click a Mouse // Eating this Drink Wrong [30]",
+  "timestamp": "53:57",
+  "timestampSeconds": 3237,
+  "youtubeVideoId": "bNX9DjFyZKU",
+  "listenUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=3237s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=bNX9DjFyZKU&t=3237s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
