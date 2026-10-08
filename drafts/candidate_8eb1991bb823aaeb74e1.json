@@ -1,0 +1,35 @@
+{
+  "id": "candidate_8eb1991bb823aaeb74e1",
+  "quote": "My only thing, and I would love to know if it's just a, it could be a Canadian thing.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 45,
+  "episodeTitle": "Johnny Horizon // Sleep Re-education [45]",
+  "timestamp": "20:16",
+  "timestampSeconds": 1216,
+  "youtubeVideoId": "2ahAKwWffjU",
+  "listenUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=1216s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=1216s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ba22801c3cf1fe209a1b",
+  "quote": "I think you live in a small town that doesn't have a lot of traffic probably, but Austin's the 11th largest city in America.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 45,
+  "episodeTitle": "Johnny Horizon // Sleep Re-education [45]",
+  "timestamp": "30:24",
+  "timestampSeconds": 1824,
+  "youtubeVideoId": "2ahAKwWffjU",
+  "listenUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=1824s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=1824s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

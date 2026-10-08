@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b2e3b8db522005a530f8",
+  "quote": "I'm having to re-educate myself on sleep because when you are never actually getting good sleep, you constantly have the ability to sleep.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 45,
+  "episodeTitle": "Johnny Horizon // Sleep Re-education [45]",
+  "timestamp": "56:31",
+  "timestampSeconds": 3391,
+  "youtubeVideoId": "2ahAKwWffjU",
+  "listenUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=3391s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=3391s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

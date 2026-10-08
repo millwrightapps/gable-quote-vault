@@ -1,0 +1,35 @@
+{
+  "id": "candidate_dddacab52279d4db5abd",
+  "quote": "I love this because I'm just fascinated to find out what you talk about.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 45,
+  "episodeTitle": "Johnny Horizon // Sleep Re-education [45]",
+  "timestamp": "08:55",
+  "timestampSeconds": 535,
+  "youtubeVideoId": "2ahAKwWffjU",
+  "listenUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=535s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=535s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e01245f8066a614fb337",
+  "quote": "Not necessarily 2, because there was a 2.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 45,
+  "episodeTitle": "Johnny Horizon // Sleep Re-education [45]",
+  "timestamp": "48:38",
+  "timestampSeconds": 2918,
+  "youtubeVideoId": "2ahAKwWffjU",
+  "listenUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=2918s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=2ahAKwWffjU&t=2918s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
