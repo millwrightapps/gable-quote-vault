@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d31fc9328d8fc557a73f",
+  "quote": "I've made content with just me and Geoff and just me and Andrew, but I've never done anything even with just you.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 32,
+  "episodeTitle": "Chew & Tear // Two Regrets: Racoons & Corn [32]",
+  "timestamp": "34:51",
+  "timestampSeconds": 2091,
+  "youtubeVideoId": "ABKI8-XrsKM",
+  "listenUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=2091s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=2091s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

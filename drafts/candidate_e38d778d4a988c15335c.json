@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e38d778d4a988c15335c",
+  "quote": "Everyone over the age of 60 can't log into anything because they can't read their post-it notes.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 32,
+  "episodeTitle": "Chew & Tear // Two Regrets: Racoons & Corn [32]",
+  "timestamp": "49:57",
+  "timestampSeconds": 2997,
+  "youtubeVideoId": "ABKI8-XrsKM",
+  "listenUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=2997s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=2997s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

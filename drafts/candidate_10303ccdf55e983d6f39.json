@@ -1,0 +1,37 @@
+{
+  "id": "candidate_10303ccdf55e983d6f39",
+  "quote": "He gets 10 toasts, but he never gets a 10 bagel.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Specific detail",
+      "Unclear subject outside the conversation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 32,
+  "episodeTitle": "Chew & Tear // Two Regrets: Racoons & Corn [32]",
+  "timestamp": "11:30",
+  "timestampSeconds": 690,
+  "youtubeVideoId": "ABKI8-XrsKM",
+  "listenUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=690s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=690s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

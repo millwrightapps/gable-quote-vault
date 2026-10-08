@@ -1,0 +1,35 @@
+{
+  "id": "candidate_05023678d4fe1b4371dd",
+  "quote": "I just I never thought about it because I've been to a corn mate.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 32,
+  "episodeTitle": "Chew & Tear // Two Regrets: Racoons & Corn [32]",
+  "timestamp": "24:42",
+  "timestampSeconds": 1482,
+  "youtubeVideoId": "ABKI8-XrsKM",
+  "listenUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=1482s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=1482s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

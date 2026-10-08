@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b895e0b520485584d947",
+  "quote": "I just had never seen a kernel like a loose kernel in the field.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 32,
+  "episodeTitle": "Chew & Tear // Two Regrets: Racoons & Corn [32]",
+  "timestamp": "25:57",
+  "timestampSeconds": 1557,
+  "youtubeVideoId": "ABKI8-XrsKM",
+  "listenUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=1557s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ABKI8-XrsKM&t=1557s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
