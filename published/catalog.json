@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 27,
+  "revision": 28,
   "retiredIds": [
     "reg_047"
   ],
@@ -38,6 +38,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2364s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_10b69260fff5829ca631",
+      "quote": "I'm my own worst enemy, but I do feel like most of the time my my misplaced confidence works out.",
+      "quality": {
+        "score": 90,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GEOFF_RAMSEY",
+      "show": "RP",
+      "episode": 5,
+      "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
+      "timestamp": "41:54",
+      "timestampSeconds": 2514,
+      "youtubeVideoId": "hbxMmu3gChA",
+      "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2514s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2514s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
