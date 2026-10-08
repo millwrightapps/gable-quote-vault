@@ -1,0 +1,35 @@
+{
+  "id": "candidate_cc7db248d14f3de11c08",
+  "quote": "What if what if I because I'm going to be on?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 53,
+  "episodeTitle": "Season 2 // All Day Morning [53]",
+  "timestamp": "09:12",
+  "timestampSeconds": 552,
+  "youtubeVideoId": "f8JcpQsYtzc",
+  "listenUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=552s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=552s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

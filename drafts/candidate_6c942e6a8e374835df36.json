@@ -1,0 +1,36 @@
+{
+  "id": "candidate_6c942e6a8e374835df36",
+  "quote": "I love, I love that you had the 43 inch thing that you were like locked in on, but you didn't measure the wall.",
+  "quality": {
+    "score": 95,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 53,
+  "episodeTitle": "Season 2 // All Day Morning [53]",
+  "timestamp": "31:04",
+  "timestampSeconds": 1864,
+  "youtubeVideoId": "f8JcpQsYtzc",
+  "listenUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1864s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1864s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

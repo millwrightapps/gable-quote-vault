@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7e58fda7d9f1a48e85db",
+  "quote": "We should get that up there because that sounds amazing.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 53,
+  "episodeTitle": "Season 2 // All Day Morning [53]",
+  "timestamp": "17:19",
+  "timestampSeconds": 1039,
+  "youtubeVideoId": "f8JcpQsYtzc",
+  "listenUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1039s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1039s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

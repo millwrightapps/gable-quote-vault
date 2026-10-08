@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c852c93b888a52295232",
+  "quote": "Someone should post that because I want to see it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 53,
+  "episodeTitle": "Season 2 // All Day Morning [53]",
+  "timestamp": "17:14",
+  "timestampSeconds": 1034,
+  "youtubeVideoId": "f8JcpQsYtzc",
+  "listenUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1034s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1034s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

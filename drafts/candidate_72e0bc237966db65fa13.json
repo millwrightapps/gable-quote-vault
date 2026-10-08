@@ -1,0 +1,37 @@
+{
+  "id": "candidate_72e0bc237966db65fa13",
+  "quote": "I had to go maybe just salad cream, but I was fucking annoyed.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Salad cream"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Salad cream"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 53,
+  "episodeTitle": "Season 2 // All Day Morning [53]",
+  "timestamp": "18:00",
+  "timestampSeconds": 1080,
+  "youtubeVideoId": "f8JcpQsYtzc",
+  "listenUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1080s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=f8JcpQsYtzc&t=1080s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
