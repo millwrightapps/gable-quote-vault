@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4ab96cfe8882ae83cae0",
+  "quote": "I apologize for the confusion that came through, telling you to download the episodes, which I never should have done, clearly.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 2,
+  "episodeTitle": "Out Voted to Sit in Gavin's Chair // Strong Arm Democracy [2]",
+  "timestamp": "02:10",
+  "timestampSeconds": 130,
+  "youtubeVideoId": "8iFnXevLs0c",
+  "listenUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=130s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=130s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

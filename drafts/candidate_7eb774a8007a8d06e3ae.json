@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7eb774a8007a8d06e3ae",
+  "quote": "I still, I don't, I should just get rid of that basket that I have in my bathroom because I don't use it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 2,
+  "episodeTitle": "Out Voted to Sit in Gavin's Chair // Strong Arm Democracy [2]",
+  "timestamp": "24:34",
+  "timestampSeconds": 1474,
+  "youtubeVideoId": "8iFnXevLs0c",
+  "listenUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=1474s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=1474s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_70dbb4a579ae788e500f",
+  "quote": "Dude, so that, but what that really meant though, is that like a panopticon, everyone could see you.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 2,
+  "episodeTitle": "Out Voted to Sit in Gavin's Chair // Strong Arm Democracy [2]",
+  "timestamp": "10:07",
+  "timestampSeconds": 607,
+  "youtubeVideoId": "8iFnXevLs0c",
+  "listenUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=607s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=607s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

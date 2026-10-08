@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1fa403a9dbaba7ba0066",
+  "quote": "I love you guys, but I hate you guys.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 2,
+  "episodeTitle": "Out Voted to Sit in Gavin's Chair // Strong Arm Democracy [2]",
+  "timestamp": "07:44",
+  "timestampSeconds": 464,
+  "youtubeVideoId": "8iFnXevLs0c",
+  "listenUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=464s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=8iFnXevLs0c&t=464s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
