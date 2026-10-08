@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 42,
+  "revision": 43,
   "retiredIds": [
     "reg_047"
   ],
@@ -183,6 +183,55 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2514s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_19617350cf95bdc71f16",
+      "quote": "What if you have a gun, but it only fires immunity bullets?",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GEOFF_RAMSEY",
+      "show": "RP",
+      "episode": 27,
+      "episodeTitle": "Must Answer to Never Answer World // The Rabbit Weasel Safeword [27]",
+      "timestamp": "08:42",
+      "timestampSeconds": 522,
+      "youtubeVideoId": "kcQDjh9vXT0",
+      "listenUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=522s",
+      "weatherTags": [
+        "random",
+        "immunity"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=522s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
