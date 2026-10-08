@@ -1,0 +1,36 @@
+{
+  "id": "candidate_6ee6463121a3830cf2a1",
+  "quote": "You could totally do that and get away with it because your kid would never know.",
+  "quality": {
+    "score": 100,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 43,
+  "episodeTitle": "The Worst Intro // Geoff's Gross Stories [43]",
+  "timestamp": "55:53",
+  "timestampSeconds": 3353,
+  "youtubeVideoId": "c6jcXkqXJgM",
+  "listenUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=3353s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=3353s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

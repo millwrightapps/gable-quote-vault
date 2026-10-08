@@ -1,0 +1,35 @@
+{
+  "id": "candidate_720a58faea14522fc552",
+  "quote": "I had a dreadful sleep because I stayed up until 4 a.m. Is it because you were sat upright trying to fall asleep?",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 43,
+  "episodeTitle": "The Worst Intro // Geoff's Gross Stories [43]",
+  "timestamp": "61:25",
+  "timestampSeconds": 3685,
+  "youtubeVideoId": "c6jcXkqXJgM",
+  "listenUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=3685s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=3685s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f67ce823eb056062a851",
+  "quote": "I look at Emily as a cautionary tale because Burn Dog cannot say no to food.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 43,
+  "episodeTitle": "The Worst Intro // Geoff's Gross Stories [43]",
+  "timestamp": "39:22",
+  "timestampSeconds": 2362,
+  "youtubeVideoId": "c6jcXkqXJgM",
+  "listenUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=2362s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=2362s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

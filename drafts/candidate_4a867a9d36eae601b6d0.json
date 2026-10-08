@@ -1,0 +1,34 @@
+{
+  "id": "candidate_4a867a9d36eae601b6d0",
+  "quote": "See, I disagree with that, because I think bribery day to day is such an exciting element.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 43,
+  "episodeTitle": "The Worst Intro // Geoff's Gross Stories [43]",
+  "timestamp": "05:21",
+  "timestampSeconds": 321,
+  "youtubeVideoId": "c6jcXkqXJgM",
+  "listenUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=321s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=321s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
