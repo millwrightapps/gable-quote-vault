@@ -1,0 +1,35 @@
+{
+  "id": "candidate_004dbd40d7d9044aaa7f",
+  "quote": "I could fill the lemon and the, and the orange, but then it wouldn't let me fill anymore.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 26,
+  "episodeTitle": "Gavin the Spaghetti Rabbit // Do You Want to Break the Server? [26]",
+  "timestamp": "63:38",
+  "timestampSeconds": 3818,
+  "youtubeVideoId": "Ag-1di2SPTc",
+  "listenUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=3818s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=3818s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

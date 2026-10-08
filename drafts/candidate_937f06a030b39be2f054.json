@@ -1,0 +1,35 @@
+{
+  "id": "candidate_937f06a030b39be2f054",
+  "quote": "I click ask me later, but I'm always, I'm always asking.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 26,
+  "episodeTitle": "Gavin the Spaghetti Rabbit // Do You Want to Break the Server? [26]",
+  "timestamp": "44:37",
+  "timestampSeconds": 2677,
+  "youtubeVideoId": "Ag-1di2SPTc",
+  "listenUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=2677s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=2677s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

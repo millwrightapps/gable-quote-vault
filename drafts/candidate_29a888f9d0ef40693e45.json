@@ -1,0 +1,34 @@
+{
+  "id": "candidate_29a888f9d0ef40693e45",
+  "quote": "Marinara is a brighter, thinner, and more tomato forward than tomato sauce.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 26,
+  "episodeTitle": "Gavin the Spaghetti Rabbit // Do You Want to Break the Server? [26]",
+  "timestamp": "05:07",
+  "timestampSeconds": 307,
+  "youtubeVideoId": "Ag-1di2SPTc",
+  "listenUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=307s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=307s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

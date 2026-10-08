@@ -1,0 +1,35 @@
+{
+  "id": "candidate_df859f8ae63f2b84add3",
+  "quote": "TikTok is nothing but people showing you a different way to do shit you've been doing just fine for 49 years.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 26,
+  "episodeTitle": "Gavin the Spaghetti Rabbit // Do You Want to Break the Server? [26]",
+  "timestamp": "47:41",
+  "timestampSeconds": 2861,
+  "youtubeVideoId": "Ag-1di2SPTc",
+  "listenUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=2861s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=2861s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

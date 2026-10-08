@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2e9c9b1075a06df90057",
+  "quote": "Do you have to empty the collection canister because then I'm like, never I'm out because I'm already doing I'm already emptying a canister.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 26,
+  "episodeTitle": "Gavin the Spaghetti Rabbit // Do You Want to Break the Server? [26]",
+  "timestamp": "24:40",
+  "timestampSeconds": 1480,
+  "youtubeVideoId": "Ag-1di2SPTc",
+  "listenUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=1480s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Ag-1di2SPTc&t=1480s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
