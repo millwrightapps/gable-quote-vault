@@ -1,106 +1,159 @@
-# Gable Regulation quote vault
+# Regulation Quote Vault
 
-An expandable, serverless catalog for Gable. There is no fixed quote-count limit; GitHub storage and distribution limits still apply. Refresh selection lives in the Android app. This repository does not automatically generate quotes or identify speakers.
+A free, local toolkit for building a catalog of **verified, timestamped quotes** from the Regulation Podcast (and F\*\*kface). It finds candidate moments by transcribing YouTube episodes with Whisper, on your own Mac. You listen to each one, credit the right speaker, and approve it into a JSON feed that apps and sites can read.
 
-## Current status
+It was built for [Gable](https://millwrightapps.github.io/gable/), a weather app with a Regulation mode, and anyone in the community is welcome to use it for their own projects.
 
-The imported 54 entries are **unverified drafts**, not confirmed quotations. The published feed starts empty. Do not use generated descriptions as proof of wording, speaker, episode, or timing. Existing app-bundled entries still need an attribution audit.
+> Fan project. Not affiliated with or endorsed by the Regulation Podcast or its hosts. Please credit the show wherever you use quotes.
 
-## Add or correct a quote
+## How it works
 
-1. Create or edit one JSON file in `drafts/`, using an existing draft as a template. Keep its stable `id`; never reuse retired IDs.
-2. Open the actual YouTube recording. Check the exact words, each speaker by listening, show (RP or FF), episode number/title, and the YouTube timestamp. Podcast audio/ad timings may differ. Do not guess a voice from the topic or wording.
-3. For dialogue, credit both speakers with `speaker` and `secondarySpeaker`; retain speaker labels in the text. Split passages with more than two speakers into separate quotes.
-4. Set `review.status` to `verified`, `review.reviewer` to your name, `review.checkedAt` to `YYYY-MM-DD`, and `review.sourceUrl` to the exact timestamped `listenUrl`. Set `wordingChecked`, `speakersChecked`, `episodeChecked`, `timestampChecked`, and `attributionPolicyChecked` to `true` only after reviewing them.
-5. Move the reviewed file to `quotes/`. Increase `revision` in `catalog.json` for every published change, including corrections and removals.
-6. Run `python3 scripts/build_catalog.py`, then `python3 -m unittest discover -s scripts -p 'test_*.py'`. Commit the quote, manifest, and generated `published/catalog.json` together. GitHub Actions runs catalog validation and regression tests on every push and pull request. Checks report failures; branch protection is not configured, so they do not prevent a direct push to main.
+```
+YouTube playlist ──► download one episode's audio ──► Whisper (on your Mac) ──► timed transcript
+                                                                                    │
+       published/catalog.json ◄── Approve & publish ◄── you listen and credit ◄── candidate quotes (drafts/)
+```
 
-The Android app reads `published/catalog.json`. A newer revision replaces the old catalog even if it has fewer quotes. Empty feeds keep the bundled catalog available; retired IDs are still removed. A device needs the updated app once to use this feed, then future catalog changes require no app release.
+- **Timed to YouTube.** Whisper transcribes the YouTube upload itself, so every timestamp jumps to the right moment in the video. Podcast-feed audio has different ads and would drift.
+- **Nothing automatic gets published.** Candidates arrive as drafts with no speaker. Only a person who has listened can approve one.
+- **No cloud, no keys, no cost.** Transcription runs locally with [whisper.cpp](https://github.com/ggml-org/whisper.cpp). Audio is deleted right after each episode is transcribed. Transcripts stay on your Mac in `transcripts/` and are never committed.
+- **GitHub is the database.** Drafts, approvals and the published feed are files in your copy of this repository. The dashboard saves changes with your own GitHub login.
+
+## Requirements
+
+- A Mac with Apple Silicon (M1 or newer). Intel Macs work, but transcription is much slower.
+- About 2 GB of free disk space: the Whisper model is 550 MB, and one episode's audio is held briefly.
+- [Homebrew](https://brew.sh), Python 3.10 or newer, and the [GitHub CLI](https://cli.github.com) (`brew install gh`).
+- A GitHub account.
+
+The launcher installs everything else the first time: yt-dlp, whisper.cpp, ffmpeg and the Whisper model.
+
+## Set up your own vault
+
+1. **Make your copy.** On GitHub, click **Fork** to create your own copy of this repository.
+2. **Clone it** to your Mac and sign in to GitHub:
+   ```sh
+   git clone https://github.com/YOUR-NAME/YOUR-VAULT.git
+   cd YOUR-VAULT
+   gh auth login
+   ```
+3. **Open the dashboard.** Double-click **Open Quote Review.command**, then open **http://127.0.0.1:8765**. The first launch takes a few minutes while it installs tools and downloads the model. Keep the window open while you review.
+
+The dashboard works out which repository to save to from your clone's `origin` remote, so there's nothing to configure.
+
+### Start fresh (optional)
+
+Your copy starts with this vault's approved quotes and drafts. To begin empty, delete the files in `quotes/` and `drafts/`, then run `python3 scripts/build_catalog.py` and commit. Keep `quarantine/`, which stops rejected wording from being collected again.
+
+## Collect candidates
+
+In the dashboard, click **Transcribe next episode** (about 5 minutes on an M-series Mac) or **Transcribe 5** (about 25 minutes). Progress shows at the bottom, and you can keep reviewing while it runs. **Stop after this episode** ends the run cleanly. Each finished episode is saved to GitHub as it completes, so stopping never loses work.
+
+It works through the official Regulation Podcast YouTube playlist, oldest first, and skips episodes it has already transcribed (tracked in `inbox/whisper_processed.json`). Each episode yields up to 10 candidates after filtering:
+
+- **Skipped:** the first two minutes, ad reads (including the lines just before a sponsor is named), show intros, fragments and incomplete sentences, and anything already in the vault (approved, drafted or removed).
+- **Scored:** concrete, self-contained lines rank higher, with a boost for running bits from the [Regulation Lore dictionary](https://www.regulationlore.com.au/dictionary).
+- **Unnumbered videos** (supplementals, specials) are skipped. Add quotes from them by hand.
+
+From the command line instead:
+
+```sh
+.venv/bin/python scripts/whisper_youtube.py --batch 5        # next 5 episodes → drafts/
+.venv/bin/python scripts/whisper_youtube.py --video VIDEO_ID # just transcribe one video into transcripts/
+```
+
+If YouTube starts asking this Mac to confirm it's not a bot, or rate-limits it, collection pauses for 30 minutes and picks up where it left off.
+
+## Review and publish
+
+Select a candidate, then:
+
+1. **Play the 35-second preview.** It starts at the candidate's YouTube timestamp.
+2. **Fix the exact words, and credit the speaker by listening.** For a two-person exchange, add the second speaker and keep the speaker labels in the text. Split anything with more than two speakers into separate quotes.
+3. **Check the show, episode and start time,** and add weather or mood tags such as `rain`, `cloudy` or `chaos`. `random` fits anywhere.
+4. **Tick the confirmation,** then **Approve & publish.**
+
+Approving moves the draft to `quotes/`, increases the catalog revision and regenerates `published/catalog.json` in a single GitHub commit. **Remove quote** moves a draft to `quarantine/` so its wording is never collected again. **Add quote** saves your own find as a draft.
+
+Speaker suggestions only appear when the exact same quote and episode already have a human-reviewed credit. The percentage measures text agreement, not voice recognition. Otherwise it shows "unknown". Nothing here identifies voices.
+
+### Review from your phone
+
+Double-click **Open Phone Quote Review.command**. It prints an address and a pairing code. Open the address on a phone on the same trusted Wi-Fi and enter the code. GitHub credentials stay on the Mac. This uses plain HTTP on your local network, so use it only on Wi-Fi you trust. Nothing is exposed to the internet.
 
 ## Attribution policy
 
-**Never associate Geoff Ramsey with drinking alcohol.** Remove such entries rather than assigning them to another cast member. `reg_047` is permanently retired and cannot be restored. Automated checks flag some alcohol words, but cannot understand every implication or prove who spoke. Human source review is required.
+- **Never associate Geoff Ramsey with drinking alcohol.** Remove such quotes rather than crediting someone else. Validation blocks the obvious words, but it can't catch every implication, so a person has to judge.
+- **Never guess a speaker** from the topic or wording. If you can't tell by listening, leave it.
+- Retired IDs (listed in `catalog.json` under `retiredIds`) can never be republished. `reg_047` is permanently retired.
 
-No new permission or endorsement is implied by this repository. Preserve the app's existing Regulation Podcast credit.
+## Use the feed
 
-## Offline and practical limits
+`published/catalog.json` is the whole public catalog. Read it from `https://raw.githubusercontent.com/YOUR-NAME/YOUR-VAULT/main/published/catalog.json`.
 
-The app keeps a last-known catalog and bundled fallback. Remote payloads are capped at 5 MB to protect phones; split into a future paged feed before reaching that size. This is a growing vault, not literally infinite storage. No API keys or private app code belong here.
-
-## Automatic discovery and transcript candidates
-
-A GitHub Action checks the official public podcast feed daily at 13:20 UTC and can also run manually from Actions → Discover episodes → Run workflow. It updates `inbox/episodes.json`, deduplicated by the feed's stable episode GUID. The initial queue has 426 episode/supplemental entries. Feed titles and descriptions are not treated as spoken quotes. GitHub scheduled runs may be delayed and can be disabled after prolonged repository inactivity.
-
-**The official feed currently contains no transcripts. Automatic episode discovery is live; automatic extraction from new episodes needs a transcript source.** No transcription service, paid API, or speaker recognition is configured.
-
-To extract candidates from a transcript you have, save a JSON file with `youtubeVideoId`, `show` (`RP` or `FF`), `episode`, `episodeTitle`, and `segments` (each with numeric `start` seconds and `text`). Then run:
-
-```sh
-python3 scripts/import_transcript.py /path/to/transcript.json
+```json
+{
+  "schemaVersion": 1,
+  "revision": 26,
+  "retiredIds": ["reg_047"],
+  "quotes": [
+    {
+      "id": "manual_35e543d57b4245a70bdc",
+      "quote": "…",
+      "speaker": "GAVIN_FREE",
+      "show": "FF",
+      "episode": 206,
+      "episodeTitle": "The Last Episode of F**kface // Firing Squad [206]",
+      "timestamp": "13:54",
+      "timestampSeconds": 834,
+      "youtubeVideoId": "ccBukHBOrb0",
+      "listenUrl": "https://www.youtube.com/watch?v=ccBukHBOrb0&t=834s",
+      "weatherTags": ["chaos"],
+      "review": { "status": "verified", "reviewer": "…", "checkedAt": "2026-10-02" }
+    }
+  ]
+}
 ```
 
-The importer selects up to ten short excerpts on any topic per transcript. It uses stable IDs, does not overwrite review work, and always leaves `speaker` unset and status `draft`. A caption segment may be incomplete or contain multiple voices; verify the recording before using it. This creates candidates only, never live app quotes. Keep transcripts out of the repository; commit only reviewed short excerpts or candidates that you intend to share.
+- **Speakers:** `ANDREW_PANTON`, `GAVIN_FREE`, `GEOFF_RAMSEY`, `ERIC_BAUDOUR` and `NICK_SCHWARTZ`. A quote may also have a `secondarySpeaker`.
+- **Shows:** `RP` (Regulation Podcast) or `FF` (F\*\*kface).
+- **Revisions:** a higher `revision` replaces the whole catalog, including removals. Drop any IDs in `retiredIds`.
+- **Size:** keep the feed under 5 MB. Split it into pages before it gets that big.
 
-### Podscripts collection is enabled
+## Repository layout
 
-The daily discovery workflow also checks [Podscripts](https://podscripts.co/podcasts/regulation-podcast/). It reads up to 20 previously unprocessed transcript pages per run, aiming for 10 new candidates, with a pause between requests, and collects up to **three distinct short candidates per episode**, within a combined 25-word excerpt budget per source page. It skips obvious promotional passages and supplements without explicit episode numbers. Candidates are saved under `drafts/podscripts_*.json`; processed source URLs are tracked in `inbox/podscripts_processed.json`.
+| Path | What it holds |
+|---|---|
+| `drafts/` | Candidates waiting for review (unverified) |
+| `quotes/` | Approved quotes, one file each |
+| `quarantine/` | Removed or rejected candidates (blocks repeats) |
+| `published/catalog.json` | The generated public feed |
+| `catalog.json` | Revision number and retired IDs |
+| `inbox/` | Collection progress, the lore dictionary list, and F\*\*kface archive recordings (episodes 1–56) |
+| `scripts/` | Dashboard server, Whisper collector, filters, validation and tests |
+| `dashboard/` | The review page |
+| `transcripts/`, `models/` | Local only, never committed |
 
-Podscripts provides approximate **audio segment times**, not verified YouTube timestamps or speaker identities. These are stored separately in `source.audioSegmentTimestamp`; playback timestamps, links, and speakers remain unset. Human review is mandatory. Keyword filtering can still select an ad or an uninteresting/incomplete passage; reject those drafts. No automatic publication or paid transcription occurs. Regulation Search remains an alternative for manual cross-checking, not an integrated source.
+## Edit by hand
 
-## Review dashboard (on your Mac)
-
-Run this from your local vault folder:
+You can also work directly in the files. Copy an existing draft, keep its stable `id` (never reuse a retired one), check the recording, and set every `review` field: `status` to `verified`, plus `reviewer`, `checkedAt`, `sourceUrl`, and the five `…Checked` flags. Then move it to `quotes/`, increase `revision` in `catalog.json`, and run:
 
 ```sh
-python3 scripts/review_server.py
+python3 scripts/build_catalog.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 
-Then open **http://127.0.0.1:8765**. Keep that process running while reviewing. This is a local dashboard, not a publicly hosted admin page; GitHub credentials stay in your local `gh` login. No API keys or paid speech service are used.
+Commit the quote, `catalog.json` and `published/catalog.json` together. GitHub Actions validates the catalog and runs the tests on every push.
 
-Select a candidate → play its 35-second preview → correct words, speaker(s), episode and recording start time → confirm the recording and attribution policy → **Approve & publish**. Approval atomically moves the draft to `quotes/`, increments the revision and publishes the app feed on GitHub. A changed draft or concurrent GitHub update blocks publication rather than overwriting it. You need your existing `gh` login with repository write permission. Approvals are public Git commits. Keep unreviewed or unsuitable entries unapproved; “Review next” just skips them.
+## Be a good neighbour
 
-**Speaker suggestions:** the local version only suggests a speaker when the exact quote and episode match an already human-reviewed entry with consistent credits. Its percentage measures text agreement, not voice confidence. Otherwise it shows Unknown / confidence unavailable. Imported Gemini speaker names are displayed only as unverified draft credits. Voice recognition is not configured. This avoids inventing confidence values before any confirmed voice samples exist.
+- Publish **short excerpts** with credit and a link back to the episode, never full transcripts.
+- Collection downloads audio only to transcribe it on your own machine, deletes it straight away, and spaces out requests. Please keep it that way, and follow YouTube's terms where you live.
 
-**Playback:** existing video IDs preview YouTube at the editable start time. Candidates without a video use the official feed's audio when the episode title matches; the player stops after 35 seconds. Feed ads may shift audio timing. The original transcript link remains available if audio or YouTube embedding fails. Approval requires a reviewed recording and timing, from YouTube or a supported RT Archive episode.
+## Credits
 
-Each approval records the suggestion shown at review time and whether the reviewer agreed. This creates evaluation data for a future speaker model; no automatic-approval threshold is enabled.
-
-**Refresh queue** collects more candidates on demand, saves them to GitHub, and reloads the review list. Each click aims for 10 candidates, checking up to 20 transcript pages; after recent episodes are exhausted it walks older index pages. It reports how many candidates were found and never publishes them as approved. Local uncommitted vault edits block collection to avoid mixing your work with imported drafts.
-
-**Add quote** opens a manual-entry form. Enter the quote, show, episode number/title, and an optional source link. **Save draft** writes only your entry to GitHub and selects it for review. It does not fetch transcripts or approve the quote. Speakers and playback timing are checked separately before publication.
-
-Collection includes general podcast moments, jokes, stories, and lore—not only weather. New candidates receive the `random` tag so they fit the app’s general quote pool; reviewers can replace it with more specific weather or mood tags. Existing drafts and review decisions are preserved.
-
-Batch collection stops after 10 new candidates, 20 episodes, four older index pages, or about two minutes (an in-flight request may finish afterward). It keeps looking past supplemental episodes and unsuitable excerpts. The source-page excerpt budget includes existing drafts, approved entries and quarantined entries.
-
-## Review from your phone on the same Wi-Fi
-
-Double-click **Open Phone Quote Review.command** on the Mac. It prints a phone URL and a fresh pairing code. Connect the phone to the same trusted Wi-Fi, open that URL, and enter the code. Keep the Mac awake and the dashboard running. If another dashboard is already running, stop that process first to free port 8765.
-
-LAN mode requires pairing before reading drafts or making changes, keeps GitHub credentials on the Mac, checks the request host/origin, and limits pairing attempts. Pairing expires when the server restarts. This uses HTTP on your local network, so use trusted Wi-Fi only; no router port forwarding or public hosting is configured. The normal launcher remains local-only.
-
-### Ad screening
-
-Automatic Podscripts collection skips the opening two minutes and screens nearby transcript blocks around advertising signals (including a brand reveal after a generic promotional line). Both importers reject common promotions. Suspect existing automatic drafts are retained in `quarantine/`, outside the dashboard queue and published feed. This is conservative screening, not a guarantee: reviewers should still reject ads or questionable context. Approved entries are not changed by this cleanup.
-
-Automatic collection deduplicates wording across approved quotes, drafts, and quarantined excerpts, including capitalization, punctuation, and very small wording differences in longer sentences. It looks for another passage when a source repeats existing wording. Existing duplicate drafts are preserved under `quarantine/`; approved quotes are retained.
-
-**Remove quote** removes the selected draft from the review queue and moves it to `quarantine/` in one GitHub commit. Removed wording is excluded from automatic imports. The copy remains recoverable on GitHub. This action does not delete or change approved quotes.
-
-### Editorial quality screening
-
-The collector ranks eligible excerpts instead of taking the first short line. A free, deterministic rule-based score favors complete sentences with clear opinions, contrasts, or unusual premises. It rejects fragments, filler openings, unclear references, and uncertain transcript context. Only scores of 70/100 or higher are eligible, and Podscripts selects the highest-scoring distinct excerpts that fit the source-page budget. Transcript imports return up to ten ranked candidates. Fewer candidates is preferable to filling the queue with weak lines.
-
-Automatic drafts display an **Editorial score** with reasons. This is a heuristic, not a probability of humor, accuracy, or speaker identity. Existing manually entered drafts and approved quotes are unchanged. Weak automatic drafts remain recoverable in `quarantine/`.
-
-### RT Archive recordings
-
-The review dashboard supports **F\*\*kFace episodes 1–56** from [RT Archive](https://rtarchive.org/). Use **Add quote**, choose FF and the episode, then select **RT Archive** as the recording source during review. Choose the matching episode, enter the start time in seconds, and use the 35-second preview to check the words and speakers. Approved entries link to that archive recording at the reviewed time. YouTube remains available.
-
-The recording index is `inbox/rtarchive_episodes.json`. As checked on October 2, 2026, none of these 56 recordings were marked as having transcripts. Connecting them enables manual review and playback; **Refresh queue does not transcribe or extract quotes from these recordings**. The archive is not a complete transcript source for all episodes. Availability and player loading depend on RT Archive and Internet Archive.
-
-### Lore-aware selection
-
-Candidate scoring uses an editable list of topic labels from the [Regulation Lore dictionary](https://www.regulationlore.com.au/dictionary), stored in `inbox/lore_terms.json`. Definitions and example sentences are not imported as quotes. Exact normalized phrase matches add a relevance boost and appear in the candidate’s score explanation. Generic single-word entries are omitted to reduce random matches. Matches cannot bypass fragment, ad, intro, duplicate, or human attribution checks; dictionary mentions do not identify a speaker.
-
-Newly processed episodes can contribute multiple distinct candidates. Previously processed pages are not automatically re-crawled, and rate-limit backoff still applies. Supplied transcript imports can contribute up to ten ranked candidates. Manual entry remains available without collection.
+- The Regulation Podcast and F\*\*kface, by Andrew Panton, Gavin Free, Geoff Ramsey, Eric Baudour and Nick Schwartz.
+- Speech-to-text: [whisper.cpp](https://github.com/ggml-org/whisper.cpp), using OpenAI's Whisper large-v3-turbo model.
+- Playlist and audio: [yt-dlp](https://github.com/yt-dlp/yt-dlp).
+- Running bits: the [Regulation Lore dictionary](https://www.regulationlore.com.au/dictionary).
+- Related community project: [regulationproject](https://github.com/michaelbooth1/regulationproject) by Michael Booth, with full feed transcripts and speaker analysis.

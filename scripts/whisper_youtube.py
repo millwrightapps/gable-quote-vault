@@ -2,8 +2,8 @@
 """Transcribe Regulation Podcast YouTube videos locally with whisper.cpp, so candidate timestamps match YouTube.
 
 Audio is downloaded one video at a time, transcribed on this Mac, then deleted. Transcripts are kept in
-`transcripts/` (gitignored) so a video is never transcribed twice. Candidates go to `drafts/` through the same
-importer as captions: unverified, no speakers, nothing published.
+`transcripts/` (gitignored) so a video is never transcribed twice. Candidates go to `drafts/` through
+import_transcript.py: unverified, no speakers, nothing published.
 
     python3 scripts/whisper_youtube.py --video VIDEO_ID     # one video (prints where the transcript went)
     python3 scripts/whisper_youtube.py --batch 5            # the next 5 numbered episodes not yet transcribed
@@ -22,7 +22,6 @@ from collect_youtube import collect
 ROOT = Path(__file__).resolve().parents[1]
 MODEL = ROOT / "models" / "ggml-large-v3-turbo-q5_0.bin"
 TRANSCRIPTS = ROOT / "transcripts"
-STATE_PATH = "inbox/whisper_processed.json"
 # A punctuated, capitalized prompt keeps Whisper writing full sentences (the importer needs sentence endings) and
 # spells the cast and recurring names the way the show does.
 PROMPT = ("Welcome to the Regulation Podcast. I'm Geoff, and I'm here with Andrew, Gavin, Eric and Nick. "
@@ -89,6 +88,5 @@ if __name__ == "__main__":
         segments = transcribe(args.video)
         print(f"{len(segments)} segments saved to {TRANSCRIPTS / (args.video + '.json')}")
     else:
-        result = collect(target=10 * args.batch, max_videos=args.batch, fetch_transcript_fn=transcribe,
-                         state_path=STATE_PATH, delay_seconds=10)
+        result = collect(transcribe, target=10 * args.batch, max_videos=args.batch, delay_seconds=10)
         print(result)

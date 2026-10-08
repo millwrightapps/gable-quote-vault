@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from review_server import prepare, suggestion, publish
+from review_server import prepare, suggestion, publish, require_clean_quote_data
 from build_catalog import validate
 
 class ReviewTests(unittest.TestCase):
@@ -31,6 +31,17 @@ class ReviewTests(unittest.TestCase):
     def test_geoff_restriction_applies_to_approval(self):
         e=self.edits();e.update(speaker='GEOFF_RAMSEY',quote='A beer after the rain.')
         with self.assertRaises(AssertionError): validate(prepare(self.draft(), e, 'tester'), [])
+    @patch('review_server.subprocess.run')
+    def test_code_changes_do_not_block_refresh(self, run):
+        run.return_value.stdout=''
+        require_clean_quote_data()
+        self.assertIn('drafts', run.call_args.args[0])
+        self.assertNotIn('scripts', run.call_args.args[0])
+    @patch('review_server.subprocess.run')
+    def test_unsaved_quote_data_still_blocks_refresh(self, run):
+        run.return_value.stdout=' M drafts/reg_001.json\n'
+        with self.assertRaisesRegex(ValueError, 'unsaved quote or queue edits'):
+            require_clean_quote_data()
     @patch('review_server.gh')
     def test_remote_changed_draft_blocks_before_writes(self, gh):
         gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'tree'}},{'tree':[]}]

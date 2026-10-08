@@ -18,6 +18,9 @@ def is_ad(text):
 
 
 def seconds(stamp):
+    """Seconds from a number or an "HH:MM:SS" / "MM:SS" stamp."""
+    if isinstance(stamp, (int, float)):
+        return stamp
     return sum(int(value) * 60**i for i, value in enumerate(reversed(stamp.split(':'))))
 
 

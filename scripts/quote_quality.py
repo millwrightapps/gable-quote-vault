@@ -3,7 +3,21 @@ import re
 from lore_terms import matches, SOURCE
 
 THRESHOLD = 70
-VERSION = 2
+VERSION = 3
+
+
+def has_sentence_ending(text):
+    """Require sentence punctuation; clock abbreviations like a.m. do not count."""
+    ending = re.sub(r"""["'”’)\]}»\s]+$""", "", text)
+    if ending.endswith(("!", "?")):
+        return True
+    if not ending.endswith("."):
+        return False
+    return not re.search(
+        r"(?:\ba\.m\.|\bp\.m\.|\b(?:mr|mrs|ms|dr|prof|etc|inc|jr|sr)\.|e\.g\.|i\.e\.)$",
+        ending,
+        re.I,
+    )
 
 
 def assess(text, context=''):
@@ -13,7 +27,7 @@ def assess(text, context=''):
     reject = None
     if not 8 <= len(words) <= 25:
         reject = 'Not a compact standalone sentence'
-    elif not re.search(r'[.!?][”\"\']?$', text) or text.endswith('...'):
+    elif not has_sentence_ending(text) or text.rstrip().endswith('...'):
         reject = 'Incomplete thought'
     elif re.match(r'^(?:and|but|so|well|yeah|yes|no|okay|ok|wait|like|because|which|in a)\b', lower):
         reject = 'Conversational fragment or filler opening'

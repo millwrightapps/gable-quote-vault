@@ -1,5 +1,6 @@
 #!/bin/zsh
 cd -- "$(dirname -- "$0")" || exit 1
+source scripts/setup.zsh
 review_interface=$(/sbin/route -n get default | /usr/bin/awk '/interface:/{print $2}')
 review_address=$(/usr/sbin/ipconfig getifaddr "$review_interface")
 if [[ -z "$review_address" ]]; then
@@ -8,4 +9,4 @@ if [[ -z "$review_address" ]]; then
   exit 1
 fi
 print 'Keep this window open. Use the phone address and pairing code printed below.'
-python3 scripts/review_server.py --lan-ip "$review_address"
+exec .venv/bin/python scripts/review_server.py --lan-ip "$review_address"

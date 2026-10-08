@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Collect unattributed transcript candidates from the RP YouTube playlist locally."""
-import html
+"""Collect unattributed candidates from the RP YouTube playlist, transcribed locally (see whisper_youtube.py)."""
 import json
 from pathlib import Path
 import re
@@ -11,16 +10,16 @@ from quote_duplicates import existing_wording
 
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST_URL = "https://www.youtube.com/playlist?list=PL0YaZqNO5Z3ds7_sVSEP-FTjvvfWWWY8O"
-STATE_PATH = "inbox/youtube_processed.json"
+STATE_PATH = "inbox/whisper_processed.json"
 COOLDOWN_SECONDS = 30 * 60
 
 
 def fetch_videos(limit=1000):
-    """Read playlist metadata only; transcript requests run from the dashboard host."""
+    """Read playlist metadata only (titles and IDs)."""
     try:
         import yt_dlp
     except ImportError as error:
-        raise RuntimeError("YouTube tools are missing. Close the dashboard and reopen Open Quote Review.command to install them.") from error
+        raise RuntimeError("yt-dlp is missing. Close the dashboard and reopen Open Quote Review.command to install it.") from error
 
     options = {
         "extract_flat": True,
@@ -52,22 +51,6 @@ def fetch_videos(limit=1000):
     return videos
 
 
-def fetch_transcript(video_id):
-    """Fetch English captions with the current youtube-transcript-api interface."""
-    try:
-        from youtube_transcript_api import YouTubeTranscriptApi
-    except ImportError as error:
-        raise RuntimeError("YouTube tools are missing. Close the dashboard and reopen Open Quote Review.command to install them.") from error
-
-    fetched = YouTubeTranscriptApi().fetch(video_id, languages=["en", "en-US", "en-GB"])
-    raw = fetched.to_raw_data()
-    return [
-        {"text": html.unescape(str(row.get("text", ""))).replace("\n", " ").strip(),
-         "start": float(row.get("start", 0)), "duration": float(row.get("duration", 0))}
-        for row in raw if str(row.get("text", "")).strip()
-    ]
-
-
 def _state(root, path=None):
     path = path or root / STATE_PATH
     if not path.exists():
@@ -86,12 +69,13 @@ def _is_youtube_block(error):
     ) or "too many requests" in text or "rate limit" in text or "429" in text or "not a bot" in text
 
 
-def _has_no_transcript(error):
-    return type(error).__name__ in {"NoTranscriptFound", "TranscriptsDisabled", "VideoUnavailable"}
+def _unavailable(error):
+    text = str(error).lower()
+    return "video unavailable" in text or "private video" in text or "members-only" in text
 
 
-def collect(root=ROOT, target=10, max_videos=20, fetch_videos_fn=None,
-            fetch_transcript_fn=None, delay_seconds=5, now_fn=time.time, sleep_fn=time.sleep, state_path=STATE_PATH):
+def collect(fetch_transcript_fn, root=ROOT, target=10, max_videos=20, fetch_videos_fn=None,
+            delay_seconds=5, now_fn=time.time, sleep_fn=time.sleep, state_path=STATE_PATH):
     """Fetch from YouTube on the local machine and save only draft excerpts."""
     root = Path(root)
     for folder in ("drafts", "quotes", "inbox", "quarantine"):
@@ -104,7 +88,6 @@ def collect(root=ROOT, target=10, max_videos=20, fetch_videos_fn=None,
         return {"added": 0, "checked": 0, "retryAfter": int(state["cooldownUntil"] - now) + 1}
 
     fetch_videos_fn = fetch_videos_fn or fetch_videos
-    fetch_transcript_fn = fetch_transcript_fn or fetch_transcript
     try:
         videos = fetch_videos_fn()
     except Exception as error:
@@ -136,8 +119,8 @@ def collect(root=ROOT, target=10, max_videos=20, fetch_videos_fn=None,
         except Exception as error:
             if _is_youtube_block(error):
                 cooldown_until = now_fn() + COOLDOWN_SECONDS
-                break  # Leave this video unprocessed so Refresh queue can retry later.
-            if _has_no_transcript(error):
+                break  # Leave this video unprocessed so the next run can retry it.
+            if _unavailable(error):
                 processed.add(video_id)
                 checked += 1
                 continue

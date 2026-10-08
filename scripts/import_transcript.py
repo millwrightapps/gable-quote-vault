@@ -6,9 +6,9 @@ import json
 import math
 from pathlib import Path
 import re
-from quote_filters import is_ad
+from quote_filters import blocked_segments, is_ad
 from quote_duplicates import existing_wording, is_repeat
-from quote_quality import assess
+from quote_quality import assess, has_sentence_ending
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,6 +22,47 @@ def is_intro(text):
     ))
 
 
+# The show's cold open and intro; never collected.
+OPENING_SECONDS = 120
+
+
+def complete_utterances(segments, max_gap_seconds=8, max_chars=300):
+    """Join adjacent transcript fragments, yielding only fully punctuated utterances. Segments inside or next to an
+    ad read (a promo line can come before the brand reveal) are dropped."""
+    blocked = blocked_segments([(s['start'], s['text']) for s in segments])
+    buffer = ''
+    first_start = None
+    previous_end = None
+    for index, segment in enumerate(segments):
+        if index in blocked or segment['start'] < OPENING_SECONDS:
+            buffer = ''
+            first_start = previous_end = None
+            continue
+        text = segment['text'].strip()
+        start = segment['start']
+        duration = segment.get('duration', 0)
+        if not text:
+            continue
+        if len(text) > max_chars:
+            buffer = ''
+            first_start = previous_end = None
+            continue
+        if buffer and (start - previous_end > max_gap_seconds or
+                       len(buffer) + len(text) > max_chars):
+            buffer = ''
+            first_start = previous_end = None
+        if not buffer:
+            first_start = start
+        if buffer and not text.startswith(tuple(',.!?;:)]}')):
+            buffer += ' '
+        buffer += text
+        previous_end = start + (duration if isinstance(duration, (int, float)) else 0)
+        if has_sentence_ending(buffer):
+            yield {'text': buffer, 'start': first_start}
+            buffer = ''
+            first_start = previous_end = None
+
+
 def candidates(transcript, known=()):
     video = transcript['youtubeVideoId']
     if not re.fullmatch(r'[A-Za-z0-9_-]{11}', video):
@@ -31,10 +72,12 @@ def candidates(transcript, known=()):
     known = list(known)
     results = {}
     for segment in transcript['segments']:
-        text = segment['text'].strip()
         start = segment['start']
         if not isinstance(start, (int, float)) or not math.isfinite(start) or start < 0:
             raise ValueError('Invalid segment time')
+    for segment in complete_utterances(transcript['segments']):
+        text = segment['text'].strip()
+        start = segment['start']
         if not 30 <= len(text) <= 240 or is_intro(text) or is_ad(text):
             continue
         quality = assess(text)
