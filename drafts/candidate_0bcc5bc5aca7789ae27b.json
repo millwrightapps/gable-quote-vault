@@ -1,0 +1,34 @@
+{
+  "id": "candidate_0bcc5bc5aca7789ae27b",
+  "quote": "Good or bad Andrew's looking up Smelling me kids Never mind Good or bad?",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 3,
+  "episodeTitle": "Will Andrew Sit in the Chair? // Locked Out of Baked Goods [3]",
+  "timestamp": "65:45",
+  "timestampSeconds": 3945,
+  "youtubeVideoId": "SoptkFkRP-M",
+  "listenUrl": "https://www.youtube.com/watch?v=SoptkFkRP-M&t=3945s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=SoptkFkRP-M&t=3945s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
