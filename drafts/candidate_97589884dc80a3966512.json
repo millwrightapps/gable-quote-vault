@@ -1,0 +1,36 @@
+{
+  "id": "candidate_97589884dc80a3966512",
+  "quote": "I don't think I mentioned this in 21, but we recorded it like a year ago, so it's hard to remember.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 22,
+  "episodeTitle": "Married with Nic Cage // Reverse Engineered Stupidity [22]",
+  "timestamp": "14:16",
+  "timestampSeconds": 856,
+  "youtubeVideoId": "vrRPV1RESxg",
+  "listenUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=856s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=856s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "candidate_efe3dce181a27969f959",
+  "quote": "I like that you don't want me to go and buy them, because otherwise you'll have two.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 22,
+  "episodeTitle": "Married with Nic Cage // Reverse Engineered Stupidity [22]",
+  "timestamp": "06:11",
+  "timestampSeconds": 371,
+  "youtubeVideoId": "vrRPV1RESxg",
+  "listenUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=371s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=371s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

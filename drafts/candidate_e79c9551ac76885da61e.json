@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e79c9551ac76885da61e",
+  "quote": "Imagine like 50 people sitting at desks simultaneously doing puzzles.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 22,
+  "episodeTitle": "Married with Nic Cage // Reverse Engineered Stupidity [22]",
+  "timestamp": "09:50",
+  "timestampSeconds": 590,
+  "youtubeVideoId": "vrRPV1RESxg",
+  "listenUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=590s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=590s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

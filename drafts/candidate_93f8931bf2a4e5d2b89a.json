@@ -1,0 +1,35 @@
+{
+  "id": "candidate_93f8931bf2a4e5d2b89a",
+  "quote": "You know, like a like that, like it kind of goes, you know, but you got to be like really saliva it up.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 22,
+  "episodeTitle": "Married with Nic Cage // Reverse Engineered Stupidity [22]",
+  "timestamp": "65:03",
+  "timestampSeconds": 3903,
+  "youtubeVideoId": "vrRPV1RESxg",
+  "listenUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=3903s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=vrRPV1RESxg&t=3903s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
