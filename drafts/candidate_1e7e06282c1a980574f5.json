@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1e7e06282c1a980574f5",
+  "quote": "I wasn't the fastest, but I could run long.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 16,
+  "episodeTitle": "Boat Day Disaster // Hot Dog Talk [16]",
+  "timestamp": "59:53",
+  "timestampSeconds": 3593,
+  "youtubeVideoId": "ASxPCnkiBQY",
+  "listenUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=3593s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=3593s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

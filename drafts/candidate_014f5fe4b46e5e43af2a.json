@@ -1,0 +1,35 @@
+{
+  "id": "candidate_014f5fe4b46e5e43af2a",
+  "quote": "I love sports video games, but they always wear down really fast because you just can't.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 16,
+  "episodeTitle": "Boat Day Disaster // Hot Dog Talk [16]",
+  "timestamp": "24:56",
+  "timestampSeconds": 1496,
+  "youtubeVideoId": "ASxPCnkiBQY",
+  "listenUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=1496s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=1496s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

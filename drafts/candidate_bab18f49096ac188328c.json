@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bab18f49096ac188328c",
+  "quote": "Cause there's like a lineage and a familiarity there, but it also must be a little weird and got to be stifling in some way.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 16,
+  "episodeTitle": "Boat Day Disaster // Hot Dog Talk [16]",
+  "timestamp": "53:16",
+  "timestampSeconds": 3196,
+  "youtubeVideoId": "ASxPCnkiBQY",
+  "listenUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=3196s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=3196s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

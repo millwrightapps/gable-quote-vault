@@ -1,0 +1,35 @@
+{
+  "id": "candidate_6ccbfb5d758350c2c5c0",
+  "quote": "I think the dog information could have been in there, but I'm fine as long as it exists.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 16,
+  "episodeTitle": "Boat Day Disaster // Hot Dog Talk [16]",
+  "timestamp": "32:05",
+  "timestampSeconds": 1925,
+  "youtubeVideoId": "ASxPCnkiBQY",
+  "listenUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=1925s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=1925s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

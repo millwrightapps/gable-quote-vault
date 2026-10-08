@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1add8b01796139f91c9e",
+  "quote": "You made like a dog ladder, but that wasn't in the dog Slack channel.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 16,
+  "episodeTitle": "Boat Day Disaster // Hot Dog Talk [16]",
+  "timestamp": "31:39",
+  "timestampSeconds": 1899,
+  "youtubeVideoId": "ASxPCnkiBQY",
+  "listenUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=1899s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ASxPCnkiBQY&t=1899s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
