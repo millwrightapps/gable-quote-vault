@@ -1,0 +1,35 @@
+{
+  "id": "candidate_3b55c0689da8e43d59f7",
+  "quote": "You got to figure out something in the design, though, because the hardest thing in the world, I wish I could have my butt.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 1,
+  "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+  "timestamp": "09:12",
+  "timestampSeconds": 552,
+  "youtubeVideoId": "U2EKjj8P9UM",
+  "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=552s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=552s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

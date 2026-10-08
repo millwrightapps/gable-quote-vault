@@ -1,0 +1,35 @@
+{
+  "id": "candidate_850c552f6f527420d0dc",
+  "quote": "I, I would love one, but once again, this has never been my choice, so I'm not.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 1,
+  "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+  "timestamp": "51:17",
+  "timestampSeconds": 3077,
+  "youtubeVideoId": "U2EKjj8P9UM",
+  "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=3077s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=3077s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "candidate_117261febb536128e666",
+  "quote": "I think if you haven't left a comment yet on regulation podcast, you can retain regulation listener status for as long as you want.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Regulation listener"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Regulation listener"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 1,
+  "episodeTitle": "The Inaugural Episode // Loopering Superman's Horse [1]",
+  "timestamp": "03:19",
+  "timestampSeconds": 199,
+  "youtubeVideoId": "U2EKjj8P9UM",
+  "listenUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=199s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=U2EKjj8P9UM&t=199s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
