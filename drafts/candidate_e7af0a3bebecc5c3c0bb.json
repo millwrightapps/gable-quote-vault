@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e7af0a3bebecc5c3c0bb",
+  "quote": "The problem with that is you need to be here, Gavin, because you have become the absolute worst influence on Nick.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 10,
+  "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+  "timestamp": "41:59",
+  "timestampSeconds": 2519,
+  "youtubeVideoId": "YoW_DpjzJhk",
+  "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=2519s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=2519s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

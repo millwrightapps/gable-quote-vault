@@ -1,0 +1,35 @@
+{
+  "id": "candidate_cc4abf506d044743005c",
+  "quote": "Even if we could do that, I would hate that.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 10,
+  "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+  "timestamp": "38:20",
+  "timestampSeconds": 2300,
+  "youtubeVideoId": "YoW_DpjzJhk",
+  "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=2300s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=2300s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_74c01c080480d81a439c",
+  "quote": "I think I prefer because I feel like I could do six right now.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 10,
+  "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+  "timestamp": "65:58",
+  "timestampSeconds": 3958,
+  "youtubeVideoId": "YoW_DpjzJhk",
+  "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=3958s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=3958s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
