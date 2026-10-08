@@ -169,6 +169,12 @@ To transcribe an episode, the collector downloads its audio, transcribes it on y
 - **Andrew, Gavin, Geoff, Eric and Nick**, for years of F\*\*kface and the Regulation Podcast, and for every bit, story and tangent worth quoting.
 - The fans behind the [Regulation Lore dictionary](https://www.regulationlore.com.au/dictionary), which helps the collector spot running bits.
 - [@tgb20](https://github.com/tgb20), who runs Regulation Search, for sharing how he uses Whisper to build his transcripts and for pointing me to other community work. That's what got this setup going.
-- Michael Booth, whose [regulationproject](https://github.com/michaelbooth1/regulationproject) has full episode transcripts and speaker analysis, and is well worth a look.
+- [@michaelbooth1](https://github.com/michaelbooth1), whose [regulationproject](https://github.com/michaelbooth1/regulationproject) has full episode transcripts and speaker analysis, and is well worth a look.
 - [whisper.cpp](https://github.com/ggml-org/whisper.cpp) and OpenAI's Whisper model, for speech-to-text.
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp), for the playlist and audio.
+
+## License
+
+The code in this repo (the scripts, dashboard and setup) is released under the [MIT License](LICENSE), so you're free to fork it, change it and use it in your own projects.
+
+The quotes aren't covered by that license. They belong to the Regulation Podcast and its hosts. Please use them the way this README describes: short excerpts, full credit, and a link back to the episode.
