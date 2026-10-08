@@ -68,6 +68,28 @@ class CommitTests(unittest.TestCase):
         self.assertEqual(['commit-on-moved', 'commit-on-latest'], patches)
 
 
+    def test_drafts_handled_during_transcription_are_not_brought_back(self):
+        import json, tempfile
+        from pathlib import Path
+        import review_server
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            for name in ('drafts', 'quotes', 'inbox', 'quarantine'):
+                (root/name).mkdir()
+            (root/'drafts/old.json').write_text(json.dumps({'id': 'old'}))
+            def collect(fn, temp, **_):
+                (root/'drafts/old.json').rename(root/'quotes/old.json')  # approved while this episode transcribed
+                (temp/'drafts/new.json').write_text(json.dumps({'id': 'new'}))
+                (temp/review_server.STATE_PATH).write_text('{}')
+                return {'added': 1, 'checked': 1}
+            saved = []
+            with patch.object(review_server, 'ROOT', root), patch('review_server.require_clean_quote_data'), \
+                 patch('review_server.subprocess.run'), patch('review_server.collect', collect), \
+                 patch('review_server.commit_on_latest', lambda changes, message: saved.extend(c['path'] for c in changes)):
+                review_server.collect_one([])
+            self.assertEqual(sorted(['drafts/new.json', review_server.STATE_PATH]), sorted(saved))
+
+
 class ManualDraftTests(unittest.TestCase):
     def test_manual_entry_is_unverified_and_deduplicated(self):
         from review_server import manual_draft

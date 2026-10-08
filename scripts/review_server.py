@@ -181,8 +181,11 @@ def collect_one(videos):
         for folder in ('drafts', 'quotes', 'inbox', 'quarantine'):
             if (ROOT/folder).exists():
                 shutil.copytree(ROOT / folder, temp / folder)
+        before = {p.name for p in (temp/'drafts').glob('*.json')}
         result = collect(whisper, temp, target=10, max_videos=1, fetch_videos_fn=lambda: videos, delay_seconds=0)
-        paths = [p for p in (temp/'drafts').glob('*.json') if not (ROOT/'drafts'/p.name).exists()]
+        # Only drafts this run created. Comparing against the live folder instead would bring back anything
+        # approved or removed while the episode was transcribing.
+        paths = [p for p in (temp/'drafts').glob('*.json') if p.name not in before]
         result['addedIds'] = [json.loads(p.read_text())['id'] for p in paths]
         paths.append(temp/STATE_PATH)
         changes = [dict(path=str(p.relative_to(temp)), mode='100644', type='blob', content=p.read_text())
