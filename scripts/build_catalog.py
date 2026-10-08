@@ -42,9 +42,9 @@ def validate(q, retired):
     assert all(review.get(k) is True for k in ('wordingChecked', 'speakersChecked', 'episodeChecked', 'timestampChecked')), 'Complete all review checks'
     assert isinstance(q['weatherTags'], list) and q['weatherTags'] and all(isinstance(t, str) and t.strip() for t in q['weatherTags'])
     if 'GEOFF_RAMSEY' in (q['speaker'], q.get('secondarySpeaker')):
-        assert not ALCOHOL.search(q['quote']), 'Geoff must not be associated with drinking alcohol'
+        assert not ALCOHOL.search(q['quote']), 'Respect Geoff\'s sobriety: quotes credited to him must not mention drinking'
     # Keyword checks are only a backstop; the reviewer must check context too.
-    assert review.get('attributionPolicyChecked') is True, 'Review the Geoff attribution policy'
+    assert review.get('attributionPolicyChecked') is True, 'Confirm the attribution policy (including respecting Geoff\'s sobriety)'
 
 
 def build():
