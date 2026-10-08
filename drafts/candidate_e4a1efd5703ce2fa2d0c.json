@@ -1,0 +1,34 @@
+{
+  "id": "candidate_e4a1efd5703ce2fa2d0c",
+  "quote": "Oh, I never listened to any of it.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 25,
+  "episodeTitle": "We Is Not Me Part 2 // Hide and Speak [25]",
+  "timestamp": "09:54",
+  "timestampSeconds": 594,
+  "youtubeVideoId": "nS1WpeznCu8",
+  "listenUrl": "https://www.youtube.com/watch?v=nS1WpeznCu8&t=594s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nS1WpeznCu8&t=594s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

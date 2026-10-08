@@ -1,0 +1,35 @@
+{
+  "id": "candidate_678b89400b1283db19f7",
+  "quote": "I haven't listened back to it, but it certainly works as an audible only.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 25,
+  "episodeTitle": "We Is Not Me Part 2 // Hide and Speak [25]",
+  "timestamp": "04:10",
+  "timestampSeconds": 250,
+  "youtubeVideoId": "nS1WpeznCu8",
+  "listenUrl": "https://www.youtube.com/watch?v=nS1WpeznCu8&t=250s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=nS1WpeznCu8&t=250s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
