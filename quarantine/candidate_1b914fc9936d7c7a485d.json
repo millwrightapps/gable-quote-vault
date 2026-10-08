@@ -25,10 +25,12 @@
   ],
   "tags": [],
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://www.youtube.com/watch?v=8nq5DyRPHN0&t=280s",
     "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-08T18:13:05.176955+00:00"
   }
 }
