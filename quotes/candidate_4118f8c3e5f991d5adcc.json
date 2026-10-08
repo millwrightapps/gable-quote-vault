@@ -13,7 +13,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "GEOFF_RAMSEY",
   "show": "RP",
   "episode": 14,
   "episodeTitle": "What 3 Words Locations // The Most Boring 90 Minutes [14]",
@@ -22,14 +22,28 @@
   "youtubeVideoId": "z8Jz6e1Raqs",
   "listenUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2491s",
   "weatherTags": [
-    "random"
+    "random",
+    "hot dogs"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-08",
     "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2491s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }
