@@ -1,0 +1,37 @@
+{
+  "id": "candidate_156e806a4c3e7ae4de17",
+  "quote": "I'm maybe below average by a little bit because it's all back.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: All back"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "All back"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 11,
+  "episodeTitle": "This is What This Means // Deceptive Short or Sneaky Tall [11]",
+  "timestamp": "49:55",
+  "timestampSeconds": 2995,
+  "youtubeVideoId": "ngq_qEJCOwc",
+  "listenUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=2995s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=2995s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

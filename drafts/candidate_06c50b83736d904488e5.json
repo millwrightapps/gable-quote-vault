@@ -1,0 +1,35 @@
+{
+  "id": "candidate_06c50b83736d904488e5",
+  "quote": "You'll always have new flavors to explore, which is great because I get really bored eating the same thing over and over and over again.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 11,
+  "episodeTitle": "This is What This Means // Deceptive Short or Sneaky Tall [11]",
+  "timestamp": "26:26",
+  "timestampSeconds": 1586,
+  "youtubeVideoId": "ngq_qEJCOwc",
+  "listenUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=1586s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ngq_qEJCOwc&t=1586s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

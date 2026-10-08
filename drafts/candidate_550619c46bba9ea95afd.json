@@ -1,0 +1,34 @@
+{
+  "id": "candidate_550619c46bba9ea95afd",
+  "quote": "Oh, I love unlocking a memory. I haven't thought about that in probably two decades.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 15,
+  "episodeTitle": "Hot Dog Math // Gavin vs Andrew [15]",
+  "timestamp": "05:04",
+  "timestampSeconds": 304,
+  "youtubeVideoId": "npmBybZFiKs",
+  "listenUrl": "https://www.youtube.com/watch?v=npmBybZFiKs&t=304s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=npmBybZFiKs&t=304s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "candidate_2dca8d1c5c6f368afc7a",
+  "quote": "I just wrote it horribly but I've been I've been quietly looking at it like bog roll folders going what is this?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Bog roll, Bog roll folders"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bog roll",
+      "Bog roll folders"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 10,
+  "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+  "timestamp": "66:58",
+  "timestampSeconds": 4018,
+  "youtubeVideoId": "YoW_DpjzJhk",
+  "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=4018s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=4018s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

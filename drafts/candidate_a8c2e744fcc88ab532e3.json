@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a8c2e744fcc88ab532e3",
+  "quote": "See, I always hated math because I, uh, I, I had to show the work and I just thought that was dumb.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 15,
+  "episodeTitle": "Hot Dog Math // Gavin vs Andrew [15]",
+  "timestamp": "02:12",
+  "timestampSeconds": 132,
+  "youtubeVideoId": "npmBybZFiKs",
+  "listenUrl": "https://www.youtube.com/watch?v=npmBybZFiKs&t=132s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=npmBybZFiKs&t=132s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

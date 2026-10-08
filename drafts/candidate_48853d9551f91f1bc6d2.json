@@ -1,0 +1,34 @@
+{
+  "id": "candidate_48853d9551f91f1bc6d2",
+  "quote": "Or I just or I'm just stupid because I was watching a movie and putting a drink down at the same time.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 15,
+  "episodeTitle": "Hot Dog Math // Gavin vs Andrew [15]",
+  "timestamp": "20:06",
+  "timestampSeconds": 1206,
+  "youtubeVideoId": "npmBybZFiKs",
+  "listenUrl": "https://www.youtube.com/watch?v=npmBybZFiKs&t=1206s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=npmBybZFiKs&t=1206s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
