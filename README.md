@@ -56,7 +56,7 @@ The launcher installs the rest the first time you open it: yt-dlp, whisper.cpp, 
    cd YOUR-VAULT
    gh auth login
    ```
-3. **Double-click "Open Quote Review.command"**, then go to **http://127.0.0.1:8765**. The first launch takes a few minutes while it installs everything. Leave that window open while you work.
+3. **Double-click "Open Quote Review.command"**, then open the address it shows, usually **http://127.0.0.1:8765** (it picks the next free port if that one is busy). The first launch takes a few minutes while it installs everything. Leave that window open while you work.
 
 The dashboard figures out which repo to save to from your clone, so there's nothing to configure.
 

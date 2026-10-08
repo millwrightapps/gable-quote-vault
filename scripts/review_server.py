@@ -396,9 +396,17 @@ if __name__ == '__main__':
         if address.version != 4 or not address.is_private or address.is_loopback:
             parser.error('--lan-ip must be your private LAN IPv4 address')
     load_media()
-    server = ThreadingHTTPServer(('0.0.0.0' if args.lan_ip else '127.0.0.1', args.port), Handler)
+    # Another program (or a second dashboard) may already hold the port: use the next free one.
+    for port in range(args.port, args.port + 20):
+        try:
+            server = ThreadingHTTPServer(('0.0.0.0' if args.lan_ip else '127.0.0.1', port), Handler)
+            break
+        except OSError:
+            continue
+    else:
+        raise SystemExit(f'Ports {args.port}-{args.port + 19} are all in use. Close another dashboard and try again.')
     server.allowed_hosts = {'127.0.0.1'} | ({args.lan_ip} if args.lan_ip else set())
     if args.lan_ip:
-        print(f'Phone: http://{args.lan_ip}:{args.port}  Pairing code: {PAIR_CODE}', flush=True)
-    print(f'Review dashboard: http://127.0.0.1:{args.port}', flush=True)
+        print(f'Phone: http://{args.lan_ip}:{port}  Pairing code: {PAIR_CODE}', flush=True)
+    print(f'Review dashboard: http://127.0.0.1:{port}', flush=True)
     server.serve_forever()
