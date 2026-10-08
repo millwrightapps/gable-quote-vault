@@ -1,0 +1,37 @@
+{
+  "id": "candidate_e7bbe8eea22c156e173a",
+  "quote": "There needs to be like- you made the wrist pocket like a gas pocket where like you have to cuff yourself to the thing.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: Wrist pocket"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Wrist pocket"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 5,
+  "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
+  "timestamp": "31:57",
+  "timestampSeconds": 1917,
+  "youtubeVideoId": "hbxMmu3gChA",
+  "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=1917s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=1917s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

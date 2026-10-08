@@ -1,0 +1,35 @@
+{
+  "id": "candidate_00388e856b646fa0617e",
+  "quote": "I mean, now I guess it could, but it'd be better.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 5,
+  "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
+  "timestamp": "39:24",
+  "timestampSeconds": 2364,
+  "youtubeVideoId": "hbxMmu3gChA",
+  "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2364s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2364s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

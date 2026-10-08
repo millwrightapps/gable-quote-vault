@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2fc2aa8764c0874da00f",
+  "quote": "I'd never even cross my mind that there is a thing to translate there, but I need to go do that.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 5,
+  "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
+  "timestamp": "08:21",
+  "timestampSeconds": 501,
+  "youtubeVideoId": "hbxMmu3gChA",
+  "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=501s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=501s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

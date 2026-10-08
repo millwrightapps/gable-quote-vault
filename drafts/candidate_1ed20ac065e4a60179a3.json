@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1ed20ac065e4a60179a3",
+  "quote": "I should've never put you in the line of fire.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 5,
+  "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
+  "timestamp": "31:26",
+  "timestampSeconds": 1886,
+  "youtubeVideoId": "hbxMmu3gChA",
+  "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=1886s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=1886s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c244991130db2f237938",
+  "quote": "I bet the sugar is like a little different, but also when you're a kid, your like brain isn't formed.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 5,
+  "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
+  "timestamp": "59:59",
+  "timestampSeconds": 3599,
+  "youtubeVideoId": "hbxMmu3gChA",
+  "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=3599s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=3599s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
