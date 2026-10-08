@@ -33,10 +33,12 @@
     "audioSegmentTimestamp": "00:35:18"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/two-tardies-away-from-being-late-the-salad-cream-runs-through-your-veins-116",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-08T19:26:54.827080+00:00"
   }
 }
