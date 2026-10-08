@@ -1,0 +1,35 @@
+{
+  "id": "candidate_dc87fe5d7271ef53a052",
+  "quote": "Never tried it, cause I, I just, it's like one of those things where I could just tap.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 27,
+  "episodeTitle": "Must Answer to Never Answer World // The Rabbit Weasel Safeword [27]",
+  "timestamp": "52:16",
+  "timestampSeconds": 3136,
+  "youtubeVideoId": "kcQDjh9vXT0",
+  "listenUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=3136s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=3136s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

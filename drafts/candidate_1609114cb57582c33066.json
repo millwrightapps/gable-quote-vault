@@ -1,0 +1,37 @@
+{
+  "id": "candidate_1609114cb57582c33066",
+  "quote": "Maybe not an AH fan, but he liked Red vs. Blue.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Red Vs Blue"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Red Vs Blue"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 27,
+  "episodeTitle": "Must Answer to Never Answer World // The Rabbit Weasel Safeword [27]",
+  "timestamp": "27:49",
+  "timestampSeconds": 1669,
+  "youtubeVideoId": "kcQDjh9vXT0",
+  "listenUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=1669s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=1669s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

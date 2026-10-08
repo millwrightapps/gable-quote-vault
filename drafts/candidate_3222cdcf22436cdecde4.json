@@ -1,0 +1,35 @@
+{
+  "id": "candidate_3222cdcf22436cdecde4",
+  "quote": "You know, Andrew never really considered it, but I like where you're going.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 27,
+  "episodeTitle": "Must Answer to Never Answer World // The Rabbit Weasel Safeword [27]",
+  "timestamp": "61:12",
+  "timestampSeconds": 3672,
+  "youtubeVideoId": "kcQDjh9vXT0",
+  "listenUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=3672s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=3672s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

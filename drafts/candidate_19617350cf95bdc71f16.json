@@ -1,0 +1,35 @@
+{
+  "id": "candidate_19617350cf95bdc71f16",
+  "quote": "What if you have a gun, but it only fires immunity bullets?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 27,
+  "episodeTitle": "Must Answer to Never Answer World // The Rabbit Weasel Safeword [27]",
+  "timestamp": "08:42",
+  "timestampSeconds": 522,
+  "youtubeVideoId": "kcQDjh9vXT0",
+  "listenUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=522s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=522s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

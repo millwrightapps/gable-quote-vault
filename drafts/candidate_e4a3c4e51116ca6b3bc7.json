@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e4a3c4e51116ca6b3bc7",
+  "quote": "You've never seen like a menu on the table?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 27,
+  "episodeTitle": "Must Answer to Never Answer World // The Rabbit Weasel Safeword [27]",
+  "timestamp": "53:41",
+  "timestampSeconds": 3221,
+  "youtubeVideoId": "kcQDjh9vXT0",
+  "listenUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=3221s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kcQDjh9vXT0&t=3221s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
