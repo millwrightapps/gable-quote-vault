@@ -31,10 +31,12 @@
     "audioSegmentTimestamp": "00:34:08"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/wopped-by-fester-gavins-broken-hand-ass-117",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-08T19:30:25.297018+00:00"
   }
 }
