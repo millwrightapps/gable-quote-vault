@@ -1,0 +1,35 @@
+{
+  "id": "candidate_860cebea077fc7172891",
+  "quote": "I've never seen anything that looks like a planet explode before that tastes like sugar.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 41,
+  "episodeTitle": "On Skwinkles Time // Ball Hands vs Poo Ear [41]",
+  "timestamp": "52:13",
+  "timestampSeconds": 3133,
+  "youtubeVideoId": "JC3EODjHBOo",
+  "listenUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=3133s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=3133s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

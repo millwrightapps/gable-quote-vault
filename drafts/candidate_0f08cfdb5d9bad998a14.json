@@ -1,0 +1,35 @@
+{
+  "id": "candidate_0f08cfdb5d9bad998a14",
+  "quote": "I bet we could assemble a group of fruits we've never.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 41,
+  "episodeTitle": "On Skwinkles Time // Ball Hands vs Poo Ear [41]",
+  "timestamp": "54:54",
+  "timestampSeconds": 3294,
+  "youtubeVideoId": "JC3EODjHBOo",
+  "listenUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=3294s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=3294s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

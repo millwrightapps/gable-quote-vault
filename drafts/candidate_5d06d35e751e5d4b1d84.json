@@ -1,0 +1,35 @@
+{
+  "id": "candidate_5d06d35e751e5d4b1d84",
+  "quote": "I'm so sorry, Gavin, I'm so on board with you, right, you did a terrible job of explaining it, but you're 100% right.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 41,
+  "episodeTitle": "On Skwinkles Time // Ball Hands vs Poo Ear [41]",
+  "timestamp": "19:36",
+  "timestampSeconds": 1176,
+  "youtubeVideoId": "JC3EODjHBOo",
+  "listenUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=1176s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=1176s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

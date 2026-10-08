@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2d5701ab8c205c1a26fe",
+  "quote": "I think, I think you were just going to clear things up because the drawings that you gave us were the worst drawings in history.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 41,
+  "episodeTitle": "On Skwinkles Time // Ball Hands vs Poo Ear [41]",
+  "timestamp": "02:05",
+  "timestampSeconds": 125,
+  "youtubeVideoId": "JC3EODjHBOo",
+  "listenUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=125s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=125s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

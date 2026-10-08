@@ -1,0 +1,34 @@
+{
+  "id": "candidate_c428599cca1723f70ed8",
+  "quote": "Apparently, I thought Geoff would have it because he did drop.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 41,
+  "episodeTitle": "On Skwinkles Time // Ball Hands vs Poo Ear [41]",
+  "timestamp": "03:34",
+  "timestampSeconds": 214,
+  "youtubeVideoId": "JC3EODjHBOo",
+  "listenUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=214s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=214s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
