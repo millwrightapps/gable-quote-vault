@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 29,
+  "revision": 30,
   "retiredIds": [
     "reg_047"
   ],
@@ -86,6 +86,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2514s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_2d671a9a1bf113a95ab7",
+      "quote": "I hate that my brain imagined the podcast as a seed in a pot.",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim",
+          "Comparison or unusual premise"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 10,
+      "episodeTitle": "Geoff Sounds Too Good // Nick is Chaos [10]",
+      "timestamp": "58:56",
+      "timestampSeconds": 3536,
+      "youtubeVideoId": "YoW_DpjzJhk",
+      "listenUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=3536s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=3536s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
