@@ -1,0 +1,34 @@
+{
+  "id": "candidate_d652bbfff5f17249d669",
+  "quote": "You always describe it to other people like someone stapled it to my leg.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 39,
+  "episodeTitle": "Involuntary Screams // Andrew's Mind Table [39]",
+  "timestamp": "02:25",
+  "timestampSeconds": 145,
+  "youtubeVideoId": "ts1RXXmJXXo",
+  "listenUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=145s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=145s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

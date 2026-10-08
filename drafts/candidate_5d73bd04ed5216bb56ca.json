@@ -1,0 +1,35 @@
+{
+  "id": "candidate_5d73bd04ed5216bb56ca",
+  "quote": "What if we, what if we just did best Canadians?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 39,
+  "episodeTitle": "Involuntary Screams // Andrew's Mind Table [39]",
+  "timestamp": "59:13",
+  "timestampSeconds": 3553,
+  "youtubeVideoId": "ts1RXXmJXXo",
+  "listenUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=3553s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=3553s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_6993d7af0c00380f4b0b",
+  "quote": "We could do best Americans, best Canadians, breast, Brits.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 39,
+  "episodeTitle": "Involuntary Screams // Andrew's Mind Table [39]",
+  "timestamp": "59:22",
+  "timestampSeconds": 3562,
+  "youtubeVideoId": "ts1RXXmJXXo",
+  "listenUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=3562s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=3562s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

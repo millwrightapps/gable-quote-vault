@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e905e995e6827bf061bc",
+  "quote": "I just thought it was a better image than this one, which is the only other one I could find.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 39,
+  "episodeTitle": "Involuntary Screams // Andrew's Mind Table [39]",
+  "timestamp": "17:07",
+  "timestampSeconds": 1027,
+  "youtubeVideoId": "ts1RXXmJXXo",
+  "listenUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=1027s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=1027s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

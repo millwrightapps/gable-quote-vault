@@ -1,0 +1,35 @@
+{
+  "id": "candidate_410f880701758ebb64b8",
+  "quote": "I'm not saying we need to do it in this moment, but we should definitely come up with them.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 39,
+  "episodeTitle": "Involuntary Screams // Andrew's Mind Table [39]",
+  "timestamp": "48:06",
+  "timestampSeconds": 2886,
+  "youtubeVideoId": "ts1RXXmJXXo",
+  "listenUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=2886s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ts1RXXmJXXo&t=2886s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
