@@ -13,7 +13,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "ANDREW_PANTON",
   "show": "RP",
   "episode": 20,
   "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
@@ -22,14 +22,27 @@
   "youtubeVideoId": "zEckOsCT8mo",
   "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=617s",
   "weatherTags": [
-    "random"
+    "anus"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-08",
     "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=617s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }

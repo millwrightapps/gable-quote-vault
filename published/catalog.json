@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 35,
+  "revision": 36,
   "retiredIds": [
     "reg_047"
   ],
@@ -278,6 +278,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=3536s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_3de3365120d787b4d6a3",
+      "quote": "$50,000, but fish goes in your anus and you're crabbing.",
+      "quality": {
+        "score": 75,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Specific detail"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 20,
+      "episodeTitle": "Episode 20 is the New Episode 17 // Rat Fur Ravioli [20]",
+      "timestamp": "10:17",
+      "timestampSeconds": 617,
+      "youtubeVideoId": "zEckOsCT8mo",
+      "listenUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=617s",
+      "weatherTags": [
+        "anus"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://www.youtube.com/watch?v=zEckOsCT8mo&t=617s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
