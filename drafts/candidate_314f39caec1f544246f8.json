@@ -1,0 +1,35 @@
+{
+  "id": "candidate_314f39caec1f544246f8",
+  "quote": "Not like, oh, it's like, like a pencil all the way around, but like real, real fucking big.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 59,
+  "episodeTitle": "Silvio Spaghetti // Napkin & A Grandpa [59]",
+  "timestamp": "31:09",
+  "timestampSeconds": 1869,
+  "youtubeVideoId": "Y4NQ-DLe_mk",
+  "listenUrl": "https://www.youtube.com/watch?v=Y4NQ-DLe_mk&t=1869s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Y4NQ-DLe_mk&t=1869s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

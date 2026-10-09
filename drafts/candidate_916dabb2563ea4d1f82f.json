@@ -1,0 +1,35 @@
+{
+  "id": "candidate_916dabb2563ea4d1f82f",
+  "quote": "According to our strike counter, I assume official strike counter, but this is from May 23rd, is that Gavin has six strikes.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 59,
+  "episodeTitle": "Silvio Spaghetti // Napkin & A Grandpa [59]",
+  "timestamp": "04:09",
+  "timestampSeconds": 249,
+  "youtubeVideoId": "Y4NQ-DLe_mk",
+  "listenUrl": "https://www.youtube.com/watch?v=Y4NQ-DLe_mk&t=249s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Y4NQ-DLe_mk&t=249s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

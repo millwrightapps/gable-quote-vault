@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d1a3a71f9bf66a421296",
+  "quote": "I feel like I've been in restaurants and I've seen those, but I've never ordered it.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 59,
+  "episodeTitle": "Silvio Spaghetti // Napkin & A Grandpa [59]",
+  "timestamp": "21:41",
+  "timestampSeconds": 1301,
+  "youtubeVideoId": "Y4NQ-DLe_mk",
+  "listenUrl": "https://www.youtube.com/watch?v=Y4NQ-DLe_mk&t=1301s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Y4NQ-DLe_mk&t=1301s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
