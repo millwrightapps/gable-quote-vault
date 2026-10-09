@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 53,
+  "revision": 54,
   "retiredIds": [
     "reg_047"
   ],
@@ -568,6 +568,53 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2491s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_4a867a9d36eae601b6d0",
+      "quote": "See, I disagree with that, because I think bribery day to day is such an exciting element.",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ERIC_BAUDOUR",
+      "show": "RP",
+      "episode": 43,
+      "episodeTitle": "The Worst Intro // Geoff's Gross Stories [43]",
+      "timestamp": "05:21",
+      "timestampSeconds": 321,
+      "youtubeVideoId": "c6jcXkqXJgM",
+      "listenUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=321s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-09",
+        "sourceUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=321s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
