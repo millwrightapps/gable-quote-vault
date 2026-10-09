@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 54,
+  "revision": 55,
   "retiredIds": [
     "reg_047"
   ],
@@ -810,6 +810,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-09",
         "sourceUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=1523s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_77da1ea4037823fc7245",
+      "quote": "Oh, I feel like a bulldog is such a great drinking dog, but maybe I'm influenced by barks.",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 56,
+      "episodeTitle": "Childhood Bedroom Mall // The Lyrics of Panama [56]",
+      "timestamp": "16:00",
+      "timestampSeconds": 960,
+      "youtubeVideoId": "8-xhFSOOnXg",
+      "listenUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=960s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-09",
+        "sourceUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=960s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
