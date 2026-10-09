@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c0d9042f89bdd52148a7",
+  "quote": "I always heard about my friends when I was at school getting a stomach pump because they drank too much.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 57,
+  "episodeTitle": "Back on the Pap // Low Stakes Blame [57]",
+  "timestamp": "03:58",
+  "timestampSeconds": 238,
+  "youtubeVideoId": "PllFKeVLgn0",
+  "listenUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=238s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=238s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "candidate_6fbe62f16c440a015ffa",
+  "quote": "I mean, I've experienced what Gavin's gone through, but it's typically if I use the machine without putting water in it.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 57,
+  "episodeTitle": "Back on the Pap // Low Stakes Blame [57]",
+  "timestamp": "02:27",
+  "timestampSeconds": 147,
+  "youtubeVideoId": "PllFKeVLgn0",
+  "listenUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=147s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=147s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

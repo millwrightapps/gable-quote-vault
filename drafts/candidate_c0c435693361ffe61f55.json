@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c0c435693361ffe61f55",
+  "quote": "Oh, just technology is doing the pumping instead of a guy on one end, siphoning it out like a gas tank.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 57,
+  "episodeTitle": "Back on the Pap // Low Stakes Blame [57]",
+  "timestamp": "09:01",
+  "timestampSeconds": 541,
+  "youtubeVideoId": "PllFKeVLgn0",
+  "listenUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=541s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=541s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

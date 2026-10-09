@@ -1,0 +1,35 @@
+{
+  "id": "candidate_0fca735c18c5e76ed923",
+  "quote": "I think it's always so cool when somebody deconstructs a song like a music producer, like only plays the drums.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 57,
+  "episodeTitle": "Back on the Pap // Low Stakes Blame [57]",
+  "timestamp": "27:28",
+  "timestampSeconds": 1648,
+  "youtubeVideoId": "PllFKeVLgn0",
+  "listenUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=1648s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=PllFKeVLgn0&t=1648s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
