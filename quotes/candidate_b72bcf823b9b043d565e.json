@@ -16,7 +16,7 @@
     ],
     "loreSource": "https://www.regulationlore.com.au/dictionary"
   },
-  "speaker": null,
+  "speaker": "ANDREW_PANTON",
   "show": "RP",
   "episode": 38,
   "episodeTitle": "xXxPissxXxRatxXx // Gurpl-tines Day [38]",
@@ -25,14 +25,28 @@
   "youtubeVideoId": "MNx4Z9vsuPA",
   "listenUrl": "https://www.youtube.com/watch?v=MNx4Z9vsuPA&t=2415s",
   "weatherTags": [
-    "random"
+    "random",
+    "bog roll folders"
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-09",
     "sourceUrl": "https://www.youtube.com/watch?v=MNx4Z9vsuPA&t=2415s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }
