@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2ed24d9b9449b03e2504",
+  "quote": "There's like a newer version, but like was talking to Gavin about it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Andrew's Goof World // 4 Ways to Make an Egg [60]",
+  "timestamp": "28:37",
+  "timestampSeconds": 1717,
+  "youtubeVideoId": "YQBw0hJiPkg",
+  "listenUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=1717s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=1717s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

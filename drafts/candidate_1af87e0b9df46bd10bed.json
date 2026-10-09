@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1af87e0b9df46bd10bed",
+  "quote": "We should get, because we need something to flip.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Andrew's Goof World // 4 Ways to Make an Egg [60]",
+  "timestamp": "50:34",
+  "timestampSeconds": 3034,
+  "youtubeVideoId": "YQBw0hJiPkg",
+  "listenUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=3034s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=3034s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

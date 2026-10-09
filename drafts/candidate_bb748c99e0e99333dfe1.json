@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bb748c99e0e99333dfe1",
+  "quote": "Then it's 11. Then it's 12. Are you here yet? Then it's one.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Andrew's Goof World // 4 Ways to Make an Egg [60]",
+  "timestamp": "17:32",
+  "timestampSeconds": 1052,
+  "youtubeVideoId": "YQBw0hJiPkg",
+  "listenUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=1052s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=1052s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

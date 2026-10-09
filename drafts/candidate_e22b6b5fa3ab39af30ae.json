@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e22b6b5fa3ab39af30ae",
+  "quote": "I've never seen an idea for a show get pitched and then the complication being, oh, but we would all have to be there.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Andrew's Goof World // 4 Ways to Make an Egg [60]",
+  "timestamp": "60:41",
+  "timestampSeconds": 3641,
+  "youtubeVideoId": "YQBw0hJiPkg",
+  "listenUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=3641s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=3641s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

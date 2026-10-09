@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9178a116a20ae2806a8c",
+  "quote": "Are we together this whole time or am I still waiting for you? Because I showed up at 10.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 60,
+  "episodeTitle": "Andrew's Goof World // 4 Ways to Make an Egg [60]",
+  "timestamp": "17:39",
+  "timestampSeconds": 1059,
+  "youtubeVideoId": "YQBw0hJiPkg",
+  "listenUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=1059s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=1059s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
