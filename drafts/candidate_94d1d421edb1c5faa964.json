@@ -1,0 +1,35 @@
+{
+  "id": "candidate_94d1d421edb1c5faa964",
+  "quote": "My truck is spinning like a tornado rapidly in all directions, but unlike SnowRunner, there's no vehicle health, so I'm not taking damage.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 62,
+  "episodeTitle": "Pants On Panton Panting // Portapotty Popcorn Bucket/Urn [62]",
+  "timestamp": "43:11",
+  "timestampSeconds": 2591,
+  "youtubeVideoId": "IWCeLhkuq9E",
+  "listenUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=2591s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=2591s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

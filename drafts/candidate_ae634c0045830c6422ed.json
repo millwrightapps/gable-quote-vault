@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ae634c0045830c6422ed",
+  "quote": "I'm greatly disturbed, but then when I imagine seeing that with those little googly sticker eyes, I would be okay with it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 62,
+  "episodeTitle": "Pants On Panton Panting // Portapotty Popcorn Bucket/Urn [62]",
+  "timestamp": "14:00",
+  "timestampSeconds": 840,
+  "youtubeVideoId": "IWCeLhkuq9E",
+  "listenUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=840s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=840s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

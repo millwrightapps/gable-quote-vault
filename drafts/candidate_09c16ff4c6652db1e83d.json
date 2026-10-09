@@ -1,0 +1,35 @@
+{
+  "id": "candidate_09c16ff4c6652db1e83d",
+  "quote": "I wonder, we should round that idea into something, because I think there's something there.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 62,
+  "episodeTitle": "Pants On Panton Panting // Portapotty Popcorn Bucket/Urn [62]",
+  "timestamp": "60:40",
+  "timestampSeconds": 3640,
+  "youtubeVideoId": "IWCeLhkuq9E",
+  "listenUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=3640s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=3640s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

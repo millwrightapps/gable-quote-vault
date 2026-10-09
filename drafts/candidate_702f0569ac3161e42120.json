@@ -1,0 +1,35 @@
+{
+  "id": "candidate_702f0569ac3161e42120",
+  "quote": "Are we talking like an Adams family thing with like the hand, but it's your, your legs like becoming sentient?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 62,
+  "episodeTitle": "Pants On Panton Panting // Portapotty Popcorn Bucket/Urn [62]",
+  "timestamp": "53:05",
+  "timestampSeconds": 3185,
+  "youtubeVideoId": "IWCeLhkuq9E",
+  "listenUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=3185s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=3185s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c7f8bf1028baa6da67dd",
+  "quote": "To be honest, I did, like, go to E3 a bunch a decade ago, and I was never excited to be there.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 62,
+  "episodeTitle": "Pants On Panton Panting // Portapotty Popcorn Bucket/Urn [62]",
+  "timestamp": "67:07",
+  "timestampSeconds": 4027,
+  "youtubeVideoId": "IWCeLhkuq9E",
+  "listenUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=4027s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=IWCeLhkuq9E&t=4027s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
