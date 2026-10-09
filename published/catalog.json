@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 48,
+  "revision": 49,
   "retiredIds": [
     "reg_047"
   ],
@@ -714,6 +714,55 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=nS1WpeznCu8&t=261s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_71714ee7265c51f721d5",
+      "quote": "I'd never thought about it, but if I had to panic pee in a display toilet, I would have assumed that it would have helped.",
+      "quality": {
+        "score": 90,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 54,
+      "episodeTitle": "Behind the Mask // Gumpler [54]",
+      "timestamp": "25:23",
+      "timestampSeconds": 1523,
+      "youtubeVideoId": "2V4mps8z1H4",
+      "listenUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=1523s",
+      "weatherTags": [
+        "random",
+        "pee"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-09",
+        "sourceUrl": "https://www.youtube.com/watch?v=2V4mps8z1H4&t=1523s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
