@@ -1,0 +1,35 @@
+{
+  "id": "candidate_43d250b4b15bda6fd573",
+  "quote": "Go to go to get, get that can't because it takes off from Dallas Love Field.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 61,
+  "episodeTitle": "Geoff's Kerfuffle & A Half // Engaging in the Doggery [61]",
+  "timestamp": "09:10",
+  "timestampSeconds": 550,
+  "youtubeVideoId": "er3apSFRaPg",
+  "listenUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=550s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=550s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

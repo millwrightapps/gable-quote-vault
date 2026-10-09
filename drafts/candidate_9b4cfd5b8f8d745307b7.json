@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9b4cfd5b8f8d745307b7",
+  "quote": "We should wrap this one up, but boy, that was, oh man, it's so much excitement on that one.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 61,
+  "episodeTitle": "Geoff's Kerfuffle & A Half // Engaging in the Doggery [61]",
+  "timestamp": "69:17",
+  "timestampSeconds": 4157,
+  "youtubeVideoId": "er3apSFRaPg",
+  "listenUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=4157s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=4157s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

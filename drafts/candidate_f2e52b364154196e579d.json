@@ -1,0 +1,35 @@
+{
+  "id": "candidate_f2e52b364154196e579d",
+  "quote": "What do we, oh, what if it's the, it's this picture, but with the pigeon cut out, it's just white with a bird.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 61,
+  "episodeTitle": "Geoff's Kerfuffle & A Half // Engaging in the Doggery [61]",
+  "timestamp": "69:32",
+  "timestampSeconds": 4172,
+  "youtubeVideoId": "er3apSFRaPg",
+  "listenUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=4172s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=4172s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

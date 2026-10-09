@@ -1,0 +1,35 @@
+{
+  "id": "candidate_11f886f73fd2bd2927a3",
+  "quote": "I'm going to eat 30 hot dogs more than I have.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 61,
+  "episodeTitle": "Geoff's Kerfuffle & A Half // Engaging in the Doggery [61]",
+  "timestamp": "26:33",
+  "timestampSeconds": 1593,
+  "youtubeVideoId": "er3apSFRaPg",
+  "listenUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=1593s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=1593s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

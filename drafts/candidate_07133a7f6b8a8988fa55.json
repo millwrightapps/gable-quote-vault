@@ -1,0 +1,35 @@
+{
+  "id": "candidate_07133a7f6b8a8988fa55",
+  "quote": "I, apparently I was just reading the comments, the comments on 59.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 61,
+  "episodeTitle": "Geoff's Kerfuffle & A Half // Engaging in the Doggery [61]",
+  "timestamp": "49:09",
+  "timestampSeconds": 2949,
+  "youtubeVideoId": "er3apSFRaPg",
+  "listenUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=2949s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=er3apSFRaPg&t=2949s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
