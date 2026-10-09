@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bd6cef842699d951997a",
+  "quote": "I love the feeling of I'm having a very stressful dream about like an exam or some bullshit from my past.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 58,
+  "episodeTitle": "Snake Closeness // Gavin vs Squirrels [58]",
+  "timestamp": "29:45",
+  "timestampSeconds": 1785,
+  "youtubeVideoId": "acf9RWOEE1A",
+  "listenUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=1785s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=1785s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

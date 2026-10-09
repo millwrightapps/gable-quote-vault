@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a3e143d69551263bc53e",
+  "quote": "The one where Aaron Eckhart saves the president because his planes always crash?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 58,
+  "episodeTitle": "Snake Closeness // Gavin vs Squirrels [58]",
+  "timestamp": "59:42",
+  "timestampSeconds": 3582,
+  "youtubeVideoId": "acf9RWOEE1A",
+  "listenUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=3582s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=3582s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

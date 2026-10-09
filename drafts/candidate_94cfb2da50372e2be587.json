@@ -1,0 +1,35 @@
+{
+  "id": "candidate_94cfb2da50372e2be587",
+  "quote": "Last week, I could have said it's probably been a decade since I'd seen a snake, but I did see one this week.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 58,
+  "episodeTitle": "Snake Closeness // Gavin vs Squirrels [58]",
+  "timestamp": "06:43",
+  "timestampSeconds": 403,
+  "youtubeVideoId": "acf9RWOEE1A",
+  "listenUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=403s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=403s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

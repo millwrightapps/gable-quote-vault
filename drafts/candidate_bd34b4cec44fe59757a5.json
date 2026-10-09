@@ -1,0 +1,35 @@
+{
+  "id": "candidate_bd34b4cec44fe59757a5",
+  "quote": "Could you imagine if someone had never seen the Matrix movies and watched them backwards?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 58,
+  "episodeTitle": "Snake Closeness // Gavin vs Squirrels [58]",
+  "timestamp": "59:12",
+  "timestampSeconds": 3552,
+  "youtubeVideoId": "acf9RWOEE1A",
+  "listenUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=3552s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=3552s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "candidate_8ab7923cd861aa158eb9",
+  "quote": "I also don't know how I'm going to find the video because my camera roll is full of blueprints pictures.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 58,
+  "episodeTitle": "Snake Closeness // Gavin vs Squirrels [58]",
+  "timestamp": "08:43",
+  "timestampSeconds": 523,
+  "youtubeVideoId": "acf9RWOEE1A",
+  "listenUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=523s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=acf9RWOEE1A&t=523s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
