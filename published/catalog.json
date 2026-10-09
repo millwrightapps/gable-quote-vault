@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 47,
+  "revision": 48,
   "retiredIds": [
     "reg_047"
   ],
@@ -423,6 +423,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=YoW_DpjzJhk&t=3536s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_3b1b60d94856f4c93dd7",
+      "quote": "Is squinkling like you procrastinate constantly and you just never deliver?",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Strong opinion or emphatic claim"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "RP",
+      "episode": 41,
+      "episodeTitle": "On Skwinkles Time // Ball Hands vs Poo Ear [41]",
+      "timestamp": "02:44",
+      "timestampSeconds": 164,
+      "youtubeVideoId": "JC3EODjHBOo",
+      "listenUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=164s",
+      "weatherTags": [
+        "random",
+        "squinkling"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-09",
+        "sourceUrl": "https://www.youtube.com/watch?v=JC3EODjHBOo&t=164s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
