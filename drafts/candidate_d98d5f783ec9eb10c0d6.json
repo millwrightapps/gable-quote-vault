@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d98d5f783ec9eb10c0d6",
+  "quote": "Oh, I think we should do this because I, I'm fascinated.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 66,
+  "episodeTitle": "2 Important Questions & 7 Drafts // Emotional Turds [66]",
+  "timestamp": "41:51",
+  "timestampSeconds": 2511,
+  "youtubeVideoId": "zygv7bYsq3s",
+  "listenUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=2511s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=2511s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

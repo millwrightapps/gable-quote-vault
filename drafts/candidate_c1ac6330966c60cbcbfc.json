@@ -1,0 +1,37 @@
+{
+  "id": "candidate_c1ac6330966c60cbcbfc",
+  "quote": "I think it's the perfect device to truly determine who has the most unbreakable nose.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Dictionary lore: Unbreakable nose"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Unbreakable nose"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 66,
+  "episodeTitle": "2 Important Questions & 7 Drafts // Emotional Turds [66]",
+  "timestamp": "32:33",
+  "timestampSeconds": 1953,
+  "youtubeVideoId": "zygv7bYsq3s",
+  "listenUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1953s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1953s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

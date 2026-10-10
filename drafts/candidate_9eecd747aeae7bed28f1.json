@@ -1,0 +1,35 @@
+{
+  "id": "candidate_9eecd747aeae7bed28f1",
+  "quote": "You know, couscous is a thing I never think of, but I really enjoy.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 66,
+  "episodeTitle": "2 Important Questions & 7 Drafts // Emotional Turds [66]",
+  "timestamp": "20:11",
+  "timestampSeconds": 1211,
+  "youtubeVideoId": "zygv7bYsq3s",
+  "listenUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1211s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1211s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

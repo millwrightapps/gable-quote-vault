@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2a046a0caf33566a51a1",
+  "quote": "I think it's a great idea to print the whole head as well, because we could just leave the heads down by the guillotine.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 66,
+  "episodeTitle": "2 Important Questions & 7 Drafts // Emotional Turds [66]",
+  "timestamp": "32:58",
+  "timestampSeconds": 1978,
+  "youtubeVideoId": "zygv7bYsq3s",
+  "listenUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1978s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1978s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

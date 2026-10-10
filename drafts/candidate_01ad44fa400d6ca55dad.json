@@ -1,0 +1,35 @@
+{
+  "id": "candidate_01ad44fa400d6ca55dad",
+  "quote": "Imagine if your mouth was like cemented shut for a week because of medical reasons or whatever.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 66,
+  "episodeTitle": "2 Important Questions & 7 Drafts // Emotional Turds [66]",
+  "timestamp": "20:39",
+  "timestampSeconds": 1239,
+  "youtubeVideoId": "zygv7bYsq3s",
+  "listenUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1239s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=zygv7bYsq3s&t=1239s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
