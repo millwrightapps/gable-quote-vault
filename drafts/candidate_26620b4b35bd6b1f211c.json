@@ -1,0 +1,35 @@
+{
+  "id": "candidate_26620b4b35bd6b1f211c",
+  "quote": "I imagine it's not, it's gotta be harder than that, you know?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 63,
+  "episodeTitle": "Geoff's in Trouble // Things Andrew Has Learned [63]",
+  "timestamp": "49:25",
+  "timestampSeconds": 2965,
+  "youtubeVideoId": "s3Fx14P4DJM",
+  "listenUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=2965s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=2965s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

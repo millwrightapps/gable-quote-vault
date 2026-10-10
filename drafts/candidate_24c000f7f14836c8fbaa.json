@@ -1,0 +1,37 @@
+{
+  "id": "candidate_24c000f7f14836c8fbaa",
+  "quote": "My shirt acted as like a piss filter and I pissed into my t-shirt and my shorts and all back onto me.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: All back"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "All back"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 63,
+  "episodeTitle": "Geoff's in Trouble // Things Andrew Has Learned [63]",
+  "timestamp": "38:32",
+  "timestampSeconds": 2312,
+  "youtubeVideoId": "s3Fx14P4DJM",
+  "listenUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=2312s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=2312s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

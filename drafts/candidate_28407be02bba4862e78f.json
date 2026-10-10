@@ -1,0 +1,35 @@
+{
+  "id": "candidate_28407be02bba4862e78f",
+  "quote": "I think I told this about 13 years ago on a podcast, but I had surgery on my nuts, as you all know.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 63,
+  "episodeTitle": "Geoff's in Trouble // Things Andrew Has Learned [63]",
+  "timestamp": "39:35",
+  "timestampSeconds": 2375,
+  "youtubeVideoId": "s3Fx14P4DJM",
+  "listenUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=2375s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=2375s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

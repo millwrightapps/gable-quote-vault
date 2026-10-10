@@ -1,0 +1,34 @@
+{
+  "id": "candidate_a379a21f21335473845c",
+  "quote": "You guys are all on the wrong side of me, except Andrew.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 63,
+  "episodeTitle": "Geoff's in Trouble // Things Andrew Has Learned [63]",
+  "timestamp": "09:24",
+  "timestampSeconds": 564,
+  "youtubeVideoId": "s3Fx14P4DJM",
+  "listenUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=564s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=564s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

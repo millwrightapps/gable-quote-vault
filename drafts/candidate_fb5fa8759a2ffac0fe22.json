@@ -1,0 +1,35 @@
+{
+  "id": "candidate_fb5fa8759a2ffac0fe22",
+  "quote": "I'm actually excited for like the Gavin threat because I don't I don't think I've ever had like a real clashing with Gavin.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 63,
+  "episodeTitle": "Geoff's in Trouble // Things Andrew Has Learned [63]",
+  "timestamp": "63:55",
+  "timestampSeconds": 3835,
+  "youtubeVideoId": "s3Fx14P4DJM",
+  "listenUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=3835s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=s3Fx14P4DJM&t=3835s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
