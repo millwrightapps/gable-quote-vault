@@ -1,0 +1,36 @@
+{
+  "id": "candidate_23398e48158455cf6a61",
+  "quote": "Wheel spin could be good, but that could also mean like we're never going to the playoffs.",
+  "quality": {
+    "score": 100,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 68,
+  "episodeTitle": "Andrew's Answers // Rainbow Six with Ray [68]",
+  "timestamp": "75:07",
+  "timestampSeconds": 4507,
+  "youtubeVideoId": "Lx-JJO-UJ_Y",
+  "listenUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=4507s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=4507s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

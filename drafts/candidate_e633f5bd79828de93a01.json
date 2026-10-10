@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e633f5bd79828de93a01",
+  "quote": "I only started doing it because we had the 360s in the office for a video, and it was just on that 360.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 68,
+  "episodeTitle": "Andrew's Answers // Rainbow Six with Ray [68]",
+  "timestamp": "37:07",
+  "timestampSeconds": 2227,
+  "youtubeVideoId": "Lx-JJO-UJ_Y",
+  "listenUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=2227s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=2227s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

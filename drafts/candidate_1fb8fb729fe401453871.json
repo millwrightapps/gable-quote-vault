@@ -1,0 +1,34 @@
+{
+  "id": "candidate_1fb8fb729fe401453871",
+  "quote": "I would love to know what scenario you use, which napkin is that meal specific, is it event specific?",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 68,
+  "episodeTitle": "Andrew's Answers // Rainbow Six with Ray [68]",
+  "timestamp": "03:30",
+  "timestampSeconds": 210,
+  "youtubeVideoId": "Lx-JJO-UJ_Y",
+  "listenUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=210s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=210s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

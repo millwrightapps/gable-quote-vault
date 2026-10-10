@@ -1,0 +1,35 @@
+{
+  "id": "candidate_91510299dde5ffb783d7",
+  "quote": "Would that be like the best smell ever because it's all the different cuts at once?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 68,
+  "episodeTitle": "Andrew's Answers // Rainbow Six with Ray [68]",
+  "timestamp": "25:05",
+  "timestampSeconds": 1505,
+  "youtubeVideoId": "Lx-JJO-UJ_Y",
+  "listenUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=1505s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=1505s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

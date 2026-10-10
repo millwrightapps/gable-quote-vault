@@ -1,0 +1,35 @@
+{
+  "id": "candidate_8e657f2fd04718a8f6fc",
+  "quote": "I wouldn't look for that to happen again anytime soon, but you could see more of that stuff in the future.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 68,
+  "episodeTitle": "Andrew's Answers // Rainbow Six with Ray [68]",
+  "timestamp": "43:07",
+  "timestampSeconds": 2587,
+  "youtubeVideoId": "Lx-JJO-UJ_Y",
+  "listenUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=2587s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=2587s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
