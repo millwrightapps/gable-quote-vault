@@ -1,0 +1,40 @@
+{
+  "id": "manual_c75ce0dda0b37e197cac",
+  "quote": "If we were all at full intellectual potential, we wouldn't be doing this for a living.",
+  "speaker": "GAVIN_FREE",
+  "show": "RP",
+  "episode": 125,
+  "episodeTitle": "DBLCT // \"No problem!\" [125]",
+  "timestamp": "40:45",
+  "timestampSeconds": 2445,
+  "youtubeVideoId": "_Xm5r-ZyU4I",
+  "listenUrl": "https://www.youtube.com/watch?v=_Xm5r-ZyU4I&t=2445s",
+  "weatherTags": [
+    "dumb"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Manual entry",
+    "url": "https://www.youtube.com/watch?v=_Xm5r-ZyU4I"
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-09",
+    "sourceUrl": "https://www.youtube.com/watch?v=_Xm5r-ZyU4I&t=2445s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
+}
