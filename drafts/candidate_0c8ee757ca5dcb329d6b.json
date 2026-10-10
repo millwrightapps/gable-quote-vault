@@ -1,0 +1,35 @@
+{
+  "id": "candidate_0c8ee757ca5dcb329d6b",
+  "quote": "I guess it'd be a little hard, but if you could use a grown tube.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 67,
+  "episodeTitle": "Geoff the Professional // Andrew's Homework [67]",
+  "timestamp": "29:39",
+  "timestampSeconds": 1779,
+  "youtubeVideoId": "RcUoMR8pid0",
+  "listenUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1779s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1779s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "candidate_c606a50db54813ade322",
+  "quote": "Have you guys done your list for the 20 best video games of all time yet?",
+  "quality": {
+    "score": 95,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 67,
+  "episodeTitle": "Geoff the Professional // Andrew's Homework [67]",
+  "timestamp": "60:19",
+  "timestampSeconds": 3619,
+  "youtubeVideoId": "RcUoMR8pid0",
+  "listenUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=3619s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=3619s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

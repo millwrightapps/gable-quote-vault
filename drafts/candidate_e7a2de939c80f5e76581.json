@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e7a2de939c80f5e76581",
+  "quote": "I think it's a great set decoration piece on like an end table, but whatever.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 67,
+  "episodeTitle": "Geoff the Professional // Andrew's Homework [67]",
+  "timestamp": "19:17",
+  "timestampSeconds": 1157,
+  "youtubeVideoId": "RcUoMR8pid0",
+  "listenUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1157s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1157s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

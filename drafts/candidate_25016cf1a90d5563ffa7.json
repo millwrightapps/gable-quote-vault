@@ -1,0 +1,35 @@
+{
+  "id": "candidate_25016cf1a90d5563ffa7",
+  "quote": "I've had the one you've talked about before for wood, but I've never used it for metal before.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 67,
+  "episodeTitle": "Geoff the Professional // Andrew's Homework [67]",
+  "timestamp": "18:00",
+  "timestampSeconds": 1080,
+  "youtubeVideoId": "RcUoMR8pid0",
+  "listenUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1080s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1080s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

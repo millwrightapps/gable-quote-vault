@@ -1,0 +1,37 @@
+{
+  "id": "candidate_345cdfc50d4d6df8648d",
+  "quote": "I don't, we don't need to get into what that other pitch was because it'll be in sausage talk tomorrow.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Sausage talk"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Sausage talk"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 67,
+  "episodeTitle": "Geoff the Professional // Andrew's Homework [67]",
+  "timestamp": "39:06",
+  "timestampSeconds": 2346,
+  "youtubeVideoId": "RcUoMR8pid0",
+  "listenUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=2346s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=2346s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
