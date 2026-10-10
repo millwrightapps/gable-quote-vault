@@ -31,10 +31,12 @@
     "audioSegmentTimestamp": "00:21:09"
   },
   "review": {
-    "status": "draft",
+    "status": "quarantined",
     "reviewer": "",
     "sourceUrl": "https://podscripts.co/podcasts/regulation-podcast/pat-gavendail-cinematic-universe-geoffs-mystery-poop-149",
     "checkedAt": "",
-    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval."
+    "notes": "Machine transcript candidate. Speaker unknown. Audio segment time is approximate and is NOT a YouTube jump time. Verify the recording and add playback metadata before approval.",
+    "quarantineReason": "Removed by reviewer",
+    "removedAt": "2026-10-10T21:42:31.123072+00:00"
   }
 }
