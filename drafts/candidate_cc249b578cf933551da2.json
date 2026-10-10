@@ -1,0 +1,35 @@
+{
+  "id": "candidate_cc249b578cf933551da2",
+  "quote": "I've never ordered this, but your take home butter selection is double butter container.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 70,
+  "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
+  "timestamp": "64:28",
+  "timestampSeconds": 3868,
+  "youtubeVideoId": "z0oA3ycyIEw",
+  "listenUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=3868s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=3868s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

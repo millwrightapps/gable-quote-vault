@@ -1,0 +1,35 @@
+{
+  "id": "candidate_8cce1d8bf7146e493ac9",
+  "quote": "Wendy, you could always put both on, can you?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 70,
+  "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
+  "timestamp": "22:58",
+  "timestampSeconds": 1378,
+  "youtubeVideoId": "z0oA3ycyIEw",
+  "listenUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=1378s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=1378s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_01f67c8cd56470a78e23",
+  "quote": "You could always bring a drink in with you.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 70,
+  "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
+  "timestamp": "61:25",
+  "timestampSeconds": 3685,
+  "youtubeVideoId": "z0oA3ycyIEw",
+  "listenUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=3685s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=3685s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

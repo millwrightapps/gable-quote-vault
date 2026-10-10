@@ -1,0 +1,37 @@
+{
+  "id": "candidate_f75f28b5558cb23c26f7",
+  "quote": "I imagine this is going to be hitting the shelves pretty soon.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: The shelves"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "The shelves"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 70,
+  "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
+  "timestamp": "09:06",
+  "timestampSeconds": 546,
+  "youtubeVideoId": "z0oA3ycyIEw",
+  "listenUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=546s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=546s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
