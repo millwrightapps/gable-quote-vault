@@ -1,0 +1,37 @@
+{
+  "id": "candidate_c4dd73e4d56e84300eb7",
+  "quote": "Looked like a fucking just a lovely bog-standard Coney, and I realized something that quite shocked me.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Comparison or unusual premise",
+      "Dictionary lore: Bog standard"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bog standard"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 64,
+  "episodeTitle": "Cut Man Dry Style // Hot Dog Limit? [64]",
+  "timestamp": "26:13",
+  "timestampSeconds": 1573,
+  "youtubeVideoId": "kqQnYxWfpEA",
+  "listenUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=1573s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=1573s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

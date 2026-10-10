@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ffb4c35eeb0dfd4b2f56",
+  "quote": "What if you, instead of taxidermy for your favorite pet, you just get them on you?",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 64,
+  "episodeTitle": "Cut Man Dry Style // Hot Dog Limit? [64]",
+  "timestamp": "10:24",
+  "timestampSeconds": 624,
+  "youtubeVideoId": "kqQnYxWfpEA",
+  "listenUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=624s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=624s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ff2a1c63ba8d0731921b",
+  "quote": "I mean, it's like a two-day drive, but I will say this.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 64,
+  "episodeTitle": "Cut Man Dry Style // Hot Dog Limit? [64]",
+  "timestamp": "69:44",
+  "timestampSeconds": 4184,
+  "youtubeVideoId": "kqQnYxWfpEA",
+  "listenUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=4184s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=4184s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

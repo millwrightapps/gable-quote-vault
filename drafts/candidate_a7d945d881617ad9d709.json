@@ -1,0 +1,35 @@
+{
+  "id": "candidate_a7d945d881617ad9d709",
+  "quote": "I think I may have seen it in theaters as a kid, but I don't remember about it.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 64,
+  "episodeTitle": "Cut Man Dry Style // Hot Dog Limit? [64]",
+  "timestamp": "68:44",
+  "timestampSeconds": 4124,
+  "youtubeVideoId": "kqQnYxWfpEA",
+  "listenUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=4124s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=4124s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_0a8adf7deb78db7ee171",
+  "quote": "perfect because July 31st is the final day of our year of hot dogs.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 64,
+  "episodeTitle": "Cut Man Dry Style // Hot Dog Limit? [64]",
+  "timestamp": "24:24",
+  "timestampSeconds": 1464,
+  "youtubeVideoId": "kqQnYxWfpEA",
+  "listenUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=1464s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=kqQnYxWfpEA&t=1464s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
