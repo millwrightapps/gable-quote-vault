@@ -1,0 +1,40 @@
+{
+  "id": "manual_c5948277ee1d99f40cf8",
+  "quote": "I love weather!",
+  "speaker": "NICK_SCHWARTZ",
+  "show": "RP",
+  "episode": 126,
+  "episodeTitle": "Not Guy Guy // Get Out of Greg Free Idol [126]",
+  "timestamp": "66:40",
+  "timestampSeconds": 4000,
+  "youtubeVideoId": "bPte3LtjxyY",
+  "listenUrl": "https://www.youtube.com/watch?v=bPte3LtjxyY&t=4000s",
+  "weatherTags": [
+    "weather"
+  ],
+  "tags": [],
+  "source": {
+    "provider": "Manual entry",
+    "url": ""
+  },
+  "review": {
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-10",
+    "sourceUrl": "https://www.youtube.com/watch?v=bPte3LtjxyY&t=4000s",
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
+}
