@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "revision": 56,
+  "revision": 57,
   "retiredIds": [
-    "reg_047"
+    "reg_047",
+    "candidate_00388e856b646fa0617e"
   ]
 }

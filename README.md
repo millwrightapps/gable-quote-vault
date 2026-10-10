@@ -99,6 +99,18 @@ The dashboard only suggests a speaker when the exact same quote from the same ep
 
 Double-click **"Open Phone Quote Review.command"**. It shows an address and a pairing code. Open the address on your phone while it's on the same Wi-Fi, then enter the code. Your GitHub login never leaves the Mac. The connection is plain HTTP on your home network, so only use it on Wi-Fi you trust.
 
+## Editing approved quotes directly
+
+If you edit or delete files in `quotes/` outside the dashboard, also update the generated feed in the same commit:
+
+1. Increase `revision` in `catalog.json` by one so apps download the change.
+2. For a deleted quote, add its ID to `retiredIds` in `catalog.json` to prevent it from returning.
+3. Run `python3 scripts/build_catalog.py`.
+4. Run `python3 scripts/build_catalog.py --check` and `python3 -m unittest discover -s scripts -p 'test_*.py'`.
+5. Commit the changed quote files, `catalog.json`, and `published/catalog.json` together.
+
+If validation says the generated catalog is stale, repair it before approving more quotes: the dashboard publisher starts from the published feed. Adding transcript candidates does not rebuild it.
+
 ## Using the feed
 
 The whole catalog is a single file, `published/catalog.json`. Read it from `https://raw.githubusercontent.com/YOUR-NAME/YOUR-VAULT/main/published/catalog.json`.

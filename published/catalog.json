@@ -1,59 +1,11 @@
 {
   "schemaVersion": 1,
-  "revision": 56,
+  "revision": 57,
   "retiredIds": [
-    "reg_047"
+    "reg_047",
+    "candidate_00388e856b646fa0617e"
   ],
   "quotes": [
-    {
-      "id": "candidate_00388e856b646fa0617e",
-      "quote": "I mean, now I guess it could, but it'd be better.",
-      "quality": {
-        "score": 85,
-        "reasons": [
-          "Compact complete sentence",
-          "Surprise, contrast, or explanation",
-          "Comparison or unusual premise"
-        ],
-        "version": 3,
-        "accepted": true,
-        "loreTerms": [],
-        "loreSource": null
-      },
-      "speaker": "GEOFF_RAMSEY",
-      "show": "RP",
-      "episode": 5,
-      "episodeTitle": "Emotional Noises // Achieving the Ultimate Nap [5]",
-      "timestamp": "39:24",
-      "timestampSeconds": 2364,
-      "youtubeVideoId": "hbxMmu3gChA",
-      "listenUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2364s",
-      "weatherTags": [
-        "random",
-        "burger confidence"
-      ],
-      "tags": [],
-      "review": {
-        "status": "verified",
-        "reviewer": "millwrightapps",
-        "checkedAt": "2026-10-08",
-        "sourceUrl": "https://www.youtube.com/watch?v=hbxMmu3gChA&t=2364s",
-        "wordingChecked": true,
-        "speakersChecked": true,
-        "episodeChecked": true,
-        "timestampChecked": true,
-        "attributionPolicyChecked": true,
-        "speakerSuggestion": {
-          "speaker": null,
-          "secondarySpeaker": null,
-          "score": null,
-          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
-        },
-        "suggestionMatchedReview": null
-      },
-      "playbackProvider": "youtube",
-      "archiveVideoId": "f-kface-2020-6-3"
-    },
     {
       "id": "candidate_02b6d28aa3345369a221",
       "quote": "I think the toilet is dangerous, though, because I wouldn't want something that I could accidentally shit in if I wasn't paying attention.",
@@ -971,7 +923,7 @@
     },
     {
       "id": "candidate_94efaa1e8c0c4fbfe889",
-      "quote": "Also, probably, I've never done it, but probably don't Google Gerpler.",
+      "quote": "Also, probably, I've never done it, but probably don't Google Gurpler.",
       "quality": {
         "score": 90,
         "reasons": [
