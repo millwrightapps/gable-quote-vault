@@ -1,0 +1,25 @@
+{
+  "id": "manual_c5948277ee1d99f40cf8",
+  "quote": "I love weather!",
+  "speaker": null,
+  "show": "RP",
+  "episode": 126,
+  "episodeTitle": "Not Guy Guy // Get Out of Greg Free Idol [126]",
+  "timestamp": null,
+  "timestampSeconds": null,
+  "youtubeVideoId": null,
+  "listenUrl": null,
+  "weatherTags": [],
+  "tags": [],
+  "source": {
+    "provider": "Manual entry",
+    "url": ""
+  },
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "",
+    "checkedAt": "",
+    "notes": "Manually added. Verify recording, speaker credits, and timing before approval."
+  }
+}
