@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7cc60c2cc325c5ed9dfc",
+  "quote": "You were completely absolved of any guilt other than maybe we could have discussed this and worked something out.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 65,
+  "episodeTitle": "Donkey Kong 65 // In This Economy? [65]",
+  "timestamp": "69:14",
+  "timestampSeconds": 4154,
+  "youtubeVideoId": "-er7BEnoCwc",
+  "listenUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=4154s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=4154s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

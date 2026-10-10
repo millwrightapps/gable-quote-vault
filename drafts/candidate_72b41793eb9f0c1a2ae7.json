@@ -1,0 +1,35 @@
+{
+  "id": "candidate_72b41793eb9f0c1a2ae7",
+  "quote": "I hate, I hate to step in, but I was there.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 65,
+  "episodeTitle": "Donkey Kong 65 // In This Economy? [65]",
+  "timestamp": "33:45",
+  "timestampSeconds": 2025,
+  "youtubeVideoId": "-er7BEnoCwc",
+  "listenUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=2025s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=2025s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

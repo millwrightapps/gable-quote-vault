@@ -1,0 +1,35 @@
+{
+  "id": "candidate_2b442825d76160bd2a86",
+  "quote": "I never want to overload you with like an editor or whatever.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 65,
+  "episodeTitle": "Donkey Kong 65 // In This Economy? [65]",
+  "timestamp": "34:48",
+  "timestampSeconds": 2088,
+  "youtubeVideoId": "-er7BEnoCwc",
+  "listenUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=2088s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=2088s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

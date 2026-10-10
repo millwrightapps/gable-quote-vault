@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b52a17d855312d0f8120",
+  "quote": "I'd never consider that with like a survivor contestant.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 65,
+  "episodeTitle": "Donkey Kong 65 // In This Economy? [65]",
+  "timestamp": "44:27",
+  "timestampSeconds": 2667,
+  "youtubeVideoId": "-er7BEnoCwc",
+  "listenUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=2667s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=2667s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

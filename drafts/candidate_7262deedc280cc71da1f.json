@@ -1,0 +1,35 @@
+{
+  "id": "candidate_7262deedc280cc71da1f",
+  "quote": "I'm zero interest in paying for a ticket to a concert, but when I hear live music, I'm always like, huh?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 65,
+  "episodeTitle": "Donkey Kong 65 // In This Economy? [65]",
+  "timestamp": "27:16",
+  "timestampSeconds": 1636,
+  "youtubeVideoId": "-er7BEnoCwc",
+  "listenUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=1636s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=-er7BEnoCwc&t=1636s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
