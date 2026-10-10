@@ -1,0 +1,35 @@
+{
+  "id": "candidate_4b980ec041e34e3ff898",
+  "quote": "If it's free at a party, but he's never going to go out of his way to eat it.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "70:06",
+  "timestampSeconds": 4206,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=4206s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=4206s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

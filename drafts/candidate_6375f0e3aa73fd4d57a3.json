@@ -1,0 +1,36 @@
+{
+  "id": "candidate_6375f0e3aa73fd4d57a3",
+  "quote": "I guess I feel like I'm definitely 90% at fault for not asking, but it's, I've also never been asked by a doctor.",
+  "quality": {
+    "score": 95,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "17:43",
+  "timestampSeconds": 1063,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=1063s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=1063s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

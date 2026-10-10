@@ -1,0 +1,35 @@
+{
+  "id": "candidate_e52764c10a89e068179d",
+  "quote": "I wonder if we, maybe I could also try and give back to Jack because I've known him for quite a long time.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "49:27",
+  "timestampSeconds": 2967,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=2967s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=2967s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

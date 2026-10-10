@@ -1,0 +1,36 @@
+{
+  "id": "candidate_5b91ae164d81553fb47e",
+  "quote": "I'm not going to live to 2120, but it's crazy that I could almost be living in the alien universe, right?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "02:07",
+  "timestampSeconds": 127,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=127s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=127s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_b9ac3586d6116eabd7c0",
+  "quote": "I just thought I was comfortable, but in reality, it was just, I was so sleep deprived, I could fall asleep at any moment, essentially.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "40:33",
+  "timestampSeconds": 2433,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=2433s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=2433s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

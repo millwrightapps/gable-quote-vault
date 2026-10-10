@@ -1,0 +1,37 @@
+{
+  "id": "candidate_11e04406dbd8ce29dc3d",
+  "quote": "I don't think this is a sad milestone because it, here's the thing that makes it sad is it was just a bog standard shit.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Bog standard"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bog standard"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "13:49",
+  "timestampSeconds": 829,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=829s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=829s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

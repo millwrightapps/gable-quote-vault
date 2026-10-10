@@ -1,0 +1,37 @@
+{
+  "id": "candidate_2fe1512639efdef6dcaa",
+  "quote": "I'd love to just have bog standard shitting issues.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Dictionary lore: Bog standard"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bog standard"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 69,
+  "episodeTitle": "Reverse Funeral // RegulationPigeon.com [69]",
+  "timestamp": "18:07",
+  "timestampSeconds": 1087,
+  "youtubeVideoId": "Wc4Yu0AMIXA",
+  "listenUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=1087s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=1087s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
