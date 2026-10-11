@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 63,
+  "revision": 64,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -1153,6 +1153,53 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=u16Z3vHN0xI&t=1215s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_aa6c41528f0e8bf3f185",
+      "quote": "I'm a ball lifter and a ball compressor, but I've never knuckled the back.",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "RP",
+      "episode": 60,
+      "episodeTitle": "Andrew's Goof World // 4 Ways to Make an Egg [60]",
+      "timestamp": "05:27",
+      "timestampSeconds": 327,
+      "youtubeVideoId": "YQBw0hJiPkg",
+      "listenUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=327s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-10",
+        "sourceUrl": "https://www.youtube.com/watch?v=YQBw0hJiPkg&t=327s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
