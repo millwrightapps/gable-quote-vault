@@ -13,7 +13,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "ERIC_BAUDOUR",
   "show": "RP",
   "episode": 68,
   "episodeTitle": "Andrew's Answers // Rainbow Six with Ray [68]",
@@ -26,10 +26,23 @@
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-10",
     "sourceUrl": "https://www.youtube.com/watch?v=Lx-JJO-UJ_Y&t=3391s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }
