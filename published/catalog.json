@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 64,
+  "revision": 65,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -912,6 +912,53 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-09",
         "sourceUrl": "https://www.youtube.com/watch?v=8-xhFSOOnXg&t=960s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_7bd9bbf8329c8b0442ac",
+      "quote": "Do you think you're more annoying or less annoying than you were back then?",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "RP",
+      "episode": 70,
+      "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
+      "timestamp": "02:26",
+      "timestampSeconds": 146,
+      "youtubeVideoId": "z0oA3ycyIEw",
+      "listenUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=146s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-10",
+        "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=146s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
