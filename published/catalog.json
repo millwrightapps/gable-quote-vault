@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 65,
+  "revision": 66,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -622,6 +622,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=z8Jz6e1Raqs&t=2491s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_46583217e3281ab4fe64",
+      "quote": "I would rather have like a steak squirt than a sausage squirt.",
+      "quality": {
+        "score": 85,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 67,
+      "episodeTitle": "Geoff the Professional // Andrew's Homework [67]",
+      "timestamp": "26:40",
+      "timestampSeconds": 1600,
+      "youtubeVideoId": "RcUoMR8pid0",
+      "listenUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1600s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-10",
+        "sourceUrl": "https://www.youtube.com/watch?v=RcUoMR8pid0&t=1600s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
