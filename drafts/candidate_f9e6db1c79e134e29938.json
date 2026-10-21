@@ -1,0 +1,37 @@
+{
+  "id": "candidate_f9e6db1c79e134e29938",
+  "quote": "I think I might like this chair more than the Herman Miller is also the other man.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Herman Miller"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Herman Miller"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 71,
+  "episodeTitle": "Lore Heavy Episode // F**kface Off Season 2 [71]",
+  "timestamp": "59:25",
+  "timestampSeconds": 3565,
+  "youtubeVideoId": "cXymnUGzHqg",
+  "listenUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=3565s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=3565s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

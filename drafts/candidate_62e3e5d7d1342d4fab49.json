@@ -1,0 +1,34 @@
+{
+  "id": "candidate_62e3e5d7d1342d4fab49",
+  "quote": "Second place is the real loser because they were close to winning.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 71,
+  "episodeTitle": "Lore Heavy Episode // F**kface Off Season 2 [71]",
+  "timestamp": "12:21",
+  "timestampSeconds": 741,
+  "youtubeVideoId": "cXymnUGzHqg",
+  "listenUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=741s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=741s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

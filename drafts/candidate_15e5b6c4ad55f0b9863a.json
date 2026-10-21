@@ -1,0 +1,35 @@
+{
+  "id": "candidate_15e5b6c4ad55f0b9863a",
+  "quote": "We left at about 11 a.m. We got, well, we, we, we stayed in Louisville because there is nowhere to stay in deputy.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 71,
+  "episodeTitle": "Lore Heavy Episode // F**kface Off Season 2 [71]",
+  "timestamp": "13:05",
+  "timestampSeconds": 785,
+  "youtubeVideoId": "cXymnUGzHqg",
+  "listenUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=785s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=785s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_c3d6130bab25309f1428",
+  "quote": "I feel like a gross, dirty, gross kid who I like, I just, I feel the, I like the worst.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 71,
+  "episodeTitle": "Lore Heavy Episode // F**kface Off Season 2 [71]",
+  "timestamp": "10:09",
+  "timestampSeconds": 609,
+  "youtubeVideoId": "cXymnUGzHqg",
+  "listenUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=609s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=609s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

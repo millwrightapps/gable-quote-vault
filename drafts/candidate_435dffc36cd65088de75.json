@@ -1,0 +1,35 @@
+{
+  "id": "candidate_435dffc36cd65088de75",
+  "quote": "You know, fall always feels like a reset between busier routines and shorter days.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 71,
+  "episodeTitle": "Lore Heavy Episode // F**kface Off Season 2 [71]",
+  "timestamp": "27:14",
+  "timestampSeconds": 1634,
+  "youtubeVideoId": "cXymnUGzHqg",
+  "listenUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=1634s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=1634s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
