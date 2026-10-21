@@ -1,0 +1,36 @@
+{
+  "id": "candidate_c9abf328a547dda182ad",
+  "quote": "Nick, are you more insulted that we're burying your ashes at the bottom of a bean hole?",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Dictionary lore: Bean hole"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bean hole"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 73,
+  "episodeTitle": "Graveyard Season // Goof World Key to the Goof [73]",
+  "timestamp": "03:46",
+  "timestampSeconds": 226,
+  "youtubeVideoId": "I_rd8iQHhhI",
+  "listenUrl": "https://www.youtube.com/watch?v=I_rd8iQHhhI&t=226s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=I_rd8iQHhhI&t=226s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
