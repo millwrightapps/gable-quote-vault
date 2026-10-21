@@ -1,0 +1,35 @@
+{
+  "id": "candidate_1199e8d51de1827d9541",
+  "quote": "Are there is a pivot, but are there any environments that you find regularly bring out the worst in people?",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 72,
+  "episodeTitle": "Coupon Raccoon // Raymond SomeHair [72]",
+  "timestamp": "08:34",
+  "timestampSeconds": 514,
+  "youtubeVideoId": "By1IgnJ4F_4",
+  "listenUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=514s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=514s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

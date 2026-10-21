@@ -1,0 +1,35 @@
+{
+  "id": "candidate_dc50ef267a55a155e41a",
+  "quote": "I've never had hair like because I've always had it cut by somebody who knew what they were doing.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 72,
+  "episodeTitle": "Coupon Raccoon // Raymond SomeHair [72]",
+  "timestamp": "20:06",
+  "timestampSeconds": 1206,
+  "youtubeVideoId": "By1IgnJ4F_4",
+  "listenUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=1206s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=1206s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

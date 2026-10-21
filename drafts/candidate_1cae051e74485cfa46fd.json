@@ -1,0 +1,37 @@
+{
+  "id": "candidate_1cae051e74485cfa46fd",
+  "quote": "Bean hole is dug, but then it's like, oh, I'm exhausted.",
+  "quality": {
+    "score": 90,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Dictionary lore: Bean hole"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [
+      "Bean hole"
+    ],
+    "loreSource": "https://www.regulationlore.com.au/dictionary"
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 72,
+  "episodeTitle": "Coupon Raccoon // Raymond SomeHair [72]",
+  "timestamp": "38:12",
+  "timestampSeconds": 2292,
+  "youtubeVideoId": "By1IgnJ4F_4",
+  "listenUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=2292s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=2292s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

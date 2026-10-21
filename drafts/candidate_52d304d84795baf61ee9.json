@@ -1,0 +1,35 @@
+{
+  "id": "candidate_52d304d84795baf61ee9",
+  "quote": "Imagine instead of that many coffees, he only has to hold like two big cups.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 72,
+  "episodeTitle": "Coupon Raccoon // Raymond SomeHair [72]",
+  "timestamp": "28:29",
+  "timestampSeconds": 1709,
+  "youtubeVideoId": "By1IgnJ4F_4",
+  "listenUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=1709s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=1709s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_d9ee02b333f099470882",
+  "quote": "Imagine it's that because he's holding, what, like eight coffees.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 72,
+  "episodeTitle": "Coupon Raccoon // Raymond SomeHair [72]",
+  "timestamp": "28:23",
+  "timestampSeconds": 1703,
+  "youtubeVideoId": "By1IgnJ4F_4",
+  "listenUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=1703s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=By1IgnJ4F_4&t=1703s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
