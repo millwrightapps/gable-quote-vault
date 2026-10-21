@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 71,
+  "revision": 72,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -331,6 +331,53 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-10",
         "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=829s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_15b52546d1361601ae2f",
+      "quote": "We like corn, but because it's plentiful, not because it's sought after.",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GEOFF_RAMSEY",
+      "show": "RP",
+      "episode": 43,
+      "episodeTitle": "The Worst Intro // Geoff's Gross Stories [43]",
+      "timestamp": "06:14",
+      "timestampSeconds": 374,
+      "youtubeVideoId": "c6jcXkqXJgM",
+      "listenUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=374s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-21",
+        "sourceUrl": "https://www.youtube.com/watch?v=c6jcXkqXJgM&t=374s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
