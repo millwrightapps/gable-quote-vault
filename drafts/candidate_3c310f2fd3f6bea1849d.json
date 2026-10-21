@@ -1,0 +1,35 @@
+{
+  "id": "candidate_3c310f2fd3f6bea1849d",
+  "quote": "You get, or maybe, maybe also it's just not something anyone should eat anyway because it's just a bunch of shit.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 75,
+  "episodeTitle": "Shrimp Under Pressure // Whimsy-free [75]",
+  "timestamp": "22:49",
+  "timestampSeconds": 1369,
+  "youtubeVideoId": "ExH5MnBUUOE",
+  "listenUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=1369s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=1369s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_ba3fce5a80456a922efa",
+  "quote": "I would say Coronation Street because it started like 30 years before EastEnders.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 75,
+  "episodeTitle": "Shrimp Under Pressure // Whimsy-free [75]",
+  "timestamp": "59:59",
+  "timestampSeconds": 3599,
+  "youtubeVideoId": "ExH5MnBUUOE",
+  "listenUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=3599s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=3599s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

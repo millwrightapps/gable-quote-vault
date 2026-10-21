@@ -1,0 +1,36 @@
+{
+  "id": "candidate_aa561fabd19314b8bdc9",
+  "quote": "I believe, and I could be wrong, because I've never looked this up.",
+  "quality": {
+    "score": 100,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 75,
+  "episodeTitle": "Shrimp Under Pressure // Whimsy-free [75]",
+  "timestamp": "24:30",
+  "timestampSeconds": 1470,
+  "youtubeVideoId": "ExH5MnBUUOE",
+  "listenUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=1470s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=1470s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_883092052f62852cce70",
+  "quote": "The amount of stuff, important college stuff that Millie missed this year, because she hadn't opened her email in 45 days, hurt.",
+  "quality": {
+    "score": 75,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Specific detail"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 75,
+  "episodeTitle": "Shrimp Under Pressure // Whimsy-free [75]",
+  "timestamp": "20:19",
+  "timestampSeconds": 1219,
+  "youtubeVideoId": "ExH5MnBUUOE",
+  "listenUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=1219s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=1219s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

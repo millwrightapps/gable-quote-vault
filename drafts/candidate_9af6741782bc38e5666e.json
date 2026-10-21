@@ -1,0 +1,34 @@
+{
+  "id": "candidate_9af6741782bc38e5666e",
+  "quote": "We've been best friends for a very, very long time.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Strong opinion or emphatic claim"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 75,
+  "episodeTitle": "Shrimp Under Pressure // Whimsy-free [75]",
+  "timestamp": "02:01",
+  "timestampSeconds": 121,
+  "youtubeVideoId": "ExH5MnBUUOE",
+  "listenUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=121s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=ExH5MnBUUOE&t=121s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
