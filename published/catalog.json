@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 70,
+  "revision": 71,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -184,6 +184,54 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-09",
         "sourceUrl": "https://www.youtube.com/watch?v=ivkhoRUF51s&t=3156s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_0d03714c462cb4e1f561",
+      "quote": "I think the first one was you get $50,000, but your belly button is seasonal.",
+      "quality": {
+        "score": 75,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Specific detail"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "RP",
+      "episode": 37,
+      "episodeTitle": "A Bog Standard Skwinkle // Secrecy to a Hole [37]",
+      "timestamp": "52:25",
+      "timestampSeconds": 3145,
+      "youtubeVideoId": "D2Zh2cyOYo4",
+      "listenUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=3145s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-21",
+        "sourceUrl": "https://www.youtube.com/watch?v=D2Zh2cyOYo4&t=3145s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
