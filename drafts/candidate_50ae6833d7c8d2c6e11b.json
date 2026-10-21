@@ -1,0 +1,34 @@
+{
+  "id": "candidate_50ae6833d7c8d2c6e11b",
+  "quote": "I'll try the cream because I'm fucking done.",
+  "quality": {
+    "score": 70,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 74,
+  "episodeTitle": "Exhausted by Our Stupidity // Restrained Chaos [74]",
+  "timestamp": "09:07",
+  "timestampSeconds": 547,
+  "youtubeVideoId": "thhjZ5LdBLQ",
+  "listenUrl": "https://www.youtube.com/watch?v=thhjZ5LdBLQ&t=547s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=thhjZ5LdBLQ&t=547s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "candidate_210a32dc5d35398c4cac",
+  "quote": "I mean, I haven't seen the footage yet, but I can't even imagine.",
+  "quality": {
+    "score": 85,
+    "reasons": [
+      "Compact complete sentence",
+      "Surprise, contrast, or explanation",
+      "Comparison or unusual premise"
+    ],
+    "version": 3,
+    "accepted": true,
+    "loreTerms": [],
+    "loreSource": null
+  },
+  "speaker": null,
+  "show": "RP",
+  "episode": 74,
+  "episodeTitle": "Exhausted by Our Stupidity // Restrained Chaos [74]",
+  "timestamp": "02:28",
+  "timestampSeconds": 148,
+  "youtubeVideoId": "thhjZ5LdBLQ",
+  "listenUrl": "https://www.youtube.com/watch?v=thhjZ5LdBLQ&t=148s",
+  "weatherTags": [
+    "random"
+  ],
+  "tags": [],
+  "review": {
+    "status": "draft",
+    "reviewer": "",
+    "sourceUrl": "https://www.youtube.com/watch?v=thhjZ5LdBLQ&t=148s",
+    "checkedAt": "",
+    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
+  }
+}
