@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 73,
+  "revision": 74,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -1010,6 +1010,53 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-08",
         "sourceUrl": "https://www.youtube.com/watch?v=tFpSAp6zles&t=2706s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_62e3e5d7d1342d4fab49",
+      "quote": "Second place is the real loser because they were close to winning.",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GEOFF_RAMSEY",
+      "show": "RP",
+      "episode": 71,
+      "episodeTitle": "Lore Heavy Episode // F**kface Off Season 2 [71]",
+      "timestamp": "12:21",
+      "timestampSeconds": 741,
+      "youtubeVideoId": "cXymnUGzHqg",
+      "listenUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=741s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-21",
+        "sourceUrl": "https://www.youtube.com/watch?v=cXymnUGzHqg&t=741s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
