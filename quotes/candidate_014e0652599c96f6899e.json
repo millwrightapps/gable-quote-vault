@@ -14,7 +14,7 @@
     "loreTerms": [],
     "loreSource": null
   },
-  "speaker": null,
+  "speaker": "GAVIN_FREE",
   "show": "RP",
   "episode": 70,
   "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
@@ -27,10 +27,23 @@
   ],
   "tags": [],
   "review": {
-    "status": "draft",
-    "reviewer": "",
+    "status": "verified",
+    "reviewer": "millwrightapps",
+    "checkedAt": "2026-10-21",
     "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=2764s",
-    "checkedAt": "",
-    "notes": "Transcript candidate. Listen to identify every speaker and verify exact wording and timing."
-  }
+    "wordingChecked": true,
+    "speakersChecked": true,
+    "episodeChecked": true,
+    "timestampChecked": true,
+    "attributionPolicyChecked": true,
+    "speakerSuggestion": {
+      "speaker": null,
+      "secondarySpeaker": null,
+      "score": null,
+      "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+    },
+    "suggestionMatchedReview": null
+  },
+  "playbackProvider": "youtube",
+  "archiveVideoId": "f-kface-2020-6-3"
 }

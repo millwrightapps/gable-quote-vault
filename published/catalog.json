@@ -1,11 +1,60 @@
 {
   "schemaVersion": 1,
-  "revision": 69,
+  "revision": 70,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
   ],
   "quotes": [
+    {
+      "id": "candidate_014e0652599c96f6899e",
+      "quote": "English bingo is just a number, but each number has like a little, like Winnie the Pooh 42.",
+      "quality": {
+        "score": 90,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation",
+          "Comparison or unusual premise",
+          "Specific detail"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "GAVIN_FREE",
+      "show": "RP",
+      "episode": 70,
+      "episodeTitle": "More/Less Annoying Now // Geoff is Back on Hot Dogs [70]",
+      "timestamp": "46:04",
+      "timestampSeconds": 2764,
+      "youtubeVideoId": "z0oA3ycyIEw",
+      "listenUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=2764s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-21",
+        "sourceUrl": "https://www.youtube.com/watch?v=z0oA3ycyIEw&t=2764s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
     {
       "id": "candidate_02b6d28aa3345369a221",
       "quote": "I think the toilet is dangerous, though, because I wouldn't want something that I could accidentally shit in if I wasn't paying attention.",
