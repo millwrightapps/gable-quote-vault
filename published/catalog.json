@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 74,
+  "revision": 75,
   "retiredIds": [
     "reg_047",
     "candidate_00388e856b646fa0617e"
@@ -1439,6 +1439,53 @@
         "reviewer": "millwrightapps",
         "checkedAt": "2026-10-10",
         "sourceUrl": "https://www.youtube.com/watch?v=Wc4Yu0AMIXA&t=1905s",
+        "wordingChecked": true,
+        "speakersChecked": true,
+        "episodeChecked": true,
+        "timestampChecked": true,
+        "attributionPolicyChecked": true,
+        "speakerSuggestion": {
+          "speaker": null,
+          "secondarySpeaker": null,
+          "score": null,
+          "basis": "No verified speaker evidence. The existing draft credit is unverified; listen before approving."
+        },
+        "suggestionMatchedReview": null
+      },
+      "playbackProvider": "youtube",
+      "archiveVideoId": "f-kface-2020-6-3"
+    },
+    {
+      "id": "candidate_8e8731fddad712df2e02",
+      "quote": "I have a plot of land, but just to flex on people to say that I own land.",
+      "quality": {
+        "score": 70,
+        "reasons": [
+          "Compact complete sentence",
+          "Surprise, contrast, or explanation"
+        ],
+        "version": 3,
+        "accepted": true,
+        "loreTerms": [],
+        "loreSource": null
+      },
+      "speaker": "ANDREW_PANTON",
+      "show": "RP",
+      "episode": 73,
+      "episodeTitle": "Graveyard Season // Goof World Key to the Goof [73]",
+      "timestamp": "04:57",
+      "timestampSeconds": 297,
+      "youtubeVideoId": "I_rd8iQHhhI",
+      "listenUrl": "https://www.youtube.com/watch?v=I_rd8iQHhhI&t=297s",
+      "weatherTags": [
+        "random"
+      ],
+      "tags": [],
+      "review": {
+        "status": "verified",
+        "reviewer": "millwrightapps",
+        "checkedAt": "2026-10-21",
+        "sourceUrl": "https://www.youtube.com/watch?v=I_rd8iQHhhI&t=297s",
         "wordingChecked": true,
         "speakersChecked": true,
         "episodeChecked": true,
