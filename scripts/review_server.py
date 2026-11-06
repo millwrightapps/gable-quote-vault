@@ -19,6 +19,7 @@ import shutil
 import threading
 from collect_youtube import STATE_PATH, collect, fetch_videos
 from whisper_youtube import transcribe
+from quote_learning import Model, REASONS
 
 REFRESH_LOCK = threading.Lock()
 # The Whisper job the dashboard is running (one at a time), polled by the page.
@@ -285,7 +286,9 @@ def add_draft(body):
     return dict(id=q['id'], message='Quote saved to drafts. No transcripts were pulled and nothing was published to the app.')
 
 
-def remove_draft(draft):
+def remove_draft(draft, reason=None):
+    if reason not in REASONS:
+        raise ValueError('Choose why this line is being removed.')
     head = gh('git/ref/heads/main')['object']['sha']
     base = gh('git/commits/' + head)['tree']['sha']
     entries = gh('git/trees/' + base + '?recursive=1')
@@ -295,15 +298,33 @@ def remove_draft(draft):
     if json_blob(entries['tree'], path) != draft:
         raise ValueError('This draft changed on GitHub. Reload it before removing.')
     removed = {**draft, 'review': {**draft.get('review', {}), 'status':'quarantined',
-        'quarantineReason':'Removed by reviewer', 'removedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}}
+        'quarantineReason':'Removed by reviewer', 'removalReason':reason,
+        'removedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}}
     changes = [dict(path='quarantine/'+draft['id']+'.json', mode='100644', type='blob',
                     content=json.dumps(removed, indent=2, ensure_ascii=False)+'\n'),
                dict(path=path, mode='100644', type='blob', sha=None)]
     tree = gh('git/trees', dict(base_tree=base, tree=changes), 'POST')['sha']
-    commit = gh('git/commits', dict(message='Remove rejected quote from review queue', tree=tree, parents=[head]), 'POST')['sha']
+    commit = gh('git/commits', dict(message='Remove rejected quote from review queue: ' + REASONS[reason], tree=tree, parents=[head]), 'POST')['sha']
     gh('git/refs/heads/main', dict(sha=commit, force=False), 'PATCH')
     subprocess.run(['git', 'pull', '--ff-only'], cwd=ROOT, capture_output=True, timeout=45, check=True)
-    return dict(message='Quote removed. Its wording is blocked from automatic collection; a copy is kept in quarantine on GitHub.')
+    return dict(message='Quote removed. Its wording is blocked from automatic collection, and the queue learns from it.')
+
+
+def queue_rows():
+    """Drafts in the order to review them: most like lines you've approved first, once there's enough to learn from."""
+    approved = [json.loads(p.read_text()) for p in (ROOT/'quotes').glob('*.json')]
+    model = Model.from_vault(ROOT)
+    rows = []
+    for p in sorted((ROOT/'drafts').glob('*.json')):
+        q = json.loads(p.read_text())
+        rows.append(dict(quote=q, fingerprint=hashlib.sha256(p.read_bytes()).hexdigest(),
+            suggestion=suggestion(q, approved), audioUrl=MEDIA.get(normalize(q['episodeTitle'])),
+            learned=model.explain(q['quote']), rank=(model.score(q['quote']), (q.get('quality') or {}).get('score', 0))))
+    rows.sort(key=lambda row: row.pop('rank'), reverse=True)
+    for number, row in enumerate(rows, 1):
+        row['learned']['rank'] = number
+    learning = dict(ready=model.ready, approved=model.n[1], removed=model.n[0], reasons=REASONS)
+    return rows, len(approved), learning
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -351,13 +372,9 @@ class Handler(BaseHTTPRequestHandler):
         if self.path == '/api/queue':
             if not self.authenticated():
                 return self.reply(401, {'error':'Pair this phone with the code shown on your Mac.'})
-            approved = [json.loads(p.read_text()) for p in (ROOT/'quotes').glob('*.json')]
-            rows = []
-            for p in sorted((ROOT/'drafts').glob('*.json')):
-                q = json.loads(p.read_text())
-                rows.append(dict(quote=q, fingerprint=hashlib.sha256(p.read_bytes()).hexdigest(),
-                    suggestion=suggestion(q, approved), audioUrl=MEDIA.get(normalize(q['episodeTitle']))))
-            return self.reply(200, dict(rows=rows, token=TOKEN, approved=len(approved), archiveEpisodes=json.loads((ROOT/'inbox/rtarchive_episodes.json').read_text())))
+            rows, approved, learning = queue_rows()
+            return self.reply(200, dict(rows=rows, token=TOKEN, approved=approved, learning=learning,
+                                        archiveEpisodes=json.loads((ROOT/'inbox/rtarchive_episodes.json').read_text())))
         files = {'/':'index.html', '/app.js':'app.js', '/style.css':'style.css'}
         if self.path not in files:
             return self.reply(404, {'error':'Not found'})
@@ -392,7 +409,7 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError('Draft changed; refresh the queue.')
             draft = json.loads(path.read_text())
             if self.path == '/api/remove':
-                return self.reply(200, remove_draft(draft))
+                return self.reply(200, remove_draft(draft, body.get('reason')))
             # Fail locally before any GitHub writes.
             validate(prepare(draft, body['edits'], 'pending'), json.loads((ROOT/'catalog.json').read_text())['retiredIds'])
             return self.reply(200, publish(draft, body['edits']))

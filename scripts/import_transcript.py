@@ -9,6 +9,7 @@ import re
 from quote_filters import blocked_segments, is_ad
 from quote_duplicates import existing_wording, is_repeat
 from quote_quality import assess, has_sentence_ending
+from quote_learning import Model
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -63,7 +64,9 @@ def complete_utterances(segments, max_gap_seconds=8, max_chars=300):
             first_start = previous_end = None
 
 
-def candidates(transcript, known=()):
+def candidates(transcript, known=(), model=None):
+    """Up to 10 draft candidates from one episode. With a model that has learned from enough reviews, the 10 kept are
+    the lines most like ones you approved; otherwise the rule-based score picks them."""
     video = transcript['youtubeVideoId']
     if not re.fullmatch(r'[A-Za-z0-9_-]{11}', video):
         raise ValueError('A specific YouTube recording is required')
@@ -95,7 +98,11 @@ def candidates(transcript, known=()):
             youtubeVideoId=video, listenUrl=url, weatherTags=["random"], tags=[],
             review=dict(status='draft', reviewer='', sourceUrl=url, checkedAt='',
                         notes='Transcript candidate. Listen to identify every speaker and verify exact wording and timing.'))
-    return sorted(results.values(), key=lambda q:q["quality"]["score"], reverse=True)[:10]
+    if model is not None and model.ready:
+        rank = lambda q: (model.score(q['quote']), q['quality']['score'])
+    else:
+        rank = lambda q: q['quality']['score']
+    return sorted(results.values(), key=rank, reverse=True)[:10]
 
 
 if __name__ == '__main__':
@@ -104,7 +111,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     target = ROOT / 'drafts'
     added = 0
-    for quote in candidates(json.loads(args.transcript.read_text()), existing_wording(ROOT)):
+    for quote in candidates(json.loads(args.transcript.read_text()), existing_wording(ROOT), Model.from_vault(ROOT)):
         path = target / (quote['id'] + '.json')
         if not path.exists() and not (ROOT / 'quotes' / path.name).exists():
             path.write_text(json.dumps(quote, indent=2, ensure_ascii=False) + '\n')

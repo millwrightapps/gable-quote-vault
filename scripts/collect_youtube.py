@@ -7,6 +7,7 @@ import time
 
 from import_transcript import candidates
 from quote_duplicates import existing_wording
+from quote_learning import Model
 
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST_URL = "https://www.youtube.com/playlist?list=PL0YaZqNO5Z3ds7_sVSEP-FTjvvfWWWY8O"
@@ -98,6 +99,8 @@ def collect(fetch_transcript_fn, root=ROOT, target=10, max_videos=20, fetch_vide
                                           "cooldownUntil": cooldown_until}, indent=2) + "\n")
         return {"added": 0, "checked": 0, "retryAfter": COOLDOWN_SECONDS}
     known = existing_wording(root)
+    # Each episode offers the lines most like ones you've approved, once there are enough reviews to learn from.
+    model = Model.from_vault(root)
     added = checked = 0
     cooldown_until = 0
     for video in videos:
@@ -130,7 +133,7 @@ def collect(fetch_transcript_fn, root=ROOT, target=10, max_videos=20, fetch_vide
 
         transcript = dict(youtubeVideoId=video_id, show="RP", episode=int(episode.group(1)),
                           episodeTitle=title, segments=segments)
-        for quote in candidates(transcript, known)[:max(0, target - added)]:
+        for quote in candidates(transcript, known, model)[:max(0, target - added)]:
             path = root / "drafts" / (quote["id"] + ".json")
             if path.exists() or (root / "quotes" / path.name).exists():
                 continue

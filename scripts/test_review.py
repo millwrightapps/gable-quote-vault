@@ -113,7 +113,7 @@ class RemoveTests(unittest.TestCase):
         draft=dict(id='test_remove',quote='Synthetic test only.',review={'status':'draft'})
         blob.return_value=draft
         gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'base'}},{'tree':[]},{'sha':'tree'},{'sha':'commit'},{}]
-        remove_draft(draft)
+        remove_draft(draft, 'flat')
         changes=gh.call_args_list[3].args[1]['tree']
         self.assertEqual({'drafts/test_remove.json','quarantine/test_remove.json'},{c['path'] for c in changes})
         self.assertIsNone(changes[1]['sha'])
@@ -124,7 +124,7 @@ class RemoveTests(unittest.TestCase):
     def test_changed_remote_draft_is_not_removed(self, gh, blob):
         from review_server import remove_draft
         gh.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'base'}},{'tree':[]}]
-        with self.assertRaises(ValueError): remove_draft({'id':'test_remove'})
+        with self.assertRaises(ValueError): remove_draft({'id':'test_remove'}, 'flat')
         self.assertEqual(3,gh.call_count)
 
 class ArchiveReviewTests(unittest.TestCase):

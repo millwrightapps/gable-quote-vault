@@ -91,7 +91,19 @@ Pick a candidate, then:
 3. **Check the show, episode and start time,** and add a few weather or mood tags such as `rain`, `cloudy` or `chaos`. `random` fits anywhere.
 4. **Tick the box to confirm you listened,** then **Approve & publish**.
 
-Approving moves the quote into `quotes/` and updates the public feed in a single commit. **Remove quote** moves it to `quarantine/` so it won't be suggested again. **Add quote** lets you save something you found yourself.
+Approving moves the quote into `quotes/` and updates the public feed in a single commit. **Remove quote** asks why in one tap (needs context, not funny, unkind, an ad, a wrong transcript or something else) and moves it to `quarantine/` so it won't be suggested again. **Add quote** lets you save something you found yourself.
+
+### The queue learns what you like
+
+Every approval and removal teaches the vault a little about which lines you keep. Once there are at least 10 of each, the queue is ordered with the lines most like your past approvals first, and each new episode offers the 10 lines most like them. The review page shows a candidate's learned rank and the words that moved it up or down.
+
+It's a small word-counting model (naive Bayes, standard library only) that retrains from `quotes/` and `quarantine/` every time, so there's nothing to set up or download. It only changes the order. It never approves, removes or credits anything. Lines removed as **Transcript got the words wrong** aren't counted against the line, since the problem was Whisper, not the quote.
+
+To see how well it would have ranked your past reviews:
+
+```sh
+python3 scripts/quote_learning.py
+```
 
 The dashboard only suggests a speaker when the exact same quote from the same episode has already been credited by a person. Nothing here recognises voices.
 
@@ -150,7 +162,7 @@ The whole catalog is a single file, `published/catalog.json`. Read it from `http
 |---|---|
 | `drafts/` | Candidates waiting for someone to listen |
 | `quotes/` | Approved quotes, one file each |
-| `quarantine/` | Removed candidates, kept so they don't come back |
+| `quarantine/` | Removed candidates and why, kept so they don't come back and so the queue can learn from them |
 | `published/catalog.json` | The public feed, generated from `quotes/` |
 | `catalog.json` | The revision number and retired IDs |
 | `inbox/` | Collection progress, the lore dictionary list, and F\*\*kface archive recordings (episodes 1–56) |
